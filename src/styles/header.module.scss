@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+.header {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.container {
+    height: 60px;
+    width: 400px;
+    //background-color: lightgreen;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.link {
+    box-shadow: none;
+    text-decoration: none;
+    color: black;
+    margin:0 ;
+    padding: 0;
+}
+
+.title {
+    font-family: 'Marck Script', cursive; // 'Righteous', cursive;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0px 5px 0px;
+    font-size: 3rem;
+    text-decoration: underline;
+    color: black;
+}

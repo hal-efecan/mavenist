@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+.container {
+    //background-color: lightblue;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.headline {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0 10px 0;
+
+}
+
+.btn {
+    background-color: rgb(212, 212, 212);
+    color: rgb(0, 0, 0);
+    border: 0;
+    padding: 5px;
+    font-family: 'Viga', sans-serif;
+    letter-spacing: 0.002rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.sml_btn {
+    background-color: rgb(212, 212, 212);
+    border: 0;
+    margin: 0 3px 0 0;
+    color: rgb(0, 0, 0);
+    font-family: 'Viga', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.cart_item {
+    // background-color: lightsalmon;
+    display: flex;
+    padding: 0;
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid grey;
+}
+
+.details_container {
+    // background-color: lightseagreen;
+    width: 300px;
+    align-items: center;
+}
+
+.sub {
+    font-size: 0.8rem;
+    padding: 0;
+    margin: 0;
+}
+
+.image {
+    padding: 0;
+    margin: 0 15px 0 0;
+}
+
+.header {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.05rem;
+    font-size: 1rem;
+    font-weight: 600;
+}

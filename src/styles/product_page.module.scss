@@ -1,0 +1,22 @@
+.page_container {
+    //background-color: lightgrey;
+    width: 90%;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image_container {
+    //background-color: lightpink;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.desc_container {
+    // background-color: lightgreen;
+    width: 50%;
+}

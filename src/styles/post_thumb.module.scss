@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.parent_container {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 5px 0 0 0;
+    //background-color: lightblue;
+}
+
+.child_container {
+    box-sizing: border-box;
+    height: 375px;
+    width: 400px;
+    padding: 0;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.image {
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+}
+
+.link {
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+.section {
+    font-family: 'Marck Script', cursive;
+    font-size: 1.5rem;
+    color: rgb(75, 83, 109);
+}
+
+.title {
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.025rem;
+}
+
+.excerpt {
+    font-family: 'PT Sans', sans-serif;
+    padding: 0;
+    margin: 0 0 0 0;
+    font-size: 0.9rem;
+    text-align: start;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.wrapper {
+    padding: 10px;
+}
+
+.divider {
+    width: 90%;
+    margin: 0 auto;
+}
