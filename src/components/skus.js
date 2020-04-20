@@ -33,9 +33,6 @@ const Skus = () => {
       })
     })
 
-    // const { pathPrefix } = data.site.siteMetadata
-    // console.log('pathPrefix', pathPrefix)
-
     return (
         <div className={skuListStyle.list_container} >
               {
@@ -109,9 +106,3 @@ query {
    }
 }
 `
-
-// site {
-//   siteMetadata {
-//     pathPrefix
-//   }
-// }

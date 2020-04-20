@@ -3,7 +3,6 @@ require("dotenv").config()
 module.exports = {
   siteMetadata: {
     title: `The Mavenist`,
-    // pathPrefix: `/themavenist`, 
     author: {
       name: `The Mavenist`,
       summary: `Digital fashion & lifestyle destination`,
@@ -68,8 +67,8 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`, // for images
-    `gatsby-plugin-sharp`, // for images
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

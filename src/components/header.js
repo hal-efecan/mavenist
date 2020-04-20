@@ -6,17 +6,7 @@ import headerStyles from '../styles/header.module.scss'
 import Cart from './cart'
 
 const Header = () => {
-
-    const data = useStaticQuery(graphql`
-        {
-            site {
-                siteMetadata {
-                    title
-                }
-            }
-        }
-    `)
-
+    const data = useStaticQuery(query)
     const { title } = data.site.siteMetadata
 
     return (
@@ -39,4 +29,12 @@ const Header = () => {
 
 export default Header
 
-// pathPrefix
+const query = graphql`
+{
+    site {
+        siteMetadata {
+            title
+        }
+    }
+}
+`

@@ -3,10 +3,6 @@ import { Link, useStaticQuery } from 'gatsby'
 import navStyles from '../styles/nav.module.scss'
 
 const Nav = () => {
-
-    // const data = useStaticQuery(query)
-    // const { pathPrefix } = data.site.siteMetadata
-    // console.log('pathPrefix', pathPrefix)
     
     return (
         <ul className={navStyles.container}>
@@ -19,13 +15,3 @@ const Nav = () => {
 }
 
 export default Nav
-
-// const query = graphql`
-// query {
-//     site {
-//       siteMetadata {
-//         pathPrefix
-//       }
-//     }
-//   }
-// `

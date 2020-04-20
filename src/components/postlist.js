@@ -8,7 +8,6 @@ const PostList = () => {
 
     const data = useStaticQuery(query)
     const postsArr = data.allMarkdownRemark.edges
-    // const { pathPrefix } = data.site.siteMetadata
     
     return (
       <>
@@ -81,5 +80,3 @@ const query = graphql`
   }
 }
 `
-
-// pathPrefix

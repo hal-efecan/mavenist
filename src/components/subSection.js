@@ -9,9 +9,6 @@ const SubSection = () => {
     const data = useStaticQuery(query)
     const articles = data.allMarkdownRemark.edges
 
-    // const { pathPrefix } = data.site.siteMetadata
-    // console.log('pathPrefix', pathPrefix)
-
     return (
         <div className={subsection.parent_container}>
             {
@@ -75,9 +72,3 @@ const query = graphql`
       }
   }
 `
-
-// site {
-//   siteMetadata {
-//     pathPrefix
-//   }
-// }

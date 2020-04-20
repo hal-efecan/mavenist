@@ -19,7 +19,6 @@ const BlogPostTemplate = (props) => {
 
   return (
     <Layout>
-      {/* <h1>Post Page</h1> */}
         <h1 className={blogPostStyle.title}>{props.data.markdownRemark.frontmatter.title}</h1>
         <div 
         className={blogPostStyle.container}
