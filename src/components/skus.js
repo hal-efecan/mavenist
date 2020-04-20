@@ -9,7 +9,6 @@ import { formatPrice, upperCase } from '../utils/utilityFn'
 const Skus = () => {
     
     const data = useStaticQuery(query)
-    console.log(data)
     const num1 = data.allMarkdownRemark.edges
     const num2 = data.allStripeSku.edges
 
@@ -34,9 +33,8 @@ const Skus = () => {
       })
     })
 
-    // const data = useStaticQuery(query)
-    const { pathPrefix } = data.site.siteMetadata
-    console.log('pathPrefix', pathPrefix)
+    // const { pathPrefix } = data.site.siteMetadata
+    // console.log('pathPrefix', pathPrefix)
 
     return (
         <div className={skuListStyle.list_container} >
@@ -71,24 +69,10 @@ const Skus = () => {
 
 export default Skus
 
-// const query2 = graphql`
-// query {
-//     site {
-//       siteMetadata {
-//         pathPrefix
-//       }
-//     }
-//   }
-// `
-
 const query = graphql`
 
 query {
-  site {
-   siteMetadata {
-     pathPrefix
-   }
- }
+
  allMarkdownRemark(filter: {frontmatter: {type: {eq: "product"}}}) {
    edges {
      node {
@@ -125,3 +109,9 @@ query {
    }
 }
 `
+
+// site {
+//   siteMetadata {
+//     pathPrefix
+//   }
+// }

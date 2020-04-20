@@ -19,7 +19,6 @@ const Product_page = (props) => {
     }
 
     function clickHandler() {
-      console.log('clicked')
       cart_context.add(product)
     }
     

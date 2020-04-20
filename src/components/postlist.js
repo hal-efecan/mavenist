@@ -8,7 +8,7 @@ const PostList = () => {
 
     const data = useStaticQuery(query)
     const postsArr = data.allMarkdownRemark.edges
-    const { pathPrefix } = data.site.siteMetadata
+    // const { pathPrefix } = data.site.siteMetadata
     
     return (
       <>
@@ -49,7 +49,6 @@ const query = graphql`
   site {
         siteMetadata {
         title
-        pathPrefix
     }
   }
   allMarkdownRemark(filter: {frontmatter: {isHero: {eq: true}}}) {
@@ -82,3 +81,5 @@ const query = graphql`
   }
 }
 `
+
+// pathPrefix

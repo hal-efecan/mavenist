@@ -9,7 +9,7 @@ const SubSection = () => {
     const data = useStaticQuery(query)
     const articles = data.allMarkdownRemark.edges
 
-    const { pathPrefix } = data.site.siteMetadata
+    // const { pathPrefix } = data.site.siteMetadata
     // console.log('pathPrefix', pathPrefix)
 
     return (
@@ -45,11 +45,6 @@ export default SubSection
 
 const query = graphql`
 {
-  site {
-     siteMetadata {
-       pathPrefix
-     }
-   }
     allMarkdownRemark(filter: {frontmatter: {isSubSection: {eq: true}}}) {
         edges {
           node {
@@ -80,3 +75,9 @@ const query = graphql`
       }
   }
 `
+
+// site {
+//   siteMetadata {
+//     pathPrefix
+//   }
+// }

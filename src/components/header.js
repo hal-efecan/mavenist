@@ -12,19 +12,18 @@ const Header = () => {
             site {
                 siteMetadata {
                     title
-                    pathPrefix
                 }
             }
         }
     `)
 
-    const { title, pathPrefix } = data.site.siteMetadata
+    const { title } = data.site.siteMetadata
 
     return (
         <div className={headerStyles.header}>
             
                 <h1 className={headerStyles.title}>
-                    <Link className={headerStyles.link} to={`/${pathPrefix}`}>
+                    <Link className={headerStyles.link} to={`/`}>
                         {title}
                     </Link>
                 </h1>
@@ -39,3 +38,5 @@ const Header = () => {
 }
 
 export default Header
+
+// pathPrefix
