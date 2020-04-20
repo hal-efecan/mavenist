@@ -56,7 +56,7 @@ const Skus = () => {
                       </div>
 
                       <div className={productStyles.btn_container}>
-                        <Link to={`/${pathPrefix}/product/${item.slug}`}>
+                        <Link to={`/product/${item.slug}`}>
                           <button className={productStyles.button} >View Product</button>
                         </Link>
                       </div>

@@ -21,7 +21,7 @@ const PostList = () => {
                     const fixed = image.childImageSharp.fixed
 
                     return (
-                      <Link key={id} to={`/${pathPrefix}/post/${slug}`} className={thumbStyles.link}>
+                      <Link key={id} to={`/post/${slug}`} className={thumbStyles.link}>
                         <div className={thumbStyles.child_container}>
                             <Img className={thumbStyles.image} fixed={fixed} />
                             <div className={thumbStyles.wrapper}>

@@ -21,7 +21,7 @@ const SubSection = () => {
                 const { slug } = fields
                 const fixed = image.childImageSharp.fixed
                 return (
-                  <Link className={subsection.child_container} key={id} to={`/${pathPrefix}/post/${slug}`}> 
+                  <Link className={subsection.child_container} key={id} to={`/post/${slug}`}> 
                         <Img className={thumbStyles.image} fixed={fixed} />
                         
                         <div className={subsection.details}>
