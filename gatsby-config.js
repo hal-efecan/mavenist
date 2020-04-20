@@ -3,7 +3,7 @@ require("dotenv").config()
 module.exports = {
   siteMetadata: {
     title: `The Mavenist`,
-    pathPrefix: `/themavenist`,
+    // pathPrefix: `/themavenist`,
     author: {
       name: `The Mavenist`,
       summary: `Digital fashion & lifestyle destination`,
