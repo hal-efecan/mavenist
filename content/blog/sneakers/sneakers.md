@@ -22,7 +22,7 @@ p {
     font-family: 'Lato', sans-serif;
 }
 h3 {
-    font-family: 'Changa', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.75rem;
     color: rgb(64, 65, 71);
 }

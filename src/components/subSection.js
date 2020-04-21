@@ -8,7 +8,7 @@ import subsection from '../styles/sub_section.module.scss'
 const SubSection = () => {
     const data = useStaticQuery(query)
     const articles = data.allMarkdownRemark.edges
-
+    console.log(data)
     return (
         <div className={subsection.parent_container}>
             {
@@ -17,6 +17,7 @@ const SubSection = () => {
                 const { title, section, image } = frontmatter
                 const { slug } = fields
                 const fixed = image.childImageSharp.fixed
+
                 return (
                   <Link className={subsection.child_container} key={id} to={`/post/${slug}`}> 
                         <Img className={thumbStyles.image} fixed={fixed} />
