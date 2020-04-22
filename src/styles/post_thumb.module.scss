@@ -6,7 +6,7 @@
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    margin: 5px 0 30px 0;
+    margin: 5px auto 30px auto;
     // background-color: lightgreen;
     @media (max-width: 375px) {
     }
@@ -30,6 +30,13 @@
     @media (max-width: 768px) {
         width: 235px;
         height: 285px;
+    }
+}
+
+.image_container {
+    @media (max-width: 375px) {
+    }
+    @media (max-width: 768px) {
     }
 }
 

@@ -23,7 +23,11 @@ const PostList = () => {
                       <Link key={id} to={`/post/${slug}`} className={thumbStyles.link}>
 
                         <div className={thumbStyles.child_container}>
-                            <Img className={thumbStyles.image} fluid={fluid} />
+
+                            <div className={thumbStyles.image_container}>
+                              <Img fluid={fluid} />
+                            </div>
+
                             <div className={thumbStyles.wrapper}>
                               <div>
                                 <span className={thumbStyles.section}>{section} - </span>
