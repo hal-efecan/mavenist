@@ -1,5 +1,5 @@
 ---
-title: "another"
+title: "Another"
 path: "other/gardens"
 date: 13.04.20
 author: "Halil"
@@ -8,7 +8,7 @@ isHero: false
 type: post
 isSubSection: true
 parent: other
-image: ./converse_lead_postcard.jpg
+image: ./mask_square.jpg
 tags: ["Apparel", "Garms", "clothes"]
 ---
 

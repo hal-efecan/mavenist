@@ -5,7 +5,6 @@ import Img from 'gatsby-image'
 import thumbStyles from '../styles/post_thumb.module.scss'
 
 const PostList = () => {
-
     const data = useStaticQuery(query)
     const postsArr = data.allMarkdownRemark.edges
     
@@ -17,12 +16,14 @@ const PostList = () => {
                     const { frontmatter, id, excerpt, fields } = post.node
                     const { title, image, section } = frontmatter
                     const { slug } = fields
-                    const fixed = image.childImageSharp.fixed
+                    console.log(image)
+                    const fluid = image.childImageSharp.fluid
 
                     return (
                       <Link key={id} to={`/post/${slug}`} className={thumbStyles.link}>
+
                         <div className={thumbStyles.child_container}>
-                            <Img className={thumbStyles.image} fixed={fixed} />
+                            <Img className={thumbStyles.image} fluid={fluid} />
                             <div className={thumbStyles.wrapper}>
                               <div>
                                 <span className={thumbStyles.section}>{section} - </span>
@@ -31,6 +32,7 @@ const PostList = () => {
                               <p className={thumbStyles.excerpt}>{excerpt}</p>
                             </div>
                         </div>
+                        
                       </Link>
                     )
                 })
@@ -68,8 +70,10 @@ const query = graphql`
           image {
             childImageSharp {
               id
-              fixed {
-                ...GatsbyImageSharpFixed
+              fluid(
+                maxWidth: 700
+                ) {
+                  ...GatsbyImageSharpFluid
               }
             }
           }
@@ -80,3 +84,7 @@ const query = graphql`
   }
 }
 `
+
+// duotone: { highlight: "#ffffff", shadow: "#b89a6a" }
+// ...GatsbyImageSharpFluid_tracedSVG
+// duotone: { highlight: "#f00e2e", shadow: "#192550" }
