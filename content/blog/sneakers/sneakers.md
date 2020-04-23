@@ -12,36 +12,64 @@ tags: ["sneakers", "trainers", "kicks"]
 ---
 
 <style>
+
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
 
 p {
-    font-size: 1.15rem;
-    line-height: 1.85rem;
+    font-size: 1.05rem;
+    line-height: 2rem;
     font-family: 'Lato', sans-serif;
 }
-h3 {
+
+ul > li {
+    font-size: 1.05rem;
+    line-height: 2rem;
+    letter-spacing: 0.025rem;
+    font-family: 'Lato', sans-serif;
+}
+
+h4 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.75rem;
-    color: rgb(64, 65, 71);
+    font-size: 1.4rem;
+    letter-spacing: 0.05rem;
+    color: #687b8f;
+    padding: 0;
+    margin: 10px 0 30px 0;
+}
+
+@media (min-width: 768px) {
+    p {
+        font-size: 1.3rem;
+        line-height: 2.05rem;
+    }
+
+    ul > li {
+        font-size: 1.3rem;
+        line-height: 2.05rem;
+        letter-spacing: 0.025rem;
+    }
+
+    h4 {
+        font-size: 1.8rem;
+        letter-spacing: 0.05rem;
+    }
 }
 
 </style>
-
-<!-- ![converse lead](../../images/converse_lead_postcard.jpg) -->
 
 When it comes to my sneaker philosophy it’s that every guy should have a core selection of go to kicks. No ifs, no buts – If you don’t and are buying them on the fly then you’re doing it all wrong. There's a few considerations that should be taken when it comes to selecting our "continuity" kicks:
 
 <div class="custom"></div>
 
-1. Relatively easy to acquire year round – i.e Non-seasonal (We'll get to these in another post). 
-2. Versatility is key - They'll need to be dressed up or pared down seamlessly. For this to work the colour palette has to be muted. Sticking to White/Black/Navy is key.
-3. Form - The construction and overall shape is the difference between timeless classic and the liteny of "filler" designs by sneaker brands.   
-4. Low cost (Primarily) - They will be worn anywhere and everywhere so will periodically need to be refreshed without breaking the bank each time we do.
-5. Function - As mentioned they'll be worn anywhere & everywhere so should be comfortable at the very least.
+* Relatively easy to acquire year round – i.e Non-seasonal (We'll get to these in another post). 
+* Versatility is key - They'll need to be dressed up or pared down seamlessly. For this to work the colour palette has to be muted. Sticking to White/Black/Navy is key.
+* Form - The construction and overall shape is the difference between timeless classic and the liteny of "filler" designs by sneaker brands.   
+* Low cost (Primarily) - They will be worn anywhere and everywhere so will periodically need to be refreshed without breaking the bank each time we do.
+* Function - As mentioned they'll be worn anywhere & everywhere so should be comfortable at the very least.
 
-### STAN SMITH
+#### STAN SMITH
 
 [![adidas](./stan_smith.jpg)](#)
 
@@ -55,7 +83,7 @@ enduring appeal
 genrational transcendence
 KISS
 
-### GAZELLE
+#### GAZELLE
 
 ![gazelle](./gazelle_postcard.jpg)
 
@@ -67,7 +95,7 @@ Although the Gazelle was built on a track shoe last, adidas went on to test the 
 
 But for me one word to describe 90s Gazelle would be ‘memories’. They conjure up images of acid jazz clubs, hip-hop, Cool Britannia, Madonna in head to toe adidas, New Labour, Loaded magazine, Martin Clunes in Men Behaving Badly, Lad Culture, Ministry of Sound, Oasis and the Britpop bands, Bleached blond Robbie Williams in adidas tracksuits, the Spice Girls and lest we not forget David Baddiel wearing Gazelle in the Three Lions video for Euro ‘96 – and with it being it being twenty years on from then, what better way to celebrate the Euros in Paris than with a piece of iconic 90s culture.
 
-### CONVERSE ALL STAR 70s
+#### CONVERSE ALL STAR
 
 ![converse](./converse_mid_postcard.jpg)
 
@@ -78,7 +106,7 @@ Converse shoes are distinguished by a number of features, including the company'
 basketball & skating culture
 was initially developed as a basketball shoe in the early 20th century. The design of the Chuck Taylor All Star has remained largely unchanged since its introduction in the 1920s. The shoe consists of a stitched upper portion, a toe cap that is usually made of white rubber, and a sole that is usually made of brown rubber. Although Chuck Taylors are made of various materials such as leather, the original and most widely known version of the shoe is made from cotton canvas
 
-### NIKE BLAZER MID '77 VINTAGE
+#### NIKE BLAZER MID '77
 
 ![nik blazer](./nike_blazer_mid_postcard.jpg)
 
@@ -90,7 +118,7 @@ It’s a simple shoe to this day, beloved for its simplicity
 As basketball players left the Blazer behind, skaters took ownership of the sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.
 collabs CDG/ Supreme/ Off White Ten collection
 
-### VANS OLD SKOOL
+#### VANS OLD SKOOL
 
 ![vans old skools](./vans_postcard.jpg)
 
