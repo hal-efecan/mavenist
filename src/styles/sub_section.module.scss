@@ -4,28 +4,36 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    margin: 40px auto 0 auto;
+    margin: 35px auto 0 auto;
+    width: 285px;
     // background-color: rgb(122, 255, 235);
     
-    @media (max-width: 375px) {
+    @media (min-width: 375px) {
+        width: 325px;
     }
-    @media (max-width: 768px) {
-        margin-top: 30px;
+    @media (min-width: 768px) {
+        margin-top: 50px;
+        width:600px;
+    }
+    @media (min-width: 1366px) {
+        margin-top: 50px;
+        width: 950px;
     }
 }
 
 .child_container {
     margin: 0 auto 20px auto;
     display: flex;
+    flex-direction: column;
     box-shadow: none;
     justify-content: center;
     // background-color: lightgreen;
 
-    @media (max-width: 375px) {
+    @media (min-width: 375px) {
+        flex-direction: column;
     }
-    @media (max-width: 768px) {
-        height: inherit;
-        width: inherit;
+    @media (min-width: 768px) {
+        flex-direction: row;
     }
 }
 
@@ -35,34 +43,37 @@
     margin: 0 auto;
 }
 
-.image_container {
-    width: 400px;
-    @media (max-width: 375px) {
+.image_container {    
+    @media (min-width: 375px) {
+        width: 325px;
     }
-    @media (max-width: 768px) {
-        width: 300px;
+    @media (min-width: 768px) {
+        min-width: 275px;
     }
-}
-
-.details {
-    background-color:  white;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 550px;
-    // background-color: lightgray;
-
-    @media (max-width: 375px) {
-    }
-    @media (max-width: 768px) {
-        width: 400px;
+    @media (min-width: 1366px) {
+        min-width: 375px;
     }
 }
 
 .wrapper {
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
+    height: 100px;
+    overflow-y: hidden;
+    // background-color: lightgreen;
+
+    @media (min-width: 375px) {
+        padding: 15px;
+        height: 110px;
+        overflow-y: hidden;
+    }
+    @media (min-width: 768px) {
+        height: inherit;
+        padding: 20px;
+    }
+    @media (min-width: 1366px) {
+        padding: 40px;
+    }
 }
 
 .excerpt {
@@ -71,6 +82,7 @@
     margin: 0 0 0 0;
     font-size: 1rem;
     text-align: start;
+    color: black;
 
     &:hover {        
         text-decoration: underline;
@@ -104,6 +116,7 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0.025rem;
+    color: black;
 
     @media (max-width: 375px) {
     }

@@ -23,15 +23,15 @@ const SubSection = () => {
                           <Img fluid={fluid} />
                         </div>
 
-                        <div className={subsection.details}>
+                        {/* <div className={subsection.details}> */}
                           <div className={subsection.wrapper}>
-                          <div>
-                            <span className={subsection.section}>{section}: </span>
-                            <span className={subsection.title}>{title}</span>
+                            <div>
+                              <span className={subsection.section}>{section} - </span>
+                              <span className={subsection.title}>{title}</span>
+                            </div>
+                            <p className={subsection.excerpt}>{excerpt}</p>
                           </div>
-                          <p className={subsection.excerpt}>{excerpt}</p>
-                          </div>
-                        </div>
+                        {/* </div> */}
                   </Link>
                 )
               })
@@ -71,38 +71,6 @@ const query = graphql`
           excerpt(pruneLength: 250)
         }
       }
-}
+  }
 }
 `
-
-// graphql`
-// {
-//     allMarkdownRemark(filter: {frontmatter: {isSubSection: {eq: true}}}) {
-//         edges {
-//           node {
-//             id
-//             frontmatter {
-//               author
-//               date
-//               path
-//               tags
-//               title
-//               section
-//               isHero
-//               image {
-//                 childImageSharp {
-//                   id
-//                   fluid(maxWidth: 700) {
-//                     ...GatsbyImageSharpFluid
-//                 }
-//               }
-//             }
-//             fields {
-//               slug
-//             }
-//             excerpt(pruneLength: 250)
-//           }
-//         }
-//       }
-//   }
-// `

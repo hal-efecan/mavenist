@@ -18,9 +18,9 @@ const Header = () => {
                     </Link>
                 </h1>
 
-                <div className={headerStyles.container}>
+                {/* <div className={headerStyles.container}>
                     <Cart />
-                </div>
+                </div> */}
 
             <Nav />
         </div>
