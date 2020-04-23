@@ -6,8 +6,8 @@ const Footer = () => {
     return (
         <div className={footerStyles.container}>
          
-                <div className={footerStyles.name}>
-                    The Mavenist
+                <div className={footerStyles.name_container}>
+                    <h3 className={footerStyles.name}>The Mavenist</h3>
                 </div>
 
                 <div className={footerStyles.wrapper}>

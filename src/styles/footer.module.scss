@@ -1,5 +1,4 @@
 .container {
-    height: 200px;
     margin: 20px 0 0 0;
     background-color: #2e2e2e;
 
@@ -14,55 +13,73 @@
     }
 }
 
-.name {
+.name_container {
     // background-color: lightgreen;
     height: 70px;
-    width: 320px;
-    padding: 0;
+    width: 100%;
+    padding: 35px 10px 10px 10px;
     margin: 0;
-    font-family: 'Courgette', cursive;
-    letter-spacing: 0.1rem;
-    text-align: center;
-    margin: 0;
-    padding: 10px;
-    font-size: 1.75rem;
-    text-decoration: underline;
-    color: rgb(255, 255, 255);
-    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     @media (min-width: 375px) {
-        width: 375px;
+        padding-top: 35px;
     }
     @media (min-width: 768px) {
-        font-size: 2rem;
-        width: 768px;
+        padding-top: 40px;
+        height: 90px;
     }
     @media (min-width: 1024px) {
-        width: 1024px;
+        padding-top: 40px;
     }
     @media (min-width: 1366px) {
-        width: 1366px;
+        padding-top: 50px;
+    }
+
+    .name {
+        font-family: 'Courgette', cursive;
+        letter-spacing: 0.1rem;
+        font-size: 2rem;
+        text-decoration: underline;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        margin: 0;
+        padding: 0;
+
+        @media (min-width: 375px) {
+            font-size: 2.25rem;
+        }
+        @media (min-width: 768px) {
+            font-size: 2.5rem;
+        }
+        @media (min-width: 1024px) {
+            font-size: 3rem;
+        }
     }
 }
 
 .wrapper {
     // background-color: lightseagreen;
-    height: 130px;
-    width: 320px;
+    height: 140px;
+    width: 100%;
     padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     @media (min-width: 375px) {
-        width: 375px;
+        height: 150px;
     }
     @media (min-width: 768px) {
-        width: 768px;
-        padding: 10px;
+        height: 150px;
+        padding: 0;
     }
     @media (min-width: 1024px) {
-        width: 1024px;
+        height: 175px;
     }
     @media (min-width: 1366px) {
-        width: 1366px;
     }
 
     .info {
@@ -71,6 +88,10 @@
         padding: 0;
         margin: 15px 0 0 0;
         text-align: center;
+
+        @media (min-width: 768px) {
+            margin-top: 20px;
+        }
 
         li {
             padding: 0;
