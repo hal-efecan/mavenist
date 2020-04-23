@@ -11,6 +11,7 @@ query ($slug: String!) {
     frontmatter {
       title
       date
+      author
       image {
         childImageSharp {
           id
@@ -37,7 +38,8 @@ const BlogPostTemplate = (props) => {
           <h1 className={postStyle.title}>{props.data.markdownRemark.frontmatter.title}</h1>
         </div>
 
-        <Img fluid={fluid} style={{ maxWidth: "600px", margin: "0 auto 50px auto" }} />
+        <Img fluid={fluid} style={{ maxWidth: "600px", margin: "0 auto 15px auto" }} />
+        <p className={postStyle.by_line}>Words: {props.data.markdownRemark.frontmatter.author}</p>
 
         <div 
         className={postStyle.container}
