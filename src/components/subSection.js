@@ -23,7 +23,6 @@ const SubSection = () => {
                           <Img fluid={fluid} />
                         </div>
 
-                        {/* <div className={subsection.details}> */}
                           <div className={subsection.wrapper}>
                             <div>
                               <span className={subsection.section}>{section} - </span>
@@ -31,7 +30,7 @@ const SubSection = () => {
                             </div>
                             <p className={subsection.excerpt}>{excerpt}</p>
                           </div>
-                        {/* </div> */}
+
                   </Link>
                 )
               })

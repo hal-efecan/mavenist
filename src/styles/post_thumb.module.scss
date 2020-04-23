@@ -16,6 +16,8 @@
         margin-bottom: 0;
         flex-direction: row;
     }
+    @media (min-width: 1024px) {
+    }
     @media (min-width: 1366px) {
     }
 }
@@ -35,6 +37,10 @@
     @media (min-width: 768px) {
         width: 235px;
         height: 285px;
+    }
+    @media (min-width: 1024px) {
+        width: 300px;
+        height: 350px;
     }
     @media (min-width: 1366px) {
         width: 400px;

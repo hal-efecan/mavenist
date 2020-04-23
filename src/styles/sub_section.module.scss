@@ -15,6 +15,9 @@
         margin-top: 50px;
         width:600px;
     }
+    @media (min-width: 1024px) {
+        width: 800px;
+    }
     @media (min-width: 1366px) {
         margin-top: 50px;
         width: 950px;
@@ -49,6 +52,8 @@
     }
     @media (min-width: 768px) {
         min-width: 275px;
+    }
+    @media (min-width: 1024px) {
     }
     @media (min-width: 1366px) {
         min-width: 375px;
