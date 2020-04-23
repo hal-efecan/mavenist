@@ -1,12 +1,103 @@
 .container {
-    // background-color: rgb(19, 18, 18);
-    height: 175px;
+    height: 200px;
     margin: 20px 0 0 0;
-    background-color:rgb(49, 49, 51);
+    background-color: #2e2e2e;
+
+    @media (min-width: 375px) {
+    }
+    @media (min-width: 768px) {
+        margin: 35px 0 0 0;
+    }
+    @media (min-width: 1024px) {
+    }
+    @media (min-width: 1366px) {
+    }
 }
 
-.title {
-    margin: 0;
+.name {
+    // background-color: lightgreen;
+    height: 70px;
+    width: 320px;
     padding: 0;
-    color: white;
+    margin: 0;
+    font-family: 'Courgette', cursive;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-size: 1.75rem;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+
+    @media (min-width: 375px) {
+        width: 375px;
+    }
+    @media (min-width: 768px) {
+        font-size: 2rem;
+        width: 768px;
+    }
+    @media (min-width: 1024px) {
+        width: 1024px;
+    }
+    @media (min-width: 1366px) {
+        width: 1366px;
+    }
+}
+
+.wrapper {
+    // background-color: lightseagreen;
+    height: 130px;
+    width: 320px;
+    padding: 5px;
+
+    @media (min-width: 375px) {
+        width: 375px;
+    }
+    @media (min-width: 768px) {
+        width: 768px;
+        padding: 10px;
+    }
+    @media (min-width: 1024px) {
+        width: 1024px;
+    }
+    @media (min-width: 1366px) {
+        width: 1366px;
+    }
+
+    .info {
+        // background-color: lightskyblue;
+        list-style-type: none;
+        padding: 0;
+        margin: 15px 0 0 0;
+        text-align: center;
+
+        li {
+            padding: 0;
+            margin: 0;
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: white;
+            text-transform: capitalize;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+    .social {
+        background-color: #2e2e2e;
+    }
+}
+
+.social_wrapper {
+    padding: 0;
+    margin: 0 auto;
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img {
+    padding: 0;
+    margin: 0;
 }
