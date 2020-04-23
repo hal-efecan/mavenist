@@ -7,8 +7,8 @@ module.exports = {
       name: `The Mavenist`,
       summary: `Digital fashion & lifestyle destination`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `Digital fashion & lifestyle destination`,
+    siteUrl: `https://themavenist.com/`,
     social: {
       twitter: `kylemathews`,
     },
