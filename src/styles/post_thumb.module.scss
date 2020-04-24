@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 
 .parent_container {
     box-sizing: border-box;
@@ -65,14 +66,21 @@
 }
 
 .section {
-    font-family: 'Marck Script', cursive;
-    font-size: 1.5rem;
-    color: rgb(184, 154, 106);
+    font-family: 'Alice', serif;
+    font-size: 1rem;
+    color: rgb(219, 51, 52);
 
-    @media (max-width: 375px) {
+    @media (min-width: 375px) {
+        font-size: 1.05rem;
     }
-    @media (max-width: 768px) {
-        font-size: 1.1rem;
+    @media (min-width: 768px) {
+        font-size: 1.05rem;
+    }
+    @media (min-width: 1024px) {
+        font-size: 1.05rem;
+    }
+    @media (min-width: 1366px) {
+        font-size: 1.05rem;
     }
 }
 
@@ -85,6 +93,7 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0.025rem;
+    text-transform: uppercase;
 
     @media (max-width: 375px) {
     }

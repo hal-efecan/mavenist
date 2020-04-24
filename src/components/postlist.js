@@ -29,7 +29,7 @@ const PostList = () => {
 
                             <div className={thumbStyles.wrapper}>
                               <div>
-                                <span className={thumbStyles.section}>{section} - </span>
+                                <span className={thumbStyles.section}>{section}</span><br />
                                 <span className={thumbStyles.title}>{title}</span>
                               </div>
                               <p className={thumbStyles.excerpt}>{excerpt}</p>

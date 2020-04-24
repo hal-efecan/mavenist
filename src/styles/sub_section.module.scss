@@ -63,18 +63,18 @@
 .wrapper {
     margin: 0 auto;
     padding: 10px;
-    height: 100px;
+    height: 130px;
     overflow-y: hidden;
     // background-color: lightgreen;
 
     @media (min-width: 375px) {
         padding: 15px;
-        height: 110px;
+        height: 135px;
         overflow-y: hidden;
     }
     @media (min-width: 768px) {
         height: inherit;
-        padding: 20px;
+        padding: 15px;
     }
     @media (min-width: 1366px) {
         padding: 40px;
@@ -101,14 +101,21 @@
 }
 
 .section {
-    font-family: 'Marck Script', cursive;
-    font-size: 1.5rem;
-    color: rgb(184, 154, 106);
+    font-family: 'Alice', serif;
+    font-size: 1rem;
+    color: rgb(219, 51, 52);
 
-    @media (max-width: 375px) {
+    @media (min-width: 375px) {
+        font-size: 1.05rem;
     }
-    @media (max-width: 768px) {
-        font-size: 1.1rem;
+    @media (min-width: 768px) {
+        font-size: 1.05rem;
+    }
+    @media (min-width: 1024px) {
+        font-size: 1.05rem;
+    }
+    @media (min-width: 1366px) {
+        font-size: 1.05rem;
     }
 }
 
@@ -122,6 +129,7 @@
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0.025rem;
     color: black;
+    text-transform: uppercase;
 
     @media (max-width: 375px) {
     }

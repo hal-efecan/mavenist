@@ -25,7 +25,7 @@ const SubSection = () => {
 
                           <div className={subsection.wrapper}>
                             <div>
-                              <span className={subsection.section}>{section} - </span>
+                              <span className={subsection.section}>{section}</span><br />
                               <span className={subsection.title}>{title}</span>
                             </div>
                             <p className={subsection.excerpt}>{excerpt}</p>

@@ -36,13 +36,13 @@ exports.createPages = async ({ graphql, actions }) => {
   if (result.errors) {
     throw result.errors
   }
-  console.log('result', result)
+  // console.log('result', result)
   // Create blog posts pages.
   const posts = result.data.allMarkdownRemark.edges
 
   posts.forEach((post, index) => {
-    console.log('post~~~~~~', post)
-    console.log('slugggg', post.node.fields.slug)
+    // console.log('post~~~~~~', post)
+    // console.log('slugggg', post.node.fields.slug)
     const previous = index === posts.length - 1 ? null : posts[index + 1].node
     const next = index === 0 ? null : posts[index - 1].node
     
@@ -73,7 +73,7 @@ exports.onCreateNode = ({ node, actions }) => {
 
   if (node.internal.type === `MarkdownRemark`) {
     const slug = path.basename(node.fileAbsolutePath, `.md`)
-    console.log('slug~~~~~~~~', slug)
+    // console.log('slug~~~~~~~~', slug)
     
     createNodeField({
       name: `slug`,
