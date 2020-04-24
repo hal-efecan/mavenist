@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Mavenist]]></title><description><![CDATA[Digital fashion & lifestyle destination]]></description><link>https://themavenist.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 24 Apr 2020 20:56:16 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Parkgate - Clip-On Optical + Sunglasses £295.00 Inspired by the world of rock climbing, this sterling silver bracelet features…]]></description><link>https://themavenist.comparkgate</link><guid isPermaLink="false">https://themavenist.comparkgate</guid><content:encoded>&lt;style&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Mavenist]]></title><description><![CDATA[Digital fashion & lifestyle destination]]></description><link>https://themavenist.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 24 Apr 2020 21:19:23 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Parkgate - Clip-On Optical + Sunglasses £295.00 Inspired by the world of rock climbing, this sterling silver bracelet features…]]></description><link>https://themavenist.comparkgate</link><guid isPermaLink="false">https://themavenist.comparkgate</guid><content:encoded>&lt;style&gt;
 @import url(&apos;https://fonts.googleapis.com/css2?family=Viga&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&amp;display=swap&apos;);
 
@@ -58,14 +58,14 @@ collabs CDG/ Supreme/ Off…]]></description><link>https://themavenist.comaccess
 @import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
 
 p {
-    font-size: 1.05rem;
-    line-height: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.85rem;
     font-family: &apos;Lato&apos;, sans-serif;
 }
 
 ul &gt; li {
-    font-size: 1.05rem;
-    line-height: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.45rem;
     letter-spacing: 0.025rem;
     font-family: &apos;Lato&apos;, sans-serif;
 }
@@ -73,15 +73,15 @@ ul &gt; li {
 h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
-    letter-spacing: 0.05rem;
-    color: #687b8f;
+    letter-spacing: 0.005rem;
+    color: #000000
     padding: 0;
     margin: 10px 0 30px 0;
 }
 
 @media (min-width: 768px) {
     p {
-        font-size: 1.2rem;
+        font-size: 1.25rem;
         line-height: 1.75rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
@@ -93,8 +93,91 @@ h4 {
     }
 
     h4 {
-        font-size: 1.8rem;
-        letter-spacing: 0.05rem;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    p {
+        font-size: 1.3rem;
+        line-height: 1.9rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    ul &gt; li {
+        font-size: 1.3rem;
+        line-height: 1.9rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+}
+&lt;/style&gt;
+&lt;p&gt;The sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.
+collabs CDG/ Supreme/ Off White Ten collection&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Summer shirts]]></title><description><![CDATA[The sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.
+collabs CDG/ Supreme/ Off…]]></description><link>https://themavenist.comsummer-shirts</link><guid isPermaLink="false">https://themavenist.comsummer-shirts</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
+
+@import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
+@import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
+@import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.85rem;
+    font-family: &apos;Lato&apos;, sans-serif;
+}
+
+ul &gt; li {
+    font-size: 0.9rem;
+    line-height: 1.45rem;
+    letter-spacing: 0.025rem;
+    font-family: &apos;Lato&apos;, sans-serif;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: 0.005rem;
+    color: #000000
+    padding: 0;
+    margin: 10px 0 30px 0;
+}
+
+@media (min-width: 768px) {
+    p {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    ul &gt; li {
+        font-size: 1.2rem;
+        line-height: 1.75rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    p {
+        font-size: 1.3rem;
+        line-height: 1.9rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    ul &gt; li {
+        font-size: 1.3rem;
+        line-height: 1.9rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    h4 {
+        font-size: 2rem;
     }
 }
 
@@ -102,20 +185,19 @@ h4 {
 &lt;p&gt;The sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.
 collabs CDG/ Supreme/ Off White Ten collection&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Apparel article]]></title><description><![CDATA[The sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.
 collabs CDG/ Supreme/ Off…]]></description><link>https://themavenist.comapparel</link><guid isPermaLink="false">https://themavenist.comapparel</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
-
 @import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
 
 p {
-    font-size: 1.05rem;
-    line-height: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.85rem;
     font-family: &apos;Lato&apos;, sans-serif;
 }
 
 ul &gt; li {
-    font-size: 1.05rem;
-    line-height: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.45rem;
     letter-spacing: 0.025rem;
     font-family: &apos;Lato&apos;, sans-serif;
 }
@@ -123,15 +205,15 @@ ul &gt; li {
 h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
-    letter-spacing: 0.05rem;
-    color: #687b8f;
+    letter-spacing: 0.005rem;
+    color: #000000
     padding: 0;
     margin: 10px 0 30px 0;
 }
 
 @media (min-width: 768px) {
     p {
-        font-size: 1.2rem;
+        font-size: 1.25rem;
         line-height: 1.75rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
@@ -143,30 +225,44 @@ h4 {
     }
 
     h4 {
-        font-size: 1.8rem;
-        letter-spacing: 0.05rem;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    p {
+        font-size: 1.3rem;
+        line-height: 1.9rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    ul &gt; li {
+        font-size: 1.3rem;
+        line-height: 1.9rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    h4 {
+        font-size: 2rem;
     }
 }
 
 &lt;/style&gt;
 &lt;p&gt;The sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.
-collabs CDG/ Supreme/ Off White Ten collection&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Summer shirts]]></title><description><![CDATA[The sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.
-collabs CDG/ Supreme/ Off…]]></description><link>https://themavenist.comsummer-shirts</link><guid isPermaLink="false">https://themavenist.comsummer-shirts</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;p&gt;The sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.
 collabs CDG/ Supreme/ Off White Ten collection&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Another]]></title><description><![CDATA[Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever…]]></description><link>https://themavenist.comanother</link><guid isPermaLink="false">https://themavenist.comanother</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
-
 @import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
 
 p {
-    font-size: 1.05rem;
-    line-height: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.85rem;
     font-family: &apos;Lato&apos;, sans-serif;
 }
 
 ul &gt; li {
-    font-size: 1.05rem;
-    line-height: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.45rem;
     letter-spacing: 0.025rem;
     font-family: &apos;Lato&apos;, sans-serif;
 }
@@ -174,15 +270,15 @@ ul &gt; li {
 h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
-    letter-spacing: 0.05rem;
-    color: #687b8f;
+    letter-spacing: 0.005rem;
+    color: #000000
     padding: 0;
     margin: 10px 0 30px 0;
 }
 
 @media (min-width: 768px) {
     p {
-        font-size: 1.2rem;
+        font-size: 1.25rem;
         line-height: 1.75rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
@@ -194,27 +290,43 @@ h4 {
     }
 
     h4 {
-        font-size: 1.8rem;
-        letter-spacing: 0.05rem;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    p {
+        font-size: 1.3rem;
+        line-height: 1.9rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    ul &gt; li {
+        font-size: 1.3rem;
+        line-height: 1.9rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    h4 {
+        font-size: 2rem;
     }
 }
 
 &lt;/style&gt;
 &lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Something about gardens]]></title><description><![CDATA[Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever…]]></description><link>https://themavenist.comgardens</link><guid isPermaLink="false">https://themavenist.comgardens</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
-
 @import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
 
 p {
-    font-size: 1.05rem;
-    line-height: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.85rem;
     font-family: &apos;Lato&apos;, sans-serif;
 }
 
 ul &gt; li {
-    font-size: 1.05rem;
-    line-height: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.45rem;
     letter-spacing: 0.025rem;
     font-family: &apos;Lato&apos;, sans-serif;
 }
@@ -222,15 +334,15 @@ ul &gt; li {
 h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
-    letter-spacing: 0.05rem;
-    color: #687b8f;
+    letter-spacing: 0.005rem;
+    color: #000000
     padding: 0;
     margin: 10px 0 30px 0;
 }
 
 @media (min-width: 768px) {
     p {
-        font-size: 1.2rem;
+        font-size: 1.25rem;
         line-height: 1.75rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
@@ -242,8 +354,25 @@ h4 {
     }
 
     h4 {
-        font-size: 1.8rem;
-        letter-spacing: 0.05rem;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    p {
+        font-size: 1.3rem;
+        line-height: 1.9rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    ul &gt; li {
+        font-size: 1.3rem;
+        line-height: 1.9rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    h4 {
+        font-size: 2rem;
     }
 }
 
@@ -255,14 +384,14 @@ h4 {
 @import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
 
 p {
-    font-size: 1.05rem;
-    line-height: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.85rem;
     font-family: &apos;Lato&apos;, sans-serif;
 }
 
 ul &gt; li {
-    font-size: 1.05rem;
-    line-height: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.45rem;
     letter-spacing: 0.025rem;
     font-family: &apos;Lato&apos;, sans-serif;
 }
@@ -270,15 +399,15 @@ ul &gt; li {
 h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
-    letter-spacing: 0.05rem;
-    color: #687b8f;
+    letter-spacing: 0.005rem;
+    color: #000000
     padding: 0;
     margin: 10px 0 30px 0;
 }
 
 @media (min-width: 768px) {
     p {
-        font-size: 1.2rem;
+        font-size: 1.25rem;
         line-height: 1.75rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
@@ -290,8 +419,25 @@ h4 {
     }
 
     h4 {
-        font-size: 1.8rem;
-        letter-spacing: 0.05rem;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    p {
+        font-size: 1.3rem;
+        line-height: 1.9rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    ul &gt; li {
+        font-size: 1.3rem;
+        line-height: 1.9rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    h4 {
+        font-size: 2rem;
     }
 }
 
@@ -299,11 +445,11 @@ h4 {
 &lt;p&gt;When it comes to my sneaker philosophy it’s that every guy should have a core selection of go to kicks. No ifs, no buts – If you don’t and are buying them on the fly then you’re doing it all wrong. There’s a few considerations that should be taken when it comes to selecting our “continuity” kicks:&lt;/p&gt;
 &lt;div class=&quot;custom&quot;&gt;&lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;Relatively easy to acquire year round – i.e Non-seasonal (We’ll get to these in another post). &lt;/li&gt;
-&lt;li&gt;Versatility is key - They’ll need to be dressed up or pared down seamlessly. For this to work the colour palette has to be muted. Sticking to White/Black/Navy is key.&lt;/li&gt;
-&lt;li&gt;Form - The construction and overall shape is the difference between timeless classic and the liteny of “filler” designs by sneaker brands.   &lt;/li&gt;
-&lt;li&gt;Low cost (Primarily) - They will be worn anywhere and everywhere so will periodically need to be refreshed without breaking the bank each time we do.&lt;/li&gt;
-&lt;li&gt;Function - As mentioned they’ll be worn anywhere &amp;#x26; everywhere so should be comfortable at the very least.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Relatively&lt;/strong&gt;&lt;/em&gt; easy to acquire year round – i.e Non-seasonal (We’ll get to these in another post). &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Versatility&lt;/strong&gt;&lt;/em&gt; is key - They’ll need to be dressed up or pared down seamlessly. For this to work the colour palette has to be muted. Sticking to White/Black/Navy is key.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Form&lt;/strong&gt;&lt;/em&gt; - The construction and overall shape is the difference between timeless classic and the liteny of “filler” designs by sneaker brands.   &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;Low cost&lt;/em&gt;&lt;/strong&gt; (Primarily) - They will be worn anywhere and everywhere so will periodically need to be refreshed without breaking the bank each time we do.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;Function&lt;/em&gt;&lt;/strong&gt; - As mentioned they’ll be worn anywhere &amp;#x26; everywhere so should be comfortable at the very least.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;STAN SMITH&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;&lt;span

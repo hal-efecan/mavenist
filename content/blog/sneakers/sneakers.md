@@ -18,14 +18,14 @@ tags: ["sneakers", "trainers", "kicks"]
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
 
 p {
-    font-size: 1.05rem;
-    line-height: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.85rem;
     font-family: 'Lato', sans-serif;
 }
 
 ul > li {
-    font-size: 1.05rem;
-    line-height: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.45rem;
     letter-spacing: 0.025rem;
     font-family: 'Lato', sans-serif;
 }
@@ -33,15 +33,15 @@ ul > li {
 h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
-    letter-spacing: 0.05rem;
-    color: #687b8f;
+    letter-spacing: 0.005rem;
+    color: #000000
     padding: 0;
     margin: 10px 0 30px 0;
 }
 
 @media (min-width: 768px) {
     p {
-        font-size: 1.2rem;
+        font-size: 1.25rem;
         line-height: 1.75rem;
         font-family: 'Nunito', sans-serif;sans-serif;
     }
@@ -53,8 +53,25 @@ h4 {
     }
 
     h4 {
-        font-size: 1.8rem;
-        letter-spacing: 0.05rem;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    p {
+        font-size: 1.3rem;
+        line-height: 1.9rem;
+        font-family: 'Nunito', sans-serif;sans-serif;
+    }
+
+    ul > li {
+        font-size: 1.3rem;
+        line-height: 1.9rem;
+        font-family: 'Nunito', sans-serif;sans-serif;
+    }
+
+    h4 {
+        font-size: 2rem;
     }
 }
 
@@ -64,11 +81,11 @@ When it comes to my sneaker philosophy it’s that every guy should have a core 
 
 <div class="custom"></div>
 
-* Relatively easy to acquire year round – i.e Non-seasonal (We'll get to these in another post). 
-* Versatility is key - They'll need to be dressed up or pared down seamlessly. For this to work the colour palette has to be muted. Sticking to White/Black/Navy is key.
-* Form - The construction and overall shape is the difference between timeless classic and the liteny of "filler" designs by sneaker brands.   
-* Low cost (Primarily) - They will be worn anywhere and everywhere so will periodically need to be refreshed without breaking the bank each time we do.
-* Function - As mentioned they'll be worn anywhere & everywhere so should be comfortable at the very least.
+* _**Relatively**_ easy to acquire year round – i.e Non-seasonal (We'll get to these in another post). 
+* _**Versatility**_ is key - They'll need to be dressed up or pared down seamlessly. For this to work the colour palette has to be muted. Sticking to White/Black/Navy is key.
+* _**Form**_ - The construction and overall shape is the difference between timeless classic and the liteny of "filler" designs by sneaker brands.   
+* **_Low cost_** (Primarily) - They will be worn anywhere and everywhere so will periodically need to be refreshed without breaking the bank each time we do.
+* **_Function_** - As mentioned they'll be worn anywhere & everywhere so should be comfortable at the very least.
 
 #### STAN SMITH
 

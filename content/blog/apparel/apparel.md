@@ -11,20 +11,19 @@ image: ./converse_lead_postcard.jpg
 tags: ["Apparel", "Garms", "clothes"]
 ---
 <style>
-
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
 
 p {
-    font-size: 1.05rem;
-    line-height: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.85rem;
     font-family: 'Lato', sans-serif;
 }
 
 ul > li {
-    font-size: 1.05rem;
-    line-height: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.45rem;
     letter-spacing: 0.025rem;
     font-family: 'Lato', sans-serif;
 }
@@ -32,15 +31,15 @@ ul > li {
 h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
-    letter-spacing: 0.05rem;
-    color: #687b8f;
+    letter-spacing: 0.005rem;
+    color: #000000
     padding: 0;
     margin: 10px 0 30px 0;
 }
 
 @media (min-width: 768px) {
     p {
-        font-size: 1.2rem;
+        font-size: 1.25rem;
         line-height: 1.75rem;
         font-family: 'Nunito', sans-serif;sans-serif;
     }
@@ -52,8 +51,25 @@ h4 {
     }
 
     h4 {
-        font-size: 1.8rem;
-        letter-spacing: 0.05rem;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    p {
+        font-size: 1.3rem;
+        line-height: 1.9rem;
+        font-family: 'Nunito', sans-serif;sans-serif;
+    }
+
+    ul > li {
+        font-size: 1.3rem;
+        line-height: 1.9rem;
+        font-family: 'Nunito', sans-serif;sans-serif;
+    }
+
+    h4 {
+        font-size: 2rem;
     }
 }
 
