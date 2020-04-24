@@ -33,7 +33,7 @@ const BlogPostTemplate = (props) => {
 
   return (
     <Layout>
-
+      <div className={postStyle.wrapper}>
         <div className={postStyle.title_container}>
           <h1 className={postStyle.title}>{props.data.markdownRemark.frontmatter.title}</h1>
         </div>
@@ -45,7 +45,7 @@ const BlogPostTemplate = (props) => {
         className={postStyle.container}
         dangerouslySetInnerHTML={{ __html:props.data.markdownRemark.html }} 
         />
-
+    </div>
     </Layout>
   )
 }
