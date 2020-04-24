@@ -41,14 +41,14 @@ h4 {
 
 @media (min-width: 768px) {
     p {
-        font-size: 1.3rem;
-        line-height: 1.9rem;
+        font-size: 1.2rem;
+        line-height: 1.75rem;
         font-family: 'Nunito', sans-serif;sans-serif;
     }
 
     ul > li {
-        font-size: 1.3rem;
-        line-height: 1.9rem;
+        font-size: 1.2rem;
+        line-height: 1.75rem;
         font-family: 'Nunito', sans-serif;sans-serif;
     }
 

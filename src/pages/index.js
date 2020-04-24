@@ -10,6 +10,7 @@ const Index = () => {
 
   useEffect(() => {
     document.body.style.maxWidth = "1366px"
+    document.body.style.margin = "0 auto"
   }, [])
 
   return (

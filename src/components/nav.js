@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useStaticQuery } from 'gatsby'
+import { Link } from 'gatsby'
 import navStyles from '../styles/nav.module.scss'
 
 const Nav = () => {
@@ -15,9 +15,12 @@ const Nav = () => {
             <Link className={navStyles.link} activeClassName={navStyles.active} to={`/accessories`}>
                 <li className={navStyles.nav_item}>Accessories</li>
             </Link>
-            <Link className={navStyles.link} activeClassName={navStyles.active} to={`/shop`}>
-                <li className={navStyles.nav_item}>Shop</li>
+            <Link className={navStyles.link} activeClassName={navStyles.active} to={`/footwear`}>
+                <li className={navStyles.nav_item}>Footwear</li>
             </Link>
+            {/* <Link className={navStyles.link} activeClassName={navStyles.active} to={`/shop`}>
+                <li className={navStyles.nav_item}>Shop</li>
+            </Link> */}
         </ul>
     )
 }

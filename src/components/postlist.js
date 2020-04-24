@@ -16,7 +16,6 @@ const PostList = () => {
                     const { frontmatter, id, excerpt, fields } = post.node
                     const { title, image, section } = frontmatter
                     const { slug } = fields
-                    console.log(image)
                     const fluid = image.childImageSharp.fluid
 
                     return (
