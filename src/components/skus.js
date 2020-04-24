@@ -67,9 +67,7 @@ const Skus = () => {
 export default Skus
 
 const query = graphql`
-
 query {
-
  allMarkdownRemark(filter: {frontmatter: {type: {eq: "product"}}}) {
    edges {
      node {

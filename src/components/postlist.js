@@ -11,6 +11,7 @@ const PostList = () => {
     return (
       <>
         <div className={thumbStyles.parent_container}>
+          <p>Test</p>
             {
                 postsArr.map(post => {
                     const { frontmatter, id, excerpt, fields } = post.node
