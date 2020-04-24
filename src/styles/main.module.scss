@@ -1,5 +1,17 @@
 .container {
     // background-color: lightsalmon;
-    margin: 135px auto 0 auto;
+    margin: 125px auto 0 auto;
     width:95%;
+
+    @media (min-width: 375px) {
+        margin: 130px auto 0 auto;
+    }
+    @media (min-width: 768px) {
+        margin: 145px auto 0 auto;
+    }
+    @media (min-width: 1024px) {
+        margin: 150px auto 0 auto;
+    }
+    @media (min-width: 1366px) {
+    }
 }

@@ -3,7 +3,7 @@ import Nav from './nav'
 import { graphql, useStaticQuery, Link } from 'gatsby'
 import headerStyles from '../styles/header.module.scss'
 
-import Cart from './cart'
+// import Cart from './cart'
 
 const Header = () => {
     const data = useStaticQuery(query)
