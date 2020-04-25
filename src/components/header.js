@@ -20,7 +20,7 @@ const Header = () => {
                 console.log('currPos', currScrollPos, 'prevPos', prevScrollPos)
                 
                 let head = document.querySelector('#head')
-                if(currScrollPos < 175) {
+                if(currScrollPos < 140) {
                     head.style.top = "0"
     
                 } else {

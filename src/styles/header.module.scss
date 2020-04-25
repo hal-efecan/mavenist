@@ -11,8 +11,9 @@
     height: 105px;
     top: 0;
     width: 100%;
+    pointer-events: auto;
     z-index: 99;
-    transition: top 300ms ease-in-out;
+    transition: top 500ms ease-in-out;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0 0 5px rgb(229, 229, 229);

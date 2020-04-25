@@ -11,6 +11,7 @@ const Index = () => {
   useEffect(() => {
     document.body.style.maxWidth = "1366px"
     document.body.style.margin = "0 auto"
+    document.body.style.pointerEvents = "none"
   }, [])
 
   return (
