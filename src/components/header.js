@@ -10,28 +10,28 @@ const Header = () => {
     const { title } = data.site.siteMetadata
 
 
-    let window;
-    if (typeof window !== 'undefined') {
-        // return global.window = {}
-        let prevScrollPos = window.pageYOffset;
-        return prevScrollPos
-    }
+    // let window;
+    
     
     useEffect(() => {
-
-        window.onscroll = () => {
-            let currScrollPos = window.pageYOffset
-            
-            if(prevScrollPos > currScrollPos) {
-                let myDiv = document.querySelector('#head')
-                console.log(myDiv)
-                myDiv.style.top = "0"
-            } else {
-                document.querySelector('#head').style.top = "-140px"
+        if (typeof window !== 'undefined') {
+            let prevScrollPos = window.pageYOffset;
+            // prevScrollPos
+            window.onscroll = () => {
+                let currScrollPos = window.pageYOffset
+                
+                if(prevScrollPos > currScrollPos) {
+                    let myDiv = document.querySelector('#head')
+                    console.log(myDiv)
+                    myDiv.style.top = "0"
+                } else {
+                    document.querySelector('#head').style.top = "-140px"
+                }
+                prevScrollPos = currScrollPos
             }
-            prevScrollPos = currScrollPos
         }
-    },[])
+        
+    }, [])
 
     return (
         <div id="head" className={headerStyles.header}>
