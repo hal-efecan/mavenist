@@ -7,26 +7,26 @@ import headerStyles from '../styles/header.module.scss'
 
 const Header = () => {
     const data = useStaticQuery(query)
-    const { title } = data.site.siteMetadata
-
-
-    // let window;
-    
+    const { title } = data.site.siteMetadata  
     
     useEffect(() => {
         if (typeof window !== 'undefined') {
+
             let prevScrollPos = window.pageYOffset;
-            // prevScrollPos
+            console.log('prevPos', prevScrollPos)
             window.onscroll = () => {
                 let currScrollPos = window.pageYOffset
+                // let start = "800px"
+                console.log('currPos', currScrollPos, 'prevPos', prevScrollPos)
                 
-                if(prevScrollPos > currScrollPos) {
-                    let myDiv = document.querySelector('#head')
-                    console.log(myDiv)
-                    myDiv.style.top = "0"
+                let head = document.querySelector('#head')
+                if(currScrollPos < 200) {
+                    head.style.top = "0"
+    
                 } else {
-                    document.querySelector('#head').style.top = "-140px"
+                    head.style.top = "-140px"
                 }
+
                 prevScrollPos = currScrollPos
             }
         }
@@ -37,7 +37,7 @@ const Header = () => {
         <div id="head" className={headerStyles.header}>
             
                 <h1 className={headerStyles.title}>
-                    <Link className={headerStyles.link} to={`/`}>
+                    <Link id="title" className={headerStyles.link} to={`/`}>
                         {title}
                     </Link>
                 </h1>
