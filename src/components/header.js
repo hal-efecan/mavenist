@@ -9,31 +9,31 @@ const Header = () => {
     const data = useStaticQuery(query)
     const { title } = data.site.siteMetadata  
     
-    useEffect(() => {
-        if (typeof window !== 'undefined') {
+    // useEffect(() => {
+    //     if (typeof window !== 'undefined') {
 
-            let prevScrollPos = window.pageYOffset;
-            console.log('prevPos', prevScrollPos)
-            window.onscroll = () => {
-                let currScrollPos = window.pageYOffset
-                // let start = "800px"
-                console.log('currPos', currScrollPos, 'prevPos', prevScrollPos)
+    //         let prevScrollPos = window.pageYOffset;
+    //         console.log('prevPos', prevScrollPos)
+    //         window.onscroll = () => {
+    //             let currScrollPos = window.pageYOffset
+    //             // let start = "800px"
+    //             console.log('currPos', currScrollPos, 'prevPos', prevScrollPos)
                 
-                let head = document.querySelector('#head')
-                let title = document.querySelector('#title')
-                if(currScrollPos < 140) {
-                    head.style.top = "0"
-                    // title.style.opacity = "1"
-                } else {
-                    head.style.top = "-140px"
-                    // title.style.opacity = "0"
-                }
+    //             let head = document.querySelector('#head')
+    //             // let title = document.querySelector('#title')
+    //             if(currScrollPos < 140) {
+    //                 head.style.top = "0"
+    //                 // title.style.opacity = "1"
+    //             } else {
+    //                 head.style.top = "-140px"
+    //                 // title.style.opacity = "0"
+    //             }
 
-                prevScrollPos = currScrollPos
-            }
-        }
+    //             prevScrollPos = currScrollPos
+    //         }
+    //     }
 
-    }, [])
+    // }, [])
 
     return (
         <div id="head" className={headerStyles.header}>
