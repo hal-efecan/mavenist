@@ -17,6 +17,9 @@ const Header = () => {
             window.onscroll = () => {
                 let currScrollPos = window.pageYOffset
 
+                if(currScrollPos < 0) {
+                    currScrollPos = 0
+                }
                 // console.log('currPos', currScrollPos, 'prevPos', prevScrollPos)
                 // let deviceTop = currScrollPos-812
                 // console.log(deviceTop)
