@@ -9,31 +9,31 @@ const Header = () => {
     const data = useStaticQuery(query)
     const { title } = data.site.siteMetadata  
     
-    // useEffect(() => {
-    //     if (typeof window !== 'undefined') {
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
 
-    //         let prevScrollPos = window.pageYOffset;
-    //         console.log('prevPos', prevScrollPos)
-    //         window.onscroll = () => {
-    //             let currScrollPos = window.pageYOffset
-    //             // let start = "800px"
-    //             console.log('currPos', currScrollPos, 'prevPos', prevScrollPos)
-                
-    //             let head = document.querySelector('#head')
-    //             // let title = document.querySelector('#title')
-    //             if(currScrollPos < 140) {
-    //                 head.style.top = "0"
-    //                 // title.style.opacity = "1"
-    //             } else {
-    //                 head.style.top = "-140px"
-    //                 // title.style.opacity = "0"
-    //             }
+            let prevScrollPos = window.pageYOffset;
 
-    //             prevScrollPos = currScrollPos
-    //         }
-    //     }
+            window.onscroll = () => {
+                let currScrollPos = window.pageYOffset
 
-    // }, [])
+                // console.log('currPos', currScrollPos, 'prevPos', prevScrollPos)
+                // let deviceTop = currScrollPos-812
+                // console.log(deviceTop)
+                let head = document.querySelector('#head')
+                // let title = document.querySelector('#title')
+                if(currScrollPos <= prevScrollPos) {
+                    console.log('curr', currScrollPos, 'prev', prevScrollPos)
+                    head.style.top = `0`
+                } else {
+                    head.style.top = "-140px"
+                }
+
+                prevScrollPos = currScrollPos
+            }
+        }
+
+    }, [])
 
     return (
         <div id="head" className={headerStyles.header}>

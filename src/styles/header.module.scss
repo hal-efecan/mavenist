@@ -7,12 +7,14 @@
     margin: 0;
     padding: 0;
     // position: relative;
-    position: absolute;
+    // position: absolute;
+    position: fixed;
+    display: block;
     height: 105px;
     top: 0;
     width: 100%;
     z-index: 99;
-    // transition: top 500ms;
+    transition: top 500ms;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0 0 5px rgb(229, 229, 229);
