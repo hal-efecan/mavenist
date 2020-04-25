@@ -38,11 +38,11 @@ const Header = () => {
     return (
         <div id="head" className={headerStyles.header}>
             
-                <h1 id="title" className={headerStyles.title}>
+                {/* <h1 id="title" className={headerStyles.title}>
                     <Link className={headerStyles.link} to={`/`}>
                         {title}
                     </Link>
-                </h1>
+                </h1> */}
 
                 {/* <div className={headerStyles.container}>
                     <Cart />
