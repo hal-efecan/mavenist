@@ -7,7 +7,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 5px auto 10px auto;
     // background-color: lightgreen;
 
@@ -44,7 +44,7 @@
         height: 350px;
     }
     @media (min-width: 1366px) {
-        width: 400px;
+        width: 375px;
         height: 400px;
     }
 }

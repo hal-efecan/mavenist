@@ -23,14 +23,13 @@ const SubSection = () => {
                           <Img fluid={fluid} />
                         </div>
 
-                          <div className={subsection.wrapper}>
-                            <div>
-                              <span className={subsection.section}>{section}</span><br />
-                              <span className={subsection.title}>{title}</span>
-                            </div>
-                            <p className={subsection.excerpt}>{excerpt}</p>
+                        <div className={subsection.wrapper}>
+                          <div>
+                            <span className={subsection.section}>{section}</span><br />
+                            <span className={subsection.title}>{title}</span>
                           </div>
-
+                          <p className={subsection.excerpt}>{excerpt}</p>
+                        </div>
                   </Link>
                 )
               })
