@@ -41,32 +41,32 @@ h4 {
 
 @media (min-width: 768px) {
     p {
-        font-size: 1.25rem;
-        line-height: 1.75rem;
+        font-size: 1.15rem;
+        line-height: 1.7rem;
         font-family: 'Nunito', sans-serif;sans-serif;
     }
 
     ul > li {
-        font-size: 1.2rem;
-        line-height: 1.75rem;
+        font-size: 1.05rem;
+        line-height: 1.55rem;
         font-family: 'Nunito', sans-serif;sans-serif;
     }
 
     h4 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
 
 @media (min-width: 1024px) {
     p {
-        font-size: 1.3rem;
-        line-height: 1.9rem;
+        font-size: 1.15rem;
+        line-height: 1.7rem;
         font-family: 'Nunito', sans-serif;sans-serif;
     }
 
     ul > li {
-        font-size: 1.3rem;
-        line-height: 1.9rem;
+        font-size: 1.05rem;
+        line-height: 1.55rem;
         font-family: 'Nunito', sans-serif;sans-serif;
     }
 

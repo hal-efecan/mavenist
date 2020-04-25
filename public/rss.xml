@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Mavenist]]></title><description><![CDATA[Digital fashion & lifestyle destination]]></description><link>https://themavenist.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 25 Apr 2020 14:50:45 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Marshall - Storm £195.00 A soft square with oval accents, hand crafted using a combination of beta titanium and Takrion Japanese…]]></description><link>https://themavenist.commarshall</link><guid isPermaLink="false">https://themavenist.commarshall</guid><content:encoded>&lt;style&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Mavenist]]></title><description><![CDATA[Digital fashion & lifestyle destination]]></description><link>https://themavenist.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 25 Apr 2020 15:12:06 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Parkgate - Clip-On Optical + Sunglasses £295.00 Inspired by the world of rock climbing, this sterling silver bracelet features…]]></description><link>https://themavenist.comparkgate</link><guid isPermaLink="false">https://themavenist.comparkgate</guid><content:encoded>&lt;style&gt;
+@import url(&apos;https://fonts.googleapis.com/css2?family=Viga&amp;display=swap&apos;);
+@import url(&apos;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&amp;display=swap&apos;);
+
+h1, h2, h3, h4 {
+font-family: &apos;Viga&apos;, sans-serif;
+letter-spacing: 0.025rem;
+}
+
+p, li {
+font-family: &apos;Roboto Slab&apos;, serif;
+font-size: 0.95rem;
+font-weight: 500;
+}
+
+&lt;/style&gt;
+&lt;h3&gt;BELSTAFF&lt;/h3&gt;
+&lt;h4&gt;Parkgate - Clip-On Optical + Sunglasses&lt;/h4&gt;
+&lt;p&gt;£295.00&lt;/p&gt;
+&lt;p&gt;Inspired by the world of rock climbing, this sterling silver bracelet features branded logo engraving and traditional Iga braid construction.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;925 Sterling Silver Bracelet  &lt;/li&gt;
+&lt;li&gt;Carabiner Clasp  &lt;/li&gt;
+&lt;li&gt;Engraved Branding  &lt;/li&gt;
+&lt;li&gt;Handcrafted in Japan  &lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Marshall - Storm £195.00 A soft square with oval accents, hand crafted using a combination of beta titanium and Takrion Japanese…]]></description><link>https://themavenist.commarshall</link><guid isPermaLink="false">https://themavenist.commarshall</guid><content:encoded>&lt;style&gt;
 @import url(&apos;https://fonts.googleapis.com/css2?family=Viga&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&amp;display=swap&apos;);
 
@@ -20,31 +45,6 @@ font-weight: 500;
 &lt;p&gt;A soft square with oval accents, hand crafted using a combination of beta titanium and Takrion Japanese acetate. Featuring laser engraving and comotec hinges to produce a soft unisex frame with an 80s twist.&lt;/p&gt;
 &lt;p&gt;Material:  beta titanium &amp;#x26; Takrion Japanese acetate.
 Size: 47/39-148&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;925 Sterling Silver Bracelet  &lt;/li&gt;
-&lt;li&gt;Carabiner Clasp  &lt;/li&gt;
-&lt;li&gt;Engraved Branding  &lt;/li&gt;
-&lt;li&gt;Handcrafted in Japan  &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Parkgate - Clip-On Optical + Sunglasses £295.00 Inspired by the world of rock climbing, this sterling silver bracelet features…]]></description><link>https://themavenist.comparkgate</link><guid isPermaLink="false">https://themavenist.comparkgate</guid><content:encoded>&lt;style&gt;
-@import url(&apos;https://fonts.googleapis.com/css2?family=Viga&amp;display=swap&apos;);
-@import url(&apos;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&amp;display=swap&apos;);
-
-h1, h2, h3, h4 {
-font-family: &apos;Viga&apos;, sans-serif;
-letter-spacing: 0.025rem;
-}
-
-p, li {
-font-family: &apos;Roboto Slab&apos;, serif;
-font-size: 0.95rem;
-font-weight: 500;
-}
-
-&lt;/style&gt;
-&lt;h3&gt;BELSTAFF&lt;/h3&gt;
-&lt;h4&gt;Parkgate - Clip-On Optical + Sunglasses&lt;/h4&gt;
-&lt;p&gt;£295.00&lt;/p&gt;
-&lt;p&gt;Inspired by the world of rock climbing, this sterling silver bracelet features branded logo engraving and traditional Iga braid construction.  &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;925 Sterling Silver Bracelet  &lt;/li&gt;
 &lt;li&gt;Carabiner Clasp  &lt;/li&gt;
@@ -81,32 +81,32 @@ h4 {
 
 @media (min-width: 768px) {
     p {
-        font-size: 1.25rem;
-        line-height: 1.75rem;
+        font-size: 1.15rem;
+        line-height: 1.7rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
     ul &gt; li {
-        font-size: 1.2rem;
-        line-height: 1.75rem;
+        font-size: 1.05rem;
+        line-height: 1.55rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
     h4 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
 
 @media (min-width: 1024px) {
     p {
-        font-size: 1.3rem;
-        line-height: 1.9rem;
+        font-size: 1.15rem;
+        line-height: 1.7rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
     ul &gt; li {
-        font-size: 1.3rem;
-        line-height: 1.9rem;
+        font-size: 1.05rem;
+        line-height: 1.55rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
@@ -114,10 +114,12 @@ h4 {
         font-size: 2rem;
     }
 }
+
 &lt;/style&gt;
 &lt;p&gt;The sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.
 collabs CDG/ Supreme/ Off White Ten collection&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Apparel article]]></title><description><![CDATA[The sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.
 collabs CDG/ Supreme/ Off…]]></description><link>https://themavenist.comapparel</link><guid isPermaLink="false">https://themavenist.comapparel</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
+
 @import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
@@ -146,32 +148,32 @@ h4 {
 
 @media (min-width: 768px) {
     p {
-        font-size: 1.25rem;
-        line-height: 1.75rem;
+        font-size: 1.15rem;
+        line-height: 1.7rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
     ul &gt; li {
-        font-size: 1.2rem;
-        line-height: 1.75rem;
+        font-size: 1.05rem;
+        line-height: 1.55rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
     h4 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
 
 @media (min-width: 1024px) {
     p {
-        font-size: 1.3rem;
-        line-height: 1.9rem;
+        font-size: 1.15rem;
+        line-height: 1.7rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
     ul &gt; li {
-        font-size: 1.3rem;
-        line-height: 1.9rem;
+        font-size: 1.05rem;
+        line-height: 1.55rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
@@ -213,32 +215,32 @@ h4 {
 
 @media (min-width: 768px) {
     p {
-        font-size: 1.25rem;
-        line-height: 1.75rem;
+        font-size: 1.15rem;
+        line-height: 1.7rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
     ul &gt; li {
-        font-size: 1.2rem;
-        line-height: 1.75rem;
+        font-size: 1.05rem;
+        line-height: 1.55rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
     h4 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
 
 @media (min-width: 1024px) {
     p {
-        font-size: 1.3rem;
-        line-height: 1.9rem;
+        font-size: 1.15rem;
+        line-height: 1.7rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
     ul &gt; li {
-        font-size: 1.3rem;
-        line-height: 1.9rem;
+        font-size: 1.05rem;
+        line-height: 1.55rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
@@ -250,6 +252,7 @@ h4 {
 &lt;/style&gt;
 &lt;p&gt;The sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.
 collabs CDG/ Supreme/ Off White Ten collection&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Another]]></title><description><![CDATA[Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever…]]></description><link>https://themavenist.comanother</link><guid isPermaLink="false">https://themavenist.comanother</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
+
 @import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
@@ -278,32 +281,32 @@ h4 {
 
 @media (min-width: 768px) {
     p {
-        font-size: 1.25rem;
-        line-height: 1.75rem;
+        font-size: 1.15rem;
+        line-height: 1.7rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
     ul &gt; li {
-        font-size: 1.2rem;
-        line-height: 1.75rem;
+        font-size: 1.05rem;
+        line-height: 1.55rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
     h4 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
 
 @media (min-width: 1024px) {
     p {
-        font-size: 1.3rem;
-        line-height: 1.9rem;
+        font-size: 1.15rem;
+        line-height: 1.7rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
     ul &gt; li {
-        font-size: 1.3rem;
-        line-height: 1.9rem;
+        font-size: 1.05rem;
+        line-height: 1.55rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
@@ -314,6 +317,7 @@ h4 {
 
 &lt;/style&gt;
 &lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Something about gardens]]></title><description><![CDATA[Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever…]]></description><link>https://themavenist.comgardens</link><guid isPermaLink="false">https://themavenist.comgardens</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
+
 @import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
@@ -342,32 +346,32 @@ h4 {
 
 @media (min-width: 768px) {
     p {
-        font-size: 1.25rem;
-        line-height: 1.75rem;
+        font-size: 1.15rem;
+        line-height: 1.7rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
     ul &gt; li {
-        font-size: 1.2rem;
-        line-height: 1.75rem;
+        font-size: 1.05rem;
+        line-height: 1.55rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
     h4 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
 
 @media (min-width: 1024px) {
     p {
-        font-size: 1.3rem;
-        line-height: 1.9rem;
+        font-size: 1.15rem;
+        line-height: 1.7rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
     ul &gt; li {
-        font-size: 1.3rem;
-        line-height: 1.9rem;
+        font-size: 1.05rem;
+        line-height: 1.55rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
@@ -407,32 +411,32 @@ h4 {
 
 @media (min-width: 768px) {
     p {
-        font-size: 1.25rem;
-        line-height: 1.75rem;
+        font-size: 1.15rem;
+        line-height: 1.7rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
     ul &gt; li {
-        font-size: 1.2rem;
-        line-height: 1.75rem;
+        font-size: 1.05rem;
+        line-height: 1.55rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
     h4 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
 
 @media (min-width: 1024px) {
     p {
-        font-size: 1.3rem;
-        line-height: 1.9rem;
+        font-size: 1.15rem;
+        line-height: 1.7rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 
     ul &gt; li {
-        font-size: 1.3rem;
-        line-height: 1.9rem;
+        font-size: 1.05rem;
+        line-height: 1.55rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
     }
 

@@ -10,32 +10,19 @@ const Header = () => {
     const { title } = data.site.siteMetadata  
     
     useEffect(() => {
-        if (typeof window !== 'undefined') {
 
+        if (typeof window !== 'undefined') {
             let prevScrollPos = window.pageYOffset;
 
             window.onscroll = () => {
                 let currScrollPos = window.pageYOffset
-
-                if(currScrollPos < 0) {
-                    currScrollPos = 0
-                }
-                // console.log('currPos', currScrollPos, 'prevPos', prevScrollPos)
-                // let deviceTop = currScrollPos-812
-                // console.log(deviceTop)
+                if(currScrollPos < 0) currScrollPos = 0
                 let head = document.querySelector('#head')
-                // let title = document.querySelector('#title')
-                if(currScrollPos <= prevScrollPos) {
-                    console.log('curr', currScrollPos, 'prev', prevScrollPos)
-                    head.style.top = `0`
-                } else {
-                    head.style.top = "-140px"
-                }
-
+                currScrollPos <= prevScrollPos ? head.style.top = `0` : head.style.top = "-140px"
                 prevScrollPos = currScrollPos
             }
         }
-
+        
     }, [])
 
     return (

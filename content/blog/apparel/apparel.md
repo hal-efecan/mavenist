@@ -11,6 +11,7 @@ image: ./converse_lead_postcard.jpg
 tags: ["Apparel", "Garms", "clothes"]
 ---
 <style>
+
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
@@ -39,32 +40,32 @@ h4 {
 
 @media (min-width: 768px) {
     p {
-        font-size: 1.25rem;
-        line-height: 1.75rem;
+        font-size: 1.15rem;
+        line-height: 1.7rem;
         font-family: 'Nunito', sans-serif;sans-serif;
     }
 
     ul > li {
-        font-size: 1.2rem;
-        line-height: 1.75rem;
+        font-size: 1.05rem;
+        line-height: 1.55rem;
         font-family: 'Nunito', sans-serif;sans-serif;
     }
 
     h4 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
 
 @media (min-width: 1024px) {
     p {
-        font-size: 1.3rem;
-        line-height: 1.9rem;
+        font-size: 1.15rem;
+        line-height: 1.7rem;
         font-family: 'Nunito', sans-serif;sans-serif;
     }
 
     ul > li {
-        font-size: 1.3rem;
-        line-height: 1.9rem;
+        font-size: 1.05rem;
+        line-height: 1.55rem;
         font-family: 'Nunito', sans-serif;sans-serif;
     }
 
