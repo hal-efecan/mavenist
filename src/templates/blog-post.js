@@ -39,7 +39,7 @@ const BlogPostTemplate = (props) => {
         </div>
 
         <Img fluid={fluid} style={{ maxWidth: "600px", margin: "0 auto 15px auto" }} />
-        <p className={postStyle.by_line}>{ author } { date }</p>
+        {/* <p className={postStyle.by_line}>{ author } { date }</p> */}
 
         <div 
         className={postStyle.container}

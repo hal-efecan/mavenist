@@ -16,6 +16,14 @@ tags: ["Apparel", "Garms", "clothes"]
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
 
+p:first-of-type:first-letter {
+    font-size: 1.75rem;
+    color: rgb(219, 51, 52);
+    padding-top: 30px;
+    padding-right: 8px;
+    padding-left: 3px
+}
+
 p {
     font-size: 0.9rem;
     line-height: 1.85rem;
@@ -39,6 +47,15 @@ h4 {
 }
 
 @media (min-width: 768px) {
+
+    p:first-of-type:first-letter {
+        font-size: 2.1rem;
+        color: rgb(219, 51, 52);
+        padding-top: 30px;
+        padding-right: 8px;
+        padding-left: 3px;
+    }
+
     p {
         font-size: 1.15rem;
         line-height: 1.7rem;
@@ -57,6 +74,15 @@ h4 {
 }
 
 @media (min-width: 1024px) {
+
+    p:first-of-type:first-letter {
+        font-size: 2.1rem;
+        color: rgb(219, 51, 52);
+        padding-top: 30px;
+        padding-right: 8px;
+        padding-left: 3px;
+    }
+
     p {
         font-size: 1.15rem;
         line-height: 1.7rem;

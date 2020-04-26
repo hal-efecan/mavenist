@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Mavenist]]></title><description><![CDATA[Digital fashion & lifestyle destination]]></description><link>https://themavenist.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 25 Apr 2020 15:50:05 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Marshall - Storm £195.00 A soft square with oval accents, hand crafted using a combination of beta titanium and Takrion Japanese…]]></description><link>https://themavenist.commarshall</link><guid isPermaLink="false">https://themavenist.commarshall</guid><content:encoded>&lt;style&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Mavenist]]></title><description><![CDATA[Digital fashion & lifestyle destination]]></description><link>https://themavenist.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 26 Apr 2020 20:50:44 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Marshall - Storm £195.00 A soft square with oval accents, hand crafted using a combination of beta titanium and Takrion Japanese…]]></description><link>https://themavenist.commarshall</link><guid isPermaLink="false">https://themavenist.commarshall</guid><content:encoded>&lt;style&gt;
 @import url(&apos;https://fonts.googleapis.com/css2?family=Viga&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&amp;display=swap&apos;);
 
@@ -50,12 +50,20 @@ font-weight: 500;
 &lt;li&gt;Carabiner Clasp  &lt;/li&gt;
 &lt;li&gt;Engraved Branding  &lt;/li&gt;
 &lt;li&gt;Handcrafted in Japan  &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Under the rader]]></title><description><![CDATA[The sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.
-collabs CDG/ Supreme/ Off…]]></description><link>https://themavenist.comaccessories</link><guid isPermaLink="false">https://themavenist.comaccessories</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Under the rader brands]]></title><description><![CDATA[In this article i’ll explore just some of my favourite brands. 
+Those that i think bring uniqueness in design or function. firstly - what…]]></description><link>https://themavenist.comaccessories</link><guid isPermaLink="false">https://themavenist.comaccessories</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
 
 @import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
+
+p:first-of-type:first-letter {
+    font-size: 1.75rem;
+    color: rgb(219, 51, 52);
+    padding-top: 30px;
+    padding-right: 8px;
+    padding-left: 3px
+}
 
 p {
     font-size: 0.9rem;
@@ -80,6 +88,15 @@ h4 {
 }
 
 @media (min-width: 768px) {
+
+    p:first-of-type:first-letter {
+        font-size: 2.1rem;
+        color: rgb(219, 51, 52);
+        padding-top: 30px;
+        padding-right: 8px;
+        padding-left: 3px;
+    }
+
     p {
         font-size: 1.15rem;
         line-height: 1.7rem;
@@ -98,6 +115,15 @@ h4 {
 }
 
 @media (min-width: 1024px) {
+
+    p:first-of-type:first-letter {
+        font-size: 2.1rem;
+        color: rgb(219, 51, 52);
+        padding-top: 30px;
+        padding-right: 8px;
+        padding-left: 3px;
+    }
+
     p {
         font-size: 1.15rem;
         line-height: 1.7rem;
@@ -116,13 +142,67 @@ h4 {
 }
 
 &lt;/style&gt;
-&lt;p&gt;The sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.
-collabs CDG/ Supreme/ Off White Ten collection&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Apparel article]]></title><description><![CDATA[The sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.
+&lt;p&gt;In this article i’ll explore just some of my favourite brands.
+Those that i think bring uniqueness in design or function.&lt;/p&gt;
+&lt;p&gt;firstly - what influenced me in writing this article in the first place was my fascination for
+japanese style. Not all brands listed below are japanese but they follow in a similar ilk.&lt;/p&gt;
+&lt;p&gt;This deep rooted fascination goes back to when i first
+watched the intro scene to Rockstar’s cult classic GTA2 back in ‘99.
+I rememeber like it was yesterday playing it on my packard bell PC that took up 90% of my
+precious desk space and GTA2 for the time equivalent in days playing the game.&lt;/p&gt;
+&lt;p&gt;It was the Yakuza that caught my eye with their full body koi fish tattoos.
+The 12 year old me was captivated to say the least.&lt;/p&gt;
+&lt;p&gt;I never did manage to pluck up the courage and get a full body tattoo myself…
+But where i lacked the the body art i made up for in the wardrobe department.&lt;/p&gt;
+&lt;p&gt;To kick things off i want to begin with my favourite eyewear brand that i believe epitomizes
+what for me is japanese cool - not to mention craftsmanship.&lt;/p&gt;
+&lt;h3&gt;Native Sons (Japan)&lt;/h3&gt;
+&lt;p&gt;My first purchase from the guys at NS was the Roy.
+it’s elegntly designed understated and checks all the boxes for me when it comes to proportions.
+It has a smaller shape by design with a narrow bridge making it suitable for those with smaller faces.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/B96YgR6Jx0t/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
+&lt;h3&gt;Wacko Maria (Japan)&lt;/h3&gt;
+&lt;p&gt;The next brand on my list is wacko maria. first appearing on the scene back in ‘05. What i go to WM
+for is their HAWAIIAN SHIRTs. you simply cannot beat the prints. they’re
+simply a masterclass in design - the visual equivelent to red velvet cake.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/B_Ug7T2pGjf/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
+&lt;h3&gt;Cote et ciel (France)&lt;/h3&gt;
+&lt;p&gt;when it comes to bags the first thing that any utilitarian shopper should look for is form &amp;#x26; function,
+and CEC have this in… well bags. CEC have been doing their thing since ‘08.
+When it comes to innovative designs that seemlessly bridge the gap between fashion and industral design
+then there’s simply no better candidate.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/Bea5l2GB2Wh/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
+&lt;h3&gt;Veilance (Canada)&lt;/h3&gt;
+&lt;p&gt;Another one of my favourite brands that flies under the radar for most is the Veilance line by the canadian
+outerwear brand Arcteryx.
+what Veilance does best is creating hybrid pieces that bridge the gap between
+classical mens tailored silhouettes and brings them into the 21st century with modern materials
+and construction. weather it’s using man made materials such as goretex who’s natural habitat is on
+climbers on cliff edges.
+Having the seems sealed make the garmets fully water proof - keeping you both dry and looking good
+when running to the grocery store in the urban ecosystem that is our city.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/Bj3eocrnaDh/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
+&lt;h3&gt;VisVim (Japan)&lt;/h3&gt;
+&lt;p&gt;And finally we come to VisVim
+focused on sourcing premium textiles which are then expertly crafted by blind nuns on the sidesteps of the himalayans..
+well not quite … but you get the idea.
+littered throughout collections are almost suggestive Navaho inspired touches such as the signature finged suede boots.&lt;/p&gt;
+&lt;p&gt;VisVim for me is what RL tried but ultimately failed to achieve with Double RL. And that’s saying something
+given the war chest that is usually accompanied by a RL sub-brand.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/B-gKIavDpGw/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Apparel article]]></title><description><![CDATA[The sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.
 collabs CDG/ Supreme/ Off…]]></description><link>https://themavenist.comapparel</link><guid isPermaLink="false">https://themavenist.comapparel</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
 
 @import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
+
+p:first-of-type:first-letter {
+    font-size: 1.75rem;
+    color: rgb(219, 51, 52);
+    padding-top: 30px;
+    padding-right: 8px;
+    padding-left: 3px
+}
 
 p {
     font-size: 0.9rem;
@@ -147,6 +227,15 @@ h4 {
 }
 
 @media (min-width: 768px) {
+
+    p:first-of-type:first-letter {
+        font-size: 2.1rem;
+        color: rgb(219, 51, 52);
+        padding-top: 30px;
+        padding-right: 8px;
+        padding-left: 3px;
+    }
+
     p {
         font-size: 1.15rem;
         line-height: 1.7rem;
@@ -165,6 +254,15 @@ h4 {
 }
 
 @media (min-width: 1024px) {
+
+    p:first-of-type:first-letter {
+        font-size: 2.1rem;
+        color: rgb(219, 51, 52);
+        padding-top: 30px;
+        padding-right: 8px;
+        padding-left: 3px;
+    }
+
     p {
         font-size: 1.15rem;
         line-height: 1.7rem;
@@ -191,6 +289,14 @@ collabs CDG/ Supreme/ Off…]]></description><link>https://themavenist.comsummer
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
 
+p:first-of-type:first-letter {
+    font-size: 1.75rem;
+    color: rgb(219, 51, 52);
+    padding-top: 30px;
+    padding-right: 8px;
+    padding-left: 3px
+}
+
 p {
     font-size: 0.9rem;
     line-height: 1.85rem;
@@ -214,6 +320,14 @@ h4 {
 }
 
 @media (min-width: 768px) {
+    p:first-of-type:first-letter {
+        font-size: 2.1rem;
+        color: rgb(219, 51, 52);
+        padding-top: 30px;
+        padding-right: 8px;
+        padding-left: 3px;
+    }
+
     p {
         font-size: 1.15rem;
         line-height: 1.7rem;
@@ -232,6 +346,15 @@ h4 {
 }
 
 @media (min-width: 1024px) {
+
+    p:first-of-type:first-letter {
+        font-size: 2.1rem;
+        color: rgb(219, 51, 52);
+        padding-top: 30px;
+        padding-right: 8px;
+        padding-left: 3px;
+    }
+
     p {
         font-size: 1.15rem;
         line-height: 1.7rem;
@@ -257,6 +380,14 @@ collabs CDG/ Supreme/ Off White Ten collection&lt;/p&gt;</content:encoded></item
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
 
+p:first-of-type:first-letter {
+    font-size: 1.75rem;
+    color: rgb(219, 51, 52);
+    padding-top: 30px;
+    padding-right: 8px;
+    padding-left: 3px
+}
+
 p {
     font-size: 0.9rem;
     line-height: 1.85rem;
@@ -280,6 +411,15 @@ h4 {
 }
 
 @media (min-width: 768px) {
+
+    p:first-of-type:first-letter {
+        font-size: 2.1rem;
+        color: rgb(219, 51, 52);
+        padding-top: 30px;
+        padding-right: 8px;
+        padding-left: 3px;
+    }
+
     p {
         font-size: 1.15rem;
         line-height: 1.7rem;
@@ -298,6 +438,15 @@ h4 {
 }
 
 @media (min-width: 1024px) {
+
+    p:first-of-type:first-letter {
+        font-size: 2.1rem;
+        color: rgb(219, 51, 52);
+        padding-top: 30px;
+        padding-right: 8px;
+        padding-left: 3px;
+    }
+
     p {
         font-size: 1.15rem;
         line-height: 1.7rem;
@@ -322,6 +471,14 @@ h4 {
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
 
+p:first-of-type:first-letter {
+    font-size: 1.75rem;
+    color: rgb(219, 51, 52);
+    padding-top: 30px;
+    padding-right: 8px;
+    padding-left: 3px
+}
+
 p {
     font-size: 0.9rem;
     line-height: 1.85rem;
@@ -345,6 +502,15 @@ h4 {
 }
 
 @media (min-width: 768px) {
+
+    p:first-of-type:first-letter {
+        font-size: 2.1rem;
+        color: rgb(219, 51, 52);
+        padding-top: 30px;
+        padding-right: 8px;
+        padding-left: 3px;
+    }
+
     p {
         font-size: 1.15rem;
         line-height: 1.7rem;
@@ -363,6 +529,15 @@ h4 {
 }
 
 @media (min-width: 1024px) {
+
+    p:first-of-type:first-letter {
+        font-size: 2.1rem;
+        color: rgb(219, 51, 52);
+        padding-top: 30px;
+        padding-right: 8px;
+        padding-left: 3px;
+    }
+
     p {
         font-size: 1.15rem;
         line-height: 1.7rem;
@@ -387,6 +562,14 @@ h4 {
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
 
+p:first-of-type:first-letter {
+    font-size: 1.75rem;
+    color: rgb(219, 51, 52);
+    padding-top: 30px;
+    padding-right: 8px;
+    padding-left: 3px
+}
+
 p {
     font-size: 0.9rem;
     line-height: 1.85rem;
@@ -410,7 +593,17 @@ h4 {
 }
 
 @media (min-width: 768px) {
+
+    p:first-of-type:first-letter {
+        font-size: 2.1rem;
+        color: rgb(219, 51, 52);
+        padding-top: 30px;
+        padding-right: 8px;
+        padding-left: 3px
+    }
+
     p {
+
         font-size: 1.15rem;
         line-height: 1.7rem;
         font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
@@ -428,6 +621,15 @@ h4 {
 }
 
 @media (min-width: 1024px) {
+
+    p:first-of-type:first-letter {
+        font-size: 2.1rem;
+        color: rgb(219, 51, 52);
+        padding-top: 30px;
+        padding-right: 8px;
+        padding-left: 3px
+    }
+
     p {
         font-size: 1.15rem;
         line-height: 1.7rem;
