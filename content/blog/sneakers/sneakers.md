@@ -1,6 +1,6 @@
 ---
 title: "Sneaker basics"
-path: "fashion/sneakers"
+path: footwear
 date: 12.06.87
 author: "Halil"
 section: "Footwear"

@@ -1,6 +1,6 @@
 ---
 title: "Something about gardens"
-path: "other/gardens"
+path: culture
 date: 13.04.20
 author: "Halil"
 section: "Other"

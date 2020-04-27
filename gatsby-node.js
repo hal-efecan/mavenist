@@ -42,13 +42,14 @@ exports.createPages = async ({ graphql, actions }) => {
 
   posts.forEach((post, index) => {
     // console.log('post~~~~~~', post)
+    // console.log('post~~~~~~', post.node.frontmatter.path)
     // console.log('slugggg', post.node.fields.slug)
     const previous = index === posts.length - 1 ? null : posts[index + 1].node
     const next = index === 0 ? null : posts[index - 1].node
-    
+
     if (post.node.frontmatter.type === 'product') {
       createPage({
-        path: `/product/${post.node.fields.slug}`,
+        path: `/${post.node.frontmatter.path}/${post.node.fields.slug}`,
         component: productPost,
         context: {
           slug: post.node.fields.slug,
@@ -56,7 +57,7 @@ exports.createPages = async ({ graphql, actions }) => {
       });
     } else {
       createPage({
-        path: `/post/${post.node.fields.slug}`,
+        path: `${post.node.frontmatter.path}/${post.node.fields.slug}`,
         component: blogPost,
         context: {
           slug: post.node.fields.slug,

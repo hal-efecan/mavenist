@@ -1,5 +1,6 @@
 ---
 sku: "sku_H2kDXunLS79uxz"
+path: product
 name: marshall
 type: product
 price: 19500

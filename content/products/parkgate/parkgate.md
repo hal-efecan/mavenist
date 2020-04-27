@@ -1,5 +1,6 @@
 ---
 sku: "sku_H31M5cmQdNFarw"
+path: product
 name: parkgate
 type: product
 price: 29500

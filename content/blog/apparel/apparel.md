@@ -1,6 +1,6 @@
 ---
 title: "Apparel article"
-path: "fashion/apparel"
+path: fashion
 date: 13.06.87
 author: "Halil"
 section: "Fashion"

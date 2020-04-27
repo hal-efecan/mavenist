@@ -1,6 +1,6 @@
 ---
 title: "Summer shirts"
-path: "fashion/shirts"
+path: fashion
 date: 13.06.87
 author: "Halil"
 section: "Fashion"

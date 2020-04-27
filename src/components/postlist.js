@@ -14,12 +14,12 @@ const PostList = () => {
             {
                 postsArr.map(post => {
                     const { frontmatter, id, excerpt, fields } = post.node
-                    const { title, image, section } = frontmatter
+                    const { title, image, section, path } = frontmatter
                     const { slug } = fields
                     const fluid = image.childImageSharp.fluid
 
                     return (
-                      <Link key={id} to={`/post/${slug}`} className={thumbStyles.link}>
+                      <Link key={id} to={`${path}/${slug}`} className={thumbStyles.link}>
 
                         <div className={thumbStyles.child_container}>
 

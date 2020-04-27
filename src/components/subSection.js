@@ -13,12 +13,12 @@ const SubSection = () => {
             {
               articles.map(article => {
                 const { id, frontmatter, excerpt, fields } = article.node
-                const { title, section, image } = frontmatter
+                const { title, section, image, path } = frontmatter
                 const { slug } = fields
                 const fluid = image.childImageSharp.fluid
 
                 return (
-                  <Link className={subsection.child_container} key={id} to={`/post/${slug}`}> 
+                  <Link className={subsection.child_container} key={id} to={`/${path}/${slug}`}> 
                         <div className={subsection.image_container}>
                           <Img fluid={fluid} />
                         </div>
