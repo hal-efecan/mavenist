@@ -20,6 +20,7 @@ div > .gatsby-resp-iframe-wrapper {
     width: 90%;
     padding-bottom: 155% !important;
     margin: 0 auto;
+    border: 1px solid #ccc;
 }
 
 iframe {
@@ -177,7 +178,7 @@ When it comes to innovative designs that seemlessly bridge the gap between fashi
 then there's simply no better candidate.
 
 
-![instagram](Bea5l2GB2Wh)
+![instagram](BdxwLFfBN3h)
 
 ### Veilance (Canada)
 
@@ -202,4 +203,4 @@ littered throughout collections are almost suggestive Navaho inspired touches su
 VisVim for me is what RL tried but ultimately failed to achieve with Double RL. And that's saying something 
 given the war chest that is usually accompanied by a RL sub-brand.
 
-![instagram](B-gKIavDpGw)
+![instagram](B18DCOJlqtp)
