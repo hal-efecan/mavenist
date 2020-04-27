@@ -3,11 +3,11 @@ title: "Under the rader brands"
 path: fashion
 date: 13.06.87
 author: "Halil"
-section: "Accessories"
+section: "Fashion"
 isHero: true
 parent: fashion
 type: post
-image: ./yakuza1.png
+image: ./yakuza.png
 tags: ["Apparel", "Garms", "clothes"]
 ---
 <style>
