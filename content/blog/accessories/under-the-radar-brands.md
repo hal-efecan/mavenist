@@ -16,6 +16,16 @@ tags: ["Apparel", "Garms", "clothes"]
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
 
+div > .gatsby-resp-iframe-wrapper {
+    width: 90%;
+    padding-bottom: 155% !important;
+    margin: 0 auto;
+}
+
+iframe {
+    height: 100% !important;
+}
+
 p:first-of-type:first-letter {
     font-size: 1.75rem;
     color: rgb(219, 51, 52);
@@ -48,6 +58,16 @@ h4 {
 
 @media (min-width: 768px) {
 
+    div > .gatsby-resp-iframe-wrapper {
+        width: 55%;
+        padding-bottom: 90% !important;
+        margin: 0 auto;
+    }
+
+    iframe {
+        height: 100% !important;
+    }
+
     p:first-of-type:first-letter {
         font-size: 2.1rem;
         color: rgb(219, 51, 52);
@@ -75,6 +95,16 @@ h4 {
 
 @media (min-width: 1024px) {
 
+    div > .gatsby-resp-iframe-wrapper {
+        width: 55%;
+        padding-bottom: 85% !important;
+        margin: 0 auto;
+    }
+
+    iframe {
+        height: 100% !important;
+    }
+
     p:first-of-type:first-letter {
         font-size: 2.1rem;
         color: rgb(219, 51, 52);
@@ -95,10 +125,11 @@ h4 {
         font-family: 'Nunito', sans-serif;sans-serif;
     }
 
-    h4 {
+    h3 {
         font-size: 2rem;
     }
 }
+
 
 </style>
 
@@ -128,7 +159,7 @@ My first purchase from the guys at NS was the Roy.
 it's elegntly designed understated and checks all the boxes for me when it comes to proportions.
 It has a smaller shape by design with a narrow bridge making it suitable for those with smaller faces.
 
-![instagram](B96YgR6Jx0t)
+![instagram](B_KJgLIjXU_)
 
 ### Wacko Maria (Japan)
 
@@ -136,7 +167,7 @@ The next brand on my list is wacko maria. first appearing on the scene back in '
 for is their HAWAIIAN SHIRTs. you simply cannot beat the prints. they're 
 simply a masterclass in design - the visual equivelent to red velvet cake.
 
-![instagram](B_Ug7T2pGjf)
+![instagram](Bg548PVANGJ)
 
 ### Cote et ciel (France)
 
@@ -159,7 +190,7 @@ climbers on cliff edges.
 Having the seems sealed make the garmets fully water proof - keeping you both dry and looking good
 when running to the grocery store in the urban ecosystem that is our city.
 
-![instagram](Bj3eocrnaDh)
+![instagram](BXyHdqmFqQz)
 
 ### VisVim (Japan)
 

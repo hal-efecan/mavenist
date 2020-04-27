@@ -58,8 +58,8 @@ module.exports = {
           {
             resolve: 'gatsby-remark-instagram-embed',
             options: {
-              width: 320,
-              height: 320,
+              maxWidth: 320,
+              maxHeight: 320,
             },
           },
           {
