@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Mavenist]]></title><description><![CDATA[Digital fashion & lifestyle destination]]></description><link>https://themavenist.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 29 Apr 2020 10:42:56 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Marshall - Storm £195.00 A soft square with oval accents, hand crafted using a combination of beta titanium and Takrion Japanese…]]></description><link>https://themavenist.commarshall</link><guid isPermaLink="false">https://themavenist.commarshall</guid><content:encoded>&lt;style&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Mavenist]]></title><description><![CDATA[Digital fashion & lifestyle destination]]></description><link>https://themavenist.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 29 Apr 2020 12:22:55 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Parkgate - Clip-On Optical + Sunglasses £295.00 Inspired by the world of rock climbing, this sterling silver bracelet features…]]></description><link>https://themavenist.comparkgate</link><guid isPermaLink="false">https://themavenist.comparkgate</guid><content:encoded>&lt;style&gt;
+@import url(&apos;https://fonts.googleapis.com/css2?family=Viga&amp;display=swap&apos;);
+@import url(&apos;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&amp;display=swap&apos;);
+
+h1, h2, h3, h4 {
+font-family: &apos;Viga&apos;, sans-serif;
+letter-spacing: 0.025rem;
+}
+
+p, li {
+font-family: &apos;Roboto Slab&apos;, serif;
+font-size: 0.95rem;
+font-weight: 500;
+}
+
+&lt;/style&gt;
+&lt;h3&gt;BELSTAFF&lt;/h3&gt;
+&lt;h4&gt;Parkgate - Clip-On Optical + Sunglasses&lt;/h4&gt;
+&lt;p&gt;£295.00&lt;/p&gt;
+&lt;p&gt;Inspired by the world of rock climbing, this sterling silver bracelet features branded logo engraving and traditional Iga braid construction.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;925 Sterling Silver Bracelet  &lt;/li&gt;
+&lt;li&gt;Carabiner Clasp  &lt;/li&gt;
+&lt;li&gt;Engraved Branding  &lt;/li&gt;
+&lt;li&gt;Handcrafted in Japan  &lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Marshall - Storm £195.00 A soft square with oval accents, hand crafted using a combination of beta titanium and Takrion Japanese…]]></description><link>https://themavenist.commarshall</link><guid isPermaLink="false">https://themavenist.commarshall</guid><content:encoded>&lt;style&gt;
 @import url(&apos;https://fonts.googleapis.com/css2?family=Viga&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&amp;display=swap&apos;);
 
@@ -20,31 +45,6 @@ font-weight: 500;
 &lt;p&gt;A soft square with oval accents, hand crafted using a combination of beta titanium and Takrion Japanese acetate. Featuring laser engraving and comotec hinges to produce a soft unisex frame with an 80s twist.&lt;/p&gt;
 &lt;p&gt;Material:  beta titanium &amp;#x26; Takrion Japanese acetate.
 Size: 47/39-148&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;925 Sterling Silver Bracelet  &lt;/li&gt;
-&lt;li&gt;Carabiner Clasp  &lt;/li&gt;
-&lt;li&gt;Engraved Branding  &lt;/li&gt;
-&lt;li&gt;Handcrafted in Japan  &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Parkgate - Clip-On Optical + Sunglasses £295.00 Inspired by the world of rock climbing, this sterling silver bracelet features…]]></description><link>https://themavenist.comparkgate</link><guid isPermaLink="false">https://themavenist.comparkgate</guid><content:encoded>&lt;style&gt;
-@import url(&apos;https://fonts.googleapis.com/css2?family=Viga&amp;display=swap&apos;);
-@import url(&apos;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&amp;display=swap&apos;);
-
-h1, h2, h3, h4 {
-font-family: &apos;Viga&apos;, sans-serif;
-letter-spacing: 0.025rem;
-}
-
-p, li {
-font-family: &apos;Roboto Slab&apos;, serif;
-font-size: 0.95rem;
-font-weight: 500;
-}
-
-&lt;/style&gt;
-&lt;h3&gt;BELSTAFF&lt;/h3&gt;
-&lt;h4&gt;Parkgate - Clip-On Optical + Sunglasses&lt;/h4&gt;
-&lt;p&gt;£295.00&lt;/p&gt;
-&lt;p&gt;Inspired by the world of rock climbing, this sterling silver bracelet features branded logo engraving and traditional Iga braid construction.  &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;925 Sterling Silver Bracelet  &lt;/li&gt;
 &lt;li&gt;Carabiner Clasp  &lt;/li&gt;
@@ -455,7 +455,7 @@ well not quite … but you get the idea.
 littered throughout collections are almost suggestive Navaho inspired touches such as the signature finged suede boots.&lt;/p&gt;
 &lt;p&gt;VisVim for me is what RL tried but ultimately failed to achieve with Double RL. And that’s saying something
 given the war chest that is usually accompanied by a RL sub-brand.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/B18DCOJlqtp/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Another]]></title><description><![CDATA[Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever…]]></description><link>https://themavenist.comanother</link><guid isPermaLink="false">https://themavenist.comanother</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/B18DCOJlqtp/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Something about gardens]]></title><description><![CDATA[Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever…]]></description><link>https://themavenist.comgardens</link><guid isPermaLink="false">https://themavenist.comgardens</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
 
 @import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
@@ -546,7 +546,7 @@ h4 {
 }
 
 &lt;/style&gt;
-&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Something about gardens]]></title><description><![CDATA[Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever…]]></description><link>https://themavenist.comgardens</link><guid isPermaLink="false">https://themavenist.comgardens</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
+&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Another]]></title><description><![CDATA[Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever…]]></description><link>https://themavenist.comanother</link><guid isPermaLink="false">https://themavenist.comanother</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
 
 @import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
@@ -643,6 +643,17 @@ h4 {
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
 
+div &gt; .gatsby-resp-iframe-wrapper {
+    width: 90%;
+    padding-bottom: 155% !important;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+iframe {
+    height: 100% !important;
+}
+
 p:first-of-type:first-letter {
     font-size: 1.75rem;
     color: rgb(219, 51, 52);
@@ -675,6 +686,16 @@ h4 {
 
 @media (min-width: 768px) {
 
+    div &gt; .gatsby-resp-iframe-wrapper {
+        width: 55%;
+        padding-bottom: 90% !important;
+        margin: 0 auto;
+    }
+
+    iframe {
+        height: 100% !important;
+    }
+
     p:first-of-type:first-letter {
         font-size: 2.1rem;
         color: rgb(219, 51, 52);
@@ -702,6 +723,16 @@ h4 {
 }
 
 @media (min-width: 1024px) {
+
+    div &gt; .gatsby-resp-iframe-wrapper {
+        width: 55%;
+        padding-bottom: 85% !important;
+        margin: 0 auto;
+    }
+
+    iframe {
+        height: 100% !important;
+    }
 
     p:first-of-type:first-letter {
         font-size: 2.1rem;
@@ -739,30 +770,7 @@ h4 {
 &lt;li&gt;&lt;strong&gt;&lt;em&gt;Function&lt;/em&gt;&lt;/strong&gt; - As mentioned they’ll be worn anywhere &amp;#x26; everywhere so should be comfortable at the very least.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;STAN SMITH&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGGuFyLMh//xAAYEAEBAQEBAAAAAAAAAAAAAAACAQADEf/aAAgBAQABBQIGtLmfNLZn1Tm//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAQUBAAAAAAAAAAAAAAAAAQACEBEhQf/aAAgBAQAGPwKgi5pwRhVcj//EABsQAQABBQEAAAAAAAAAAAAAAAFBABARIVFx/9oACAEBAAE/ITAZ7WvAJm2xQ8oEsAgt/9oADAMBAAIAAwAAABA8/wD/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEBAQADAQAAAAAAAAAAAAABEQAhQVFh/9oACAEBAAE/EEA8jh0XOZQ30vT91zipSNSnmM1yxgvuu//Z&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;adidas&quot;
-        title=&quot;adidas&quot;
-        src=&quot;/static/5e2ada2203818cf59554fadc4cf6b5a1/1c72d/stan_smith.jpg&quot;
-        srcset=&quot;/static/5e2ada2203818cf59554fadc4cf6b5a1/a80bd/stan_smith.jpg 148w,
-/static/5e2ada2203818cf59554fadc4cf6b5a1/1c91a/stan_smith.jpg 295w,
-/static/5e2ada2203818cf59554fadc4cf6b5a1/1c72d/stan_smith.jpg 590w,
-/static/5e2ada2203818cf59554fadc4cf6b5a1/a8a14/stan_smith.jpg 885w,
-/static/5e2ada2203818cf59554fadc4cf6b5a1/fbd2c/stan_smith.jpg 1180w,
-/static/5e2ada2203818cf59554fadc4cf6b5a1/6d280/stan_smith.jpg 5278w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BGtylyArieE/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Coming in at 5th of the list
 The most popular Adidas trainer of all time
 Raf Simons has a premium versions of the shoe
@@ -773,36 +781,7 @@ enduring appeal
 genrational transcendence
 KISS&lt;/p&gt;
 &lt;h4&gt;GAZELLE&lt;/h4&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/3e98604d6a342ae69c3ba54516392d9d/ada4d/gazelle_postcard.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQAD/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAATtUtUHk4//EABoQAAIDAQEAAAAAAAAAAAAAAAECABETAzH/2gAIAQEAAQUCzLvk45OjWssw+//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AYj/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAACAgMAAAAAAAAAAAAAAAAAARAxEUFR/9oACAEBAAY/AnjR1FRcf//EABkQAQEBAQEBAAAAAAAAAAAAAAERADFBEP/aAAgBAQABPyGY4U0yDSs8+Ko4pgPWbn//2gAMAwEAAgADAAAAEPw//8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8QKf/EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPxCoqP/EABsQAQADAQADAAAAAAAAAAAAAAEAESExYXGB/9oACAEBAAE/EEjukhYXdRSKWA6DbIDFCitCAB9IzWPpEJXvgn//2Q==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;gazelle&quot;
-        title=&quot;gazelle&quot;
-        src=&quot;/static/3e98604d6a342ae69c3ba54516392d9d/1c72d/gazelle_postcard.jpg&quot;
-        srcset=&quot;/static/3e98604d6a342ae69c3ba54516392d9d/a80bd/gazelle_postcard.jpg 148w,
-/static/3e98604d6a342ae69c3ba54516392d9d/1c91a/gazelle_postcard.jpg 295w,
-/static/3e98604d6a342ae69c3ba54516392d9d/1c72d/gazelle_postcard.jpg 590w,
-/static/3e98604d6a342ae69c3ba54516392d9d/ada4d/gazelle_postcard.jpg 684w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BGEpFFarie2/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;The Gallagher brothers would constantly be seen wearing the classic 3 stripes trainer with the Gazelle featuring in a variety of Britpop music videos from the era.
 white rubber midsole
 has a long history dating back to the middle 60s
@@ -810,35 +789,7 @@ pretty much continuous production for 50 years
 Although the Gazelle was built on a track shoe last, adidas went on to test the shoe with the West German national football team and top international handball players which would suggest a more general purpose athletic model.&lt;/p&gt;
 &lt;p&gt;But for me one word to describe 90s Gazelle would be ‘memories’. They conjure up images of acid jazz clubs, hip-hop, Cool Britannia, Madonna in head to toe adidas, New Labour, Loaded magazine, Martin Clunes in Men Behaving Badly, Lad Culture, Ministry of Sound, Oasis and the Britpop bands, Bleached blond Robbie Williams in adidas tracksuits, the Spice Girls and lest we not forget David Baddiel wearing Gazelle in the Three Lions video for Euro ‘96 – and with it being it being twenty years on from then, what better way to celebrate the Euros in Paris than with a piece of iconic 90s culture.&lt;/p&gt;
 &lt;h4&gt;CONVERSE ALL STAR&lt;/h4&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 515px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/b5fda74e2ae0dd1ace07053230b538ed/f1bff/converse_mid_postcard.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAXy1aOFh/8QAGRABAAMBAQAAAAAAAAAAAAAAAQACAxIR/9oACAEBAAEFAtLVcc0NuicEKhPJ/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHRAAAQIHAAAAAAAAAAAAAAAAAAEQAgMRMUFxc//aAAgBAQAGPwKNK4JXMuyab//EABwQAAICAgMAAAAAAAAAAAAAAAABEWEQIVGB8P/aAAgBAQABPyGMmQ8n5sri4Rz0KsP/2gAMAwEAAgADAAAAEOPP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxABAAMBAAMAAAAAAAAAAAAAAQARITFBYXH/2gAIAQEAAT8QNTp0D57GazDRexftH3JTeREQlBF0UasHuJXZ/9k=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;converse&quot;
-        title=&quot;converse&quot;
-        src=&quot;/static/b5fda74e2ae0dd1ace07053230b538ed/f1bff/converse_mid_postcard.jpg&quot;
-        srcset=&quot;/static/b5fda74e2ae0dd1ace07053230b538ed/a80bd/converse_mid_postcard.jpg 148w,
-/static/b5fda74e2ae0dd1ace07053230b538ed/1c91a/converse_mid_postcard.jpg 295w,
-/static/b5fda74e2ae0dd1ace07053230b538ed/f1bff/converse_mid_postcard.jpg 515w&quot;
-        sizes=&quot;(max-width: 515px) 100vw, 515px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/B2ZVoCEhvIw/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;heavy grade canvas
 CDG Play Chucks
 enduring appeal
@@ -846,37 +797,7 @@ Converse shoes are distinguished by a number of features, including the company�
 basketball &amp;#x26; skating culture
 was initially developed as a basketball shoe in the early 20th century. The design of the Chuck Taylor All Star has remained largely unchanged since its introduction in the 1920s. The shoe consists of a stitched upper portion, a toe cap that is usually made of white rubber, and a sole that is usually made of brown rubber. Although Chuck Taylors are made of various materials such as leather, the original and most widely known version of the shoe is made from cotton canvas&lt;/p&gt;
 &lt;h4&gt;NIKE BLAZER MID ‘77&lt;/h4&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/feb85aadd20a2565282c122aa680d5b3/b6249/nike_blazer_mid_postcard.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAAB0IU4Vlwv/8QAGBABAQEBAQAAAAAAAAAAAAAAAREAISL/2gAIAQEAAQUChhKsb7dzf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAQABBQAAAAAAAAAAAAAAAAAxARASIUH/2gAIAQEABj8CYzW3G0P/xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhMXFBYf/aAAgBAQABPyEazGJajhWoyFaggUWfUgUyX5OE/9oADAMBAAIAAwAAABDr7//EABcRAAMBAAAAAAAAAAAAAAAAAAEQEUH/2gAIAQMBAT8QE1f/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxBX/8QAGxABAQEAAwEBAAAAAAAAAAAAAREAITFhoUH/2gAIAQEAAT8QRAqLcARDhCnpejG1tSnT9zAQP0J91B4jg0y//9k=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;nik blazer&quot;
-        title=&quot;nik blazer&quot;
-        src=&quot;/static/feb85aadd20a2565282c122aa680d5b3/1c72d/nike_blazer_mid_postcard.jpg&quot;
-        srcset=&quot;/static/feb85aadd20a2565282c122aa680d5b3/a80bd/nike_blazer_mid_postcard.jpg 148w,
-/static/feb85aadd20a2565282c122aa680d5b3/1c91a/nike_blazer_mid_postcard.jpg 295w,
-/static/feb85aadd20a2565282c122aa680d5b3/1c72d/nike_blazer_mid_postcard.jpg 590w,
-/static/feb85aadd20a2565282c122aa680d5b3/a8a14/nike_blazer_mid_postcard.jpg 885w,
-/static/feb85aadd20a2565282c122aa680d5b3/b6249/nike_blazer_mid_postcard.jpg 922w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/B_cl5Ouq7PI/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Recalling the slimline design cues of the 1977 Blazer, Nike call upon the seasoned hardwood legend for a ‘77 rewrite in ‘Habenero Red’. One of the hi-top’s first ever colourways, bold red covers the Swoosh in block colour; wrapping over its smooth leather uppers, while textured suedes guard the forefoot. An icon on and off the court, the Blazer is back; retro to the core with OG accents fully intact.
 The Nike Blazer was first released in 1973 as Nike’s best basketball sneaker
 The first Nike basketball shoe to carry the Swoosh,
@@ -885,35 +806,7 @@ It’s a simple shoe to this day, beloved for its simplicity
 As basketball players left the Blazer behind, skaters took ownership of the sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.
 collabs CDG/ Supreme/ Off White Ten collection&lt;/p&gt;
 &lt;h4&gt;VANS OLD SKOOL&lt;/h4&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 487px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/aded61c3ae46e98af34d7004943e773e/f67dd/vans_postcard.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgAE/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQP/2gAMAwEAAhADEAAAAcY2EROlT//EABoQAAIDAQEAAAAAAAAAAAAAAAARAQISAyH/2gAIAQEAAQUCwyaWxHKiR4z/xAAXEQEAAwAAAAAAAAAAAAAAAAAAARJR/9oACAEDAQE/AVox/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAESUf/aAAgBAgEBPwFSdf/EABsQAAIBBQAAAAAAAAAAAAAAAAAQEQEhMWFx/9oACAEBAAY/AiMwXot9X//EABsQAAMAAwEBAAAAAAAAAAAAAAABESExQWGh/9oACAEBAAE/IV3TnWuFjHYSMjF6HFx/A1qn/9oADAMBAAIAAwAAABDH7//EABcRAAMBAAAAAAAAAAAAAAAAAAEQITH/2gAIAQMBAT8QoxL/xAAXEQEBAQEAAAAAAAAAAAAAAAABABEx/9oACAECAQE/EHHsy//EAB0QAQADAAEFAAAAAAAAAAAAAAEAESFRMWGRsdH/2gAIAQEAAT8QzG7VD2YAiaojtfe06CA13ZwKuHalDlFCI8OZaAQKuhn/2Q==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;vans old skools&quot;
-        title=&quot;vans old skools&quot;
-        src=&quot;/static/aded61c3ae46e98af34d7004943e773e/f67dd/vans_postcard.jpg&quot;
-        srcset=&quot;/static/aded61c3ae46e98af34d7004943e773e/a80bd/vans_postcard.jpg 148w,
-/static/aded61c3ae46e98af34d7004943e773e/1c91a/vans_postcard.jpg 295w,
-/static/aded61c3ae46e98af34d7004943e773e/f67dd/vans_postcard.jpg 487w&quot;
-        sizes=&quot;(max-width: 487px) 100vw, 487px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BmyepFegWhl/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;The classic style is summer’s most democratic shoe
 The trick, it would seem, is in the sneaker’s simple yet instantly recognizable design: a low-top shoe with traditional laces, done in suede and canvas with clean white outsoles.
 The Old Skool was first introduced by Vans in 1977, and was the first design to feature the brand’s iconic side stripe, which has become a hallmark design characteristic for the brand.

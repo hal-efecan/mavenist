@@ -17,6 +17,17 @@ tags: ["sneakers", "trainers", "kicks"]
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
 
+div > .gatsby-resp-iframe-wrapper {
+    width: 90%;
+    padding-bottom: 155% !important;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+iframe {
+    height: 100% !important;
+}
+
 p:first-of-type:first-letter {
     font-size: 1.75rem;
     color: rgb(219, 51, 52);
@@ -49,6 +60,16 @@ h4 {
 
 @media (min-width: 768px) {
 
+    div > .gatsby-resp-iframe-wrapper {
+        width: 55%;
+        padding-bottom: 90% !important;
+        margin: 0 auto;
+    }
+
+    iframe {
+        height: 100% !important;
+    }
+
     p:first-of-type:first-letter {
         font-size: 2.1rem;
         color: rgb(219, 51, 52);
@@ -76,6 +97,16 @@ h4 {
 }
 
 @media (min-width: 1024px) {
+
+    div > .gatsby-resp-iframe-wrapper {
+        width: 55%;
+        padding-bottom: 85% !important;
+        margin: 0 auto;
+    }
+
+    iframe {
+        height: 100% !important;
+    }
 
     p:first-of-type:first-letter {
         font-size: 2.1rem;
@@ -116,7 +147,7 @@ When it comes to my sneaker philosophy it’s that every guy should have a core 
 
 #### STAN SMITH
 
-[![adidas](./stan_smith.jpg)](#)
+![instagram](BGtylyArieE)
 
 Coming in at 5th of the list
 The most popular Adidas trainer of all time
@@ -130,7 +161,7 @@ KISS
 
 #### GAZELLE
 
-![gazelle](./gazelle_postcard.jpg)
+![instagram](BGEpFFarie2)
 
 The Gallagher brothers would constantly be seen wearing the classic 3 stripes trainer with the Gazelle featuring in a variety of Britpop music videos from the era.
 white rubber midsole
@@ -142,7 +173,7 @@ But for me one word to describe 90s Gazelle would be ‘memories’. They conjur
 
 #### CONVERSE ALL STAR
 
-![converse](./converse_mid_postcard.jpg)
+![instagram](B2ZVoCEhvIw)
 
 heavy grade canvas
 CDG Play Chucks
@@ -153,7 +184,7 @@ was initially developed as a basketball shoe in the early 20th century. The desi
 
 #### NIKE BLAZER MID '77
 
-![nik blazer](./nike_blazer_mid_postcard.jpg)
+![instagram](B_cl5Ouq7PI)
 
 Recalling the slimline design cues of the 1977 Blazer, Nike call upon the seasoned hardwood legend for a '77 rewrite in ‘Habenero Red’. One of the hi-top’s first ever colourways, bold red covers the Swoosh in block colour; wrapping over its smooth leather uppers, while textured suedes guard the forefoot. An icon on and off the court, the Blazer is back; retro to the core with OG accents fully intact.
 The Nike Blazer was first released in 1973 as Nike’s best basketball sneaker
@@ -165,7 +196,7 @@ collabs CDG/ Supreme/ Off White Ten collection
 
 #### VANS OLD SKOOL
 
-![vans old skools](./vans_postcard.jpg)
+![instagram](BmyepFegWhl)
 
 The classic style is summer’s most democratic shoe
 The trick, it would seem, is in the sneaker’s simple yet instantly recognizable design: a low-top shoe with traditional laces, done in suede and canvas with clean white outsoles.
