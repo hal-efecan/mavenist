@@ -125,17 +125,15 @@ he has some expertly curated photographs that i like to visit everynow and then.
 
 ### Lord_Edwin
 
-![instagram](9uo0ZRotpD)
+<!-- ![instagram](9uo0ZRotpD) -->
 
-<!-- ![instagram](Bb-VOXYhIyP) -->
+![instagram](BGCwaZmItua)
 
 
 next on the list is another photorapher - lord_edwin. 
 lots of photos of stars from the worlds of music and fashion.
 
 ### The Brilliance - Benjamin, Chuck & Virgil
-
-<!-- ![instagram](BZ4odR0F5bK) -->
 
 ![instagram](BW3gMeKlC6i)
 
