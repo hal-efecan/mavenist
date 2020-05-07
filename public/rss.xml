@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Mavenist]]></title><description><![CDATA[Digital fashion & lifestyle destination]]></description><link>https://themavenist.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 06 May 2020 22:33:01 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Marshall - Storm £195.00 A soft square with oval accents, hand crafted using a combination of beta titanium and Takrion Japanese…]]></description><link>https://themavenist.commarshall</link><guid isPermaLink="false">https://themavenist.commarshall</guid><content:encoded>&lt;style&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Mavenist]]></title><description><![CDATA[Digital fashion & lifestyle destination]]></description><link>https://themavenist.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 07 May 2020 14:05:50 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Parkgate - Clip-On Optical + Sunglasses £295.00 Inspired by the world of rock climbing, this sterling silver bracelet features…]]></description><link>https://themavenist.comparkgate</link><guid isPermaLink="false">https://themavenist.comparkgate</guid><content:encoded>&lt;style&gt;
+@import url(&apos;https://fonts.googleapis.com/css2?family=Viga&amp;display=swap&apos;);
+@import url(&apos;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&amp;display=swap&apos;);
+
+h1, h2, h3, h4 {
+font-family: &apos;Viga&apos;, sans-serif;
+letter-spacing: 0.025rem;
+}
+
+p, li {
+font-family: &apos;Roboto Slab&apos;, serif;
+font-size: 0.95rem;
+font-weight: 500;
+}
+
+&lt;/style&gt;
+&lt;h3&gt;BELSTAFF&lt;/h3&gt;
+&lt;h4&gt;Parkgate - Clip-On Optical + Sunglasses&lt;/h4&gt;
+&lt;p&gt;£295.00&lt;/p&gt;
+&lt;p&gt;Inspired by the world of rock climbing, this sterling silver bracelet features branded logo engraving and traditional Iga braid construction.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;925 Sterling Silver Bracelet  &lt;/li&gt;
+&lt;li&gt;Carabiner Clasp  &lt;/li&gt;
+&lt;li&gt;Engraved Branding  &lt;/li&gt;
+&lt;li&gt;Handcrafted in Japan  &lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Marshall - Storm £195.00 A soft square with oval accents, hand crafted using a combination of beta titanium and Takrion Japanese…]]></description><link>https://themavenist.commarshall</link><guid isPermaLink="false">https://themavenist.commarshall</guid><content:encoded>&lt;style&gt;
 @import url(&apos;https://fonts.googleapis.com/css2?family=Viga&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&amp;display=swap&apos;);
 
@@ -20,31 +45,6 @@ font-weight: 500;
 &lt;p&gt;A soft square with oval accents, hand crafted using a combination of beta titanium and Takrion Japanese acetate. Featuring laser engraving and comotec hinges to produce a soft unisex frame with an 80s twist.&lt;/p&gt;
 &lt;p&gt;Material:  beta titanium &amp;#x26; Takrion Japanese acetate.
 Size: 47/39-148&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;925 Sterling Silver Bracelet  &lt;/li&gt;
-&lt;li&gt;Carabiner Clasp  &lt;/li&gt;
-&lt;li&gt;Engraved Branding  &lt;/li&gt;
-&lt;li&gt;Handcrafted in Japan  &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Parkgate - Clip-On Optical + Sunglasses £295.00 Inspired by the world of rock climbing, this sterling silver bracelet features…]]></description><link>https://themavenist.comparkgate</link><guid isPermaLink="false">https://themavenist.comparkgate</guid><content:encoded>&lt;style&gt;
-@import url(&apos;https://fonts.googleapis.com/css2?family=Viga&amp;display=swap&apos;);
-@import url(&apos;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&amp;display=swap&apos;);
-
-h1, h2, h3, h4 {
-font-family: &apos;Viga&apos;, sans-serif;
-letter-spacing: 0.025rem;
-}
-
-p, li {
-font-family: &apos;Roboto Slab&apos;, serif;
-font-size: 0.95rem;
-font-weight: 500;
-}
-
-&lt;/style&gt;
-&lt;h3&gt;BELSTAFF&lt;/h3&gt;
-&lt;h4&gt;Parkgate - Clip-On Optical + Sunglasses&lt;/h4&gt;
-&lt;p&gt;£295.00&lt;/p&gt;
-&lt;p&gt;Inspired by the world of rock climbing, this sterling silver bracelet features branded logo engraving and traditional Iga braid construction.  &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;925 Sterling Silver Bracelet  &lt;/li&gt;
 &lt;li&gt;Carabiner Clasp  &lt;/li&gt;
@@ -455,7 +455,9 @@ well not quite … but you get the idea.
 littered throughout collections are almost suggestive Navaho inspired touches such as the signature finged suede boots.&lt;/p&gt;
 &lt;p&gt;VisVim for me is what RL tried but ultimately failed to achieve with Double RL. And that’s saying something
 given the war chest that is usually accompanied by a RL sub-brand.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/B18DCOJlqtp/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Pug Life]]></title><description><![CDATA[Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever…]]></description><link>https://themavenist.compug-life</link><guid isPermaLink="false">https://themavenist.compug-life</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/B18DCOJlqtp/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Pug Life - Some thoughts on fashion]]></title><description><![CDATA[I’d like to say that my career has been a fulfilling one - but it’s hard to find fulfillment
+in dressing the obnoxiously rich for a living…]]></description><link>https://themavenist.compug-life</link><guid isPermaLink="false">https://themavenist.compug-life</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
+
 
 @import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
@@ -546,7 +548,56 @@ h4 {
 }
 
 &lt;/style&gt;
-&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tastemakers to follow]]></title><description><![CDATA[i’ve compiled a list of some of my favourite thought and style inspiring tastemakers that i visit every
+&lt;p&gt;I’d like to say that my career has been a fulfilling one - but it’s hard to find fulfillment
+in dressing the obnoxiously rich for a living.&lt;/p&gt;
+&lt;p&gt;I’ve worked in a variety of roles and businesses in luxury over the past decade.&lt;/p&gt;
+&lt;p&gt;I would like to think that this bredth of experience has taught me a thing or two which allows me to speak
+to what i know to be true. &lt;/p&gt;
+&lt;p&gt;i’ve gone from retail to wholesale and back again.
+my career has been spent between soho and mayfair.
+From london to paris to milan and everything in between.&lt;/p&gt;
+&lt;p&gt;from humble beginings of selling denim on the shop floor
+to buying brands for a luxury department store
+to running the commerial product of arguably the most recognisable global retailing juggernaut
+i’ve helped develope the architecture of seasonal collections for a british heritage brand
+to buying 20K diamond encrusted suits for a global “fashion house”&lt;/p&gt;
+&lt;p&gt;theres a continual debate that’s been going on in fashion circles since the beggining of time &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;is fashion an art or a business?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;the short answer is - it’s a bit of both.&lt;/p&gt;
+&lt;p&gt;which is what makes fashion all the more interesting. If you’re interested in pretty things then your interest
+is likely to have peaked - If on the other hand you’re interested in underlying consumer behaviour
+and to gain a deeper understanding of what sparks a trends (and ultimately kill them) then read on.&lt;/p&gt;
+&lt;p&gt;what comes first the chicken or the egg?  &lt;/p&gt;
+&lt;p&gt;The  industry employs hundereds of thousands of people  along the supply chain
+which can only be sustained through profitable operations.&lt;/p&gt;
+&lt;p&gt;the problem arises when commercial considerations start to outweigh the need to be original.
+As a purist and someone who likes to believe in the art of fashion.&lt;/p&gt;
+&lt;p&gt;i feel that fashion has strayed far along the spectrum and is mostly about commercial success rather than
+creative.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;i find words a hard medium to explain the feeling of putting on crisp new suit or fresh pair of sneakers.&lt;/li&gt;
+&lt;li&gt;instagram i feel has dumbed down fashion to the extent that most never really get a true understanding of what fashion really is.&lt;/li&gt;
+&lt;li&gt;what emotions does a picture really invoke other than - “that looks nice” or “thats cool”?&lt;/li&gt;
+&lt;li&gt;this i belive has contributed to fashion losing it’s very essense&lt;/li&gt;
+&lt;li&gt;images i find are part of the problem when it comes to product. They capture a moment but not the feeling.
+this is where words take on meaning to transport the buyer into who i am and what i find value in.&lt;/li&gt;
+&lt;li&gt;the typical luxury fashion customer tends to buy, not out of nessecity but out of compulsion, bordom and
+arguably addiction.&lt;/li&gt;
+&lt;li&gt;when you see the delivery of you’re new package at your front door you inevitably get a hit of endorphins
+that elevats your relief.
+fashion is simply a manifestation of the human condition.&lt;/li&gt;
+&lt;li&gt;value is something that i look for. something i will be alot of use from in these times of fast fashion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If anyone tries to convince you otherwise - they’re either young and just starting out or old and make money
+from the peddling the illusion of art from the covers of the glossy magazines selling a dream to those
+hungry to have it. &lt;/p&gt;
+&lt;p&gt;It almost always begins as art but soon after the tentacles of capitalism begin to suffocate the creativity.&lt;/p&gt;
+&lt;p&gt;its a constant struggle - trying to drive change and create newness while at the same time making sure
+that you don’t alientate your existing cleintelle.&lt;/p&gt;
+&lt;p&gt;a perfect case study would be that of Brioni 2017. &lt;/p&gt;
+&lt;p&gt;as much as i know the tools used to market a lifestyle brand i still cannot resist buying more.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tastemakers to follow]]></title><description><![CDATA[i’ve compiled a list of some of my favourite thought and style inspiring tastemakers that i visit every
 now and again on instagram. 1st…]]></description><link>https://themavenist.comtastemakers-to-follow</link><guid isPermaLink="false">https://themavenist.comtastemakers-to-follow</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
 
 @import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
