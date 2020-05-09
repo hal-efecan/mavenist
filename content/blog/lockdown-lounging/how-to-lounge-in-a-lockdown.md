@@ -16,14 +16,6 @@ tags: ["Apparel", "Garms", "clothes"]
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
 
-p:first-of-type:first-letter {
-    font-size: 1.75rem;
-    color: rgb(219, 51, 52);
-    padding-top: 30px;
-    padding-right: 8px;
-    padding-left: 3px
-}
-
 p {
     font-size: 0.9rem;
     line-height: 1.85rem;
@@ -48,14 +40,6 @@ h4 {
 
 @media (min-width: 768px) {
 
-    p:first-of-type:first-letter {
-        font-size: 2.1rem;
-        color: rgb(219, 51, 52);
-        padding-top: 30px;
-        padding-right: 8px;
-        padding-left: 3px;
-    }
-
     p {
         font-size: 1.15rem;
         line-height: 1.7rem;
@@ -74,14 +58,6 @@ h4 {
 }
 
 @media (min-width: 1024px) {
-
-    p:first-of-type:first-letter {
-        font-size: 2.1rem;
-        color: rgb(219, 51, 52);
-        padding-top: 30px;
-        padding-right: 8px;
-        padding-left: 3px;
-    }
 
     p {
         font-size: 1.15rem;
@@ -103,24 +79,28 @@ h4 {
 </style>
 
 If there's one thing that we're all guilty of lately, it's lounging.
-i for one have felt like i've been in an abyss of state sanctioned nothingness ever since big brother
+i for one have felt like i've been in a state sanctioned blackhole ever since big brother
 advised us not leave our homes.
 
-I dont even know what day it is - monday? wednesday? sunday? does it even matter? 
+I dont even know what day it is - monday? wednesday? Does time even exist in the fourth dimesion?
+
+---
 
 this morning,
-like most mornings this past month i start my day by prepping my black filter or as i like to call it - wake up juice
+like most mornings this month i started my day by prepping my filter.
 
-morning brew in hand i start my migration
-like a lone wildebeast navigating through the masai mara
-in search of the preverbial green pasture that is my sofa -
+brew in hand i begin my migration - 
+a lone wildebeast navigating through the masai mara
+in search of the preverbial green pasture of my sofa.
 
-instead of a lion i have to carefully shuffle past my cat 
-while she relentlessly attacks my anckles.
+though instead of a lion i have a smaller yet just as dangerous obstacle to contend with
+Raisin my cat - more mischevious than the name would suggest 
+she attacks my anckles while i try to shuffle past.
+
+---
 
 this mornings entertainment - Naked Gun.
-half way through 
-i get to the scene where Frank the inept 
+half way through i get to the scene where Frank the inept 
 police detective says - "do you mind if i slip into something a little more comfortable" 
 Queue the comical misdirection - Frank goes off and comes back with a dapper sartorial ensemble that 
 would give Donald Draper a run for his money. 
@@ -132,14 +112,13 @@ paired with a light grey sweatpant from Asos.
 i can't help but think it's about time i upped my lounge game & got myself a "grown up" pair of PJs.
 
 I havent owned a pair in a while. Come to think the last time i owned a set was when i was 11.
-black, yellow and red - Lion King set with a prominent Simba print on the front.
-A strong look even back then.
+a Lion King set with a prominent Simba print on the front.
 
-i always wanted to "graduate" from pyjamas as a child
+i always wanted to graduate from pyjamas as a child
 and what better time than when i started secondary school. I subbed the PJs for a t-shirt/short combo and
 that was that.
 
-fast forward 20 years and here i am full circle, on the hunt for PJs. 
+fast forward 20 years and here i am full circle, back on the hunt for PJs. 
 
 heres a shortlist of PJ's that's caught my attention.
 

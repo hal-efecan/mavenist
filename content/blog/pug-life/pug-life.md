@@ -13,18 +13,9 @@ tags: ["Apparel", "Garms", "clothes"]
 ---
 <style>
 
-
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
-
-p:first-of-type:first-letter {
-    font-size: 1.75rem;
-    color: rgb(219, 51, 52);
-    padding-top: 30px;
-    padding-right: 8px;
-    padding-left: 3px
-}
 
 p {
     font-size: 0.9rem;
@@ -50,14 +41,6 @@ h4 {
 
 @media (min-width: 768px) {
 
-    p:first-of-type:first-letter {
-        font-size: 2.1rem;
-        color: rgb(219, 51, 52);
-        padding-top: 30px;
-        padding-right: 8px;
-        padding-left: 3px;
-    }
-
     p {
         font-size: 1.15rem;
         line-height: 1.7rem;
@@ -76,14 +59,6 @@ h4 {
 }
 
 @media (min-width: 1024px) {
-
-    p:first-of-type:first-letter {
-        font-size: 2.1rem;
-        color: rgb(219, 51, 52);
-        padding-top: 30px;
-        padding-right: 8px;
-        padding-left: 3px;
-    }
 
     p {
         font-size: 1.15rem;
@@ -104,68 +79,57 @@ h4 {
 
 </style>
 
-I'd like to say that my career has been a fulfilling one - but it's hard to find fulfillment
-in dressing the obnoxiously rich for a living.
+Firstly if you thought this article was about pugs then im sorry to dissapoint 
+- i stumbled upon this bad boy and it just spoke to me on many levels.
+maybe it the was the vacant look in his eyes that reminded me of sitting in design reviews
+or the equally painful monday trade meetings.
+what ever it was - it epitomized what it feels like to work in the emotionally draining but 
+ultimatly fun world of fashion.
 
-I've worked in a variety of roles and businesses in luxury over the past decade.
-
-I would like to think that this bredth of experience has taught me a thing or two which allows me to speak 
-to what i know to be true. 
-
-i've gone from retail to wholesale and back again. 
-my career has been spent between soho and mayfair.
-From london to paris to milan and everything in between.
-
-from humble beginings of selling denim on the shop floor 
-to buying brands for a luxury department store
-to running the commerial product of arguably the most recognisable global retailing juggernaut
-i've helped develope the architecture of seasonal collections for a british heritage brand
-to buying 20K diamond encrusted suits for a global "fashion house"
-
-theres a continual debate that's been going on in fashion circles since the beggining of time 
-
+there's a continual debate that's been going on in fashion circles since the begining of time (well.. almost) 
 - is fashion an art or a business?
 
-the short answer is - it's a bit of both.
+spoiler - the short answer - it's a bit of both
 
-which is what makes fashion all the more interesting. If you're interested in pretty things then your interest
-is likely to have peaked - If on the other hand you're interested in underlying consumer behaviour
-and to gain a deeper understanding of what sparks a trends (and ultimately kill them) then read on.
+i'm arguing that
+because of the pace at which we now consume it has brought us to the point where creativity 
+has simply become forced.
 
-what comes first the chicken or the egg?  
+It's like talking to that one friend for the 10th time this week - there comes a point where you have nothing
+more to say.
 
-The  industry employs hundereds of thousands of people  along the supply chain 
-which can only be sustained through profitable operations.
+cue the blood sucking souls in marketing that float in the room like 
+dracula reincarnated tasked with finding a new way to spin the humble flannel pant.
 
-the problem arises when commercial considerations start to outweigh the need to be original.
-As a purist and someone who likes to believe in the art of fashion.
+as much as i hate the the marketing process it's what makes fashion all the more interesting.
 
-i feel that fashion has strayed far along the spectrum and is mostly about commercial success rather than 
-creative.
+ultimately it's what works in creating an aura of desirability - But at what cost? - well, creativity.
 
-- i find words a hard medium to explain the feeling of putting on crisp new suit or fresh pair of sneakers.
-- instagram i feel has dumbed down fashion to the extent that most never really get a true understanding of what fashion really is.
-- what emotions does a picture really invoke other than - "that looks nice" or "thats cool"?
-- this i belive has contributed to fashion losing it's very essense
-- images i find are part of the problem when it comes to product. They capture a moment but not the feeling.
-this is where words take on meaning to transport the buyer into who i am and what i find value in.
+for instance when was the last time you saw something truly original from the brands with the biggest marketing budgets?
 
-- the typical luxury fashion customer tends to buy, not out of nessecity but out of compulsion, bordom and 
-arguably addiction.
-- when you see the delivery of you're new package at your front door you inevitably get a hit of endorphins
-that elevats your relief.
-fashion is simply a manifestation of the human condition.
-- value is something that i look for. something i will be alot of use from in these times of fast fashion
+answer- hardly ever. The big brands are big not because of their creativity but simply because of their 
+cash cows sold en masses to their cohort of loyal as well as aspiring new clients 
+- think ponies and polos.
 
-If anyone tries to convince you otherwise - they're either young and just starting out or old and make money
-from the peddling the illusion of art from the covers of the glossy magazines selling a dream to those
-hungry to have it. 
+------------
 
-It almost always begins as art but soon after the tentacles of capitalism begin to suffocate the creativity.
+i've worked in a variety of roles in luxury over the past decade.
 
-its a constant struggle - trying to drive change and create newness while at the same time making sure 
-that you don't alientate your existing cleintelle.
+for the majority of my career i've been based between soho and mayfair.
+travelled from london to paris, milan and everything in between.
+Gone from retail to wholesale and back again.
+run the commerial product of arguably the most recognisable brand in the world. 
+Developed seasonal collections for storied british heritage brands
+& bought jewel encrusted suits for a fashion house that would give Liberace a run for his money.
 
-a perfect case study would be that of Brioni 2017. 
+I'd hope that my experiences have taught me a thing or two over the years - both in terms of fashion but also
+consumer behaviour/psychology and trends.
 
-as much as i know the tools used to market a lifestyle brand i still cannot resist buying more.
+traditionally fashion has been the medium to express ones self through times of cultural and social change.
+think mods, rockers, skinheads and punks of the 60s/70s.
+
+Now the typical customer tends to buy, not out of nessecity or but out of compulsion bordom and addiction 
+- think Supreme and the resale culture surrounding it or H&M with their cookie cutter t-shirts for $10.
+
+when we look back at the naughties and teens i think we'll define this age of fashion 
+as a time of excess with some minor flashes or true creativity.
