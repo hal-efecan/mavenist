@@ -1,5 +1,5 @@
 ---
-title: "Lockdown lounging"
+title: "Lockdown loungewear"
 path: fashion
 date: 13.06.87
 author: "Halil"
@@ -79,48 +79,28 @@ h4 {
 </style>
 
 If there's one thing that we're all guilty of lately, it's lounging.
-i for one have felt like i've been in a state sanctioned blackhole ever since big brother
-advised us not leave our homes.
+I for one have felt like i've been in a state sanctioned blackhole ever since we were advised not to leave our homes.
 
 I dont even know what day it is - monday? wednesday? Does time even exist in the fourth dimesion?
 
----
+This morning, like most mornings this month i started my day by prepping my filter.
+Brew in hand i begin my migration - a lone wildebeast navigating through the masai mara in search of the preverbial green pasture of my sofa.
 
-this morning,
-like most mornings this month i started my day by prepping my filter.
-
-brew in hand i begin my migration - 
-a lone wildebeast navigating through the masai mara
-in search of the preverbial green pasture of my sofa.
-
-though instead of a lion i have a smaller yet just as dangerous obstacle to contend with
-Raisin my cat - more mischevious than the name would suggest 
-she attacks my anckles while i try to shuffle past.
-
----
-
-this mornings entertainment - Naked Gun.
-half way through i get to the scene where Frank the inept 
-police detective says - "do you mind if i slip into something a little more comfortable" 
+This mornings entertainment - the Leslie Neilsen classic, Naked Gun.
+Half way through i get to the scene where Frank the inept 
+police detective says - "Do you mind if i slip into something a little more comfortable" 
 Queue the comical misdirection - Frank goes off and comes back with a dapper sartorial ensemble that 
-would give Donald Draper a run for his money. 
+would give Don Draper a run for his money. 
 
-this leads me to think about the state of my own comfort. looking down at todays mismatch - 
+This inevitably leads me to think about the state of my own comfort. looking down at todays mismatch - 
 A Charlie Brown t-shirt that reads "Charlie don't surf" (in ref to Coppola's brilliant - Apocolypse Now) 
-paired with a light grey sweatpant from Asos.
+paired with a light grey sweatpant.
 
-i can't help but think it's about time i upped my lounge game & got myself a "grown up" pair of PJs.
+I can't help but think it's about time i upped my loungwear game & got myself a "grown up" pair of PJs.
 
-I havent owned a pair in a while. Come to think the last time i owned a set was when i was 11.
-a Lion King set with a prominent Simba print on the front.
+I havent owned a pair in a while. Come to think the last time i owned a set was when i was 11. A Lion King set with a prominent Simba print on the front.
 
-i always wanted to graduate from pyjamas as a child
-and what better time than when i started secondary school. I subbed the PJs for a t-shirt/short combo and
-that was that.
-
-fast forward 20 years and here i am full circle, back on the hunt for PJs. 
-
-heres a shortlist of PJ's that's caught my attention.
+Fast forward 20 years and here i am full circle, back on the hunt for PJs. Here's a shortlist of PJ's on the market that caught my attention.
 
 1. Paul Smith
 Men's Signature Stripe Cotton Pyjama Set With Navy Trims

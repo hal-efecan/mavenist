@@ -110,25 +110,20 @@ h4 {
 
 </style>
 
-In this article i'll explore just some of my favourite brands. 
-Those that i think bring uniqueness in design or function.
+In this article i'll explore some of my favourite brands. 
+Those that bring uniqueness in design or function.
 
-firstly - what influenced me in writing this article in the first place was my fascination for 
-japanese style. Not all brands listed below are japanese but they follow in a similar ilk.
+Firstly - what influenced me in writing this article in the first place was my fascination for 
+japanese style and function. Not all brands listed are japanese but they follow in a similar ilk.
 
-This deep rooted fascination goes back to when i first 
-watched the intro scene to Rockstar's cult classic GTA2 back in '99. 
-I rememeber like it was yesterday playing it on my packard bell PC that took up 90% of my
-precious desk space and GTA2 for the time equivalent in days playing the game.
+This fascination goes back to when i first watched the intro scene to Rockstar's cult classic GTA2 back in '99. 
+I rememeber like it was yesterday playing it on my packard bell PC that took up 90% of my desk space and GTA2 the time equivalent.
 
-It was the Yakuza that caught my eye with their full body koi fish tattoos.
-The 12 year old me was captivated to say the least.
-
-I never did manage to pluck up the courage and get a full body tattoo myself... 
-But where i lacked the the body art i made up for in the wardrobe department.
+It was the Yakuza that caught my eye with their full body koi fish tattoos. The 12 year old me was captivated.
+I never managed to pluck up the courage and get a full body tattoo myself. But where i lacked the the body art i made up for with the wardrobe.
 
 To kick things off i want to begin with my favourite eyewear brand that i believe epitomizes 
-what for me is japanese cool - not to mention craftsmanship.
+japanese cool - not to mention craftsmanship.
 
 ### Native Sons (Japan)
 
@@ -136,47 +131,40 @@ My first purchase from the guys at NS was the Roy.
 it's elegntly designed understated and checks all the boxes for me when it comes to proportions.
 It has a smaller shape by design with a narrow bridge making it suitable for those with smaller faces.
 
-![instagram](B_KJgLIjXU_)
+![instagram](ByWbCOKFnuo)
 
 ### Wacko Maria (Japan)
 
 The next brand on my list is wacko maria. first appearing on the scene back in '05. What i go to WM
-for is their HAWAIIAN SHIRTs. you simply cannot beat the prints. they're 
-simply a masterclass in design - the visual equivelent to red velvet cake.
+for is their HAWAIIAN SHIRTs. You simply cannot beat the prints, a masterclass in design.
 
-![instagram](Bg548PVANGJ)
+![instagram](B9JER_0p19B)
 
-### Cote et ciel (France)
+### Cote et Ciel (France)
 
-when it comes to bags the first thing that any utilitarian shopper should look for is form & function, 
-and CEC have this in... well bags. CEC have been doing their thing since '08. 
-When it comes to innovative designs that seemlessly bridge the gap between fashion and industral design 
+When it comes to bags the first thing that any utilitarian shopper should look for is form as well as function, 
+and Cote et Ciel have this in... well bags. When it comes to innovative designs that seemlessly bridge the gap between fashion and industral design 
 then there's simply no better candidate.
-
 
 ![instagram](BdxwLFfBN3h)
 
 ### Veilance (Canada)
 
-Another one of my favourite brands that flies under the radar for most is the Veilance line by the canadian
+Another one of my favourites that fly under the radar for most is the Veilance by the canadian
 outerwear brand Arcteryx. 
-what Veilance does best is creating hybrid pieces that bridge the gap between
+What Veilance does best is creating hybrid pieces that bridge the gap between
 classical mens tailored silhouettes and brings them into the 21st century with modern materials 
-and construction. weather it's using man made materials such as goretex who's natural habitat is on 
-climbers on cliff edges. 
-Having the seems sealed make the garmets fully water proof - keeping you both dry and looking good
-when running to the grocery store in the urban ecosystem that is our city.
+and construction. They use innovative materials such as Goretex that are more commonly found on climbers on cliff faces than city dwellers. 
+By sealing the seems the garmets become fully water proof - keeping you both dry and looking good when running errands in the urban ecosystem of our cities.
 
-![instagram](BXyHdqmFqQz)
+![instagram](BeraJwLHV7k)
 
 ### VisVim (Japan)
 
-And finally we come to VisVim
-focused on sourcing premium textiles which are then expertly crafted by blind nuns on the sidesteps of the himalayans.. 
-well not quite ... but you get the idea.
-littered throughout collections are almost suggestive Navaho inspired touches such as the signature finged suede boots.
+Finally we come to VisVim. Focused on sourcing premium textiles that are expertly crafted by blind nuns on the sidesteps of the Himalayans... 
+well, not quite, but you get the idea.
 
-VisVim for me is what RL tried but ultimately failed to achieve with Double RL. And that's saying something 
-given the war chest that is usually accompanied by a RL sub-brand.
+The collections has Navaho inspired touches throughout such as the signature finged suede boots and quilt patching that evoke the Americana spirits.
+VisVim for me is what RL tried but ultimately failed to achieve with Double RL. That's saying something given the war chest that is usually accompanied by a RL sub-brand.
 
-![instagram](B18DCOJlqtp)
+![instagram](B_OjUY5Dgeq)
