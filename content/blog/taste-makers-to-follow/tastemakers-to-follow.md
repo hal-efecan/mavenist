@@ -1,7 +1,7 @@
 ---
 title: "Tastemakers to follow"
 path: style
-date: 13.04.20
+date: 14-05-20
 author: "Halil"
 section: Style
 isHero: false
@@ -100,15 +100,13 @@ h4 {
 
 </style>
 
-i've compiled a list of some of my favourite thought and style inspiring tastemakers that i visit every
-now and again on instagram.
+So i've compiled a list of some of my favourite thought and style inspiring tastemakers that i visit every once in a while on the gram of inst.
 
 ### 1<sup>st</sup> - Brian Alcazar
 
 ![instagram](BvGDMqoD5Hd)
 
-brian is a photographer and video content creator whos worked alongside some very well known brands. 
-he has some expertly curated photographs that i like to visit everynow and then. 	
+Brian is a photographer and video content creator who has worked alongside some very well known brands. He has some expertly curated photographs that i like to visit everynow and then. 	
 
 ### Lord_Edwin
 

@@ -14,7 +14,7 @@ const PostList = () => {
             {
                 postsArr.map(post => {
                     const { frontmatter, id, excerpt, fields } = post.node
-                    const { title, image, section, path } = frontmatter
+                    const { title, image, section, path, date } = frontmatter
                     const { slug } = fields
                     const fluid = image.childImageSharp.fluid
 
@@ -33,6 +33,7 @@ const PostList = () => {
                                 <span className={thumbStyles.title}>{title}</span>
                               </div>
                               <p className={thumbStyles.excerpt}>{excerpt}</p>
+                              {/* <p>{date}</p> */}
                             </div>
                         </div>
                         
@@ -55,7 +56,7 @@ const query = graphql`
         title
     }
   }
-  allMarkdownRemark(filter: {frontmatter: {isHero: {eq: true}}}) {
+  allMarkdownRemark(filter: {frontmatter: {isHero: {eq: true}, date: {}}}, sort: {fields: frontmatter___date, order: DESC}) {
     edges {
       node {
         id

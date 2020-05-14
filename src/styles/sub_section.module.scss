@@ -20,12 +20,12 @@
     }
     @media (min-width: 1366px) {
         margin-top: 50px;
-        width: 950px;
+        width: 975px;
     }
 }
 
 .child_container {
-    margin: 0 auto 20px auto;
+    margin: 0 auto 45px auto;
     display: flex;
     flex-direction: column;
     box-shadow: none;
@@ -136,4 +136,8 @@
     @media (max-width: 768px) {
         font-size: 0.8rem;
     }
+}
+
+.date {
+    color: black;
 }

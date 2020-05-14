@@ -1,29 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Mavenist]]></title><description><![CDATA[Digital fashion & lifestyle destination]]></description><link>https://themavenist.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 14 May 2020 13:45:54 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Parkgate - Clip-On Optical + Sunglasses £295.00 Inspired by the world of rock climbing, this sterling silver bracelet features…]]></description><link>https://themavenist.comparkgate</link><guid isPermaLink="false">https://themavenist.comparkgate</guid><content:encoded>&lt;style&gt;
-@import url(&apos;https://fonts.googleapis.com/css2?family=Viga&amp;display=swap&apos;);
-@import url(&apos;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&amp;display=swap&apos;);
-
-h1, h2, h3, h4 {
-font-family: &apos;Viga&apos;, sans-serif;
-letter-spacing: 0.025rem;
-}
-
-p, li {
-font-family: &apos;Roboto Slab&apos;, serif;
-font-size: 0.95rem;
-font-weight: 500;
-}
-
-&lt;/style&gt;
-&lt;h3&gt;BELSTAFF&lt;/h3&gt;
-&lt;h4&gt;Parkgate - Clip-On Optical + Sunglasses&lt;/h4&gt;
-&lt;p&gt;£295.00&lt;/p&gt;
-&lt;p&gt;Inspired by the world of rock climbing, this sterling silver bracelet features branded logo engraving and traditional Iga braid construction.  &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;925 Sterling Silver Bracelet  &lt;/li&gt;
-&lt;li&gt;Carabiner Clasp  &lt;/li&gt;
-&lt;li&gt;Engraved Branding  &lt;/li&gt;
-&lt;li&gt;Handcrafted in Japan  &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Marshall - Storm £195.00 A soft square with oval accents, hand crafted using a combination of beta titanium and Takrion Japanese…]]></description><link>https://themavenist.commarshall</link><guid isPermaLink="false">https://themavenist.commarshall</guid><content:encoded>&lt;style&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Mavenist]]></title><description><![CDATA[Digital fashion & lifestyle destination]]></description><link>https://themavenist.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 14 May 2020 21:29:36 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Marshall - Storm £195.00 A soft square with oval accents, hand crafted using a combination of beta titanium and Takrion Japanese…]]></description><link>https://themavenist.commarshall</link><guid isPermaLink="false">https://themavenist.commarshall</guid><content:encoded>&lt;style&gt;
 @import url(&apos;https://fonts.googleapis.com/css2?family=Viga&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&amp;display=swap&apos;);
 
@@ -45,6 +20,31 @@ font-weight: 500;
 &lt;p&gt;A soft square with oval accents, hand crafted using a combination of beta titanium and Takrion Japanese acetate. Featuring laser engraving and comotec hinges to produce a soft unisex frame with an 80s twist.&lt;/p&gt;
 &lt;p&gt;Material:  beta titanium &amp;#x26; Takrion Japanese acetate.
 Size: 47/39-148&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;925 Sterling Silver Bracelet  &lt;/li&gt;
+&lt;li&gt;Carabiner Clasp  &lt;/li&gt;
+&lt;li&gt;Engraved Branding  &lt;/li&gt;
+&lt;li&gt;Handcrafted in Japan  &lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Parkgate - Clip-On Optical + Sunglasses £295.00 Inspired by the world of rock climbing, this sterling silver bracelet features…]]></description><link>https://themavenist.comparkgate</link><guid isPermaLink="false">https://themavenist.comparkgate</guid><content:encoded>&lt;style&gt;
+@import url(&apos;https://fonts.googleapis.com/css2?family=Viga&amp;display=swap&apos;);
+@import url(&apos;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&amp;display=swap&apos;);
+
+h1, h2, h3, h4 {
+font-family: &apos;Viga&apos;, sans-serif;
+letter-spacing: 0.025rem;
+}
+
+p, li {
+font-family: &apos;Roboto Slab&apos;, serif;
+font-size: 0.95rem;
+font-weight: 500;
+}
+
+&lt;/style&gt;
+&lt;h3&gt;BELSTAFF&lt;/h3&gt;
+&lt;h4&gt;Parkgate - Clip-On Optical + Sunglasses&lt;/h4&gt;
+&lt;p&gt;£295.00&lt;/p&gt;
+&lt;p&gt;Inspired by the world of rock climbing, this sterling silver bracelet features branded logo engraving and traditional Iga braid construction.  &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;925 Sterling Silver Bracelet  &lt;/li&gt;
 &lt;li&gt;Carabiner Clasp  &lt;/li&gt;
@@ -155,7 +155,116 @@ This loose fitting pyjama shirt has a short pointed collar, button fastening and
 less sleeves with a one button and loop fastening.
 Cannington cotton cloth is blue and grey moulne twisted check yarn made in Portugal.
 &lt;a href=&quot;https://oliverspencer.co.uk/pyjama-shirt-cannington-blue&quot;&gt;https://oliverspencer.co.uk/pyjama-shirt-cannington-blue&lt;/a&gt; &lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Summer shirts]]></title><description><![CDATA[The sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Tastemakers to follow]]></title><description><![CDATA[So i’ve compiled a list of some of my favourite thought and style inspiring tastemakers that i visit every once in a while on the gram of…]]></description><link>https://themavenist.comtastemakers-to-follow</link><guid isPermaLink="false">https://themavenist.comtastemakers-to-follow</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
+
+@import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
+@import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
+@import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
+
+div &gt; .gatsby-resp-iframe-wrapper {
+    width: 90%;
+    padding-bottom: 155% !important;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+iframe {
+    height: 100% !important;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.85rem;
+    font-family: &apos;Lato&apos;, sans-serif;
+}
+
+ul &gt; li {
+    font-size: 0.9rem;
+    line-height: 1.45rem;
+    letter-spacing: 0.025rem;
+    font-family: &apos;Lato&apos;, sans-serif;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: 0.005rem;
+    color: #000000
+    padding: 0;
+    margin: 10px 0 30px 0;
+}
+
+@media (min-width: 768px) {
+
+    p {
+        font-size: 1.15rem;
+        line-height: 1.7rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    ul &gt; li {
+        font-size: 1.05rem;
+        line-height: 1.55rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    h4 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    div &gt; .gatsby-resp-iframe-wrapper {
+        width: 55%;
+        padding-bottom: 85% !important;
+        margin: 0 auto;
+    }
+
+    iframe {
+        height: 100% !important;
+    }
+
+    p {
+        font-size: 1.15rem;
+        line-height: 1.7rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    ul &gt; li {
+        font-size: 1.05rem;
+        line-height: 1.55rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+}
+
+&lt;/style&gt;
+&lt;p&gt;So i’ve compiled a list of some of my favourite thought and style inspiring tastemakers that i visit every once in a while on the gram of inst.&lt;/p&gt;
+&lt;h3&gt;1&lt;sup&gt;st&lt;/sup&gt; - Brian Alcazar&lt;/h3&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BvGDMqoD5Hd/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Brian is a photographer and video content creator who has worked alongside some very well known brands. He has some expertly curated photographs that i like to visit everynow and then. 	&lt;/p&gt;
+&lt;h3&gt;Lord_Edwin&lt;/h3&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BbnK0afh9VZ/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;next on the list is another photorapher - lord_edwin.
+lots of photos of stars from the worlds of music and fashion.&lt;/p&gt;
+&lt;h3&gt;The Brilliance - Benjamin, Chuck &amp;#x26; Virgil&lt;/h3&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BW3gMeKlC6i/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;the guys from the brilliance inspired me to create the mavenist.
+Founded and written by Benjamin Edgar, Chuck Anderson and later joined by Virgil Abloh.
+this rough around the edges blog started in the early days of the internet and before it was cool &amp;#x26;
+introduced me to many ideas before the days of professional fashion oritented digital publishing was a thing.&lt;/p&gt;
+&lt;h3&gt;Bachronym&lt;/h3&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BedxaLSnRDY/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;this guy i dont know too much about other than the fact that he has a cool look and a penchant for acronym
+among others.&lt;/p&gt;
+&lt;h3&gt;Benjjii&lt;/h3&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/B7kJSSAHce9/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;finally we have benjji - this guy has an insane collection of sneakers that make you blue with envy.
+all photos are expertly put together.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Summer shirts]]></title><description><![CDATA[The sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.
 collabs CDG/ Supreme/ Off…]]></description><link>https://themavenist.comsummer-shirts</link><guid isPermaLink="false">https://themavenist.comsummer-shirts</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
 
 @import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
@@ -247,7 +356,119 @@ h4 {
 
 &lt;/style&gt;
 &lt;p&gt;The sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.
-collabs CDG/ Supreme/ Off White Ten collection&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Under the rader brands]]></title><description><![CDATA[In this article i’ll explore some of my favourite brands. 
+collabs CDG/ Supreme/ Off White Ten collection&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Pug Life - Some thoughts on fashion]]></title><description><![CDATA[Firstly if you thought this article was about pugs then im sorry to dissapoint  i stumbled upon this bad boy and it just spoke to me on many…]]></description><link>https://themavenist.compug-life</link><guid isPermaLink="false">https://themavenist.compug-life</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
+
+@import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
+@import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
+@import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.85rem;
+    font-family: &apos;Lato&apos;, sans-serif;
+}
+
+ul &gt; li {
+    font-size: 0.9rem;
+    line-height: 1.45rem;
+    letter-spacing: 0.025rem;
+    font-family: &apos;Lato&apos;, sans-serif;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: 0.005rem;
+    color: #000000
+    padding: 0;
+    margin: 10px 0 30px 0;
+}
+
+@media (min-width: 768px) {
+
+    p {
+        font-size: 1.15rem;
+        line-height: 1.7rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    ul &gt; li {
+        font-size: 1.05rem;
+        line-height: 1.55rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    h4 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    p {
+        font-size: 1.15rem;
+        line-height: 1.7rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    ul &gt; li {
+        font-size: 1.05rem;
+        line-height: 1.55rem;
+        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+}
+
+&lt;/style&gt;
+&lt;p&gt;Firstly if you thought this article was about pugs then im sorry to dissapoint &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;i stumbled upon this bad boy and it just spoke to me on many levels.
+Maybe it the was the vacant look in his eyes that reminded me of sitting in design reviews
+or the equally painful monday trade meetings.
+what ever it was - it epitomized what it feels like to work in the emotionally draining but
+ultimatly fun world of fashion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;there’s a continual debate that’s been going on in fashion circles since the begining of time (well.. almost) &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;is fashion an art or a business?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;spoiler - the short answer - it’s a bit of both&lt;/p&gt;
+&lt;p&gt;i’m arguing that
+because of the pace at which we now consume it has brought us to the point where creativity
+has simply become forced.&lt;/p&gt;
+&lt;p&gt;It’s like talking to that one friend for the 10th time this week - there comes a point where you have nothing
+more to say.&lt;/p&gt;
+&lt;p&gt;cue the blood sucking souls in marketing that float in the room like
+dracula reincarnated tasked with finding a new way to spin the humble flannel pant.&lt;/p&gt;
+&lt;p&gt;as much as i hate the the marketing process it’s what makes fashion all the more interesting.&lt;/p&gt;
+&lt;p&gt;ultimately it’s what works in creating an aura of desirability - But at what cost? - well, creativity.&lt;/p&gt;
+&lt;p&gt;for instance when was the last time you saw something truly original from the brands with the biggest marketing budgets?&lt;/p&gt;
+&lt;p&gt;answer- hardly ever. The big brands are big not because of their creativity but simply because of their
+cash cows sold en masses to their cohort of loyal as well as aspiring new clients &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;think ponies and polos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;i’ve worked in a variety of roles in luxury over the past decade.&lt;/p&gt;
+&lt;p&gt;for the majority of my career i’ve been based between soho and mayfair.
+travelled from london to paris, milan and everything in between.
+Gone from retail to wholesale and back again.
+run the commerial product of arguably the most recognisable brand in the world.
+Developed seasonal collections for storied british heritage brands
+&amp;#x26; bought jewel encrusted suits for a fashion house that would give Liberace a run for his money.&lt;/p&gt;
+&lt;p&gt;I’d hope that my experiences have taught me a thing or two over the years - both in terms of fashion but also
+consumer behaviour/psychology and trends.&lt;/p&gt;
+&lt;p&gt;traditionally fashion has been the medium to express ones self through times of cultural and social change.
+think mods, rockers, skinheads and punks of the 60s/70s.&lt;/p&gt;
+&lt;p&gt;Now the typical customer tends to buy, not out of nessecity or but out of compulsion bordom and addiction &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;think Supreme and the resale culture surrounding it or H&amp;#x26;M with their cookie cutter t-shirts for $10.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;when we look back at the naughties and teens i think we’ll define this age of fashion
+as a time of excess with some minor flashes or true creativity.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Under the rader brands]]></title><description><![CDATA[In this article i’ll explore some of my favourite brands. 
 Those that bring uniqueness in design or function. Firstly - what influenced me…]]></description><link>https://themavenist.comunder-the-radar-brands</link><guid isPermaLink="false">https://themavenist.comunder-the-radar-brands</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
 
 @import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
@@ -384,231 +605,7 @@ By sealing the seems the garmets become fully water proof - keeping you both dry
 well, not quite, but you get the idea.&lt;/p&gt;
 &lt;p&gt;The collections has Navaho inspired touches throughout such as the signature finged suede boots and quilt patching that evoke the Americana spirits.
 VisVim for me is what RL tried but ultimately failed to achieve with Double RL. That’s saying something given the war chest that is usually accompanied by a RL sub-brand.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/B_OjUY5Dgeq/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Pug Life - Some thoughts on fashion]]></title><description><![CDATA[Firstly if you thought this article was about pugs then im sorry to dissapoint  i stumbled upon this bad boy and it just spoke to me on many…]]></description><link>https://themavenist.compug-life</link><guid isPermaLink="false">https://themavenist.compug-life</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
-
-@import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
-@import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
-@import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
-
-p {
-    font-size: 0.9rem;
-    line-height: 1.85rem;
-    font-family: &apos;Lato&apos;, sans-serif;
-}
-
-ul &gt; li {
-    font-size: 0.9rem;
-    line-height: 1.45rem;
-    letter-spacing: 0.025rem;
-    font-family: &apos;Lato&apos;, sans-serif;
-}
-
-h4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.4rem;
-    letter-spacing: 0.005rem;
-    color: #000000
-    padding: 0;
-    margin: 10px 0 30px 0;
-}
-
-@media (min-width: 768px) {
-
-    p {
-        font-size: 1.15rem;
-        line-height: 1.7rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    ul &gt; li {
-        font-size: 1.05rem;
-        line-height: 1.55rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    h4 {
-        font-size: 1.8rem;
-    }
-}
-
-@media (min-width: 1024px) {
-
-    p {
-        font-size: 1.15rem;
-        line-height: 1.7rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    ul &gt; li {
-        font-size: 1.05rem;
-        line-height: 1.55rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    h4 {
-        font-size: 2rem;
-    }
-}
-
-&lt;/style&gt;
-&lt;p&gt;Firstly if you thought this article was about pugs then im sorry to dissapoint &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;i stumbled upon this bad boy and it just spoke to me on many levels.
-maybe it the was the vacant look in his eyes that reminded me of sitting in design reviews
-or the equally painful monday trade meetings.
-what ever it was - it epitomized what it feels like to work in the emotionally draining but
-ultimatly fun world of fashion.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;there’s a continual debate that’s been going on in fashion circles since the begining of time (well.. almost) &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;is fashion an art or a business?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;spoiler - the short answer - it’s a bit of both&lt;/p&gt;
-&lt;p&gt;i’m arguing that
-because of the pace at which we now consume it has brought us to the point where creativity
-has simply become forced.&lt;/p&gt;
-&lt;p&gt;It’s like talking to that one friend for the 10th time this week - there comes a point where you have nothing
-more to say.&lt;/p&gt;
-&lt;p&gt;cue the blood sucking souls in marketing that float in the room like
-dracula reincarnated tasked with finding a new way to spin the humble flannel pant.&lt;/p&gt;
-&lt;p&gt;as much as i hate the the marketing process it’s what makes fashion all the more interesting.&lt;/p&gt;
-&lt;p&gt;ultimately it’s what works in creating an aura of desirability - But at what cost? - well, creativity.&lt;/p&gt;
-&lt;p&gt;for instance when was the last time you saw something truly original from the brands with the biggest marketing budgets?&lt;/p&gt;
-&lt;p&gt;answer- hardly ever. The big brands are big not because of their creativity but simply because of their
-cash cows sold en masses to their cohort of loyal as well as aspiring new clients &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;think ponies and polos.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;i’ve worked in a variety of roles in luxury over the past decade.&lt;/p&gt;
-&lt;p&gt;for the majority of my career i’ve been based between soho and mayfair.
-travelled from london to paris, milan and everything in between.
-Gone from retail to wholesale and back again.
-run the commerial product of arguably the most recognisable brand in the world.
-Developed seasonal collections for storied british heritage brands
-&amp;#x26; bought jewel encrusted suits for a fashion house that would give Liberace a run for his money.&lt;/p&gt;
-&lt;p&gt;I’d hope that my experiences have taught me a thing or two over the years - both in terms of fashion but also
-consumer behaviour/psychology and trends.&lt;/p&gt;
-&lt;p&gt;traditionally fashion has been the medium to express ones self through times of cultural and social change.
-think mods, rockers, skinheads and punks of the 60s/70s.&lt;/p&gt;
-&lt;p&gt;Now the typical customer tends to buy, not out of nessecity or but out of compulsion bordom and addiction &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;think Supreme and the resale culture surrounding it or H&amp;#x26;M with their cookie cutter t-shirts for $10.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;when we look back at the naughties and teens i think we’ll define this age of fashion
-as a time of excess with some minor flashes or true creativity.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tastemakers to follow]]></title><description><![CDATA[i’ve compiled a list of some of my favourite thought and style inspiring tastemakers that i visit every
-now and again on instagram. 1st…]]></description><link>https://themavenist.comtastemakers-to-follow</link><guid isPermaLink="false">https://themavenist.comtastemakers-to-follow</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
-
-@import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
-@import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
-@import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
-
-div &gt; .gatsby-resp-iframe-wrapper {
-    width: 90%;
-    padding-bottom: 155% !important;
-    margin: 0 auto;
-    border: 1px solid #ccc;
-}
-
-iframe {
-    height: 100% !important;
-}
-
-p {
-    font-size: 0.9rem;
-    line-height: 1.85rem;
-    font-family: &apos;Lato&apos;, sans-serif;
-}
-
-ul &gt; li {
-    font-size: 0.9rem;
-    line-height: 1.45rem;
-    letter-spacing: 0.025rem;
-    font-family: &apos;Lato&apos;, sans-serif;
-}
-
-h4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.4rem;
-    letter-spacing: 0.005rem;
-    color: #000000
-    padding: 0;
-    margin: 10px 0 30px 0;
-}
-
-@media (min-width: 768px) {
-
-    p {
-        font-size: 1.15rem;
-        line-height: 1.7rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    ul &gt; li {
-        font-size: 1.05rem;
-        line-height: 1.55rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    h4 {
-        font-size: 1.8rem;
-    }
-}
-
-@media (min-width: 1024px) {
-
-    div &gt; .gatsby-resp-iframe-wrapper {
-        width: 55%;
-        padding-bottom: 85% !important;
-        margin: 0 auto;
-    }
-
-    iframe {
-        height: 100% !important;
-    }
-
-    p {
-        font-size: 1.15rem;
-        line-height: 1.7rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    ul &gt; li {
-        font-size: 1.05rem;
-        line-height: 1.55rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    h4 {
-        font-size: 2rem;
-    }
-}
-
-&lt;/style&gt;
-&lt;p&gt;i’ve compiled a list of some of my favourite thought and style inspiring tastemakers that i visit every
-now and again on instagram.&lt;/p&gt;
-&lt;h3&gt;1&lt;sup&gt;st&lt;/sup&gt; - Brian Alcazar&lt;/h3&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BvGDMqoD5Hd/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;brian is a photographer and video content creator whos worked alongside some very well known brands.
-he has some expertly curated photographs that i like to visit everynow and then. 	&lt;/p&gt;
-&lt;h3&gt;Lord_Edwin&lt;/h3&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BbnK0afh9VZ/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;next on the list is another photorapher - lord_edwin.
-lots of photos of stars from the worlds of music and fashion.&lt;/p&gt;
-&lt;h3&gt;The Brilliance - Benjamin, Chuck &amp;#x26; Virgil&lt;/h3&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BW3gMeKlC6i/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;the guys from the brilliance inspired me to create the mavenist.
-Founded and written by Benjamin Edgar, Chuck Anderson and later joined by Virgil Abloh.
-this rough around the edges blog started in the early days of the internet and before it was cool &amp;#x26;
-introduced me to many ideas before the days of professional fashion oritented digital publishing was a thing.&lt;/p&gt;
-&lt;h3&gt;Bachronym&lt;/h3&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BedxaLSnRDY/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;this guy i dont know too much about other than the fact that he has a cool look and a penchant for acronym
-among others.&lt;/p&gt;
-&lt;h3&gt;Benjjii&lt;/h3&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/B7kJSSAHce9/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;finally we have benjji - this guy has an insane collection of sneakers that make you blue with envy.
-all photos are expertly put together.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Principals of sneakers]]></title><description><![CDATA[My philosophy when it comes to sneakers is that everyone should have a go-to core selection. If you don’t and are buying them on the fly…]]></description><link>https://themavenist.comsneakers</link><guid isPermaLink="false">https://themavenist.comsneakers</guid><pubDate>Sun, 06 Dec 1987 00:00:00 GMT</pubDate><content:encoded>&lt;style&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/B_OjUY5Dgeq/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Principals of sneakers]]></title><description><![CDATA[My philosophy when it comes to sneakers is that everyone should have a go-to core selection. If you don’t and are buying them on the fly…]]></description><link>https://themavenist.comsneakers</link><guid isPermaLink="false">https://themavenist.comsneakers</guid><pubDate>Sat, 05 Dec 2020 00:00:00 GMT</pubDate><content:encoded>&lt;style&gt;
 
 @import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
@@ -708,7 +705,6 @@ h4 {
 
 &lt;/style&gt;
 &lt;p&gt;My philosophy when it comes to sneakers is that everyone should have a go-to core selection.&lt;/p&gt;
-&lt;!-- When it comes to my sneaker philosophy it’s that every guy should have a core selection of go to kicks.  --&gt;
 &lt;p&gt;If you don’t and are buying them on the fly then you’re doing it all wrong.&lt;/p&gt;
 &lt;p&gt;There’s a few considerations that should be taken when it comes to selecting your go to kicks:&lt;/p&gt;
 &lt;div class=&quot;custom&quot;&gt;&lt;/div&gt;

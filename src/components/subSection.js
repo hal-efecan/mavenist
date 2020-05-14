@@ -14,7 +14,7 @@ const SubSection = () => {
               articles.map(article => {
                 console.log(article)
                 const { id, frontmatter, excerpt, fields } = article.node
-                const { title, section, image, path } = frontmatter
+                const { title, section, image, path, date } = frontmatter
                 const { slug } = fields
                 const fluid = image.childImageSharp.fluid
 
@@ -30,6 +30,7 @@ const SubSection = () => {
                             <span className={subsection.title}>{title}</span>
                           </div>
                           <p className={subsection.excerpt}>{excerpt}</p>
+                          {/* <p className={subsection.date}>{date}</p> */}
                         </div>
                   </Link>
                 )
@@ -43,7 +44,7 @@ export default SubSection
 
 const query = graphql`
 {
-  allMarkdownRemark(filter: {frontmatter: {isSubSection: {eq: true}}}) {
+  allMarkdownRemark(filter: {frontmatter: {isSubSection: {eq: true}}}, sort: {fields: frontmatter___date, order: DESC}) {
       edges {
         node {
           id

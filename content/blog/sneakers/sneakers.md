@@ -1,14 +1,14 @@
 ---
 title: "Principals of sneakers"
-path: footwear
-date: 12.06.87
+path: fashion
+date: 12-05-20
 author: "Halil"
-section: "Footwear"
+section: Fashion
 isHero: true
 parent: fashion
 type: post
 image: ./sneakers.jpg
-tags: ["sneakers", "trainers", "kicks"]
+tags: ["sneakers"]
 ---
 
 <style>
@@ -112,7 +112,7 @@ h4 {
 </style>
 
 My philosophy when it comes to sneakers is that everyone should have a go-to core selection.
-<!-- When it comes to my sneaker philosophy it’s that every guy should have a core selection of go to kicks.  -->
+
 If you don’t and are buying them on the fly then you’re doing it all wrong.
 
 There's a few considerations that should be taken when it comes to selecting your go to kicks:

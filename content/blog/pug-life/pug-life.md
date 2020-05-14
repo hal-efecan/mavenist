@@ -1,7 +1,7 @@
 ---
 title: Pug Life - Some thoughts on fashion
 path: thoughts
-date: 13.04.20
+date: 13-05-20
 author: "Halil"
 section: Thoughts
 isHero: false
@@ -81,7 +81,7 @@ h4 {
 
 Firstly if you thought this article was about pugs then im sorry to dissapoint 
 - i stumbled upon this bad boy and it just spoke to me on many levels.
-maybe it the was the vacant look in his eyes that reminded me of sitting in design reviews
+Maybe it the was the vacant look in his eyes that reminded me of sitting in design reviews
 or the equally painful monday trade meetings.
 what ever it was - it epitomized what it feels like to work in the emotionally draining but 
 ultimatly fun world of fashion.
