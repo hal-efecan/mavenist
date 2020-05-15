@@ -84,13 +84,13 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/blog/images`,
-        name: `images`
-      }
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/content/blog/images`,
+    //     name: `images`
+    //   }
+    // },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
