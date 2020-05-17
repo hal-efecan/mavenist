@@ -16,6 +16,28 @@ tags: ["Apparel", "Garms", "clothes"]
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
 
+.container {
+    display: flex;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    color: white;
+    margin: 20px auto 0 auto;
+    width: 175px;
+    height: 40px;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+ul {
+    margin: 7px 0 0 0;
+}
+
 p {
     font-size: 0.9rem;
     line-height: 1.85rem;
@@ -102,26 +124,50 @@ I havent owned a pair in a while. Come to think the last time i owned a set was 
 
 Fast forward 20 years and here i am full circle, back on the hunt for PJs. Here's a shortlist of PJ's on the market that caught my attention.
 
-1. Paul Smith
-Men's Signature Stripe Cotton Pyjama Set With Navy Trims
-Men's 'Signature Stripe' pyjama set crafted from luxurious 100% Italian cotton. The bottoms feature a button up fly fastening and a cream drawstring adjustable waistband. The three-button fastening top features two patch pockets and navy blue piping.
-https://www.paulsmith.com/uk/men-s-signature-stripe-cotton-pyjama-set
+## Paul Smith
+<!-- Men's Signature Stripe Cotton Pyjama Set With Navy Trims
+Men's 'Signature Stripe' pyjama set crafted from luxurious 100% Italian cotton. The bottoms feature a button up fly fastening and a cream drawstring adjustable waistband. The three-button fastening top features two patch pockets and navy blue piping. -->
 
-2. Ralph Lauren
-Gingham Poplin Long Sleep Set
-This classic sleep set is designed in preppy mini-gingham poplin for the ultimate in comfort and style.
-https://www.ralphlauren.co.uk/en/gingham-poplin-long-sleep-set-486046.html?dwvar486046_colorname=Light%20Blue%20Mini%20Gingham&cgid=men-accessories-loungewear-sleepwear&webcat=men%2Ffeatures%2FLoungewear#webcat=men%7Cfeatures%7CLoungewear&start=1&cgid=men-accessories-loungewear-sleepwear
+<img src="./paul_smith.jpg">
+<div class="container">
+<a  class="button" href="https://www.paulsmith.com/uk/men-s-signature-stripe-cotton-pyjama-set" target="_blank">
+Shop
+</a>
+</div>
 
-3. Derek Rose
-Men's Modern Fit Piped Pyjama
+## Ralph Lauren
+<!-- Gingham Poplin Long Sleep Set
+This classic sleep set is designed in preppy mini-gingham poplin for the ultimate in comfort and style. -->
+
+<img src="./ralph_lauren.jpeg">
+<div class="container">
+<a class="button" href="https://www.ralphlauren.co.uk/en/gingham-poplin-long-sleep-set-486046.html?dwvar486046_colorname=Light%20Blue%20Mini%20Gingham&cgid=men-accessories-loungewear-sleepwear&webcat=men%2Ffeatures%2FLoungewear#webcat=men%7Cfeatures%7CLoungewear&start=1&cgid=men-accessories-loungewear-sleepwear" target="_blank">
+Shop
+</a>
+</div>
+
+## Derek Rose
+<!-- Men's Modern Fit Piped Pyjama
 BRINDISI 45 PURE SILK SATIN NAVY
 Luxuriously light and soft pure silk is digitally printed in Italy with a repeated golden yellow polka dot 
-print for a PJ that looks and feels great on.
-https://www.derek-rose.com/men/clothing/mens-nightwear/mens-modern-fit-piped-pyjamas-brindisi-45-pure-silk-satin-navy.html
+print for a PJ that looks and feels great on. -->
 
-4. Oliver Spencer
-Pyjama Shirt Cannington Blue
+<img src="./derek_rose.jpg">
+<div class="container">
+<a class="button" href="https://www.derek-rose.com/men/clothing/mens-nightwear/mens-modern-fit-piped-pyjamas-brindisi-45-pure-silk-satin-navy.html" target="_blank">
+Shop
+</a>
+</div>
+
+## Oliver Spencer
+<!-- Pyjama Shirt Cannington Blue
 This loose fitting pyjama shirt has a short pointed collar, button fastening and simple cuff 
 less sleeves with a one button and loop fastening.
-Cannington cotton cloth is blue and grey moulne twisted check yarn made in Portugal.
-https://oliverspencer.co.uk/pyjama-shirt-cannington-blue 
+Cannington cotton cloth is blue and grey moulne twisted check yarn made in Portugal. -->
+
+<img src="./oli_spencer.jpg">
+<div class="container">
+<a class="button" href="https://oliverspencer.co.uk/pyjama-shirt-cannington-blue" target="_blank">
+Shop
+</a>
+</div>

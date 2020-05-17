@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Mavenist]]></title><description><![CDATA[Digital fashion & lifestyle destination]]></description><link>https://themavenist.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 15 May 2020 21:10:15 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Marshall - Storm £195.00 A soft square with oval accents, hand crafted using a combination of beta titanium and Takrion Japanese…]]></description><link>https://themavenist.commarshall</link><guid isPermaLink="false">https://themavenist.commarshall</guid><content:encoded>&lt;style&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Mavenist]]></title><description><![CDATA[Digital fashion & lifestyle destination]]></description><link>https://themavenist.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 17 May 2020 11:49:51 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Marshall - Storm £195.00 A soft square with oval accents, hand crafted using a combination of beta titanium and Takrion Japanese…]]></description><link>https://themavenist.commarshall</link><guid isPermaLink="false">https://themavenist.commarshall</guid><content:encoded>&lt;style&gt;
 @import url(&apos;https://fonts.googleapis.com/css2?family=Viga&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&amp;display=swap&apos;);
 
@@ -56,6 +56,28 @@ I for one have felt like i’ve been in a state sanctioned blackhole ever…]]><
 @import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
+
+.container {
+    display: flex;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    color: white;
+    margin: 20px auto 0 auto;
+    width: 175px;
+    height: 40px;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+ul {
+    margin: 7px 0 0 0;
+}
 
 p {
     font-size: 0.9rem;
@@ -134,28 +156,73 @@ paired with a light grey sweatpant.&lt;/p&gt;
 &lt;p&gt;I can’t help but think it’s about time i upped my loungwear game &amp;#x26; got myself a “grown up” pair of PJs.&lt;/p&gt;
 &lt;p&gt;I havent owned a pair in a while. Come to think the last time i owned a set was when i was 11. A Lion King set with a prominent Simba print on the front.&lt;/p&gt;
 &lt;p&gt;Fast forward 20 years and here i am full circle, back on the hunt for PJs. Here’s a shortlist of PJ’s on the market that caught my attention.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Paul Smith
-Men’s Signature Stripe Cotton Pyjama Set With Navy Trims
-Men’s ‘Signature Stripe’ pyjama set crafted from luxurious 100% Italian cotton. The bottoms feature a button up fly fastening and a cream drawstring adjustable waistband. The three-button fastening top features two patch pockets and navy blue piping.
-&lt;a href=&quot;https://www.paulsmith.com/uk/men-s-signature-stripe-cotton-pyjama-set&quot;&gt;https://www.paulsmith.com/uk/men-s-signature-stripe-cotton-pyjama-set&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Ralph Lauren
-Gingham Poplin Long Sleep Set
-This classic sleep set is designed in preppy mini-gingham poplin for the ultimate in comfort and style.
-&lt;a href=&quot;https://www.ralphlauren.co.uk/en/gingham-poplin-long-sleep-set-486046.html?dwvar486046_colorname=Light%20Blue%20Mini%20Gingham&amp;#x26;cgid=men-accessories-loungewear-sleepwear&amp;#x26;webcat=men%2Ffeatures%2FLoungewear#webcat=men%7Cfeatures%7CLoungewear&amp;#x26;start=1&amp;#x26;cgid=men-accessories-loungewear-sleepwear&quot;&gt;https://www.ralphlauren.co.uk/en/gingham-poplin-long-sleep-set-486046.html?dwvar486046_colorname=Light%20Blue%20Mini%20Gingham&amp;#x26;cgid=men-accessories-loungewear-sleepwear&amp;#x26;webcat=men%2Ffeatures%2FLoungewear#webcat=men%7Cfeatures%7CLoungewear&amp;#x26;start=1&amp;#x26;cgid=men-accessories-loungewear-sleepwear&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Derek Rose
-Men’s Modern Fit Piped Pyjama
+&lt;h2&gt;Paul Smith&lt;/h2&gt;
+&lt;!-- Men&apos;s Signature Stripe Cotton Pyjama Set With Navy Trims
+Men&apos;s &apos;Signature Stripe&apos; pyjama set crafted from luxurious 100% Italian cotton. The bottoms feature a button up fly fastening and a cream drawstring adjustable waistband. The three-button fastening top features two patch pockets and navy blue piping. --&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 139.86486486486487%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAcABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHsTazjeKJljUouMJ//xAAbEAACAgMBAAAAAAAAAAAAAAABAgARECExE//aAAgBAQABBQJjUV2uP08HHq9QaBUGea4//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGRAAAgMBAAAAAAAAAAAAAAAAECEAICJB/9oACAEBAAY/App26Gf/xAAcEAACAQUBAAAAAAAAAAAAAAABEQAQITFxkUH/2gAIAQEAAT8hTg9waBUOzVAmBigZLMIXPEBAmBR3h7T/2gAMAwEAAgADAAAAEFzD8P/EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPxADIM//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBYz//EAB4QAQACAQQDAAAAAAAAAAAAAAEAESEQMUFhUcHR/9oACAEBAAE/EGCi12uKAq64GmI8QqT37ncgQJACqDiYjE9PsMVUDFx8yVgzHfQBQBxP/9k=&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;paul smith&quot; title=&quot;paul smith&quot; src=&quot;/static/bc17c4adafb8505c318f3eba89909e38/1c72d/paul_smith.jpg&quot; srcset=&quot;/static/bc17c4adafb8505c318f3eba89909e38/a80bd/paul_smith.jpg 148w,
+/static/bc17c4adafb8505c318f3eba89909e38/1c91a/paul_smith.jpg 295w,
+/static/bc17c4adafb8505c318f3eba89909e38/1c72d/paul_smith.jpg 590w,
+/static/bc17c4adafb8505c318f3eba89909e38/a8a14/paul_smith.jpg 885w,
+/static/bc17c4adafb8505c318f3eba89909e38/fbd2c/paul_smith.jpg 1180w,
+/static/bc17c4adafb8505c318f3eba89909e38/c58a3/paul_smith.jpg 1500w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+    &lt;/span&gt;
+&lt;div class=&quot;container&quot;&gt;
+&lt;a class=&quot;button&quot; href=&quot;https://www.paulsmith.com/uk/men-s-signature-stripe-cotton-pyjama-set&quot; target=&quot;_blank&quot;&gt;
+Shop
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;h2&gt;Ralph Lauren&lt;/h2&gt;
+&lt;!-- Gingham Poplin Long Sleep Set
+This classic sleep set is designed in preppy mini-gingham poplin for the ultimate in comfort and style. --&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 139.86486486486487%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAcABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB7eViywiVzqCGH//EABoQAQACAwEAAAAAAAAAAAAAAAEAEAIRICH/2gAIAQEAAQUCmwrKEKD3j//EABURAQEAAAAAAAAAAAAAAAAAABEg/9oACAEDAQE/AWP/xAAVEQEBAAAAAAAAAAAAAAAAAAARIP/aAAgBAgEBPwEj/8QAFBABAAAAAAAAAAAAAAAAAAAAMP/aAAgBAQAGPwJP/8QAGRABAQEBAQEAAAAAAAAAAAAAAQAxESBB/9oACAEBAAE/IVDZpsPtwliTpauef//aAAwDAQACAAMAAAAQW8Cw/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQAQEf/aAAgBAwEBPxBUSdz/xAAYEQEAAwEAAAAAAAAAAAAAAAABABARMf/aAAgBAgEBPxACbHsHK//EABwQAQADAAIDAAAAAAAAAAAAAAEAESFhgSAxkf/aAAgBAQABPxAC1UcpfkGgktrpAG3S9vmO+0BBimQp3mBXrPD/2Q==&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;ralph lauren&quot; title=&quot;ralph lauren&quot; src=&quot;/static/62b44bd79285113f28a8415e938560ee/1c72d/ralph_lauren.jpg&quot; srcset=&quot;/static/62b44bd79285113f28a8415e938560ee/a80bd/ralph_lauren.jpg 148w,
+/static/62b44bd79285113f28a8415e938560ee/1c91a/ralph_lauren.jpg 295w,
+/static/62b44bd79285113f28a8415e938560ee/1c72d/ralph_lauren.jpg 590w,
+/static/62b44bd79285113f28a8415e938560ee/a8a14/ralph_lauren.jpg 885w,
+/static/62b44bd79285113f28a8415e938560ee/fbd2c/ralph_lauren.jpg 1180w,
+/static/62b44bd79285113f28a8415e938560ee/644c5/ralph_lauren.jpg 1440w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+    &lt;/span&gt;
+&lt;div class=&quot;container&quot;&gt;
+&lt;a class=&quot;button&quot; href=&quot;https://www.ralphlauren.co.uk/en/gingham-poplin-long-sleep-set-486046.html?dwvar486046_colorname=Light%20Blue%20Mini%20Gingham&amp;amp;cgid=men-accessories-loungewear-sleepwear&amp;amp;webcat=men%2Ffeatures%2FLoungewear#webcat=men%7Cfeatures%7CLoungewear&amp;amp;start=1&amp;amp;cgid=men-accessories-loungewear-sleepwear&quot; target=&quot;_blank&quot;&gt;
+Shop
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;h2&gt;Derek Rose&lt;/h2&gt;
+&lt;!-- Men&apos;s Modern Fit Piped Pyjama
 BRINDISI 45 PURE SILK SATIN NAVY
-Luxuriously light and soft pure silk is digitally printed in Italy with a repeated golden yellow polka dot
-print for a PJ that looks and feels great on.
-&lt;a href=&quot;https://www.derek-rose.com/men/clothing/mens-nightwear/mens-modern-fit-piped-pyjamas-brindisi-45-pure-silk-satin-navy.html&quot;&gt;https://www.derek-rose.com/men/clothing/mens-nightwear/mens-modern-fit-piped-pyjamas-brindisi-45-pure-silk-satin-navy.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Oliver Spencer
-Pyjama Shirt Cannington Blue
-This loose fitting pyjama shirt has a short pointed collar, button fastening and simple cuff
+Luxuriously light and soft pure silk is digitally printed in Italy with a repeated golden yellow polka dot 
+print for a PJ that looks and feels great on. --&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 518px;&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 133.1081081081081%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgb/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAF6G5JO1FgkpNLl82H/xAAeEAACAgEFAQAAAAAAAAAAAAABAgMEAAUREhMUI//aAAgBAQABBQK5M0SpPJGynkuoH65VO9a2Y/QvTvU4dFsD0hFysoWL/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAIxAAAgECBAcAAAAAAAAAAAAAAAECEBESITFBEyJRYXGRof/aAAgBAQAGPwJKOrLqXsT6iXakPBLFi02M+J8OS9k9yVMj/8QAHhABAAICAgMBAAAAAAAAAAAAAQARIVExcUGhscH/2gAIAQEAAT8hpVPPol8jsyuCDwLnXv3Flt6RwZwHCU2dOodA2w3jrjXyMcnuDw0Lc//aAAwDAQACAAMAAAAQN8VA/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAIBAAAgICAgIDAAAAAAAAAAAAAREAITFRcdGBsUGRwf/aAAgBAQABPxA5JE3DRobuYc+8l3b9zAKR4Icc1T/JLqMr1DGzYH6V+QMZieMUDT5ggpRwOyGM0AAGycfFwqse50iQU+Xcc/ggybPM/9k=&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;derek rose&quot; title=&quot;derek rose&quot; src=&quot;/static/6050aacb66d7a9546fc60e5f172a1cfc/bc760/derek_rose.jpg&quot; srcset=&quot;/static/6050aacb66d7a9546fc60e5f172a1cfc/a80bd/derek_rose.jpg 148w,
+/static/6050aacb66d7a9546fc60e5f172a1cfc/1c91a/derek_rose.jpg 295w,
+/static/6050aacb66d7a9546fc60e5f172a1cfc/bc760/derek_rose.jpg 518w&quot; sizes=&quot;(max-width: 518px) 100vw, 518px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+    &lt;/span&gt;
+&lt;div class=&quot;container&quot;&gt;
+&lt;a class=&quot;button&quot; href=&quot;https://www.derek-rose.com/men/clothing/mens-nightwear/mens-modern-fit-piped-pyjamas-brindisi-45-pure-silk-satin-navy.html&quot; target=&quot;_blank&quot;&gt;
+Shop
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;h2&gt;Oliver Spencer&lt;/h2&gt;
+&lt;!-- Pyjama Shirt Cannington Blue
+This loose fitting pyjama shirt has a short pointed collar, button fastening and simple cuff 
 less sleeves with a one button and loop fastening.
-Cannington cotton cloth is blue and grey moulne twisted check yarn made in Portugal.
-&lt;a href=&quot;https://oliverspencer.co.uk/pyjama-shirt-cannington-blue&quot;&gt;https://oliverspencer.co.uk/pyjama-shirt-cannington-blue&lt;/a&gt; &lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Tastemakers to follow]]></title><description><![CDATA[So i’ve compiled a list of some of my favourite thought and style inspiring tastemakers that i visit every once in a while on the gram of…]]></description><link>https://themavenist.comtastemakers-to-follow</link><guid isPermaLink="false">https://themavenist.comtastemakers-to-follow</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
+Cannington cotton cloth is blue and grey moulne twisted check yarn made in Portugal. --&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAMEBQb/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB0M6WtR0SslgqFGqJf//EABoQAAMBAAMAAAAAAAAAAAAAAAECAwAEERL/2gAIAQEAAQUC5NWTLV0Kn0tz3XcY9xvJRvAySVR//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAHBABAAEEAwAAAAAAAAAAAAAAAQACEBEhQVFh/9oACAEBAAY/AgpmRg9xseTXLbWZ/8QAGxABAAMAAwEAAAAAAAAAAAAAAQARITFBcWH/2gAIAQEAAT8hQfS6sYWb5Hbgg9Lnl8jKx4lC2tFn0YqFpvmf/9oADAMBAAIAAwAAABBb4D7/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAYEQEBAAMAAAAAAAAAAAAAAAABABAhMf/aAAgBAgEBPxANTHMf/8QAIRABAAIBBAEFAAAAAAAAAAAAAQARITFBYYHBkaHR4fD/2gAIAQEAAT8QNqVpWhtXvE7LJtPVp1NIwB2S/bMPX3BAUcp8/MQrVC725iCZc8fEItEp+cT/2Q==&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;oli spencer&quot; title=&quot;oli spencer&quot; src=&quot;/static/715971b58fe498cee182e3db5dceb1e0/1c72d/oli_spencer.jpg&quot; srcset=&quot;/static/715971b58fe498cee182e3db5dceb1e0/a80bd/oli_spencer.jpg 148w,
+/static/715971b58fe498cee182e3db5dceb1e0/1c91a/oli_spencer.jpg 295w,
+/static/715971b58fe498cee182e3db5dceb1e0/1c72d/oli_spencer.jpg 590w,
+/static/715971b58fe498cee182e3db5dceb1e0/7e076/oli_spencer.jpg 799w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+    &lt;/span&gt;
+&lt;div class=&quot;container&quot;&gt;
+&lt;a class=&quot;button&quot; href=&quot;https://oliverspencer.co.uk/pyjama-shirt-cannington-blue&quot; target=&quot;_blank&quot;&gt;
+Shop
+&lt;/a&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Tastemakers to follow]]></title><description><![CDATA[So i’ve compiled a list of some of my favourite thought and style inspiring tastemakers that i visit every once in a while on the gram of…]]></description><link>https://themavenist.comtastemakers-to-follow</link><guid isPermaLink="false">https://themavenist.comtastemakers-to-follow</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;style&gt;
 
 @import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
