@@ -120,7 +120,7 @@ This fascination goes back to when i first watched the intro scene to Rockstar's
 I rememeber like it was yesterday playing it on my packard bell PC that took up 90% of my desk space and GTA2 the time equivalent.
 
 It was the Yakuza that caught my eye with their full body koi fish tattoos. The 12 year old me was captivated.
-I never managed to pluck up the courage and get a full body tattoo myself. But where i lacked the the body art i made up for with the wardrobe.
+I never managed to pluck up the courage and get a full body tattoo myself. But where i lacked the body art i made up for with the wardrobe.
 
 To kick things off i want to begin with my favourite eyewear brand that i believe epitomizes 
 japanese cool - not to mention craftsmanship.

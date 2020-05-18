@@ -11,16 +11,9 @@ const Footer = () => {
                 </div>
 
                 <div className={footerStyles.wrapper}>
-
                     <div className={footerStyles.social}>
                         <Social />
                     </div>
-
-                    {/* <ul className={footerStyles.info}>
-                        <li>About Us</li>
-                        <li>Contact</li>
-                    </ul> */}
-
                 </div>
 
         </div>
