@@ -100,41 +100,42 @@ h4 {
 
 </style>
 
-So i've compiled a list of some of my favourite thought and style inspiring tastemakers that i visit every once in a while on the gram of inst.
+In this article i've compiled a shortlist of some of my favourite thought and style inspiring tastemakers whose instagram pages i visit every once in a while.
+A running and ever growing collection of amazing photographers, fashion creatives and style maestro's. 
 
 ### 1<sup>st</sup> - Brian Alcazar
 
 ![instagram](BvGDMqoD5Hd)
 
-Brian is a photographer and video content creator who has worked alongside some very well known brands. He has some expertly curated photographs that i like to visit everynow and then. 	
+Brian is a photographer and video content creator who has worked alongside some very well known brands. 
+He has some expertly curated photographs that i peruse through when looking to feel inspired.	
 
 ### Lord_Edwin
 
 ![instagram](BbnK0afh9VZ)
 
-
-next on the list is another photorapher - lord_edwin. 
+Next up is - lord_edwin. Another talented photographer. 
 lots of photos of stars from the worlds of music and fashion.
 
 ### The Brilliance - Benjamin, Chuck & Virgil
 
 ![instagram](BW3gMeKlC6i)
 
-the guys from the brilliance inspired me to create the mavenist.
-Founded and written by Benjamin Edgar, Chuck Anderson and later joined by Virgil Abloh.
-this rough around the edges blog started in the early days of the internet and before it was cool & 
-introduced me to many ideas before the days of professional fashion oritented digital publishing was a thing.
+The guys from the brilliance inspired me to create *The Mavenist*.
+Founded and written by Benjamin Edgar, Chuck Anderson and the Virgil Abloh.
+This rough around the edges blog started in the early days of the internet before it was cool & 
+introduced me to many ideas before fashion oritented digital publishing was even a thing.
 
 ### Bachronym
 
 ![instagram](BedxaLSnRDY)
 
-this guy i dont know too much about other than the fact that he has a cool look and a penchant for acronym
+Next up is a fashion kindred spirit of mine - I dont know too much about Jonathan other than the fact that he has a cool look and a penchant for Acronym
 among others.
 
 ### Benjjii
 
 ![instagram](B7kJSSAHce9)
 
-finally we have benjji - this guy has an insane collection of sneakers that make you blue with envy.
-all photos are expertly put together.
+Last up we have Benjji - this chap has a rediculous collection of sneakers that make you blue with envy.
+All photos are expertly put together.

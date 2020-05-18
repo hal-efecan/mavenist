@@ -79,57 +79,57 @@ h4 {
 
 </style>
 
-Firstly if you thought this article was about pugs then im sorry to dissapoint 
-- i stumbled upon this bad boy and it just spoke to me on many levels.
+Firstly if you thought this article was about pugs then im sorry to dissapoint.
+I stumbled upon this bad boy and it just spoke to me on many levels.
 Maybe it the was the vacant look in his eyes that reminded me of sitting in design reviews
-or the equally painful monday trade meetings.
-what ever it was - it epitomized what it feels like to work in the emotionally draining but 
+or the equally painful monday meetings.
+
+What ever it was - it epitomized what it feels like to work in the emotionally draining but 
 ultimatly fun world of fashion.
-
-there's a continual debate that's been going on in fashion circles since the begining of time (well.. almost) 
-- is fashion an art or a business?
-
-spoiler - the short answer - it's a bit of both
-
-i'm arguing that
-because of the pace at which we now consume it has brought us to the point where creativity 
-has simply become forced.
-
-It's like talking to that one friend for the 10th time this week - there comes a point where you have nothing
-more to say.
-
-cue the blood sucking souls in marketing that float in the room like 
-dracula reincarnated tasked with finding a new way to spin the humble flannel pant.
-
-as much as i hate the the marketing process it's what makes fashion all the more interesting.
-
-ultimately it's what works in creating an aura of desirability - But at what cost? - well, creativity.
-
-for instance when was the last time you saw something truly original from the brands with the biggest marketing budgets?
-
-answer- hardly ever. The big brands are big not because of their creativity but simply because of their 
-cash cows sold en masses to their cohort of loyal as well as aspiring new clients 
-- think ponies and polos.
 
 ------------
 
-i've worked in a variety of roles in luxury over the past decade.
+There's a continual debate that's been going on in fashion circles since the begining of time (almost).
 
-for the majority of my career i've been based between soho and mayfair.
-travelled from london to paris, milan and everything in between.
-Gone from retail to wholesale and back again.
-run the commerial product of arguably the most recognisable brand in the world. 
-Developed seasonal collections for storied british heritage brands
-& bought jewel encrusted suits for a fashion house that would give Liberace a run for his money.
+Is fashion an art or a business? The short answer - A bit of both
 
-I'd hope that my experiences have taught me a thing or two over the years - both in terms of fashion but also
-consumer behaviour/psychology and trends.
+I'm arguing that the pace at which we now consume fashion has brought us to the point where creativity has simply become forced.
 
-traditionally fashion has been the medium to express ones self through times of cultural and social change.
-think mods, rockers, skinheads and punks of the 60s/70s.
+***It's like talking to that one friend for the 10th time this week - there comes a point where you simply have nothing
+more to say.***
 
-Now the typical customer tends to buy, not out of nessecity or but out of compulsion bordom and addiction 
-- think Supreme and the resale culture surrounding it or H&M with their cookie cutter t-shirts for $10.
+Cue those blood sucking souls in the marketing that almost float in the room like 
+Dracula reincarnated tasked with finding a new way to spin the humble flannel pant.
+As much as i love to hate the the marketing process it's what makes fashion all the more interesting.
+Ultimately it's what works in creating the aura of desirability 
 
-when we look back at the naughties and teens i think we'll define this age of fashion 
-as a time of excess with some minor flashes or true creativity.
+*But at what cost?... well, creativity.*
+
+For instance when was the last time you saw something truly original from the brands with the biggest marketing budgets?
+
+You guessed it - hardly ever. The big brands are big not because of their creativity but simply because of their 
+cash cows sold en masses to their cohort of loyal as well as aspiring new clients - just think ponies and polos.
+
+------------
+
+I've worked in a variety of roles in luxury and retail over the past decade.
+
+The majority of my career has been spent in Soho and Mayfair -
+travelling between London to Paris, Milan and everything in between.
+
+I've gone from retail to wholesale and back again.
+I've run the commerial product of arguably the most recognisable brand in the world, and
+developed collections for the storied British heritage brands.
+I've even bought jewel encrusted suits for a fashion house that would give Liberace a run for his money.
+
+My experiences have taught me a great deal in terms of fashion but also
+consumer behaviour/psychology and trends in general.
+
+Fashion has been one of the main mediums to express yourself through times of cultural and social change.
+Think mods, rockers, skinheads and punks of the 60s/70s.
+
+Now the typical customer tends to buy, not out of nessecity or social expression but compulsion, bordom and even addiction. 
+<!-- Think Supreme and the resale culture or H&M with their cookie cutter t-shirts for $10. -->
+
+<!-- when we look back at the naughties and teens i think we'll define this age of fashion 
+as a time of excess with some minor flashes or true creativity. -->

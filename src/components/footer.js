@@ -16,10 +16,10 @@ const Footer = () => {
                         <Social />
                     </div>
 
-                    <ul className={footerStyles.info}>
+                    {/* <ul className={footerStyles.info}>
                         <li>About Us</li>
                         <li>Contact</li>
-                    </ul>
+                    </ul> */}
 
                 </div>
 

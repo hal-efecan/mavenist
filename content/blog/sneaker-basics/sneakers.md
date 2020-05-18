@@ -1,9 +1,9 @@
 ---
-title: "Principals of sneakers"
+title: "Sneaker basics"
 path: fashion
 date: 12-05-20
 author: "Halil"
-section: Fashion
+section: "Fashion"
 isHero: true
 parent: fashion
 type: post
