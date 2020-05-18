@@ -114,21 +114,26 @@ cash cows sold en masses to their cohort of loyal as well as aspiring new client
 
 I've worked in a variety of roles in luxury and retail over the past decade.
 
-The majority of my career has been spent in Soho and Mayfair -
-travelling between London to Paris, Milan and everything in between.
+The majority of my career has been spent in Soho & Mayfair square mile -
+travelling between London, Paris, Milan and everything in between.
 
 I've gone from retail to wholesale and back again.
 I've run the commerial product of arguably the most recognisable brand in the world, and
-developed collections for the storied British heritage brands.
-I've even bought jewel encrusted suits for a fashion house that would give Liberace a run for his money.
+developed collections for iconic British heritage brands.
+I've even bought jewel encrusted tailoring for a fashion house that would give Liberace a run for his money.
 
-My experiences have taught me a great deal in terms of fashion but also
-consumer behaviour/psychology and trends in general.
+If my experiences have taught me anything it's that business always trumps art. 
 
-Fashion has been one of the main mediums to express yourself through times of cultural and social change.
-Think mods, rockers, skinheads and punks of the 60s/70s.
+<!-- My experiences have taught me a great deal in terms of fashion but also
+consumer behaviour/psychology and trends in general. -->
 
-Now the typical customer tends to buy, not out of nessecity or social expression but compulsion, bordom and even addiction. 
+Fashion used to be the main mediums to express yourself through times of cultural and social change. Think mods, rockers, skinheads and punks of the 60s/70s.
+
+These days your typical fashion customer tends to buy, not out of a necessity for social expression but rather compulsion, bordom and even addiction.
+I know i certainly fit into this category. 
+
+What does that say about the state of fashion?  
+
 <!-- Think Supreme and the resale culture or H&M with their cookie cutter t-shirts for $10. -->
 
 <!-- when we look back at the naughties and teens i think we'll define this age of fashion 
