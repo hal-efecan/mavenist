@@ -132,7 +132,6 @@ There's a few considerations that should be taken when it comes to selecting you
 Adidas's Stan Smiths are arguably the most popular Adidas trainer of all time.
 Raf Simons has a premium version and Jay-Z name dropped them on his classic album, The Blueprint.
 constructed with a low profile they come in a multitude of coloured tabs and variations.
-Stan Smiths have an enduring appeal that has a genrational transcendence. 
 
 #### GAZELLE
 
@@ -148,7 +147,7 @@ Gazelles are a true icon of 90s culture.
 
 ![instagram](B2ZVoCEhvIw)
 
-Converse shoes are distinguished by a number of features, including the company's star insignia, the All Star's rubber sole, smooth rounded toe, and wrap-around strip.
+Converse shoes are distinguished by a number of features, including the company's star insignia, the All Star's rubber sole, smooth rounded toe, and wrap-around stripe.
 Initially developed as a basketball shoe in the early 20th century. The Chuck Taylor design has remained largely unchanged since its introduction in the 1920s. 
 The shoe is made of a stitched upper portion, a toe cap that's usually made of white rubber and a rubber sole. 
 Although Chuck Taylors are made of various materials such as leather, the original and most widely known version of the shoe is made from cotton canvas.
