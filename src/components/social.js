@@ -18,7 +18,7 @@ const Social = () => {
                 <img className={footerStyles.img} src={twitter} alt="twitter" width="23px"/> 
             </a>
 
-            <a className={footerStyles.link} rel="noopener noreferrer" href="https://www.instagram.com/the_mavenist/" target="_blank">
+            <a className={footerStyles.link} rel="noopener noreferrer" href="https://www.instagram.com/themavenist/" target="_blank">
                 <img className={footerStyles.img} src={instagram} alt="instagram" width="23px"/>
             </a>
 
