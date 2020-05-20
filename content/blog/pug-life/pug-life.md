@@ -1,5 +1,5 @@
 ---
-title: Pug Life - Some thoughts on fashion
+title: Pug Life - Some thoughts
 path: thoughts
 date: 13-05-20
 author: "Halil"
