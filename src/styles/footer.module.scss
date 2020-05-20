@@ -61,7 +61,7 @@
 
 .wrapper {
     // background-color: lightseagreen;
-    height: 140px;
+    height: 120px;
     width: 100%;
     padding: 5px;
     display: flex;
@@ -69,15 +69,12 @@
     justify-content: center;
     align-items: center;
 
-    @media (min-width: 375px) {
-        height: 150px;
-    }
     @media (min-width: 768px) {
-        height: 150px;
+        height: 130px;
         padding: 0;
     }
     @media (min-width: 1024px) {
-        height: 175px;
+        height: 150px;
     }
     @media (min-width: 1366px) {
     }
@@ -86,7 +83,7 @@
         // background-color: lightskyblue;
         list-style-type: none;
         padding: 0;
-        margin: 15px 0 0 0;
+        margin: 0 0 10px 0;
         text-align: center;
 
         @media (min-width: 768px) {
@@ -96,7 +93,7 @@
         li {
             padding: 0;
             margin: 0;
-            font-size: 0.7rem;
+            font-size: 0.75rem;
             font-weight: 500;
             color: white;
             text-transform: capitalize;
