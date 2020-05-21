@@ -4,15 +4,13 @@ import about from '../styles/about.module.scss'
 const AboutUs = () => {
     return (
         <div className={about.container}>
-            <h4 className={about.titles}>What is a Maven?</h4>
-            <p>A person who is experienced or knowledgeable in a particular field.</p>
             <h4 className={about.titles}>About</h4>
             <p>
                 The Mavenist is a a rough around the edges micro-blog full of character adding spelling mistakes, typos, 
-                poor grammer & raw content. It's a destination for those that want to read front line content.
+                poor grammer & raw content.
             </p>
             <p>
-                It reads like a field report who's purpose is to bring "you" the reader our opinionated and unfiltered 
+                It reads like a field report - the purpose is to bring "you" the reader our opinionated and unfiltered 
                 perspective.
             </p>
             <p>
@@ -23,13 +21,9 @@ const AboutUs = () => {
                 If it's good - we say it is - if it isn't, we say so!
             </p>
             <p>
-                The Mavenist is founded by The Maven - A fashion & retail expert that's worked at internationlly renowened 
+                Founded by the Maven a retail expert that have worked at internationlly renowened 
                 fashion houses, brands and retailers a like. A buyer & collection merchandiser by trade with years of experience 
                 in luxury fashion and an eye for value and quality - Not simply hype and branding.
-            </p>
-            <p>
-                You can think of "The Maven" like the "Dread Pirate Roberts" from "The Princess Bride". An
-                interchangable name handed down over time. There is no ONE Maven.
             </p>
 
             <h4 className={about.titles}>Affiliate</h4>
