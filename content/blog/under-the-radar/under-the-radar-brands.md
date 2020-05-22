@@ -16,6 +16,23 @@ tags: ["Apparel", "Garms", "clothes"]
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
 
+.container {
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    height: 280px;
+
+    @media (min-width: 768px) {
+        margin: 20px auto 20px auto;
+        width: 75%;
+    }
+}
+
+.container iframe {
+    margin: 0 auto;
+    display: block;
+}
+
 div > .gatsby-resp-iframe-wrapper {
     width: 90%;
     padding-bottom: 155% !important;
@@ -38,6 +55,10 @@ ul > li {
     line-height: 1.45rem;
     letter-spacing: 0.025rem;
     font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    margin: 15px 0 0 0;
 }
 
 h4 {
@@ -110,6 +131,7 @@ h4 {
 
 </style>
 
+
 In this article i'll explore some of my favourite brands. 
 Those that bring uniqueness in design or function.
 
@@ -124,6 +146,11 @@ I never managed to pluck up the courage and get a full body tattoo myself. But w
 
 To kick things off i want to begin with my favourite eyewear brand that i believe epitomizes 
 japanese cool - not to mention craftsmanship.
+
+<div class="container">
+    <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=themavenist-21&marketplace=amazon&region=GB&placement=B00WXMPFZI&asins=B00WXMPFZI&linkId=c7630d4c45aaf2696e846d289c03d9b4&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+</div>
 
 ### Native Sons (Japan)
 
@@ -158,6 +185,11 @@ and construction. They use innovative materials such as Goretex that are more co
 By sealing the seems the garmets become fully water proof - keeping you both dry and looking good when running errands in the urban ecosystem of our cities.
 
 ![instagram](BeraJwLHV7k)
+
+<div class="container">
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=themavenist-21&marketplace=amazon&region=GB&placement=B07YBNB2PS&asins=B07YBNB2PS&linkId=a507c9d7e781234545bb981b946a3d02&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+</iframe>
+</div>
 
 ### VisVim (Japan)
 

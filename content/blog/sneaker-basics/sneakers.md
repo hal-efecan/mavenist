@@ -17,6 +17,24 @@ tags: ["sneakers"]
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
 
+.container {
+    display: flex;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    color: white;
+    margin: 0px auto 20px auto;
+    width: 175px;
+    height: 40px;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
 div > .gatsby-resp-iframe-wrapper {
     width: 90%;
     padding-bottom: 155% !important;
@@ -129,13 +147,23 @@ There's a few considerations that should be taken when it comes to selecting you
 
 ![instagram](BGtylyArieE)
 
+<div class="container"><a  class="button" href="https://amzn.to/2A4IKpe" target="_blank">Shop</a></div>
+
 Adidas's Stan Smiths are arguably the most popular Adidas trainer of all time.
 Raf Simons has a premium version and Jay-Z name dropped them on his classic album, The Blueprint.
 constructed with a low profile they come in a multitude of coloured tabs and variations.
 
+
+<!-- <div class="container">
+<iframe style="width:120px;height:300px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=themavenist-21&marketplace=amazon&region=GB&placement=B00WXMPFZI&asins=B00WXMPFZI&linkId=c7630d4c45aaf2696e846d289c03d9b4&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+</iframe>
+</div> -->
+
 #### GAZELLE
 
 ![instagram](BGEpFFarie2)
+
+<div class="container"><a  class="button" href="https://amzn.to/2ATO673" target="_blank">Shop</a></div>
 
 The Gazelle has a long history dating back to the late 60s and have been in continuous production for the last 50 years.
 For me one word to describe Gazelle would be ‘memories’. They conjure images of 90s era Britpop.
@@ -147,6 +175,8 @@ Gazelles are a true icon of 90s culture.
 
 ![instagram](B2ZVoCEhvIw)
 
+<div class="container"><a  class="button" href="https://amzn.to/2XeVt08" target="_blank">Shop</a></div>
+
 Converse shoes are distinguished by a number of features, including the company's star insignia, the All Star's rubber sole, smooth rounded toe, and wrap-around stripe.
 Initially developed as a basketball shoe in the early 20th century. The Chuck Taylor design has remained largely unchanged since its introduction in the 1920s. 
 The shoe is made of a stitched upper portion, a toe cap that's usually made of white rubber and a rubber sole. 
@@ -157,6 +187,8 @@ This iconic sneaker is not only famous for it's basketball roots but has also be
 
 ![instagram](B_cl5Ouq7PI)
 
+<div class="container"><a  class="button" href="https://amzn.to/2XmXLdN" target="_blank">Shop</a></div>
+
 The Nike Blazer was first released in 1973 as Nike’s basketball sneaker and was named
 after Oregons local basketball team, the Portland Trail Blazers.
 It is the first basketball shoe to carry the Nike Swoosh.
@@ -166,6 +198,8 @@ As basketball players left the Blazer behind, skaters took ownership of the snea
 #### VANS OLD SKOOL
 
 ![instagram](BmyepFegWhl)
+
+<div class="container"><a  class="button" href="https://amzn.to/3genSMK" target="_blank">Shop</a></div>
 
 Old Skools are most definitely summer’s most democratic shoe.
 Originally purposed as a skating shoe, the Old Skools were first introduced 77', and was the first design to feature the brand’s iconic side stripe, 

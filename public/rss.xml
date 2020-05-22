@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Mavenist]]></title><description><![CDATA[Digital fashion & lifestyle destination]]></description><link>https://themavenist.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 22 May 2020 18:16:21 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Marshall - Storm £195.00 A soft square with oval accents, hand crafted using a combination of beta titanium and Takrion Japanese…]]></description><link>https://themavenist.commarshall</link><guid isPermaLink="false">https://themavenist.commarshall</guid><content:encoded>&lt;style&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Mavenist]]></title><description><![CDATA[Digital fashion & lifestyle destination]]></description><link>https://themavenist.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 22 May 2020 21:44:02 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Marshall - Storm £195.00 A soft square with oval accents, hand crafted using a combination of beta titanium and Takrion Japanese…]]></description><link>https://themavenist.commarshall</link><guid isPermaLink="false">https://themavenist.commarshall</guid><content:encoded>&lt;style&gt;
 @import url(&apos;https://fonts.googleapis.com/css2?family=Viga&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&amp;display=swap&apos;);
 
@@ -56,6 +56,17 @@ I for one have felt like i’ve been in a state sanctioned blackhole ever…]]><
 @import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
+
+.cont {
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont iframe {
+    margin: 0 auto;
+    display: block;
+}
 
 .container {
     display: flex;
@@ -145,6 +156,11 @@ I for one have felt like i’ve been in a state sanctioned blackhole ever since 
 &lt;p&gt;I dont even know what day it is - monday? wednesday? Does time even exist in the fourth dimesion?&lt;/p&gt;
 &lt;p&gt;This morning, like most mornings this month i started my day by prepping my filter.
 Brew in hand i begin my migration - a lone wildebeast navigating through the masai mara in search of the preverbial green pasture of my sofa.&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&quot;cont&quot;&gt;
+&lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=themavenist-21&amp;marketplace=amazon&amp;region=GB&amp;placement=B07YBNB2PS&amp;asins=B07YBNB2PS&amp;linkId=a507c9d7e781234545bb981b946a3d02&amp;show_border=true&amp;link_opens_in_new_window=true&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff&quot;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
 &lt;p&gt;This mornings entertainment - the Leslie Neilsen classic, Naked Gun.
 Half way through i get to the scene where Frank the inept
 police detective says - “Do you mind if i slip into something a little more comfortable”
@@ -228,6 +244,23 @@ Shop
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
 
+.container {
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+
+    @media (min-width: 768px) {
+        margin: 20px auto 20px auto;
+        width: 75%;
+    }
+}
+
+.container iframe {
+    margin: 0 auto;
+    display: block;
+}
+
 div &gt; .gatsby-resp-iframe-wrapper {
     width: 90%;
     padding-bottom: 155% !important;
@@ -252,6 +285,10 @@ ul &gt; li {
     font-family: &apos;Lato&apos;, sans-serif;
 }
 
+h3 {
+    margin: 15px 0 0 0;
+}
+
 h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
@@ -262,6 +299,16 @@ h4 {
 }
 
 @media (min-width: 768px) {
+
+    div &gt; .gatsby-resp-iframe-wrapper {
+        width: 55%;
+        padding-bottom: 90% !important;
+        margin: 0 auto;
+    }
+
+    iframe {
+        height: 100% !important;
+    }
 
     p {
         font-size: 1.15rem;
@@ -312,6 +359,10 @@ h4 {
 &lt;/style&gt;
 &lt;p&gt;In this article i’ve compiled a shortlist of some of my favourite thought and style inspiring tastemakers whose instagram pages i visit every once in a while.
 A running and ever growing collection of amazing photographers, fashion creatives and style maestro’s. &lt;/p&gt;
+&lt;div class=&quot;container&quot;&gt;
+    &lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=themavenist-21&amp;marketplace=amazon&amp;region=GB&amp;placement=B00WXMPFZI&amp;asins=B00WXMPFZI&amp;linkId=c7630d4c45aaf2696e846d289c03d9b4&amp;show_border=true&amp;link_opens_in_new_window=true&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff&quot;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
 &lt;h3&gt;1&lt;sup&gt;st&lt;/sup&gt; - Brian Alcazar&lt;/h3&gt;
 &lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BvGDMqoD5Hd/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Brian is a photographer and video content creator who has worked alongside some very well known brands.
@@ -320,6 +371,10 @@ He has some expertly curated photographs that i peruse through when looking to f
 &lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BbnK0afh9VZ/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Next up is - lord_edwin. Another talented photographer.
 lots of photos of stars from the worlds of music and fashion.&lt;/p&gt;
+&lt;div class=&quot;container&quot;&gt;
+    &lt;iframe style=&quot;width:120px;height:540px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=themavenist-21&amp;marketplace=amazon&amp;region=GB&amp;placement=B014KPLT9Q&amp;asins=B014KPLT9Q&amp;linkId=0ca9d1ac31e7b4a3adef000b65e931ef&amp;show_border=true&amp;link_opens_in_new_window=true&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff&quot;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
 &lt;h3&gt;The Brilliance - Benjamin, Chuck &amp;#x26; Virgil&lt;/h3&gt;
 &lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BW3gMeKlC6i/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;The guys from the brilliance inspired me to create &lt;em&gt;The Mavenist&lt;/em&gt;.
@@ -330,6 +385,10 @@ introduced me to many ideas before fashion oritented digital publishing was even
 &lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BedxaLSnRDY/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Next up is a fashion kindred spirit of mine - I dont know too much about Jonathan other than the fact that he has a cool look and a penchant for Acronym
 among others.&lt;/p&gt;
+&lt;div class=&quot;container&quot;&gt;
+&lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=themavenist-21&amp;marketplace=amazon&amp;region=GB&amp;placement=B0040EGNIU&amp;asins=B0040EGNIU&amp;linkId=64b312dc475a89a92574ad42807a5f0c&amp;show_border=true&amp;link_opens_in_new_window=true&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff&quot;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
 &lt;h3&gt;Benjjii&lt;/h3&gt;
 &lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/B7kJSSAHce9/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Last up we have Benjji - this chap has a rediculous collection of sneakers that make you blue with envy.
@@ -422,8 +481,6 @@ ultimatly fun world of fashion.&lt;/p&gt;
 &lt;div class=&quot;container&quot;&gt;
 &lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=themavenist-21&amp;marketplace=amazon&amp;region=GB&amp;placement=B00WXMPFZI&amp;asins=B00WXMPFZI&amp;linkId=c7630d4c45aaf2696e846d289c03d9b4&amp;show_border=true&amp;link_opens_in_new_window=true&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff&quot;&gt;
 &lt;/iframe&gt;
-&lt;!-- &lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=themavenist-21&amp;marketplace=amazon&amp;region=GB&amp;placement=B014KPLT9Q&amp;asins=B014KPLT9Q&amp;linkId=0ca9d1ac31e7b4a3adef000b65e931ef&amp;show_border=true&amp;link_opens_in_new_window=true&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff&quot;&gt;
-&lt;/iframe&gt; --&gt;
 &lt;/div&gt;
 &lt;p&gt;There’s a continual debate that’s been going on in fashion circles since the begining of time (almost).&lt;/p&gt;
 &lt;p&gt;Is fashion an art or a business? The short answer - A bit of both&lt;/p&gt;
@@ -440,12 +497,10 @@ Ultimately it’s what works in creating the aura of desirability &lt;/p&gt;
 cash cows sold en masses to their cohort of loyal as well as aspiring new clients - just think ponies and polos.&lt;/p&gt;
 &lt;hr&gt;
 &lt;div class=&quot;container&quot;&gt;
-&lt;!-- &lt;iframe style=&quot;width:120px;height:250px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=themavenist-21&amp;marketplace=amazon&amp;region=GB&amp;placement=B0772M72CQ&amp;asins=B0772M72CQ&amp;linkId=58f4f1358d907b1af4e9262f76c7b8a3&amp;show_border=true&amp;link_opens_in_new_window=true&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff&quot;&gt;
-&lt;/iframe&gt; --&gt;
 &lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=themavenist-21&amp;marketplace=amazon&amp;region=GB&amp;placement=B014KPLT9Q&amp;asins=B014KPLT9Q&amp;linkId=0ca9d1ac31e7b4a3adef000b65e931ef&amp;show_border=true&amp;link_opens_in_new_window=true&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff&quot;&gt;
-    &lt;/iframe&gt;
+&lt;/iframe&gt;
 &lt;/div&gt;
-I&apos;ve worked in a variety of roles in luxury and retail over the past decade.
+&lt;p&gt;I’ve worked in a variety of roles in luxury and retail over the past decade.&lt;/p&gt;
 &lt;p&gt;The majority of my career has been spent in Soho &amp;#x26; Mayfair square mile -
 travelling between London, Paris, Milan and everything in between.&lt;/p&gt;
 &lt;p&gt;I’ve gone from retail to wholesale and back again.
@@ -467,6 +522,23 @@ Those that bring uniqueness in design or function. Firstly - what influenced me�
 @import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
+
+.container {
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    height: 280px;
+
+    @media (min-width: 768px) {
+        margin: 20px auto 20px auto;
+        width: 75%;
+    }
+}
+
+.container iframe {
+    margin: 0 auto;
+    display: block;
+}
 
 div &gt; .gatsby-resp-iframe-wrapper {
     width: 90%;
@@ -490,6 +562,10 @@ ul &gt; li {
     line-height: 1.45rem;
     letter-spacing: 0.025rem;
     font-family: &apos;Lato&apos;, sans-serif;
+}
+
+h3 {
+    margin: 15px 0 0 0;
 }
 
 h4 {
@@ -571,6 +647,10 @@ I rememeber like it was yesterday playing it on my packard bell PC that took up 
 I never managed to pluck up the courage and get a full body tattoo myself. But where i lacked the body art i made up for with the wardrobe.&lt;/p&gt;
 &lt;p&gt;To kick things off i want to begin with my favourite eyewear brand that i believe epitomizes
 japanese cool - not to mention craftsmanship.&lt;/p&gt;
+&lt;div class=&quot;container&quot;&gt;
+    &lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=themavenist-21&amp;marketplace=amazon&amp;region=GB&amp;placement=B00WXMPFZI&amp;asins=B00WXMPFZI&amp;linkId=c7630d4c45aaf2696e846d289c03d9b4&amp;show_border=true&amp;link_opens_in_new_window=true&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff&quot;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
 &lt;h3&gt;Native Sons (Japan)&lt;/h3&gt;
 &lt;p&gt;My first purchase from the guys at NS was the Roy.
 it’s elegntly designed understated and checks all the boxes for me when it comes to proportions.
@@ -593,6 +673,10 @@ classical mens tailored silhouettes and brings them into the 21st century with m
 and construction. They use innovative materials such as Goretex that are more commonly found on climbers on cliff faces than city dwellers.
 By sealing the seems the garmets become fully water proof - keeping you both dry and looking good when running errands in the urban ecosystem of our cities.&lt;/p&gt;
 &lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BeraJwLHV7k/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
+&lt;div class=&quot;container&quot;&gt;
+&lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=themavenist-21&amp;marketplace=amazon&amp;region=GB&amp;placement=B07YBNB2PS&amp;asins=B07YBNB2PS&amp;linkId=a507c9d7e781234545bb981b946a3d02&amp;show_border=true&amp;link_opens_in_new_window=true&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff&quot;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
 &lt;h3&gt;VisVim (Japan)&lt;/h3&gt;
 &lt;p&gt;Finally we come to VisVim. Focused on sourcing premium textiles that are expertly crafted by blind nuns on the sidesteps of the Himalayans…
 well, not quite, but you get the idea.&lt;/p&gt;
@@ -603,6 +687,24 @@ VisVim for me is what RL tried but ultimately failed to achieve with Double RL. 
 @import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
+
+.container {
+    display: flex;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    color: white;
+    margin: 0px auto 20px auto;
+    width: 175px;
+    height: 40px;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
 
 div &gt; .gatsby-resp-iframe-wrapper {
     width: 90%;
@@ -710,11 +812,17 @@ h4 {
 &lt;/ul&gt;
 &lt;h4&gt;STAN SMITH&lt;/h4&gt;
 &lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BGtylyArieE/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
+&lt;div class=&quot;container&quot;&gt;&lt;a  class=&quot;button&quot; href=&quot;https://amzn.to/2A4IKpe&quot; target=&quot;_blank&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Adidas’s Stan Smiths are arguably the most popular Adidas trainer of all time.
 Raf Simons has a premium version and Jay-Z name dropped them on his classic album, The Blueprint.
 constructed with a low profile they come in a multitude of coloured tabs and variations.&lt;/p&gt;
+&lt;!-- &lt;div class=&quot;container&quot;&gt;
+&lt;iframe style=&quot;width:120px;height:300px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=themavenist-21&amp;marketplace=amazon&amp;region=GB&amp;placement=B00WXMPFZI&amp;asins=B00WXMPFZI&amp;linkId=c7630d4c45aaf2696e846d289c03d9b4&amp;show_border=true&amp;link_opens_in_new_window=true&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff&quot;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt; --&gt;
 &lt;h4&gt;GAZELLE&lt;/h4&gt;
 &lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BGEpFFarie2/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
+&lt;div class=&quot;container&quot;&gt;&lt;a  class=&quot;button&quot; href=&quot;https://amzn.to/2ATO673&quot; target=&quot;_blank&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;The Gazelle has a long history dating back to the late 60s and have been in continuous production for the last 50 years.
 For me one word to describe Gazelle would be ‘memories’. They conjure images of 90s era Britpop.
 The Gallagher brothers almost exclusively wore the classic 3 stripes trainers in a number of music videos;
@@ -722,6 +830,7 @@ and lets not forget David Baddiel wearing them in the Three Lions video for Euro
 Gazelles are a true icon of 90s culture.&lt;/p&gt;
 &lt;h4&gt;CONVERSE ALL STAR&lt;/h4&gt;
 &lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/B2ZVoCEhvIw/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
+&lt;div class=&quot;container&quot;&gt;&lt;a  class=&quot;button&quot; href=&quot;https://amzn.to/2XeVt08&quot; target=&quot;_blank&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Converse shoes are distinguished by a number of features, including the company’s star insignia, the All Star’s rubber sole, smooth rounded toe, and wrap-around stripe.
 Initially developed as a basketball shoe in the early 20th century. The Chuck Taylor design has remained largely unchanged since its introduction in the 1920s.
 The shoe is made of a stitched upper portion, a toe cap that’s usually made of white rubber and a rubber sole.
@@ -729,6 +838,7 @@ Although Chuck Taylors are made of various materials such as leather, the origin
 This iconic sneaker is not only famous for it’s basketball roots but has also been widely adopted within the skateboarding scene.&lt;/p&gt;
 &lt;h4&gt;NIKE BLAZER MID ‘77&lt;/h4&gt;
 &lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/B_cl5Ouq7PI/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
+&lt;div class=&quot;container&quot;&gt;&lt;a  class=&quot;button&quot; href=&quot;https://amzn.to/2XmXLdN&quot; target=&quot;_blank&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;The Nike Blazer was first released in 1973 as Nike’s basketball sneaker and was named
 after Oregons local basketball team, the Portland Trail Blazers.
 It is the first basketball shoe to carry the Nike Swoosh.
@@ -736,6 +846,7 @@ An icon on and off the court, the Blazer is loved for its simplicity.
 As basketball players left the Blazer behind, skaters took ownership of the sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.&lt;/p&gt;
 &lt;h4&gt;VANS OLD SKOOL&lt;/h4&gt;
 &lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BmyepFegWhl/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
+&lt;div class=&quot;container&quot;&gt;&lt;a  class=&quot;button&quot; href=&quot;https://amzn.to/3genSMK&quot; target=&quot;_blank&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Old Skools are most definitely summer’s most democratic shoe.
 Originally purposed as a skating shoe, the Old Skools were first introduced 77’, and was the first design to feature the brand’s iconic side stripe,
 which has become a signature design detail.&lt;/p&gt;

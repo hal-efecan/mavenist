@@ -17,6 +17,23 @@ tags: ["Apparel", "Garms", "clothes"]
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
 
+.container {
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+
+    @media (min-width: 768px) {
+        margin: 20px auto 20px auto;
+        width: 75%;
+    }
+}
+
+.container iframe {
+    margin: 0 auto;
+    display: block;
+}
+
 div > .gatsby-resp-iframe-wrapper {
     width: 90%;
     padding-bottom: 155% !important;
@@ -41,6 +58,10 @@ ul > li {
     font-family: 'Lato', sans-serif;
 }
 
+h3 {
+    margin: 15px 0 0 0;
+}
+
 h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
@@ -51,6 +72,16 @@ h4 {
 }
 
 @media (min-width: 768px) {
+
+    div > .gatsby-resp-iframe-wrapper {
+        width: 55%;
+        padding-bottom: 90% !important;
+        margin: 0 auto;
+    }
+
+    iframe {
+        height: 100% !important;
+    }
 
     p {
         font-size: 1.15rem;
@@ -103,6 +134,12 @@ h4 {
 In this article i've compiled a shortlist of some of my favourite thought and style inspiring tastemakers whose instagram pages i visit every once in a while.
 A running and ever growing collection of amazing photographers, fashion creatives and style maestro's. 
 
+<div class="container">
+    <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=themavenist-21&marketplace=amazon&region=GB&placement=B00WXMPFZI&asins=B00WXMPFZI&linkId=c7630d4c45aaf2696e846d289c03d9b4&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+
+</div>
+
 ### 1<sup>st</sup> - Brian Alcazar
 
 ![instagram](BvGDMqoD5Hd)
@@ -116,6 +153,10 @@ He has some expertly curated photographs that i peruse through when looking to f
 
 Next up is - lord_edwin. Another talented photographer. 
 lots of photos of stars from the worlds of music and fashion.
+<div class="container">
+    <iframe style="width:120px;height:540px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=themavenist-21&marketplace=amazon&region=GB&placement=B014KPLT9Q&asins=B014KPLT9Q&linkId=0ca9d1ac31e7b4a3adef000b65e931ef&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+</div>
 
 ### The Brilliance - Benjamin, Chuck & Virgil
 
@@ -132,6 +173,11 @@ introduced me to many ideas before fashion oritented digital publishing was even
 
 Next up is a fashion kindred spirit of mine - I dont know too much about Jonathan other than the fact that he has a cool look and a penchant for Acronym
 among others.
+
+<div class="container">
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=themavenist-21&marketplace=amazon&region=GB&placement=B0040EGNIU&asins=B0040EGNIU&linkId=64b312dc475a89a92574ad42807a5f0c&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+</iframe>
+</div>
 
 ### Benjjii
 

@@ -16,6 +16,17 @@ tags: ["Apparel", "Garms", "clothes"]
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
 
+.cont {
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont iframe {
+    margin: 0 auto;
+    display: block;
+}
+
 .container {
     display: flex;
 }
@@ -107,6 +118,13 @@ I dont even know what day it is - monday? wednesday? Does time even exist in the
 
 This morning, like most mornings this month i started my day by prepping my filter.
 Brew in hand i begin my migration - a lone wildebeast navigating through the masai mara in search of the preverbial green pasture of my sofa.
+
+------------
+
+<div class="cont">
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=themavenist-21&marketplace=amazon&region=GB&placement=B07YBNB2PS&asins=B07YBNB2PS&linkId=a507c9d7e781234545bb981b946a3d02&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+</iframe>
+</div>
 
 This mornings entertainment - the Leslie Neilsen classic, Naked Gun.
 Half way through i get to the scene where Frank the inept 
