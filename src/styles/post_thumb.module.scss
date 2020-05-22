@@ -63,6 +63,7 @@
 .link {
     box-shadow: none;
     box-sizing: border-box;
+    // height: max-content;
 }
 
 .section {
@@ -70,6 +71,12 @@
     font-size: 1.15rem;
     color: rgb(219, 51, 52);
 
+    &:after {
+        background-color: rgb(199, 141, 66);
+        width: 100px;
+        height: 75px;
+    }
+    
     @media (min-width: 768px) {
         font-size: 0.95rem;
     }

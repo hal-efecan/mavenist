@@ -17,6 +17,17 @@ tags: ["Apparel", "Garms", "clothes"]
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
 
+.container {
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container iframe {
+    margin: 0 auto;
+    display: block;
+}
+
 p {
     font-size: 0.9rem;
     line-height: 1.85rem;
@@ -89,6 +100,16 @@ ultimatly fun world of fashion.
 
 ------------
 
+<div class="container">
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=themavenist-21&marketplace=amazon&region=GB&placement=B00WXMPFZI&asins=B00WXMPFZI&linkId=c7630d4c45aaf2696e846d289c03d9b4&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+</iframe>
+
+<!-- <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=themavenist-21&marketplace=amazon&region=GB&placement=B014KPLT9Q&asins=B014KPLT9Q&linkId=0ca9d1ac31e7b4a3adef000b65e931ef&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+</iframe> -->
+
+</div>
+
 There's a continual debate that's been going on in fashion circles since the begining of time (almost).
 
 Is fashion an art or a business? The short answer - A bit of both
@@ -112,6 +133,14 @@ cash cows sold en masses to their cohort of loyal as well as aspiring new client
 
 ------------
 
+<div class="container">
+<!-- <iframe style="width:120px;height:250px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=themavenist-21&marketplace=amazon&region=GB&placement=B0772M72CQ&asins=B0772M72CQ&linkId=58f4f1358d907b1af4e9262f76c7b8a3&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+</iframe> -->
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=themavenist-21&marketplace=amazon&region=GB&placement=B014KPLT9Q&asins=B014KPLT9Q&linkId=0ca9d1ac31e7b4a3adef000b65e931ef&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+
+</div>
 I've worked in a variety of roles in luxury and retail over the past decade.
 
 The majority of my career has been spent in Soho & Mayfair square mile -
