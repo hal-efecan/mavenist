@@ -3,7 +3,8 @@ import PostList from '../components/postlist'
 import SubSection from '../components/subSection'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Banner from '../components/banner'
+import Banner1 from '../components/banner1'
+import Banner2 from '../components/banner2'
 
 import main from '../styles/main.module.scss'
 
@@ -19,8 +20,9 @@ const Index = () => {
               <SEO title="Home" />
               <div className={main.container}>
                 <PostList />
-                <Banner />
+                <Banner1 />
                 <SubSection />
+                {/* <Banner2 /> */}
               </div>
             </Layout>
         )

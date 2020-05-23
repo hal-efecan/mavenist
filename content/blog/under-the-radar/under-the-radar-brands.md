@@ -28,6 +28,18 @@ tags: ["Apparel", "Garms", "clothes"]
     }
 }
 
+.banner {
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    height: 280px;
+
+    @media (min-width: 768px) {
+        margin: 20px auto 20px auto;
+        width: 75%;
+    }
+}
+
 .container iframe {
     margin: 0 auto;
     display: block;
@@ -185,11 +197,6 @@ and construction. They use innovative materials such as Goretex that are more co
 By sealing the seems the garmets become fully water proof - keeping you both dry and looking good when running errands in the urban ecosystem of our cities.
 
 ![instagram](BeraJwLHV7k)
-
-<div class="container">
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=themavenist-21&marketplace=amazon&region=GB&placement=B07YBNB2PS&asins=B07YBNB2PS&linkId=a507c9d7e781234545bb981b946a3d02&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
-</iframe>
-</div>
 
 ### VisVim (Japan)
 

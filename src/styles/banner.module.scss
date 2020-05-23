@@ -2,9 +2,23 @@
     border: none;
     margin: 30px auto 0 auto;
     display: none;
-    
+
     @media (min-width: 768px) {
         display: block;
+    }
+    @media (min-width: 1024px) {
+    }
+    @media (min-width: 1366px) {
+    }
+}
+
+.banner_small {
+    border: none;
+    margin: 30px auto 0 auto;
+    display: block;
+    
+    @media (min-width: 768px) {
+        display: none;
     }
     @media (min-width: 1024px) {
     }

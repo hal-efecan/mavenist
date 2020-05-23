@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Mavenist]]></title><description><![CDATA[Digital fashion & lifestyle destination]]></description><link>https://themavenist.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 23 May 2020 15:16:29 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Marshall - Storm £195.00 A soft square with oval accents, hand crafted using a combination of beta titanium and Takrion Japanese…]]></description><link>https://themavenist.commarshall</link><guid isPermaLink="false">https://themavenist.commarshall</guid><content:encoded>&lt;style&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Mavenist]]></title><description><![CDATA[Digital fashion & lifestyle destination]]></description><link>https://themavenist.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 23 May 2020 22:31:18 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[BELSTAFF Marshall - Storm £195.00 A soft square with oval accents, hand crafted using a combination of beta titanium and Takrion Japanese…]]></description><link>https://themavenist.commarshall</link><guid isPermaLink="false">https://themavenist.commarshall</guid><content:encoded>&lt;style&gt;
 @import url(&apos;https://fonts.googleapis.com/css2?family=Viga&amp;display=swap&apos;);
 @import url(&apos;https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&amp;display=swap&apos;);
 
@@ -535,6 +535,18 @@ Those that bring uniqueness in design or function. Firstly - what influenced me�
     }
 }
 
+.banner {
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    height: 280px;
+
+    @media (min-width: 768px) {
+        margin: 20px auto 20px auto;
+        width: 75%;
+    }
+}
+
 .container iframe {
     margin: 0 auto;
     display: block;
@@ -673,10 +685,6 @@ classical mens tailored silhouettes and brings them into the 21st century with m
 and construction. They use innovative materials such as Goretex that are more commonly found on climbers on cliff faces than city dwellers.
 By sealing the seems the garmets become fully water proof - keeping you both dry and looking good when running errands in the urban ecosystem of our cities.&lt;/p&gt;
 &lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BeraJwLHV7k/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;div class=&quot;container&quot;&gt;
-&lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=themavenist-21&amp;marketplace=amazon&amp;region=GB&amp;placement=B07YBNB2PS&amp;asins=B07YBNB2PS&amp;linkId=a507c9d7e781234545bb981b946a3d02&amp;show_border=true&amp;link_opens_in_new_window=true&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff&quot;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
 &lt;h3&gt;VisVim (Japan)&lt;/h3&gt;
 &lt;p&gt;Finally we come to VisVim. Focused on sourcing premium textiles that are expertly crafted by blind nuns on the sidesteps of the Himalayans…
 well, not quite, but you get the idea.&lt;/p&gt;

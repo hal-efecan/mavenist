@@ -1,15 +1,20 @@
 import React from 'react'
 import { graphql, useStaticQuery, Link } from 'gatsby'
 import Img from 'gatsby-image';
+import Banner1 from '../components/banner1'
+import Banner2 from '../components/banner2'
 
 import subsection from '../styles/sub_section.module.scss'
+import main from '../styles/main.module.scss'
 
 const StyleArticles = () => {
     const data = useStaticQuery(query)
     const articles = data.allMarkdownRemark.edges
 
     return (
-        <div className={subsection.parent_container}>
+      <>
+              <Banner2 />
+        <div className={subsection.page_container}>
             {
               articles.map(article => {
                 console.log(article)
@@ -37,6 +42,8 @@ const StyleArticles = () => {
               })
             }
         </div>
+
+        </>
     )
 }
 
