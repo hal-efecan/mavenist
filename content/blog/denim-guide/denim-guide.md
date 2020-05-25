@@ -3,7 +3,7 @@ title: "Denim guide"
 path: fashion
 date: 25-05-20
 author: "Halil"
-section: "Fashion"
+section: Style
 isHero: true
 parent: fashion
 type: post
@@ -68,6 +68,10 @@ ul > li {
     font-family: 'Lato', sans-serif;
 }
 
+h3 {
+    margin: 10px 0 30px 0;
+}
+
 h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
@@ -126,9 +130,7 @@ Truely the most democratic piece of clothing anyone can have in their wardrobe.
 
 You only ever need 3 types of denim jeans.
 
-1. Summer wear
-2. Everyday wear
-3. Evening wear 
+### _Summer_, _Everyday_ & _Evening_
 
 The number one most important thing to consider when buying jeans is the FIT. You dont want to be wearing a pair
 that looks like a hand me down.. unless thats the look you're going for.
@@ -149,7 +151,7 @@ Below is an edit of some of my favourite and most versatile pieces to fit any oc
 
 ------------
 
-## Levi's Men's 501 Original Fit - Stone Wash
+## <u>Levi's 501 Original Fit - Stone Wash</u>
 
 <div class="img_cont">
     <img src="./Levi_501_postcard1.jpg">
@@ -161,7 +163,7 @@ Below is an edit of some of my favourite and most versatile pieces to fit any oc
     </a>
 </div>
 
-## Calvin Klein Slim Jeans
+## <u>Calvin Klein Slim Jeans</u>
 
 <div class="img_cont">
     <img src="./ck_postcard.png">
@@ -173,7 +175,7 @@ Below is an edit of some of my favourite and most versatile pieces to fit any oc
     </a>
 </div>
 
-## Levi's 512 Slim Taper
+## <u>Levi's 512 Slim Taper</u>
 
 <div class="img_cont">
     <img src="./levis_512.jpg">

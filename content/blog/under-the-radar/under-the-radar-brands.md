@@ -70,7 +70,7 @@ ul > li {
 }
 
 h3 {
-    margin: 15px 0 0 0;
+    margin: 20px 0 20px 0;
 }
 
 h4 {
@@ -104,6 +104,10 @@ h4 {
         font-size: 1.05rem;
         line-height: 1.55rem;
         font-family: 'Nunito', sans-serif;sans-serif;
+    }
+
+    h3 {
+        margin: 20px 0 20px 0;
     }
 
     h4 {
@@ -140,7 +144,6 @@ h4 {
     }
 }
 
-
 </style>
 
 In this article i'll explore some of my favourite brands. 
@@ -163,7 +166,7 @@ japanese cool - not to mention craftsmanship.
 </iframe>
 </div> -->
 
-### Native Sons (Japan)
+### <u>Native Sons (Japan)</u>
 
 My first purchase from the guys at NS was the Roy.
 it's elegntly designed understated and checks all the boxes for me when it comes to proportions.
@@ -171,14 +174,14 @@ It has a smaller shape by design with a narrow bridge making it suitable for tho
 
 ![instagram](ByWbCOKFnuo)
 
-### Wacko Maria (Japan)
+### <u>Wacko Maria (Japan)</u>
 
 The next brand on my list is wacko maria. first appearing on the scene back in '05. What i go to WM
 for is their HAWAIIAN SHIRTs. You simply cannot beat the prints, a masterclass in design.
 
 ![instagram](B9JER_0p19B)
 
-### Cote et Ciel (France)
+### <u>Cote et Ciel (France)</u>
 
 When it comes to bags the first thing that any utilitarian shopper should look for is form as well as function, 
 and <a href="https://amzn.to/2WZ1JdB" target="_blank">Cote et Ciel</a> have this in... well bags. When it comes to innovative designs that seemlessly bridge the gap between fashion and industral design 
@@ -186,7 +189,7 @@ then there's simply no better candidate.
 
 ![instagram](BdxwLFfBN3h)
 
-### Veilance (Canada)
+### <u>Veilance (Canada)</u>
 
 Another one of my favourites that fly under the radar for most is the <a href="https://amzn.to/2Aaqomo" target="_blank">Veilance</a> by the canadian
 outerwear brand Arcteryx. 
@@ -197,7 +200,7 @@ By sealing the seems the garmets become fully water proof - keeping you both dry
 
 ![instagram](BeraJwLHV7k)
 
-### VisVim (Japan)
+### <u>VisVim (Japan)</u>
 
 Finally we come to <a href="https://amzn.to/36qsafk" target="_blank">VisVim</a>. Focused on sourcing premium textiles that are expertly crafted by blind nuns on the sidesteps of the Himalayans... 
 well, not quite, but you get the idea.

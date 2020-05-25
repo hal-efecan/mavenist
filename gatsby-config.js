@@ -82,7 +82,6 @@ module.exports = {
         downloadFiles: false,
       }
     },
-
     {
       resolve: `gatsby-source-filesystem`,
       options: {
