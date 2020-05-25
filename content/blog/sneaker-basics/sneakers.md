@@ -153,7 +153,6 @@ Adidas's Stan Smiths are arguably the most popular Adidas trainer of all time.
 Raf Simons has a premium version and Jay-Z name dropped them on his classic album, The Blueprint.
 constructed with a low profile they come in a multitude of coloured tabs and variations.
 
-
 <!-- <div class="container">
 <iframe style="width:120px;height:300px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=themavenist-21&marketplace=amazon&region=GB&placement=B00WXMPFZI&asins=B00WXMPFZI&linkId=c7630d4c45aaf2696e846d289c03d9b4&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
 </iframe>

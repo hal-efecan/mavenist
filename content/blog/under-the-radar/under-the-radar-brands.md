@@ -143,15 +143,14 @@ h4 {
 
 </style>
 
-
 In this article i'll explore some of my favourite brands. 
 Those that bring uniqueness in design or function.
 
 Firstly - what influenced me in writing this article in the first place was my fascination for 
 japanese style and function. Not all brands listed are japanese but they follow in a similar ilk.
 
-This fascination goes back to when i first watched the intro scene to Rockstar's cult classic GTA2 back in '99. 
-I rememeber like it was yesterday playing it on my packard bell PC that took up 90% of my desk space and GTA2 the time equivalent.
+This fascination goes back to when i first watched the intro scene to Rockstar's cult classic <a href="https://amzn.to/3c6Febe" target="_blank">GTA2</a> back in '99. 
+I rememeber like it was yesterday playing it on my packard bell PC that took up 90% of my desk space and <a href="https://amzn.to/3c6Febe" target="_blank">GTA2</a> the time equivalent.
 
 It was the Yakuza that caught my eye with their full body koi fish tattoos. The 12 year old me was captivated.
 I never managed to pluck up the courage and get a full body tattoo myself. But where i lacked the body art i made up for with the wardrobe.
@@ -159,10 +158,10 @@ I never managed to pluck up the courage and get a full body tattoo myself. But w
 To kick things off i want to begin with my favourite eyewear brand that i believe epitomizes 
 japanese cool - not to mention craftsmanship.
 
-<div class="container">
+<!-- <div class="container">
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=themavenist-21&marketplace=amazon&region=GB&placement=B07CLVXHXP&asins=B07CLVXHXP&linkId=54b8b03ce794b395527229cec244bc7d&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
 </iframe>
-</div>
+</div> -->
 
 ### Native Sons (Japan)
 
@@ -182,14 +181,14 @@ for is their HAWAIIAN SHIRTs. You simply cannot beat the prints, a masterclass i
 ### Cote et Ciel (France)
 
 When it comes to bags the first thing that any utilitarian shopper should look for is form as well as function, 
-and Cote et Ciel have this in... well bags. When it comes to innovative designs that seemlessly bridge the gap between fashion and industral design 
+and <a href="https://amzn.to/2WZ1JdB" target="_blank">Cote et Ciel</a> have this in... well bags. When it comes to innovative designs that seemlessly bridge the gap between fashion and industral design 
 then there's simply no better candidate.
 
 ![instagram](BdxwLFfBN3h)
 
 ### Veilance (Canada)
 
-Another one of my favourites that fly under the radar for most is the Veilance by the canadian
+Another one of my favourites that fly under the radar for most is the <a href="https://amzn.to/2Aaqomo" target="_blank">Veilance</a> by the canadian
 outerwear brand Arcteryx. 
 What Veilance does best is creating hybrid pieces that bridge the gap between
 classical mens tailored silhouettes and brings them into the 21st century with modern materials 
@@ -200,7 +199,7 @@ By sealing the seems the garmets become fully water proof - keeping you both dry
 
 ### VisVim (Japan)
 
-Finally we come to VisVim. Focused on sourcing premium textiles that are expertly crafted by blind nuns on the sidesteps of the Himalayans... 
+Finally we come to <a href="https://amzn.to/36qsafk" target="_blank">VisVim</a>. Focused on sourcing premium textiles that are expertly crafted by blind nuns on the sidesteps of the Himalayans... 
 well, not quite, but you get the idea.
 
 The collections has Navaho inspired touches throughout such as the signature finged suede boots and quilt patching that evoke the Americana spirits.

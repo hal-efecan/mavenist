@@ -4,9 +4,10 @@ path: fashion
 date: 14-05-20
 author: "Halil"
 section: "Fashion"
-isHero: true
+isHero: false
 parent: fashion
 type: post
+isSubSection: true
 image: ./lounge.jpg
 tags: ["Apparel", "Garms", "clothes"]
 ---

@@ -13,7 +13,7 @@ const StyleArticles = () => {
 
     return (
       <>
-              <Banner2 />
+              {/* <Banner2 /> */}
         <div className={subsection.page_container}>
             {
               articles.map(article => {
