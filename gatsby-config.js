@@ -10,7 +10,7 @@ module.exports = {
     description: `Digital fashion & lifestyle destination`,
     siteUrl: `https://themavenist.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `themavenist`,
     },
   },
   plugins: [

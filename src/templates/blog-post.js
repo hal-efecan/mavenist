@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
+import SEO from "../components/seo"
 
 import Layout from "../components/layout"
 import postStyle from '../styles/blog_post.module.scss'
@@ -8,6 +9,8 @@ import postStyle from '../styles/blog_post.module.scss'
 export const query = graphql`
 query ($slug: String!) {
   markdownRemark(fields: {slug: {eq: $slug}}) {
+    id
+    excerpt(pruneLength: 160)
     frontmatter {
       title
       date
@@ -15,30 +18,38 @@ query ($slug: String!) {
       image {
         childImageSharp {
           id
-          fluid ( maxWidth: 700) {
-                  ...GatsbyImageSharpFluid
-              }
+          fluid ( maxWidth: 200) {
+            ...GatsbyImageSharpFluid
+          }
           }
         }
       }
-        html
+    html
     }
   }
 `
 
+
 const BlogPostTemplate = (props) => {
   const image =  props.data.markdownRemark.frontmatter.image
   const fluid = image.childImageSharp.fluid
-  const { author, date } = props.data.markdownRemark.frontmatter
-
+  // const { author, date } = props.data.markdownRemark.frontmatter
+  console.log('props', props)
   return (
     <Layout>
+        <SEO
+          title={props.data.markdownRemark.frontmatter.title}
+          description={props.data.markdownRemark.frontmatter.description || props.data.markdownRemark.frontmatter.excerpt}
+          // image={fluid}
+          pathname={props.location.pathname}
+        />
+
       <div className={postStyle.wrapper}>
         <div className={postStyle.title_container}>
           <h1 className={postStyle.title}>{props.data.markdownRemark.frontmatter.title}</h1>
         </div>
 
-        <Img fluid={fluid} style={{ maxWidth: "600px", margin: "0 auto 15px auto" }} />
+        <Img fluid={fluid} style={{ maxWidth: "200px", margin: "0 auto 15px auto" }} />
         {/* <p className={postStyle.by_line}>{ author } { date }</p> */}
 
         <div 

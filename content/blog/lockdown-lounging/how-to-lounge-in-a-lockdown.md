@@ -112,6 +112,12 @@ h4 {
 
 </style>
 
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" 
+onclick="window.open(this.href, 'mywin','left=0,top=0,width=500,height=250,toolbar=1,resizable=0'); return false;">Tweet</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.themavenist.com%2Ffashion%2Fdenim-guide&layout=button_count&size=large&width=88&height=28&appId" width="88" height="5" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
 If there's one thing that we're all guilty of lately, it's lounging.
 I for one have felt like i've been in a state sanctioned blackhole ever since we were advised not to leave our homes.
 
@@ -144,8 +150,6 @@ I havent owned a pair in a while. Come to think the last time i owned a set was 
 Fast forward 20 years and here i am full circle, back on the hunt for PJs. Here's a shortlist of PJ's on the market that caught my attention.
 
 ## Paul Smith
-<!-- Men's Signature Stripe Cotton Pyjama Set With Navy Trims
-Men's 'Signature Stripe' pyjama set crafted from luxurious 100% Italian cotton. The bottoms feature a button up fly fastening and a cream drawstring adjustable waistband. The three-button fastening top features two patch pockets and navy blue piping. -->
 
 <img src="./paul_smith.jpg">
 <div class="container">
@@ -155,8 +159,6 @@ Shop
 </div>
 
 ## Ralph Lauren
-<!-- Gingham Poplin Long Sleep Set
-This classic sleep set is designed in preppy mini-gingham poplin for the ultimate in comfort and style. -->
 
 <img src="./ralph_lauren.jpeg">
 <div class="container">
@@ -166,10 +168,6 @@ Shop
 </div>
 
 ## Derek Rose
-<!-- Men's Modern Fit Piped Pyjama
-BRINDISI 45 PURE SILK SATIN NAVY
-Luxuriously light and soft pure silk is digitally printed in Italy with a repeated golden yellow polka dot 
-print for a PJ that looks and feels great on. -->
 
 <img src="./derek_rose.jpg">
 <div class="container">
@@ -179,10 +177,6 @@ Shop
 </div>
 
 ## Oliver Spencer
-<!-- Pyjama Shirt Cannington Blue
-This loose fitting pyjama shirt has a short pointed collar, button fastening and simple cuff 
-less sleeves with a one button and loop fastening.
-Cannington cotton cloth is blue and grey moulne twisted check yarn made in Portugal. -->
 
 <img src="./oli_spencer.jpg">
 <div class="container">
