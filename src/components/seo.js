@@ -71,22 +71,22 @@ const SEO = ({ description, lang, meta, image: metaImage, title, pathname }) => 
           property: `og:type`,
           content: `website`,
         },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata.social.twitter,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
+        // {
+        //   name: `twitter:card`,
+        //   content: `summary`,
+        // },
+        // {
+        //   name: `twitter:creator`,
+        //   content: site.siteMetadata.social.twitter,
+        // },
+        // {
+        //   name: `twitter:title`,
+        //   content: title,
+        // },
+        // {
+        //   name: `twitter:description`,
+        //   content: metaDescription,
+        // },
       ]
       .concat(
         metaImage
@@ -95,24 +95,24 @@ const SEO = ({ description, lang, meta, image: metaImage, title, pathname }) => 
               property: "og:image",
               content: image,
             },
-            {
-              property: "og:image:width",
-              content: metaImage.width,
-            },
-            {
-              property: "og:image:height",
-              content: metaImage.height,
-            },
-            {
-              name: "twitter:card",
-              content: "summary_large_image",
-            },
+            // {
+            //   property: "og:image:width",
+            //   content: metaImage.width,
+            // },
+            // {
+            //   property: "og:image:height",
+            //   content: metaImage.height,
+            // },
+            // {
+            //   name: "twitter:card",
+            //   content: "summary_large_image",
+            // },
           ]
         : [
-            {
-              name: "twitter:card",
-              content: "summary",
-            },
+            // {
+            //   name: "twitter:card",
+            //   content: "summary",
+            // },
           ]
           )
           .concat(meta)
@@ -132,10 +132,11 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+  excerpt: PropTypes.string.isRequired,
   image: PropTypes.shape({
     src: PropTypes.string.isRequired,
-    height: PropTypes.number.isRequired,
-    width: PropTypes.number.isRequired,
+    // height: PropTypes.number.isRequired,
+    // width: PropTypes.number.isRequired,
   }),
   pathname: PropTypes.string,
 }

@@ -12,7 +12,7 @@ const SubSection = () => {
         <div className={subsection.parent_container}>
             {
               articles.map(article => {
-                console.log(article)
+                // console.log(article)
                 const { id, frontmatter, excerpt, fields } = article.node
                 const { title, section, image, path, date } = frontmatter
                 const { slug } = fields

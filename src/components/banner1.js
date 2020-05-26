@@ -27,9 +27,9 @@ const Banner1 = () => {
             height="250" 
             scrolling="no" 
             border="0" 
-            marginwidth="0" 
+            marginWidth="0" 
             className={BannerStyles.banner_small}
-            frameborder="0"></iframe>
+            frameBorder="0"></iframe>
 
             {/* <iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=2&p=20&l=ur1&category=piv&banner=0K32RTBXYEQ8GV9GD7G2&f=ifr&linkID=fd108611aca4218ba22ce09929094737&t=themavenist-21&tracking_id=themavenist-21" 
             width="120" 

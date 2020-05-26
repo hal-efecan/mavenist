@@ -7,7 +7,7 @@ module.exports = {
       name: `The Mavenist`,
       summary: `Digital fashion & lifestyle destination - Find the latest news on pop culture, sneakers, style.`,
     },
-    description: `Digital fashion & lifestyle destination`,
+    description: `Digital fashion & lifestyle destination - Find the latest news on pop culture, sneakers, style.`,
     siteUrl: `https://themavenist.com/`,
     social: {
       twitter: `themavenist`,
