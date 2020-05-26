@@ -29,18 +29,19 @@ query ($slug: String!) {
   }
 `
 
-
 const BlogPostTemplate = (props) => {
   const image =  props.data.markdownRemark.frontmatter.image
   const fluid = image.childImageSharp.fluid
   // const { author, date } = props.data.markdownRemark.frontmatter
-  console.log('props', props)
+  // console.log('props', props)
+
   return (
+
     <Layout>
         <SEO
           title={props.data.markdownRemark.frontmatter.title}
           description={props.data.markdownRemark.frontmatter.description || props.data.markdownRemark.frontmatter.excerpt}
-          // image={fluid}
+          image={fluid}
           pathname={props.location.pathname}
         />
 
@@ -51,8 +52,8 @@ const BlogPostTemplate = (props) => {
 
         <Img fluid={fluid} style={{ maxWidth: "700px", margin: "0 auto 15px auto" }} />
         {/* <p className={postStyle.by_line}>{ author } { date }</p> */}
-
-        <div 
+                
+        <div
         className={postStyle.container}
         dangerouslySetInnerHTML={{ __html:props.data.markdownRemark.html }} 
         />
