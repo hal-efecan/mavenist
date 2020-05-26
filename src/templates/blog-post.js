@@ -18,7 +18,7 @@ query ($slug: String!) {
       image {
         childImageSharp {
           id
-          fluid ( maxWidth: 200) {
+          fluid ( maxWidth: 700) {
             ...GatsbyImageSharpFluid
           }
           }
@@ -49,7 +49,7 @@ const BlogPostTemplate = (props) => {
           <h1 className={postStyle.title}>{props.data.markdownRemark.frontmatter.title}</h1>
         </div>
 
-        <Img fluid={fluid} style={{ maxWidth: "200px", margin: "0 auto 15px auto" }} />
+        <Img fluid={fluid} style={{ maxWidth: "700px", margin: "0 auto 15px auto" }} />
         {/* <p className={postStyle.by_line}>{ author } { date }</p> */}
 
         <div 
