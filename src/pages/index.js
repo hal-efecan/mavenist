@@ -22,7 +22,7 @@ const Index = () => {
   return (
             <Layout>
               <Helmet>
-              {/* <!-- Digital window verification 001 --> */}
+                <custom>{/*<!-- Digital window verification 001 -->*/}</custom>
               </Helmet>
               <SEO title="Home - Fashion, Sneakers, Trends & Latest News" />
               <div className={main.container}>
