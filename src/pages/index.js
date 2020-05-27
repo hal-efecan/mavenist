@@ -6,6 +6,7 @@ import Helmet from 'react-helmet'
 // import { graphql, useStaticQuery } from 'gatsby'
 import SEO from "../components/seo"
 import Banner1 from '../components/banner1'
+import Varification from '../components/varification'
 
 import main from '../styles/main.module.scss'
 
@@ -18,17 +19,17 @@ const Index = () => {
 
   // console.log(query)
   // const data = useStaticQuery(query)
-
+  
   return (
             <Layout>
-              <Helmet>
-                <custom>{/*<!-- Digital window verification 001 -->*/}</custom>
-              </Helmet>
-              <SEO title="Home - Fashion, Sneakers, Trends & Latest News" />
+              <SEO 
+              title="The Mavenist - Fashion, Sneakers, Trends & Latest News"
+              />
               <div className={main.container}>
                 <PostList />
                 <Banner1 />
                 <SubSection />
+                <Varification />
               </div>
             </Layout>
         )
