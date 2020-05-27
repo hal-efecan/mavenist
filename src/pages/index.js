@@ -21,7 +21,7 @@ const Index = () => {
 
   return (
             <Layout>
-              <SEO title="Home" />
+              <SEO title="Home - Fashion, Sneakers, Trends & Latest News" />
               <div className={main.container}>
                 <PostList />
                 <Banner1 />
