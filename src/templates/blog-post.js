@@ -58,8 +58,8 @@ const BlogPostTemplate = (props) => {
     // config: { identifier: slug, title },
   }
 
-  // console.log(window.location.origin)
-  // console.log(image.childImageSharp.fluid.src)
+  console.log(props.data.site.siteMetadata.siteUrl)
+  console.log(image.childImageSharp.fluid.src)
 
   return (
     <Layout>
