@@ -58,6 +58,9 @@ const BlogPostTemplate = (props) => {
     // config: { identifier: slug, title },
   }
 
+  // console.log(window.location.origin)
+  // console.log(image.childImageSharp.fluid.src)
+
   return (
     <Layout>
       <Helmet>
@@ -66,7 +69,7 @@ const BlogPostTemplate = (props) => {
         <meta property="og:type"          content="Website" />
         <meta property="og:title"         content={`${props.data.markdownRemark.frontmatter.title}`} />
         <meta property="og:description"   content={`${props.data.markdownRemark.excerpt}`} />
-        <meta property="og:image"         content={props.data.markdownRemark.frontmatter.image.childImageSharp.fluid} />
+        <meta property="og:image"         content={`${props.data.site.siteMetadata.siteUrl}${props.data.markdownRemark.frontmatter.image.childImageSharp.fluid.src}`} />
         <link rel="canonical"             href={`https://themavenist.com/${props.location.pathname}`} />
       </Helmet>
 
