@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 import PostList from '../components/postlist'
 import SubSection from '../components/subSection'
 import Layout from "../components/layout"
-// import Helmet from 'react-helmet'
+import Helmet from 'react-helmet'
 // import { graphql, useStaticQuery } from 'gatsby'
 import SEO from "../components/seo"
 import Banner1 from '../components/banner1'
@@ -21,6 +21,9 @@ const Index = () => {
 
   return (
             <Layout>
+              <Helmet>
+              {/* <!-- Digital window verification 001 --> */}
+              </Helmet>
               <SEO title="Home - Fashion, Sneakers, Trends & Latest News" />
               <div className={main.container}>
                 <PostList />
