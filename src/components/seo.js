@@ -8,9 +8,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
+// import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
 
 const SEO = ({ description, lang, meta, image: metaImage, title, pathname }) => {
+
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -31,8 +33,22 @@ const SEO = ({ description, lang, meta, image: metaImage, title, pathname }) => 
     `
   )
 
+  // const { pathname } = useLocation()
+  // const { site } = useStaticQuery(query)
+  
+  // console.log(site.siteMetadata)
+  // const { title: defaultTitle, description: defaultDescription, siteUrl, 
+  //   image: defaultImage , social: { twitter } } = site.siteMetadata
+
   const metaDescription = description || site.siteMetadata.description
 
+  // const seo = {
+  //   title: title || defaultTitle,
+  //   description: description || defaultDescription,
+  //   image: `${siteUrl}${image || defaultImage}`,
+  //   url: `${siteUrl}${pathname}`,
+  // }
+  
   const image =
     metaImage // && metaImage.src
       ? `${site.siteMetadata.siteUrl}${metaImage}` // ${metaImage.src}
@@ -41,6 +57,7 @@ const SEO = ({ description, lang, meta, image: metaImage, title, pathname }) => 
   const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : null
 
   return (
+
     <Helmet
       htmlAttributes={{
         lang,
@@ -125,13 +142,22 @@ const SEO = ({ description, lang, meta, image: metaImage, title, pathname }) => 
           .concat(meta)
         }
     />
-  )
+
+    )
+
+    // return null
 }
+
+
+export default SEO
 
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
+  title: ``,
+  image: ``,
+  article: false
 }
 
 SEO.propTypes = {
@@ -140,6 +166,9 @@ SEO.propTypes = {
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
   excerpt: PropTypes.string.isRequired,
+
+  // image: PropTypes.string,
+  // article: PropTypes.bool,
   image: PropTypes.shape({
     src: PropTypes.string.isRequired,
     // height: PropTypes.number.isRequired,
@@ -148,4 +177,22 @@ SEO.propTypes = {
   pathname: PropTypes.string,
 }
 
-export default SEO
+
+
+// const query = graphql`
+// query {
+//   site {
+//     siteMetadata {
+//       title
+//       description
+//       author {
+//         name,
+//         summary
+//       }
+//       siteUrl
+//       image
+//       social { twitter }
+//     }
+//   }
+// }
+// `
