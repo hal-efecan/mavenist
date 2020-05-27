@@ -3,7 +3,7 @@ import PostList from '../components/postlist'
 import SubSection from '../components/subSection'
 import Layout from "../components/layout"
 import Helmet from 'react-helmet'
-// import { graphql, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 import SEO from "../components/seo"
 import Banner1 from '../components/banner1'
 import Varification from '../components/varification'
@@ -17,14 +17,19 @@ const Index = () => {
     document.body.style.margin = "0 auto"
   }, [])
 
-  // console.log(query)
-  // const data = useStaticQuery(query)
-
+  const data = useStaticQuery(query)
+  console.log(data)
+  const { description, siteUrl } = data.site.siteMetadata
+  const { publicURL } = data.allFile.edges[0].node
+  console.log(siteUrl, publicURL)
+  
   return (
             <Layout>
               <SEO 
               title="The Mavenist - Home"
-              card="thecard"
+              excerpt={description}
+              // card="thecard"
+              // image={`${siteUrl}${publicURL}`}
               />
               <div className={main.container}>
                 <PostList />
@@ -39,14 +44,22 @@ const Index = () => {
 export default Index
 
 export const query = graphql`
-query {
+query MyQuery {
   site {
-    siteMetadata {
-      title
-      description
-      siteUrl
+  siteMetadata {
+    title
+    description
+    siteUrl
+  }
+}
+allFile(filter: {relativePath: {eq: "android-chrome-192x192.png"}}) {
+  edges {
+    node {
+      id
+      publicURL
     }
   }
+}
 }
 `
 

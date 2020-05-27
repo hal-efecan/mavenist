@@ -49,7 +49,7 @@ const BlogPostTemplate = (props) => {
 
   const disqusShortName = process.env.GATSBY_DISQUS_NAME
 
-  console.log(props.data.markdownRemark.id, props.data.markdownRemark.title)
+  // console.log(props.data.markdownRemark.id, props.data.markdownRemark.title)
 
   const disqusConfig = {
     shortname: process.env.GATSBY_DISQUS_NAME,
@@ -58,8 +58,9 @@ const BlogPostTemplate = (props) => {
     // config: { identifier: slug, title },
   }
 
-  console.log(props.data.site.siteMetadata.siteUrl)
-  console.log(image.childImageSharp.fluid.src)
+  console.log(props.data.markdownRemark.excerpt)
+  // console.log(props.data.site.siteMetadata.siteUrl)
+  // console.log(image.childImageSharp.fluid.src)
 
   return (
     <Layout>
