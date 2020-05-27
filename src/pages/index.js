@@ -19,11 +19,12 @@ const Index = () => {
 
   // console.log(query)
   // const data = useStaticQuery(query)
-  
+
   return (
             <Layout>
               <SEO 
-              title="The Mavenist - Fashion, Sneakers, Trends & Latest News"
+              title="The Mavenist - Home"
+              card="thecard"
               />
               <div className={main.container}>
                 <PostList />

@@ -106,7 +106,7 @@ const BlogPostTemplate = (props) => {
         >
         TW</a> */}
         {/* <DiscussionEmbed shortname={disqusShortName} config={disqusConfig} /> */}
-        <DiscussionEmbed {...disqusConfig} style={{ width: "80%", margin: "75px auto 0 auto" }} />
+        <DiscussionEmbed {...disqusConfig} className={postStyle.disqus} />
     </div>
     </Layout>
   )

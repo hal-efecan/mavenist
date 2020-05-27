@@ -23,6 +23,7 @@ const SEO = ({ description, lang, meta, image: metaImage, title, pathname }) => 
               summary
             }
             siteUrl
+            image
             social { twitter }
           }
         }
@@ -73,7 +74,11 @@ const SEO = ({ description, lang, meta, image: metaImage, title, pathname }) => 
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
+        },
+        {
+          name: `twitter:image:src`,
+          content: `mavenist/content/assets/android-chrome-512x512.png`,
         },
         {
           name: `twitter:creator`,

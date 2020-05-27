@@ -94,3 +94,18 @@
     @media (min-width: 1366px) {
     }
 }
+
+.disqus {
+    width: 90%;
+    margin: 25px auto 0 auto;
+
+    @media (min-width: 768px) {
+        width: 85%;
+    }
+    @media (min-width: 1024px) {
+        width: 70%;
+    }
+    @media (min-width: 1366px) {
+        width: 60%;
+    }
+}
