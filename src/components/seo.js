@@ -32,10 +32,12 @@ const SEO = ({ description, lang, meta, image: metaImage, title, pathname }) => 
   )
 
   const metaDescription = description || site.siteMetadata.description
+
   const image =
     metaImage && metaImage.src
       ? `${site.siteMetadata.siteUrl}${metaImage.src}`
       : null
+      
   const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : null
 
   return (
@@ -78,7 +80,7 @@ const SEO = ({ description, lang, meta, image: metaImage, title, pathname }) => 
         },
         {
           name: `twitter:image:src`,
-          content: `mavenist/content/assets/android-chrome-512x512.png`,
+          content: site.siteMetadata.image,
         },
         {
           name: `twitter:creator`,
