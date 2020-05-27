@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@stripe/stripe-js": "^1.4.0",
+    "disqus-react": "^1.0.8",
     "dotenv": "^8.2.0",
     "gatsby": "^2.20.26",
     "gatsby-image": "^2.3.4",

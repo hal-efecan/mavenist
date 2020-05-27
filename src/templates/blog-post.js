@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 // import SEO from "../components/seo"
 import Helmet from 'react-helmet'
+import { DiscussionEmbed } from "disqus-react"
 
 import Layout from "../components/layout"
 import postStyle from '../styles/blog_post.module.scss'
@@ -36,12 +37,27 @@ query ($slug: String!) {
     }
   }
 `
+
+
+
 const BlogPostTemplate = (props) => {
   const image =  props.data.markdownRemark.frontmatter.image
   const fluid = image.childImageSharp.fluid
   // const { author, date } = props.data.markdownRemark.frontmatter
   console.log('props', props)
   // console.log(props.data.markdownRemark.excerpt)
+
+  const disqusShortName = process.env.GATSBY_DISQUS_NAME
+
+  console.log(props.data.markdownRemark.id, props.data.markdownRemark.title)
+
+  const disqusConfig = {
+    shortname: process.env.GATSBY_DISQUS_NAME,
+    identifier: props.data.markdownRemark.id,
+    title: props.data.markdownRemark.title
+    // config: { identifier: slug, title },
+  }
+
   return (
     <Layout>
       <Helmet>
@@ -74,6 +90,23 @@ const BlogPostTemplate = (props) => {
         className={postStyle.container}
         dangerouslySetInnerHTML={{ __html:props.data.markdownRemark.html }} 
         />
+
+        {/* <a 
+        href={`https://www.facebook.com/sharer/sharer.php?u=${props.data.site.siteMetadata.siteUrl}${props.location.pathname}`} 
+        target="_blank"
+        onClick="window.open(this.href, 'mywin','left=0,top=0,width=500,height=250,toolbar=1,resizable=0'); return false;"
+        rel="noopener noreferrer"
+        >
+        FB</a>
+        <a 
+        href={`https://www.twitter.com/share?url=${props.data.site.siteMetadata.siteUrl}${props.location.pathname}&text${props.data.markdownRemark.frontmatter.title}`} 
+        target="_blank" 
+        onClick="window.open(this.href, 'mywin','left=0,top=0,width=500,height=250,toolbar=1,resizable=0'); return false;"
+        rel="noopener noreferrer"
+        >
+        TW</a> */}
+        {/* <DiscussionEmbed shortname={disqusShortName} config={disqusConfig} /> */}
+        <DiscussionEmbed {...disqusConfig} style={{ width: "80%", margin: "75px auto 0 auto" }} />
     </div>
     </Layout>
   )
