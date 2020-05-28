@@ -9,7 +9,7 @@ module.exports = {
     },
     description: `Digital fashion & lifestyle destination - Find the latest news on pop culture, sneakers, style.`,
     siteUrl: `https://themavenist.com`,
-    image: `/static/d9e1a4db1347dec2d4ebc7700e24b3b8/themavenist-1200x630.png`,
+    image: `/themavenist-1200x630.png`,
     siteLanguage: `en-GB`,
     siteLocale: `en_gb`,
     social: {
