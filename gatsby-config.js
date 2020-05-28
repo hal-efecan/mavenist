@@ -48,8 +48,8 @@ module.exports = {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
                   date: edge.node.frontmatter.date,
-                  url: site.siteMetadata.siteUrl + "/" + edge.node.fields.slug,
-                  guid: site.siteMetadata.siteUrl + "/" + edge.node.fields.slug,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   enclosure: featuredImage && {
                     url: siteUrl + featuredImage.publicURL,
                 },
@@ -204,7 +204,7 @@ module.exports = {
       }
     },
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-feed`,
+    // `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

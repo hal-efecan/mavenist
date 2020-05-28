@@ -45,7 +45,7 @@ const BlogPostTemplate = (props) => {
   const image =  props.data.markdownRemark.frontmatter.image
   const fluid = image.childImageSharp.fluid
   // const { author, date } = props.data.markdownRemark.frontmatter
-  console.log('props', props)
+  // console.log('props', props)
   // console.log(props.data.markdownRemark.excerpt)
 
   const disqusShortName = process.env.GATSBY_DISQUS_NAME
@@ -66,21 +66,21 @@ const BlogPostTemplate = (props) => {
   // console.log(props.data.markdownRemark.excerpt)
   // console.log(props.data.site.siteMetadata.siteUrl)
   // console.log(image.childImageSharp.fluid.src)
-  console.log(props.location.pathname)
+  // console.log(props.location.pathname)
 
-  console.log({
-    title: title,
-    description: excerpt,
-    image: `${siteUrl}${image.childImageSharp.fluid.src}`,
-    siteLanguage: siteLanguage,
-    siteLocale: siteLocale,
-    twitterUsername: twitter,
-    article: true,
-    pathname: `${siteUrl}${pathname}`,
-    author: author,
-    publishedDate: date,
-    modifiedDate: new Date(Date.now()).toISOString()
-  })
+  // console.log({
+  //   title: title,
+  //   description: excerpt,
+  //   image: `${siteUrl}${image.childImageSharp.fluid.src}`,
+  //   siteLanguage: siteLanguage,
+  //   siteLocale: siteLocale,
+  //   twitterUsername: twitter,
+  //   article: true,
+  //   pathname: `${siteUrl}${pathname}`,
+  //   author: author,
+  //   publishedDate: date,
+  //   modifiedDate: new Date(Date.now()).toISOString()
+  // })
 
   return (
     <Layout>

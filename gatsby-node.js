@@ -48,13 +48,15 @@ exports.createPages = async ({ graphql, actions }) => {
     const next = index === 0 ? null : posts[index - 1].node
 
     if (post.node.frontmatter.type === 'product') {
-      createPage({
-        path: `${post.node.fields.slug}`, // ${/*post.node.frontmatter.path*/}
-        component: productPost,
-        context: {
-          slug: post.node.fields.slug,
-        }
-      });
+
+      // createPage({
+      //   path: `${post.node.fields.slug}`, // ${/*post.node.frontmatter.path*/}
+      //   component: productPost,
+      //   context: {
+      //     slug: post.node.fields.slug,
+      //   }
+      // });
+
     } else {
       createPage({
         path: `${post.node.fields.slug}`, // ${/*post.node.frontmatter.path*/}
