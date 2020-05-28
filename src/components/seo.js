@@ -81,6 +81,10 @@ const SEO = ({ description, lang, meta, image: metaImage, title, pathname }) => 
           content: `summary_large_image`,
         },
         {
+          name: `twitter:card`,
+          content: `summary`,
+        },
+        {
           name: `twitter:image:src`, // `twitter:image:src`,
           content: site.siteMetadata.image,
         },
