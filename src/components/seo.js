@@ -8,7 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
-// import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
 
 const SEO = ({ description, lang, meta, image: metaImage, title, pathname }) => {
@@ -33,21 +32,7 @@ const SEO = ({ description, lang, meta, image: metaImage, title, pathname }) => 
     `
   )
 
-  // const { pathname } = useLocation()
-  // const { site } = useStaticQuery(query)
-  
-  // console.log(site.siteMetadata)
-  // const { title: defaultTitle, description: defaultDescription, siteUrl, 
-  //   image: defaultImage , social: { twitter } } = site.siteMetadata
-
   const metaDescription = description || site.siteMetadata.description
-
-  // const seo = {
-  //   title: title || defaultTitle,
-  //   description: description || defaultDescription,
-  //   image: `${siteUrl}${image || defaultImage}`,
-  //   url: `${siteUrl}${pathname}`,
-  // }
   
   const image =
     metaImage // && metaImage.src
@@ -144,10 +129,7 @@ const SEO = ({ description, lang, meta, image: metaImage, title, pathname }) => 
     />
 
     )
-
-    // return null
 }
-
 
 export default SEO
 
@@ -155,9 +137,9 @@ SEO.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
-  title: ``,
-  image: ``,
-  article: false
+  // title: ``,
+  // image: ``,
+  // article: false
 }
 
 SEO.propTypes = {

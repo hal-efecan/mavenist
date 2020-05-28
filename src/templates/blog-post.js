@@ -38,13 +38,11 @@ query ($slug: String!) {
   }
 `
 
-
-
 const BlogPostTemplate = (props) => {
   const image =  props.data.markdownRemark.frontmatter.image
   const fluid = image.childImageSharp.fluid
   // const { author, date } = props.data.markdownRemark.frontmatter
-  console.log('props', props)
+  // console.log('props', props)
   // console.log(props.data.markdownRemark.excerpt)
 
   const disqusShortName = process.env.GATSBY_DISQUS_NAME
@@ -58,9 +56,10 @@ const BlogPostTemplate = (props) => {
     // config: { identifier: slug, title },
   }
 
-  console.log(props.data.markdownRemark.excerpt)
+  // console.log(props.data.markdownRemark.excerpt)
   // console.log(props.data.site.siteMetadata.siteUrl)
   // console.log(image.childImageSharp.fluid.src)
+  console.log(props.location.pathname)
 
   return (
     <Layout>
@@ -71,7 +70,7 @@ const BlogPostTemplate = (props) => {
         <meta property="og:title"         content={`${props.data.markdownRemark.frontmatter.title}`} />
         <meta property="og:description"   content={`${props.data.markdownRemark.excerpt}`} />
         <meta property="og:image"         content={`${props.data.site.siteMetadata.siteUrl}${props.data.markdownRemark.frontmatter.image.childImageSharp.fluid.src}`} />
-        <link rel="canonical"             href={`https://themavenist.com/${props.location.pathname}`} />
+        <link rel="canonical"             href={`${props.data.site.siteMetadata.siteUrl}${props.location.pathname}`} />
       </Helmet>
 
         {/* <SEO

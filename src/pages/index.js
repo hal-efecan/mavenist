@@ -18,10 +18,10 @@ const Index = () => {
   }, [])
 
   const data = useStaticQuery(query)
-  console.log(data)
+  // console.log(data)
   const { description, siteUrl } = data.site.siteMetadata
   const { publicURL } = data.allFile.edges[0].node
-  console.log(siteUrl, publicURL)
+  // console.log(siteUrl, publicURL)
   
   return (
             <Layout>

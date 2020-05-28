@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-167400589-1`,
+        trackingId: process.env.GOOGLE_ANALYTICS,
       },
     },
     {
@@ -43,25 +43,26 @@ module.exports = {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
                   date: edge.node.frontmatter.date,
-                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  url: site.siteMetadata.siteUrl, // + edge.node.frontmatter.path + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl, // + edge.node.frontmatter.path + edge.node.fields.slug,
                   custom_elements: [{ "content:encoded": edge.node.html }],
                 })
               })
             },
             query: `
             {
-              allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {frontmatter: {type: {eq: "post"}}}) {
+              allMarkdownRemark(
+                sort: { order: DESC, fields: [frontmatter___date]}, filter: {frontmatter: {type: {eq: "post"}} },
+                ) {
                 edges {
                   node {
                     excerpt
                     html
-                    fields {
-                      slug
-                    }
+                    fields { slug }
                     frontmatter {
                       title
                       date
+                      path
                     }
                   }
                 }
@@ -70,6 +71,7 @@ module.exports = {
             `,
             output: "/rss.xml",
             title: `The Mavenist RSS Feed`,
+            // match: "^/blog/",
           },
         ],
       },

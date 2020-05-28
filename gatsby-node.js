@@ -36,7 +36,7 @@ exports.createPages = async ({ graphql, actions }) => {
   if (result.errors) {
     throw result.errors
   }
-  // console.log('result', result)
+  // console.log('result', result.data.allMarkdownRemark)
   // Create blog posts pages.
   const posts = result.data.allMarkdownRemark.edges
 
