@@ -2,8 +2,8 @@ import React, { useEffect } from "react"
 import PostList from '../components/postlist'
 import SubSection from '../components/subSection'
 import Layout from "../components/layout"
-import Helmet from 'react-helmet'
-import { graphql, useStaticQuery } from 'gatsby'
+// import { graphql, useStaticQuery } from 'gatsby'
+// import Helmet from 'react-helmet'
 // import SEO from "../components/seo"
 import Banner1 from '../components/banner1'
 import Varification from '../components/varification'
@@ -18,7 +18,6 @@ const Index = ({ data }) => {
     document.body.style.margin = "0 auto"
   }, [])
 
-  // export default ({ data }) => {
     const {
       description,
       title,
@@ -30,26 +29,12 @@ const Index = ({ data }) => {
           twitter
       }
     } =  useSiteMetadata()
-  // }; 
-
-  // const data = useStaticQuery(query)
-  // const { description, siteUrl } = data.site.siteMetadata
-  // const { publicURL } = data.allFile.edges[0].node
-
-  // console.log(siteUrl, publicURL)
   
   return (
             <Layout>
-              {/* <SEO 
-              title="The Mavenist - Home"
-              excerpt={description}
-              // card="thecard"
-              // image={`${siteUrl}${publicURL}`}
-              /> */}
 
               <SEO
                 title={title}
-                // titleTemplate={siteName}
                 description={description || 'nothin’'}
                 image={`${siteUrl}${image}`}
                 pathname={siteUrl}
@@ -70,25 +55,25 @@ const Index = ({ data }) => {
 
 export default Index
 
-export const query = graphql`
-query MyQuery {
-  site {
-  siteMetadata {
-    title
-    description
-    siteUrl
-  }
-}
-allFile(filter: {relativePath: {eq: "android-chrome-192x192.png"}}) {
-  edges {
-    node {
-      id
-      publicURL
-    }
-  }
-}
-}
-`
+// export const query = graphql`
+// query MyQuery {
+//   site {
+//   siteMetadata {
+//     title
+//     description
+//     siteUrl
+//   }
+// }
+// allFile(filter: {relativePath: {eq: "android-chrome-192x192.png"}}) {
+//   edges {
+//     node {
+//       id
+//       publicURL
+//     }
+//   }
+// }
+// }
+// `
 
 // <Helmet>
 // <title>{`${props.data.site.siteMetadata.title}`}</title>

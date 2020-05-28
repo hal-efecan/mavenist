@@ -3,10 +3,6 @@ require("dotenv").config()
 module.exports = {
   siteMetadata: {
     title: `The Mavenist`,
-    author: {
-      name: `The Mavenist`,
-      summary: `Digital fashion & lifestyle destination - Find the latest news on pop culture, sneakers, style.`,
-    },
     description: `Digital fashion & lifestyle destination - Find the latest news on pop culture, sneakers, style.`,
     siteUrl: `https://themavenist.com`,
     image: `/themavenist-1200x630.png`,
@@ -161,7 +157,52 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     'gatsby-plugin-robots-txt',
-    `gatsby-plugin-sitemap`,
+    // `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        // output: `/some-other-sitemap.xml`,
+        // Exclude specific pages or groups of pages using glob parameters
+        // See: https://github.com/isaacs/minimatch
+        // The example below will exclude the single `path/to/page` and all routes beginning with `category`
+        exclude: [`/marshall`, `/parkgate`, `/review/`, `/shop/`, `/success/`, `/cancelled/`],
+      //   query: `
+      // query: `
+      // {
+      //   allSitePage 
+      //     {
+      //      nodes {
+      //        path
+      //      }
+      //    }
+      //   }`
+      //     {
+      //       wp {
+      //         generalSettings {
+      //           siteUrl
+      //         }
+      //       }
+  
+      //       allSitePage {
+      //         nodes {
+      //           path
+      //         }
+      //       }
+      //   }`,
+      //   resolveSiteUrl: ({site, allSitePage}) => {
+      //     //Alternativly, you may also pass in an environment variable (or any location) at the beginning of your `gatsby-config.js`.
+      //     return site.wp.generalSettings.siteUrl
+      //   },
+      //   serialize: ({ site, allSitePage }) =>
+      //     allSitePage.nodes.map(node => {
+      //       return {
+      //         url: `${site.wp.generalSettings.siteUrl}${node.path}`,
+      //         changefreq: `daily`,
+      //         priority: 0.7,
+      //       }
+      //     })
+      }
+    },
     `gatsby-plugin-sharp`,
     `gatsby-plugin-feed`,
     {

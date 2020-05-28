@@ -26,7 +26,6 @@ const Thoughts = ({ data }) => {
             {/* <SEO title="Thoughts" description="All Thoughts related content"/> */}
             <SEO
                 title={title}
-                // titleTemplate={siteName}
                 description={description || 'nothin’'}
                 image={`${siteUrl}${image}`}
                 pathname={siteUrl}

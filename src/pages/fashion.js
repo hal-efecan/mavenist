@@ -26,7 +26,6 @@ const Fashion = ({ data }) => {
             {/* <SEO title="Fashion" description="All Fashion related content" /> */}
             <SEO
                 title={title}
-                // titleTemplate={siteName}
                 description={description || 'nothin’'}
                 image={`${siteUrl}${image}`}
                 pathname={siteUrl}

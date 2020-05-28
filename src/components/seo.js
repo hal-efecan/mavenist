@@ -19,10 +19,6 @@ const SEO = ({ description, lang, meta, image: metaImage, title, pathname }) => 
           siteMetadata {
             title
             description
-            author {
-              name,
-              summary
-            }
             siteUrl
             image
             social { twitter }

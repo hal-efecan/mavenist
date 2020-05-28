@@ -2,13 +2,14 @@ import React from "react"
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 // import SEO from "../components/seo"
-import Helmet from 'react-helmet'
+// import Helmet from 'react-helmet'
 import { DiscussionEmbed } from "disqus-react"
+
+import { useSiteMetadata } from "../hooks/useSiteMetadata"
+import SEO from 'react-seo-component'
 
 import Layout from "../components/layout"
 import postStyle from '../styles/blog_post.module.scss'
-import { useSiteMetadata } from "../hooks/useSiteMetadata"
-import SEO from 'react-seo-component'
 
 export const query = graphql`
 query ($slug: String!) {
@@ -86,7 +87,6 @@ const BlogPostTemplate = (props) => {
 
       <SEO
         title={title}
-        // titleTemplate={siteName}
         description={excerpt}
         image={`${siteUrl}${image.childImageSharp.fluid.src}`}
         siteLanguage={siteLanguage}
