@@ -19,7 +19,7 @@ const SubSection = () => {
                 const fluid = image.childImageSharp.fluid
 
                 return (
-                  <Link className={subsection.child_container} key={id} to={`/${path}/${slug}`}> 
+                  <Link className={subsection.child_container} key={id} to={`/${slug}`}> {/* ${path}/ */}
                         <div className={subsection.image_container}>
                           <Img fluid={fluid} />
                         </div>

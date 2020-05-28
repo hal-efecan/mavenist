@@ -49,7 +49,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
     if (post.node.frontmatter.type === 'product') {
       createPage({
-        path: `/${post.node.frontmatter.path}/${post.node.fields.slug}`,
+        path: `/${post.node.fields.slug}`, // ${/*post.node.frontmatter.path*/}
         component: productPost,
         context: {
           slug: post.node.fields.slug,
@@ -57,7 +57,7 @@ exports.createPages = async ({ graphql, actions }) => {
       });
     } else {
       createPage({
-        path: `${post.node.frontmatter.path}/${post.node.fields.slug}`,
+        path: `${post.node.fields.slug}`, // ${/*post.node.frontmatter.path*/}
         component: blogPost,
         context: {
           slug: post.node.fields.slug,
@@ -69,17 +69,31 @@ exports.createPages = async ({ graphql, actions }) => {
 }
 
 /////////////////
-exports.onCreateNode = ({ node, actions }) => {
+exports.onCreateNode = ({ node, actions /*, getNode*/ }) => { // getNode added later
   const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
     const slug = path.basename(node.fileAbsolutePath, `.md`)
-    // console.log('slug~~~~~~~~', slug)
-    
+    console.log('slug~~~~~~~~', slug)
+    // const value = createFilePath({ node, getNode }) // added later
+
     createNodeField({
       name: `slug`,
       node,
-      value: slug
+      value: `/${slug}`
     })
   }
 }
+
+/////////////////
+
+// const serialize = ({ query: { site, allMarkdownRemark } }) =>
+//   allMarkdownRemark.edges.map(edge => {
+//     return {
+//       ...edge.node.frontmatter,
+//       description: edge.node.excerpt,
+//       url: site.siteMetadata.siteUrl + "/" + edge.node.fields.slug,
+//       guid: site.siteMetadata.siteUrl + "/" + edge.node.fields.slug,
+//       custom_elements: [{ "content:encoded": edge.node.html }],
+//     }
+//   })

@@ -43,8 +43,8 @@ module.exports = {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
                   date: edge.node.frontmatter.date,
-                  url: site.siteMetadata.siteUrl, // + edge.node.frontmatter.path + edge.node.fields.slug,
-                  guid: site.siteMetadata.siteUrl, // + edge.node.frontmatter.path + edge.node.fields.slug,
+                  url: site.siteMetadata.siteUrl + "/" + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + "/" + edge.node.fields.slug,
                   custom_elements: [{ "content:encoded": edge.node.html }],
                 })
               })
@@ -166,19 +166,19 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
-    },
-    {
-      resolve: `gatsby-plugin-html-comments`,
-      options: {
-        files: ['./public/**/*.html', './public/*.html'],
-        comment: [
-          {
-            regexp: /<custom-tag>(.*?)<\/custom-tag>/g,
-            comment: `<!-- Digital window verification 001 -->`,
-            },
-        ]
-      }
     }
+    // {
+    //   resolve: `gatsby-plugin-html-comments`,
+    //   options: {
+    //     files: ['./public/**/*.html', './public/*.html'],
+    //     comment: [
+    //       {
+    //         regexp: /<custom-tag>(.*?)<\/custom-tag>/g,
+    //         comment: `<!-- Digital window verification 001 -->`,
+    //         },
+    //     ]
+    //   }
+    // }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

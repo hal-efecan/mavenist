@@ -18,9 +18,9 @@ const PostList = () => {
                     const { title, image, section, path, date } = frontmatter
                     const { slug } = fields
                     const fluid = image.childImageSharp.fluid
-
+                    console.log(slug)
                     return (
-                      <Link key={id} to={`${path}/${slug}`} className={thumbStyles.link}>
+                      <Link key={id} to={`${slug}`} className={thumbStyles.link}> {/*${path}/*/}
 
                         <div className={thumbStyles.child_container}>
 
