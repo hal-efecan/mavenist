@@ -36,7 +36,7 @@ const SEO = ({ description, lang, meta, image: metaImage, title, pathname }) => 
   
   const image =
     metaImage // && metaImage.src
-      ? `${site.siteMetadata.siteUrl}${metaImage}` // ${metaImage.src}
+      ? `${site.siteMetadata.siteUrl}${metaImage.src}` // ${metaImage.src}
       : null
       
   const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : null
@@ -81,7 +81,7 @@ const SEO = ({ description, lang, meta, image: metaImage, title, pathname }) => 
           content: `summary_large_image`,
         },
         {
-          name: `twitter:image`, // `twitter:image:src`,
+          name: `twitter:image:src`, // `twitter:image:src`,
           content: site.siteMetadata.image,
         },
         {
