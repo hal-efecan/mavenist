@@ -51,7 +51,7 @@ const Index = ({ data }) => {
                 title={title}
                 // titleTemplate={siteName}
                 description={description || 'nothin’'}
-                image={`${siteUrl}${image}`}
+                image={image}
                 pathname={siteUrl}
                 siteLanguage={siteLanguage}
                 siteLocale={siteLocale}
