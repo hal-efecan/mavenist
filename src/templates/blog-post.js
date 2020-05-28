@@ -7,6 +7,8 @@ import { DiscussionEmbed } from "disqus-react"
 
 import Layout from "../components/layout"
 import postStyle from '../styles/blog_post.module.scss'
+import { useSiteMetadata } from "../hooks/useSiteMetadata"
+import SEO from 'react-seo-component'
 
 export const query = graphql`
 query ($slug: String!) {
@@ -42,7 +44,7 @@ const BlogPostTemplate = (props) => {
   const image =  props.data.markdownRemark.frontmatter.image
   const fluid = image.childImageSharp.fluid
   // const { author, date } = props.data.markdownRemark.frontmatter
-  // console.log('props', props)
+  console.log('props', props)
   // console.log(props.data.markdownRemark.excerpt)
 
   const disqusShortName = process.env.GATSBY_DISQUS_NAME
@@ -56,14 +58,48 @@ const BlogPostTemplate = (props) => {
     // config: { identifier: slug, title },
   }
 
+  const { siteLanguage, siteLocale, social: { twitter }, siteUrl } = useSiteMetadata()
+  const { frontmatter, excerpt } = props.data.markdownRemark
+  const { pathname } = props.location
+  const { title, date, author } = frontmatter
   // console.log(props.data.markdownRemark.excerpt)
   // console.log(props.data.site.siteMetadata.siteUrl)
   // console.log(image.childImageSharp.fluid.src)
   console.log(props.location.pathname)
 
+  console.log({
+    title: title,
+    description: excerpt,
+    image: `${siteUrl}${image.childImageSharp.fluid.src}`,
+    siteLanguage: siteLanguage,
+    siteLocale: siteLocale,
+    twitterUsername: twitter,
+    article: true,
+    pathname: `${siteUrl}${pathname}`,
+    author: author,
+    publishedDate: date,
+    modifiedDate: new Date(Date.now()).toISOString()
+  })
+
   return (
     <Layout>
-      <Helmet>
+
+      <SEO
+        title={title}
+        // titleTemplate={siteName}
+        description={excerpt}
+        image={`${siteUrl}${image.childImageSharp.fluid.src}`}
+        siteLanguage={siteLanguage}
+        siteLocale={siteLocale}
+        twitterUsername={twitter}
+        article={true}
+        pathname={`${siteUrl}${pathname}`}
+        author={author}
+        publishedDate={date}
+        modifiedDate={new Date(Date.now()).toISOString()}
+      />
+
+      {/* <Helmet>
         <title>{`${props.data.markdownRemark.frontmatter.title}| ${props.data.site.siteMetadata.title}`}</title>
         <meta property="og:url"           content={`${props.data.site.siteMetadata.siteUrl}${props.location.pathname}`} />
         <meta property="og:type"          content="Website" />
@@ -71,7 +107,7 @@ const BlogPostTemplate = (props) => {
         <meta property="og:description"   content={`${props.data.markdownRemark.excerpt}`} />
         <meta property="og:image"         content={`${props.data.site.siteMetadata.siteUrl}${props.data.markdownRemark.frontmatter.image.childImageSharp.fluid.src}`} />
         <link rel="canonical"             href={`${props.data.site.siteMetadata.siteUrl}${props.location.pathname}`} />
-      </Helmet>
+      </Helmet> */}
 
         {/* <SEO
           title={props.data.markdownRemark.frontmatter.title}
