@@ -4,33 +4,60 @@ import SubSection from '../components/subSection'
 import Layout from "../components/layout"
 import Helmet from 'react-helmet'
 import { graphql, useStaticQuery } from 'gatsby'
-import SEO from "../components/seo"
+// import SEO from "../components/seo"
 import Banner1 from '../components/banner1'
 import Varification from '../components/varification'
-
+import { useSiteMetadata } from '../hooks/useSiteMetadata'
 import main from '../styles/main.module.scss'
+import SEO from 'react-seo-component'
 
-const Index = () => {
+const Index = ({ data }) => {
 
   useEffect(() => {
     document.body.style.maxWidth = "1366px"
     document.body.style.margin = "0 auto"
   }, [])
 
-  const data = useStaticQuery(query)
-  // console.log(data)
-  const { description, siteUrl } = data.site.siteMetadata
-  const { publicURL } = data.allFile.edges[0].node
+  // export default ({ data }) => {
+    const {
+      description,
+      title,
+      image,
+      siteUrl,
+      siteLanguage,
+      siteLocale,
+      social: {
+          twitter
+      }
+    } =  useSiteMetadata()
+  // }; 
+
+  // const data = useStaticQuery(query)
+  // const { description, siteUrl } = data.site.siteMetadata
+  // const { publicURL } = data.allFile.edges[0].node
+
   // console.log(siteUrl, publicURL)
   
   return (
             <Layout>
-              <SEO 
+              {/* <SEO 
               title="The Mavenist - Home"
               excerpt={description}
               // card="thecard"
               // image={`${siteUrl}${publicURL}`}
-              />
+              /> */}
+
+              <SEO
+                title={title}
+                // titleTemplate={siteName}
+                description={description || 'nothin’'}
+                image={image}
+                pathname={siteUrl}
+                siteLanguage={siteLanguage}
+                siteLocale={siteLocale}
+                twitterUsername={twitter}
+                />
+
               <div className={main.container}>
                 <PostList />
                 <Banner1 />

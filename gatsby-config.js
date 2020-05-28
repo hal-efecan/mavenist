@@ -10,8 +10,10 @@ module.exports = {
     description: `Digital fashion & lifestyle destination - Find the latest news on pop culture, sneakers, style.`,
     siteUrl: `https://themavenist.com/`,
     image: `/static/d9e1a4db1347dec2d4ebc7700e24b3b8/android-chrome-192x192.png`,
+    siteLanguage: `en-GB`,
+    siteLocale: `en_gb`,
     social: {
-      twitter: `themavenist`,
+      twitter: `@themavenist`,
     },
   },
   plugins: [
@@ -40,11 +42,21 @@ module.exports = {
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
               return allMarkdownRemark.edges.map(edge => {
+
+                  const {
+                      node: {
+                          frontmatter: { featuredImage }
+                      }
+                  } = edge;
+
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
                   date: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + "/" + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + "/" + edge.node.fields.slug,
+                  enclosure: featuredImage && {
+                    url: siteUrl + featuredImage.publicURL,
+                },
                   custom_elements: [{ "content:encoded": edge.node.html }],
                 })
               })
@@ -63,6 +75,10 @@ module.exports = {
                       title
                       date
                       path
+                      image {
+                        id
+                        publicURL
+                      }
                     }
                   }
                 }
