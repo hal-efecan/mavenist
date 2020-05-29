@@ -1,7 +1,7 @@
 ---
 title: "Sneaker basics"
 path: fashion
-date: 12-05-20
+date: 2020-05-12
 author: "Halil"
 section: "Fashion"
 isHero: true

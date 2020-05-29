@@ -25,9 +25,10 @@ query ($slug: String!) {
     excerpt(pruneLength: 160)
     frontmatter {
       title
-      date
+      date (formatString: " YYYY MMMM Do")
       author
       image {
+        publicURL
         childImageSharp {
           id
           fluid ( maxWidth: 700) {
@@ -68,19 +69,19 @@ const BlogPostTemplate = (props) => {
   // console.log(image.childImageSharp.fluid.src)
   // console.log(props.location.pathname)
 
-  // console.log({
-  //   title: title,
-  //   description: excerpt,
-  //   image: `${siteUrl}${image.childImageSharp.fluid.src}`,
-  //   siteLanguage: siteLanguage,
-  //   siteLocale: siteLocale,
-  //   twitterUsername: twitter,
-  //   article: true,
-  //   pathname: `${siteUrl}${pathname}`,
-  //   author: author,
-  //   publishedDate: date,
-  //   modifiedDate: new Date(Date.now()).toISOString()
-  // })
+  console.log({
+    title: title,
+    description: excerpt,
+    image: `${siteUrl}${image.publicURL}`,
+    siteLanguage: siteLanguage,
+    siteLocale: siteLocale,
+    twitterUsername: twitter,
+    article: true,
+    pathname: `${siteUrl}${pathname}`,
+    author: author,
+    publishedDate: date,
+    modifiedDate: new Date(Date.now()).toISOString()
+  })
 
   return (
     <Layout>
@@ -88,7 +89,7 @@ const BlogPostTemplate = (props) => {
       <SEO
         title={title}
         description={excerpt}
-        image={`${siteUrl}${image.childImageSharp.fluid.src}`}
+        image={`${siteUrl}${image.publicURL}`}
         siteLanguage={siteLanguage}
         siteLocale={siteLocale}
         twitterUsername={twitter}
@@ -123,7 +124,7 @@ const BlogPostTemplate = (props) => {
         </div>
 
         <Img fluid={fluid} style={{ maxWidth: "700px", margin: "0 auto 15px auto" }} />
-        {/* <p className={postStyle.by_line}>{ author } { date }</p> */}
+        <p className={postStyle.by_line}> { date }</p>
                 
         <div
         className={postStyle.container}

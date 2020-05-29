@@ -1,7 +1,7 @@
 ---
 title: "Lockdown loungewear"
 path: fashion
-date: 14-05-20
+date: 2020-05-14
 author: "Halil"
 section: "Fashion"
 isHero: false

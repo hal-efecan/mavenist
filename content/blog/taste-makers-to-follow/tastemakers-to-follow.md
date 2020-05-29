@@ -1,7 +1,7 @@
 ---
 title: "Tastemakers to follow"
 path: style
-date: 14-05-20
+date: 2020-05-14
 author: "Halil"
 section: Style
 isHero: false

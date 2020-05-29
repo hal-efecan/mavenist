@@ -1,7 +1,7 @@
 ---
 title: "Denim guide"
 path: fashion
-date: 25-05-20
+date: 2020-05-25
 author: "Halil"
 section: Style
 isHero: true
@@ -122,7 +122,7 @@ h4 {
 </style>
 
 I love denim! What can i say.. denim jeans provide a solid start to any outfit.
- 
+
 weather you subscribe to a simple t-shirt and sneakers combo or prefer to dress your jeans up with shoes and a shirt;
 denim is undoubtably the most versatile items of clothing that forms the backbone of any wardrobe. 
 

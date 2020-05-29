@@ -1,7 +1,7 @@
 ---
 title: "Under the rader brands"
 path: fashion
-date: 13-05-20
+date: 2020-05-13
 author: "Halil"
 section: "Fashion"
 isHero: true
