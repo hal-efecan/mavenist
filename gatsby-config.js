@@ -50,10 +50,15 @@ module.exports = {
                   date: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  enclosure: image && {
-                    url: site.siteMetadata.siteUrl + image.publicURL,
-                },
-                  custom_elements: [{ "content:encoded": edge.node.html }],
+                //   enclosure: image && {
+                //     url: site.siteMetadata.siteUrl + image.publicURL,
+                // },
+                  custom_elements: [{ "content:encoded": edge.node.html }, {
+                    'article': {
+                      _attr: {
+                        href: site.siteMetadata.siteUrl + image.publicURL
+                      }
+                  }}], // "content:encoded"
                 })
               })
             },
