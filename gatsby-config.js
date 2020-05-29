@@ -51,9 +51,13 @@ module.exports = {
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   enclosure: image && {
-                    url: `https://www.themavenist.com`  // site.siteMetadata.siteUrl // + image.publicURL,
+                    url: site.siteMetadata.siteUrl + image.publicURL,
+                    type: "image/jpeg"
                 },
-                  custom_elements: [{ "content:encoded": edge.node.html }, {img: site.siteMetadata.siteUrl + image.publicURL }] // "content:encoded"
+                custom_namespaces: {
+                  'xmlns:media': "http://search.yahoo.com/mrss/"
+                },
+                  custom_elements: [{ "content:encoded": edge.node.html }, { "media:content": site.siteMetadata.siteUrl + image.publicURL }]
                 })
               })
             },
