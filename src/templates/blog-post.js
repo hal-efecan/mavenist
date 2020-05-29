@@ -68,7 +68,8 @@ const BlogPostTemplate = (props) => {
   // console.log(props.data.site.siteMetadata.siteUrl)
   // console.log(image.childImageSharp.fluid.src)
   // console.log(props.location.pathname)
-
+  console.log(image)
+  console.log(siteUrl)
   console.log({
     title: title,
     description: excerpt,
