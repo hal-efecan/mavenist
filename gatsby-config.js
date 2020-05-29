@@ -52,12 +52,15 @@ module.exports = {
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   enclosure: image && {
                     url: `https://www.themavenist.com` + image.publicURL, // site.siteMetadata.siteUrl
-                    type: "image/jpeg"
+                    // type: "image/jpeg"
                 },
                 custom_namespaces: {
                   'xmlns:media': "http://search.yahoo.com/mrss/"
                 },
-                  custom_elements: [{ "content:encoded": edge.node.html }, {"media:content":  `https://www.themavenist.com` + image.publicURL} ] // site.siteMetadata.siteUrl
+                  custom_elements: [
+                  { "content:encoded": edge.node.html }, 
+                  // {"media:content":  `https://www.themavenist.com` + image.publicURL} 
+                  ], // site.siteMetadata.siteUrl
                 })
               })
             },
