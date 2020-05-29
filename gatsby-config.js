@@ -53,7 +53,7 @@ module.exports = {
                   enclosure: image && {
                     url: site.siteMetadata.siteUrl + image.publicURL,
                 },
-                  custom_elements: [{ "content:encoded": edge.node.html }, {image: site.siteMetadata.siteUrl + image.publicURL }] // "content:encoded"
+                  custom_elements: [{ "content:encoded": edge.node.html }, {img: site.siteMetadata.siteUrl + image.publicURL }] // "content:encoded"
                 })
               })
             },
