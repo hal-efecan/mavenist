@@ -46,7 +46,7 @@ const BlogPostTemplate = (props) => {
   const image =  props.data.markdownRemark.frontmatter.image
   const fluid = image.childImageSharp.fluid
   // const { author, date } = props.data.markdownRemark.frontmatter
-  // console.log('props', props)
+  console.log('props', props)
   // console.log(props.data.markdownRemark.excerpt)
 
   const disqusShortName = process.env.GATSBY_DISQUS_NAME
