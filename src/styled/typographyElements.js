@@ -27,6 +27,7 @@ export const ByLine = styled.p`
     margin: 15px auto 5px auto;
     font-size: 1rem;
     max-width: 320px;
+    font-weight: 700;
 
     a {
         font-family: 'Work Sans', sans-serif;

@@ -14,6 +14,25 @@ export const PostWrapper = styled.main`
         letter-spacing: 0.025rem;
     }
 
+    div > iframe {
+        width: 85% !important;
+        margin-left: 6.5% !important;
+        border: 1px solid lightgrey;
+
+        @media (min-width: 768px) {
+            width:50% !important;
+            margin-left: 25% !important;
+        }
+    }
+
+    p > div {
+        padding-bottom: 150% !important;
+
+        @media (min-width: 768px) {
+            padding-bottom: 85% !important;
+        }
+    }
+
     div {
         display: flex;
         justify-content: center;
