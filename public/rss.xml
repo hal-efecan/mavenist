@@ -1,978 +1,122 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Mavenist RSS Feed]]></title><description><![CDATA[Digital fashion & lifestyle destination - Find the latest news on pop culture, sneakers, style.]]></description><link>https://themavenist.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 29 May 2020 13:03:52 GMT</lastBuildDate><item><title><![CDATA[Denim guide]]></title><description><![CDATA[I love denim! What can i say.. denim jeans provide a solid start to any outfit. weather you subscribe to a simple t-shirt and sneakers combo…]]></description><link>https://themavenist.com/denim-guide</link><guid isPermaLink="false">https://themavenist.com/denim-guide</guid><pubDate>Mon, 25 May 2020 00:00:00 GMT</pubDate><enclosure url="https://www.themavenist.com/static/e9d76335486a7f12cd57a0fb463dac8d/denim-guide.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;style&gt;
-
-@import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
-@import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
-@import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
-
-.img_cont {
-    width: 300px;
-    margin: 0 auto;
-}
-
-.cont {
-    margin: 20px 0 20px 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-.cont iframe {
-    margin: 0 auto;
-    display: block;
-}
-
-.container {
-    display: flex;
-}
-
-.button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2px;
-    color: white;
-    margin: 20px auto 0 auto;
-    width: 175px;
-    height: 40px;
-    background-color: black;
-    text-transform: uppercase;
-    font-size: 0.9rem;
-}
-
-ul {
-    margin: 7px 0 0 0;
-}
-
-p {
-    font-size: 0.9rem;
-    line-height: 1.85rem;
-    font-family: &apos;Lato&apos;, sans-serif;
-}
-
-ul &gt; li {
-    font-size: 0.9rem;
-    line-height: 1.45rem;
-    letter-spacing: 0.025rem;
-    font-family: &apos;Lato&apos;, sans-serif;
-}
-
-h3 {
-    margin: 10px 0 30px 0;
-}
-
-h4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.4rem;
-    letter-spacing: 0.005rem;
-    color: #000000
-    padding: 0;
-    margin: 10px 0 30px 0;
-}
-
-@media (min-width: 768px) {
-
-    p {
-        font-size: 1.15rem;
-        line-height: 1.7rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    ul &gt; li {
-        font-size: 1.05rem;
-        line-height: 1.55rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    h4 {
-        font-size: 1.8rem;
-    }
-}
-
-@media (min-width: 1024px) {
-
-    p {
-        font-size: 1.15rem;
-        line-height: 1.7rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    ul &gt; li {
-        font-size: 1.05rem;
-        line-height: 1.55rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    h4 {
-        font-size: 2rem;
-    }
-}
-
-&lt;/style&gt;
-&lt;p&gt;I love denim! What can i say.. denim jeans provide a solid start to any outfit.&lt;/p&gt;
-&lt;p&gt;weather you subscribe to a simple t-shirt and sneakers combo or prefer to dress your jeans up with shoes and a shirt;
-denim is undoubtably the most versatile items of clothing that forms the backbone of any wardrobe. &lt;/p&gt;
-&lt;p&gt;Truely the most democratic piece of clothing anyone can have in their wardrobe.&lt;/p&gt;
-&lt;p&gt;You only ever need 3 types of denim jeans.&lt;/p&gt;
-&lt;h3&gt;&lt;em&gt;Summer&lt;/em&gt;, &lt;em&gt;Everyday&lt;/em&gt; &amp;#x26; &lt;em&gt;Evening&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;The number one most important thing to consider when buying jeans is the FIT. You dont want to be wearing a pair
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Mavenist RSS Feed]]></title><description><![CDATA[Digital fashion & lifestyle destination - Find the latest news on pop culture, sneakers, style.]]></description><link>https://themavenist.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 03 Jun 2020 19:10:27 GMT</lastBuildDate><item><title><![CDATA[Denim guide]]></title><description><![CDATA[What can i say - I love denim! They provide a solid start to any outfit.
+weather you subscribe to a simple t-shirt and sneakers combo or…]]></description><link>https://themavenist.comdenim-guide</link><guid isPermaLink="false">https://themavenist.comdenim-guide</guid><pubDate>Mon, 25 May 2020 00:00:00 GMT</pubDate><enclosure url="https://www.themavenist.com/static/e9d76335486a7f12cd57a0fb463dac8d/denim-guide.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;What can i say - I love denim! They provide a solid start to any outfit.
+weather you subscribe to a simple t-shirt and sneakers combo or prefer to dress your jeans up with shoes and a shirt;
+denim is undoubtably the most versatile items of clothing that forms the backbone of any wardrobe.
+Truely the most democratic piece of clothing anyone can have in their wardrobe.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;You only need three types of denim - Summer, Everyday &amp;amp; Evening&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The number one most important thing to consider when buying jeans is the FIT. You dont want to be wearing a pair
 that looks like a hand me down.. unless thats the look you’re going for.
 you almost always want stay to the left of the spectrum when it comes to fits - skinny, slim or tapered - at a
 maximum i would say straight also has a place anything greater than that and you risk looking like an extra in a
-90s gangster rap music video. &lt;/p&gt;
-&lt;p&gt;The second consideration should be the wash. With washes there is a time and a place - for example if you’re wearing
+90s gangster rap music video.&lt;/p&gt;&lt;p&gt;The second consideration should be the wash. With washes there is a time and a place - for example if you’re wearing
 them out in the evenings you’ll want them to be darker(black/dark grey etc) to almost mimic trousers. If you’re
 wearing them during the day they should be stone wash(if its sunny and you’re near the coast),
-dark indigo or genrally some shade of blue.&lt;/p&gt;
-&lt;p&gt;The weight and elasticity is also important. If you’re a denim purist then the heavier the better however most
+dark indigo or genrally some shade of blue.&lt;/p&gt;&lt;p&gt;The weight and elasticity is also important. If you’re a denim purist then the heavier the better however most
 people (including myself) value a certain level of comfort so be sure to keep a look out for those that have
-2/3% elastane.&lt;/p&gt;
-&lt;p&gt;Below is an edit of some of my favourite and most versatile pieces to fit any occasion.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;&lt;u&gt;Levi’s 501 Original Fit - Stone Wash&lt;/u&gt;&lt;/h2&gt;
-&lt;div class=&quot;img_cont&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 150%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAeABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMBBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB6pejOp1ZNTyhNA//xAAbEAACAwEBAQAAAAAAAAAAAAACEQABAxAxMv/aAAgBAQABBQLUXrYXZY0syi4fyXsTifP/xAAVEQEBAAAAAAAAAAAAAAAAAAABIP/aAAgBAwEBPwFj/8QAFREBAQAAAAAAAAAAAAAAAAAAASD/2gAIAQIBAT8BI//EABkQAAMAAwAAAAAAAAAAAAAAAAABEBEgQf/aAAgBAQAGPwJHDEVWv//EABwQAQACAwADAAAAAAAAAAAAAAEAERAxQSFhsf/aAAgBAQABPyF6nSUT6lVwLNSeB7GTRwgUxKF5j//aAAwDAQACAAMAAAAQsM48/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAh/9oACAEDAQE/EBuRJ//EABYRAQEBAAAAAAAAAAAAAAAAAAEQIf/aAAgBAgEBPxBZBn//xAAfEAACAQQCAwAAAAAAAAAAAAABEQAQITFBUYGR4fH/2gAIAQEAAT8QxWuCE2JhrAb1AAGgD4cAOIDBseIQsUbnn3Q12lut8ooLBgIGTYp//9k=&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Levi 501 postcard1&quot; title=&quot;Levi 501 postcard1&quot; src=&quot;/static/f7254f110380c3e8784a59e9434255fd/1c72d/Levi_501_postcard1.jpg&quot; srcset=&quot;/static/f7254f110380c3e8784a59e9434255fd/a80bd/Levi_501_postcard1.jpg 148w,
-/static/f7254f110380c3e8784a59e9434255fd/1c91a/Levi_501_postcard1.jpg 295w,
-/static/f7254f110380c3e8784a59e9434255fd/1c72d/Levi_501_postcard1.jpg 590w,
-/static/f7254f110380c3e8784a59e9434255fd/8bac5/Levi_501_postcard1.jpg 673w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
-    &lt;/span&gt;
-&lt;/div&gt;
-&lt;div class=&quot;container&quot;&gt;
-    &lt;a  class=&quot;button&quot; href=&quot;https://www.paulsmith.com/uk/men-s-signature-stripe-cotton-pyjama-set&quot; target=&quot;_blank&quot;&gt;
-    Shop
-    &lt;/a&gt;
-&lt;/div&gt;
-&lt;h2&gt;&lt;u&gt;Calvin Klein Slim Jeans&lt;/u&gt;&lt;/h2&gt;
-&lt;div class=&quot;img_cont&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 149.32432432432435%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAACXBIWXMAAAsSAAALEgHS3X78AAAEn0lEQVRIx5WWaUxcVRTHUVPilLLNvgPDMpRlADXGpmjsRtmLQqyJ8YMESGCsk1I16KdWUbHUQquUYsTEhjasU5OWUhYTsHwqfKBWAgmkwrSlDqUkw86w/L33Tt/LPDoFvMnNm5yZ+zvn/M85940XyFpfX6cPrCwtwn7Lit7L1WhvvYburk780X4TnW030HWzDR03WlFfV4fuKzUYaamG/Z8Rdm59bY1neLkDV53LeNjdjOu/nMOnxSdgKSqCxVyEz4uLYS4oQH5uLr4oPg5bWx3utTdjzYXjz3sEPuq5itLjZmjUWmgVSqjlChj0esjFEhh0Ovxe+RUcnXW4P3BbEJ3HCJ2L83jSY4Xlow+hUqgQGRaOCEMowkMMCCM7xmhEqSUfluxktDTUu2RaWYH7EgAXZh1wdNWj5IMcSKVyAjOQ6IIQGhTMb4VchRe8XkTF2Qoe+NyUF55M4n5zLX78JB8quZLB9GoN28FaHUJ0ekSGhkFB0j9WZGZn1twKIgBS09qKE/famlBmKYRWqWZpUhDVUUP0pGCavkIiRc4774I/6xFIPdEUHtlw4r0syCQyUgQ9VDI5ZCSiII2WAcOCQ6AicqQeTuYhzwA5Iydw2amTCPT1YwWhz+Skw0g+lARZoJhFSJ28tTeRpesRyIW94nQyIxWcgoxELx/vl1H+/WlUV12A304fHnhw334etGWETY2NUBKd6GEKsbZYYRsfZyBaKKVUhozUtK1TXl1dZZ//7OlhelHddCo1+vr6mJ2mSYtD96YpuwaIVPkpcGBggPWcTkmqSnQcGXHNrLmwEBL/AObslbh4LC4uPh/I9RRdtnEbmxKtUgkjeY6TdOmqJNqK/fwZMD7GhNnZ2W0CbRQYwbSKDA/H1OPHzN567TrpSSWZcRXiY/8H8OGDB6QgoZAHShATuZs/+Pfdu0xXNSlOXHQMpqentwekP4yKMLKJiDbuxtTUFLNP2idZK9HIY6OiYf/XLjj3DJDzRMV+O/FN1iZhwQYWGV000sQ9e0mDS5ijsbGx7QHpOpqTwyKks9x7q5fZloijjJRUSP3FMEWZMDExsTWQ+/KY+WNIAwJJpVXoaO/gIz+SnsG0TTDFY2ZmZnMN3afly5IS1iL0pm5saGC2ubk5pCQlMeBrCa9iaWlp+8BvS0shIUA/kQ9qqi8y2/z8PBm5VObo4L4DglkWvALcFwf8+WINiURMgLtQ+UMFD0wj11bALl9kZRzZfJY3RkjTpBern8gX585WMpvD4WApB/j4Ijsrm4/MY4Sckbsg6FToycVAb5ufzp939eHkJJL2H2DA93OOYnl5WRAd/ey1UQP6I7qam5ohJlVOiI1D3+0+1oO04Qvy8rHTW4Syb75ztRIpDN1cZoKUuejoRKQkp7BXaUxkFC79doldELRtvj55Ct4v7cCvtbXMCW1uKoUA6N5//f39ZPDjINohgkalIZdDBM6cLuedfkb+UYhJY2emZ2J4eFiQtiBlLrqrVisy09KRl5uHC1VVGBwcxMLCAg88U14OU7QJe15/A3/ducNn5rFt3AXeuLgMaNpDQ0MYHR2F8+k7yL3S/wHK3UFxROsK5gAAAABJRU5ErkJggg==&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;ck postcard&quot; title=&quot;ck postcard&quot; src=&quot;/static/30e87c79867667769b777ec9b0c95f54/fcda8/ck_postcard.png&quot; srcset=&quot;/static/30e87c79867667769b777ec9b0c95f54/12f09/ck_postcard.png 148w,
-/static/30e87c79867667769b777ec9b0c95f54/e4a3f/ck_postcard.png 295w,
-/static/30e87c79867667769b777ec9b0c95f54/fcda8/ck_postcard.png 590w,
-/static/30e87c79867667769b777ec9b0c95f54/efc66/ck_postcard.png 885w,
-/static/30e87c79867667769b777ec9b0c95f54/c6ff8/ck_postcard.png 1088w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
-    &lt;/span&gt;
-&lt;/div&gt;
-&lt;div class=&quot;container&quot;&gt;
-    &lt;a class=&quot;button&quot; href=&quot;https://www.ralphlauren.co.uk/en/gingham-poplin-long-sleep-set-486046.html?dwvar486046_colorname=Light%20Blue%20Mini%20Gingham&amp;cgid=men-accessories-loungewear-sleepwear&amp;webcat=men%2Ffeatures%2FLoungewear#webcat=men%7Cfeatures%7CLoungewear&amp;start=1&amp;cgid=men-accessories-loungewear-sleepwear&quot; target=&quot;_blank&quot;&gt;
-    Shop
-    &lt;/a&gt;
-&lt;/div&gt;
-&lt;h2&gt;&lt;u&gt;Levi’s 512 Slim Taper&lt;/u&gt;&lt;/h2&gt;
-&lt;div class=&quot;img_cont&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 149.32432432432435%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAeABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBBAYD/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAbCXQqa0pJFNc55lgA//xAAcEAABBAMBAAAAAAAAAAAAAAAAAQIDBBESNCH/2gAIAQEAAQUCujMZRMJe55ItGFvmm9pjhWt0P//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EAB0QAAEEAgMAAAAAAAAAAAAAAAABAhARA4EhQVH/2gAIAQEABj8CvpqCWhSGzCvqQ8waihra4j//xAAdEAEBAAIDAAMAAAAAAAAAAAABEQAhEDFhUXHh/9oACAEBAAE/Id2nsh8rrKlYUO8AAgaDO76ZJiSr7f3g3wLmy9HDEWUTdyqFDonXH//aAAwDAQACAAMAAAAQU8m8/8QAFREBAQAAAAAAAAAAAAAAAAAAASD/2gAIAQMBAT8QY//EABcRAQADAAAAAAAAAAAAAAAAABABETH/2gAIAQIBAT8QjCz/xAAhEAEAAgEDBAMAAAAAAAAAAAABESEAEDGBQVFhkaGxwf/aAAgBAQABPxAIClI6sDwS5ejNEIJJwsA4BQGC+NvtwCSQfuDfHw0GeTB6JitbiX4T80LPUNiODAymkI20/9k=&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;levis 512&quot; title=&quot;levis 512&quot; src=&quot;/static/93c9d099b5c712e4b22b5a5223f6b3c6/1c72d/levis_512.jpg&quot; srcset=&quot;/static/93c9d099b5c712e4b22b5a5223f6b3c6/a80bd/levis_512.jpg 148w,
-/static/93c9d099b5c712e4b22b5a5223f6b3c6/1c91a/levis_512.jpg 295w,
-/static/93c9d099b5c712e4b22b5a5223f6b3c6/1c72d/levis_512.jpg 590w,
-/static/93c9d099b5c712e4b22b5a5223f6b3c6/a8a14/levis_512.jpg 885w,
-/static/93c9d099b5c712e4b22b5a5223f6b3c6/fbd2c/levis_512.jpg 1180w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
-    &lt;/span&gt;
-&lt;/div&gt;
-&lt;div class=&quot;container&quot;&gt;
-    &lt;a class=&quot;button&quot; href=&quot;https://www.derek-rose.com/men/clothing/mens-nightwear/mens-modern-fit-piped-pyjamas-brindisi-45-pure-silk-satin-navy.html&quot; target=&quot;_blank&quot;&gt;
-    Shop
-    &lt;/a&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Lockdown loungewear]]></title><description><![CDATA[If there’s one thing that we’re all guilty of lately, it’s lounging.
-I for one have felt like i’ve been in a state sanctioned blackhole ever…]]></description><link>https://themavenist.com/how-to-lounge-in-a-lockdown</link><guid isPermaLink="false">https://themavenist.com/how-to-lounge-in-a-lockdown</guid><pubDate>Thu, 14 May 2020 00:00:00 GMT</pubDate><enclosure url="https://www.themavenist.com/static/514986d56884b22c974d4f2d62fddd5e/lounge.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;style&gt;
-
-@import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
-@import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
-@import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
-
-.cont {
-    margin: 20px 0 20px 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-.cont iframe {
-    margin: 0 auto;
-    display: block;
-}
-
-.container {
-    display: flex;
-}
-
-.button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2px;
-    color: white;
-    margin: 20px auto 0 auto;
-    width: 175px;
-    height: 40px;
-    background-color: black;
-    text-transform: uppercase;
-    font-size: 0.9rem;
-}
-
-ul {
-    margin: 7px 0 0 0;
-}
-
-p {
-    font-size: 0.9rem;
-    line-height: 1.85rem;
-    font-family: &apos;Lato&apos;, sans-serif;
-}
-
-ul &gt; li {
-    font-size: 0.9rem;
-    line-height: 1.45rem;
-    letter-spacing: 0.025rem;
-    font-family: &apos;Lato&apos;, sans-serif;
-}
-
-h4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.4rem;
-    letter-spacing: 0.005rem;
-    color: #000000
-    padding: 0;
-    margin: 10px 0 30px 0;
-}
-
-@media (min-width: 768px) {
-
-    p {
-        font-size: 1.15rem;
-        line-height: 1.7rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    ul &gt; li {
-        font-size: 1.05rem;
-        line-height: 1.55rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    h4 {
-        font-size: 1.8rem;
-    }
-}
-
-@media (min-width: 1024px) {
-
-    p {
-        font-size: 1.15rem;
-        line-height: 1.7rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    ul &gt; li {
-        font-size: 1.05rem;
-        line-height: 1.55rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    h4 {
-        font-size: 2rem;
-    }
-}
-
-&lt;/style&gt;
-&lt;p&gt;If there’s one thing that we’re all guilty of lately, it’s lounging.
-I for one have felt like i’ve been in a state sanctioned blackhole ever since we were advised not to leave our homes.&lt;/p&gt;
-&lt;p&gt;I dont even know what day it is - monday? wednesday? Does time even exist in the fourth dimesion?&lt;/p&gt;
-&lt;p&gt;This morning, like most mornings this month i started my day by prepping my filter.
-Brew in hand i begin my migration - a lone wildebeast navigating through the masai mara in search of the preverbial green pasture of my sofa.&lt;/p&gt;
-&lt;hr&gt;
-&lt;div class=&quot;cont&quot;&gt;
-&lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=themavenist-21&amp;marketplace=amazon&amp;region=GB&amp;placement=B07YBNB2PS&amp;asins=B07YBNB2PS&amp;linkId=a507c9d7e781234545bb981b946a3d02&amp;show_border=true&amp;link_opens_in_new_window=true&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff&quot;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;p&gt;This mornings entertainment - the Leslie Neilsen classic, Naked Gun.
+2/3% elastane. Below is an edit of some of my favourite and most versatile pieces to fit any occasion.&lt;/p&gt;&lt;hr/&gt;&lt;h2&gt;Levi’s 501 Original Fit - Stone Wash&lt;/h2&gt;&lt;p&gt;&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position:relative;display:block;margin-left:auto;margin-right:auto;max-width:320px&quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/f7254f110380c3e8784a59e9434255fd/8bac5/Levi_501_postcard1.jpg&quot; style=&quot;display:block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom:150%;position:relative;bottom:0;left:0;background-image:url(&amp;#x27;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAeABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMBBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB6pejOp1ZNTyhNA//xAAbEAACAwEBAQAAAAAAAAAAAAACEQABAxAxMv/aAAgBAQABBQLUXrYXZY0syi4fyXsTifP/xAAVEQEBAAAAAAAAAAAAAAAAAAABIP/aAAgBAwEBPwFj/8QAFREBAQAAAAAAAAAAAAAAAAAAASD/2gAIAQIBAT8BI//EABkQAAMAAwAAAAAAAAAAAAAAAAABEBEgQf/aAAgBAQAGPwJHDEVWv//EABwQAQACAwADAAAAAAAAAAAAAAEAERAxQSFhsf/aAAgBAQABPyF6nSUT6lVwLNSeB7GTRwgUxKF5j//aAAwDAQACAAMAAAAQsM48/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAh/9oACAEDAQE/EBuRJ//EABYRAQEBAAAAAAAAAAAAAAAAAAEQIf/aAAgBAgEBPxBZBn//xAAfEAACAQQCAwAAAAAAAAAAAAABEQAQITFBUYGR4fH/2gAIAQEAAT8QxWuCE2JhrAb1AAGgD4cAOIDBseIQsUbnn3Q12lut8ooLBgIGTYp//9k=&amp;#x27;);background-size:cover;display:block&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Levis&quot; title=&quot;Levis&quot; src=&quot;/static/f7254f110380c3e8784a59e9434255fd/cb69c/Levi_501_postcard1.jpg&quot; srcSet=&quot;/static/f7254f110380c3e8784a59e9434255fd/b87ab/Levi_501_postcard1.jpg 80w,/static/f7254f110380c3e8784a59e9434255fd/0913d/Levi_501_postcard1.jpg 160w,/static/f7254f110380c3e8784a59e9434255fd/cb69c/Levi_501_postcard1.jpg 320w,/static/f7254f110380c3e8784a59e9434255fd/7cc5e/Levi_501_postcard1.jpg 480w,/static/f7254f110380c3e8784a59e9434255fd/c08c5/Levi_501_postcard1.jpg 640w,/static/f7254f110380c3e8784a59e9434255fd/8bac5/Levi_501_postcard1.jpg 673w&quot; sizes=&quot;(max-width: 320px) 100vw, 320px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0&quot; loading=&quot;lazy&quot;/&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;a href=&quot;https://amzn.to/3ezG5Tb&quot; target=&quot;_blank&quot; class=&quot;shopBtn-module--button--3TMAg&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;&lt;h2&gt;Calvin Klein Slim Jeans&lt;/h2&gt;&lt;p&gt;&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position:relative;display:block;margin-left:auto;margin-right:auto;max-width:320px&quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/30e87c79867667769b777ec9b0c95f54/c6ff8/ck_postcard.png&quot; style=&quot;display:block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom:150%;position:relative;bottom:0;left:0;background-image:url(&amp;#x27;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAACXBIWXMAAAsSAAALEgHS3X78AAAEn0lEQVRIx5WWaUxcVRTHUVPilLLNvgPDMpRlADXGpmjsRtmLQqyJ8YMESGCsk1I16KdWUbHUQquUYsTEhjasU5OWUhYTsHwqfKBWAgmkwrSlDqUkw86w/L33Tt/LPDoFvMnNm5yZ+zvn/M85940XyFpfX6cPrCwtwn7Lit7L1WhvvYburk780X4TnW030HWzDR03WlFfV4fuKzUYaamG/Z8Rdm59bY1neLkDV53LeNjdjOu/nMOnxSdgKSqCxVyEz4uLYS4oQH5uLr4oPg5bWx3utTdjzYXjz3sEPuq5itLjZmjUWmgVSqjlChj0esjFEhh0Ovxe+RUcnXW4P3BbEJ3HCJ2L83jSY4Xlow+hUqgQGRaOCEMowkMMCCM7xmhEqSUfluxktDTUu2RaWYH7EgAXZh1wdNWj5IMcSKVyAjOQ6IIQGhTMb4VchRe8XkTF2Qoe+NyUF55M4n5zLX78JB8quZLB9GoN28FaHUJ0ekSGhkFB0j9WZGZn1twKIgBS09qKE/famlBmKYRWqWZpUhDVUUP0pGCavkIiRc4774I/6xFIPdEUHtlw4r0syCQyUgQ9VDI5ZCSiII2WAcOCQ6AicqQeTuYhzwA5Iydw2amTCPT1YwWhz+Skw0g+lARZoJhFSJ28tTeRpesRyIW94nQyIxWcgoxELx/vl1H+/WlUV12A304fHnhw334etGWETY2NUBKd6GEKsbZYYRsfZyBaKKVUhozUtK1TXl1dZZ//7OlhelHddCo1+vr6mJ2mSYtD96YpuwaIVPkpcGBggPWcTkmqSnQcGXHNrLmwEBL/AObslbh4LC4uPh/I9RRdtnEbmxKtUgkjeY6TdOmqJNqK/fwZMD7GhNnZ2W0CbRQYwbSKDA/H1OPHzN567TrpSSWZcRXiY/8H8OGDB6QgoZAHShATuZs/+Pfdu0xXNSlOXHQMpqentwekP4yKMLKJiDbuxtTUFLNP2idZK9HIY6OiYf/XLjj3DJDzRMV+O/FN1iZhwQYWGV000sQ9e0mDS5ijsbGx7QHpOpqTwyKks9x7q5fZloijjJRUSP3FMEWZMDExsTWQ+/KY+WNIAwJJpVXoaO/gIz+SnsG0TTDFY2ZmZnMN3afly5IS1iL0pm5saGC2ubk5pCQlMeBrCa9iaWlp+8BvS0shIUA/kQ9qqi8y2/z8PBm5VObo4L4DglkWvALcFwf8+WINiURMgLtQ+UMFD0wj11bALl9kZRzZfJY3RkjTpBern8gX585WMpvD4WApB/j4Ijsrm4/MY4Sckbsg6FToycVAb5ufzp939eHkJJL2H2DA93OOYnl5WRAd/ey1UQP6I7qam5ohJlVOiI1D3+0+1oO04Qvy8rHTW4Syb75ztRIpDN1cZoKUuejoRKQkp7BXaUxkFC79doldELRtvj55Ct4v7cCvtbXMCW1uKoUA6N5//f39ZPDjINohgkalIZdDBM6cLuedfkb+UYhJY2emZ2J4eFiQtiBlLrqrVisy09KRl5uHC1VVGBwcxMLCAg88U14OU7QJe15/A3/ducNn5rFt3AXeuLgMaNpDQ0MYHR2F8+k7yL3S/wHK3UFxROsK5gAAAABJRU5ErkJggg==&amp;#x27;);background-size:cover;display:block&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Calvin Klien&quot; title=&quot;Calvin Klien&quot; src=&quot;/static/30e87c79867667769b777ec9b0c95f54/72799/ck_postcard.png&quot; srcSet=&quot;/static/30e87c79867667769b777ec9b0c95f54/81690/ck_postcard.png 80w,/static/30e87c79867667769b777ec9b0c95f54/69538/ck_postcard.png 160w,/static/30e87c79867667769b777ec9b0c95f54/72799/ck_postcard.png 320w,/static/30e87c79867667769b777ec9b0c95f54/e85cb/ck_postcard.png 480w,/static/30e87c79867667769b777ec9b0c95f54/6af66/ck_postcard.png 640w,/static/30e87c79867667769b777ec9b0c95f54/c6ff8/ck_postcard.png 1088w&quot; sizes=&quot;(max-width: 320px) 100vw, 320px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0&quot; loading=&quot;lazy&quot;/&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;a href=&quot;https://amzn.to/2Bk8Uov&quot; target=&quot;_blank&quot; class=&quot;shopBtn-module--button--3TMAg&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;&lt;h2&gt;Levi’s 512 Slim Taper&lt;/h2&gt;&lt;p&gt;&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position:relative;display:block;margin-left:auto;margin-right:auto;max-width:320px&quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/93c9d099b5c712e4b22b5a5223f6b3c6/fbd2c/levis_512.jpg&quot; style=&quot;display:block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom:148.74999999999997%;position:relative;bottom:0;left:0;background-image:url(&amp;#x27;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAeABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBBAYD/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAbCXQqa0pJFNc55lgA//xAAcEAABBAMBAAAAAAAAAAAAAAAAAQIDBBESNCH/2gAIAQEAAQUCujMZRMJe55ItGFvmm9pjhWt0P//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EAB0QAAEEAgMAAAAAAAAAAAAAAAABAhARA4EhQVH/2gAIAQEABj8CvpqCWhSGzCvqQ8waihra4j//xAAdEAEBAAIDAAMAAAAAAAAAAAABEQAhEDFhUXHh/9oACAEBAAE/Id2nsh8rrKlYUO8AAgaDO76ZJiSr7f3g3wLmy9HDEWUTdyqFDonXH//aAAwDAQACAAMAAAAQU8m8/8QAFREBAQAAAAAAAAAAAAAAAAAAASD/2gAIAQMBAT8QY//EABcRAQADAAAAAAAAAAAAAAAAABABETH/2gAIAQIBAT8QjCz/xAAhEAEAAgEDBAMAAAAAAAAAAAABESEAEDGBQVFhkaGxwf/aAAgBAQABPxAIClI6sDwS5ejNEIJJwsA4BQGC+NvtwCSQfuDfHw0GeTB6JitbiX4T80LPUNiODAymkI20/9k=&amp;#x27;);background-size:cover;display:block&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Levis&quot; title=&quot;Levis&quot; src=&quot;/static/93c9d099b5c712e4b22b5a5223f6b3c6/cb69c/levis_512.jpg&quot; srcSet=&quot;/static/93c9d099b5c712e4b22b5a5223f6b3c6/b87ab/levis_512.jpg 80w,/static/93c9d099b5c712e4b22b5a5223f6b3c6/0913d/levis_512.jpg 160w,/static/93c9d099b5c712e4b22b5a5223f6b3c6/cb69c/levis_512.jpg 320w,/static/93c9d099b5c712e4b22b5a5223f6b3c6/7cc5e/levis_512.jpg 480w,/static/93c9d099b5c712e4b22b5a5223f6b3c6/c08c5/levis_512.jpg 640w,/static/93c9d099b5c712e4b22b5a5223f6b3c6/fbd2c/levis_512.jpg 1180w&quot; sizes=&quot;(max-width: 320px) 100vw, 320px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0&quot; loading=&quot;lazy&quot;/&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;a href=&quot;https://amzn.to/3gCOPdd&quot; target=&quot;_blank&quot; class=&quot;shopBtn-module--button--3TMAg&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Lockdown loungewear]]></title><description><![CDATA[If there's one thing that we're all guilty of lately, it's lounging.
+I for one have felt like i've been in a state sanctioned blackhole ever…]]></description><link>https://themavenist.comhow-to-lounge-in-a-lockdown</link><guid isPermaLink="false">https://themavenist.comhow-to-lounge-in-a-lockdown</guid><pubDate>Thu, 14 May 2020 00:00:00 GMT</pubDate><enclosure url="https://www.themavenist.com/static/514986d56884b22c974d4f2d62fddd5e/lounge.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;If there’s one thing that we’re all guilty of lately, it’s lounging.
+I for one have felt like i’ve been in a state sanctioned blackhole ever since we were advised not to leave our homes.&lt;/p&gt;&lt;p&gt;I dont even know what day it is - monday? wednesday? Does time even exist in the fourth dimesion?&lt;/p&gt;&lt;p&gt;This morning, like most mornings this month i started my day by prepping my filter.
+Brew in hand i begin my migration - a lone wildebeast navigating through the masai mara in search of the preverbial green pasture of my sofa.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;This mornings entertainment - the Leslie Neilsen classic, Naked Gun.
 Half way through i get to the scene where Frank the inept
 police detective says - “Do you mind if i slip into something a little more comfortable”
 Queue the comical misdirection - Frank goes off and comes back with a dapper sartorial ensemble that
-would give Don Draper a run for his money. &lt;/p&gt;
-&lt;p&gt;This inevitably leads me to think about the state of my own comfort. looking down at todays mismatch -
+would give Don Draper a run for his money. &lt;/p&gt;&lt;p&gt;This inevitably leads me to think about the state of my own comfort. looking down at todays mismatch -
 A Charlie Brown t-shirt that reads “Charlie don’t surf” (in ref to Coppola’s brilliant - Apocolypse Now)
-paired with a light grey sweatpant.&lt;/p&gt;
-&lt;p&gt;I can’t help but think it’s about time i upped my loungwear game &amp;#x26; got myself a “grown up” pair of PJs.&lt;/p&gt;
-&lt;p&gt;I havent owned a pair in a while. Come to think the last time i owned a set was when i was 11. A Lion King set with a prominent Simba print on the front.&lt;/p&gt;
-&lt;p&gt;Fast forward 20 years and here i am full circle, back on the hunt for PJs. Here’s a shortlist of PJ’s on the market that caught my attention.&lt;/p&gt;
-&lt;h2&gt;Paul Smith&lt;/h2&gt;
-&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 139.86486486486487%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAcABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHsTazjeKJljUouMJ//xAAbEAACAgMBAAAAAAAAAAAAAAABAgARECExE//aAAgBAQABBQJjUV2uP08HHq9QaBUGea4//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGRAAAgMBAAAAAAAAAAAAAAAAECEAICJB/9oACAEBAAY/App26Gf/xAAcEAACAQUBAAAAAAAAAAAAAAABEQAQITFxkUH/2gAIAQEAAT8hTg9waBUOzVAmBigZLMIXPEBAmBR3h7T/2gAMAwEAAgADAAAAEFzD8P/EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPxADIM//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBYz//EAB4QAQACAQQDAAAAAAAAAAAAAAEAESEQMUFhUcHR/9oACAEBAAE/EGCi12uKAq64GmI8QqT37ncgQJACqDiYjE9PsMVUDFx8yVgzHfQBQBxP/9k=&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;paul smith&quot; title=&quot;paul smith&quot; src=&quot;/static/bc17c4adafb8505c318f3eba89909e38/1c72d/paul_smith.jpg&quot; srcset=&quot;/static/bc17c4adafb8505c318f3eba89909e38/a80bd/paul_smith.jpg 148w,
-/static/bc17c4adafb8505c318f3eba89909e38/1c91a/paul_smith.jpg 295w,
-/static/bc17c4adafb8505c318f3eba89909e38/1c72d/paul_smith.jpg 590w,
-/static/bc17c4adafb8505c318f3eba89909e38/a8a14/paul_smith.jpg 885w,
-/static/bc17c4adafb8505c318f3eba89909e38/fbd2c/paul_smith.jpg 1180w,
-/static/bc17c4adafb8505c318f3eba89909e38/c58a3/paul_smith.jpg 1500w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
-    &lt;/span&gt;
-&lt;div class=&quot;container&quot;&gt;
-&lt;a class=&quot;button&quot; href=&quot;https://www.paulsmith.com/uk/men-s-signature-stripe-cotton-pyjama-set&quot; target=&quot;_blank&quot;&gt;
-Shop
-&lt;/a&gt;
-&lt;/div&gt;
-&lt;h2&gt;Ralph Lauren&lt;/h2&gt;
-&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 139.86486486486487%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAcABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB7eViywiVzqCGH//EABoQAQACAwEAAAAAAAAAAAAAAAEAEAIRICH/2gAIAQEAAQUCmwrKEKD3j//EABURAQEAAAAAAAAAAAAAAAAAABEg/9oACAEDAQE/AWP/xAAVEQEBAAAAAAAAAAAAAAAAAAARIP/aAAgBAgEBPwEj/8QAFBABAAAAAAAAAAAAAAAAAAAAMP/aAAgBAQAGPwJP/8QAGRABAQEBAQEAAAAAAAAAAAAAAQAxESBB/9oACAEBAAE/IVDZpsPtwliTpauef//aAAwDAQACAAMAAAAQW8Cw/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQAQEf/aAAgBAwEBPxBUSdz/xAAYEQEAAwEAAAAAAAAAAAAAAAABABARMf/aAAgBAgEBPxACbHsHK//EABwQAQADAAIDAAAAAAAAAAAAAAEAESFhgSAxkf/aAAgBAQABPxAC1UcpfkGgktrpAG3S9vmO+0BBimQp3mBXrPD/2Q==&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;ralph lauren&quot; title=&quot;ralph lauren&quot; src=&quot;/static/62b44bd79285113f28a8415e938560ee/1c72d/ralph_lauren.jpg&quot; srcset=&quot;/static/62b44bd79285113f28a8415e938560ee/a80bd/ralph_lauren.jpg 148w,
-/static/62b44bd79285113f28a8415e938560ee/1c91a/ralph_lauren.jpg 295w,
-/static/62b44bd79285113f28a8415e938560ee/1c72d/ralph_lauren.jpg 590w,
-/static/62b44bd79285113f28a8415e938560ee/a8a14/ralph_lauren.jpg 885w,
-/static/62b44bd79285113f28a8415e938560ee/fbd2c/ralph_lauren.jpg 1180w,
-/static/62b44bd79285113f28a8415e938560ee/644c5/ralph_lauren.jpg 1440w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
-    &lt;/span&gt;
-&lt;div class=&quot;container&quot;&gt;
-&lt;a class=&quot;button&quot; href=&quot;https://www.ralphlauren.co.uk/en/gingham-poplin-long-sleep-set-486046.html?dwvar486046_colorname=Light%20Blue%20Mini%20Gingham&amp;amp;cgid=men-accessories-loungewear-sleepwear&amp;amp;webcat=men%2Ffeatures%2FLoungewear#webcat=men%7Cfeatures%7CLoungewear&amp;amp;start=1&amp;amp;cgid=men-accessories-loungewear-sleepwear&quot; target=&quot;_blank&quot;&gt;
-Shop
-&lt;/a&gt;
-&lt;/div&gt;
-&lt;h2&gt;Derek Rose&lt;/h2&gt;
-&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 518px;&quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 133.1081081081081%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgb/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAF6G5JO1FgkpNLl82H/xAAeEAACAgEFAQAAAAAAAAAAAAABAgMEAAUREhMUI//aAAgBAQABBQK5M0SpPJGynkuoH65VO9a2Y/QvTvU4dFsD0hFysoWL/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAIxAAAgECBAcAAAAAAAAAAAAAAAECEBESITFBEyJRYXGRof/aAAgBAQAGPwJKOrLqXsT6iXakPBLFi02M+J8OS9k9yVMj/8QAHhABAAICAgMBAAAAAAAAAAAAAQARIVExcUGhscH/2gAIAQEAAT8hpVPPol8jsyuCDwLnXv3Flt6RwZwHCU2dOodA2w3jrjXyMcnuDw0Lc//aAAwDAQACAAMAAAAQN8VA/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAIBAAAgICAgIDAAAAAAAAAAAAAREAITFRcdGBsUGRwf/aAAgBAQABPxA5JE3DRobuYc+8l3b9zAKR4Icc1T/JLqMr1DGzYH6V+QMZieMUDT5ggpRwOyGM0AAGycfFwqse50iQU+Xcc/ggybPM/9k=&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;derek rose&quot; title=&quot;derek rose&quot; src=&quot;/static/6050aacb66d7a9546fc60e5f172a1cfc/bc760/derek_rose.jpg&quot; srcset=&quot;/static/6050aacb66d7a9546fc60e5f172a1cfc/a80bd/derek_rose.jpg 148w,
-/static/6050aacb66d7a9546fc60e5f172a1cfc/1c91a/derek_rose.jpg 295w,
-/static/6050aacb66d7a9546fc60e5f172a1cfc/bc760/derek_rose.jpg 518w&quot; sizes=&quot;(max-width: 518px) 100vw, 518px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
-    &lt;/span&gt;
-&lt;div class=&quot;container&quot;&gt;
-&lt;a class=&quot;button&quot; href=&quot;https://www.derek-rose.com/men/clothing/mens-nightwear/mens-modern-fit-piped-pyjamas-brindisi-45-pure-silk-satin-navy.html&quot; target=&quot;_blank&quot;&gt;
-Shop
-&lt;/a&gt;
-&lt;/div&gt;
-&lt;h2&gt;Oliver Spencer&lt;/h2&gt;
-&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAMEBQb/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB0M6WtR0SslgqFGqJf//EABoQAAMBAAMAAAAAAAAAAAAAAAECAwAEERL/2gAIAQEAAQUC5NWTLV0Kn0tz3XcY9xvJRvAySVR//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAHBABAAEEAwAAAAAAAAAAAAAAAQACEBEhQVFh/9oACAEBAAY/AgpmRg9xseTXLbWZ/8QAGxABAAMAAwEAAAAAAAAAAAAAAQARITFBcWH/2gAIAQEAAT8hQfS6sYWb5Hbgg9Lnl8jKx4lC2tFn0YqFpvmf/9oADAMBAAIAAwAAABBb4D7/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAYEQEBAAMAAAAAAAAAAAAAAAABABAhMf/aAAgBAgEBPxANTHMf/8QAIRABAAIBBAEFAAAAAAAAAAAAAQARITFBYYHBkaHR4fD/2gAIAQEAAT8QNqVpWhtXvE7LJtPVp1NIwB2S/bMPX3BAUcp8/MQrVC725iCZc8fEItEp+cT/2Q==&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;oli spencer&quot; title=&quot;oli spencer&quot; src=&quot;/static/715971b58fe498cee182e3db5dceb1e0/1c72d/oli_spencer.jpg&quot; srcset=&quot;/static/715971b58fe498cee182e3db5dceb1e0/a80bd/oli_spencer.jpg 148w,
-/static/715971b58fe498cee182e3db5dceb1e0/1c91a/oli_spencer.jpg 295w,
-/static/715971b58fe498cee182e3db5dceb1e0/1c72d/oli_spencer.jpg 590w,
-/static/715971b58fe498cee182e3db5dceb1e0/7e076/oli_spencer.jpg 799w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
-    &lt;/span&gt;
-&lt;div class=&quot;container&quot;&gt;
-&lt;a class=&quot;button&quot; href=&quot;https://oliverspencer.co.uk/pyjama-shirt-cannington-blue&quot; target=&quot;_blank&quot;&gt;
-Shop
-&lt;/a&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Tastemakers to follow]]></title><description><![CDATA[In this article i’ve compiled a shortlist of some of my favourite thought and style inspiring tastemakers whose instagram pages i visit…]]></description><link>https://themavenist.com/tastemakers-to-follow</link><guid isPermaLink="false">https://themavenist.com/tastemakers-to-follow</guid><pubDate>Thu, 14 May 2020 00:00:00 GMT</pubDate><enclosure url="https://www.themavenist.com/static/ebae5abef0346cd6fe65569aa774fd65/tastemakers.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;style&gt;
-
-@import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
-@import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
-@import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
-
-.container {
-    margin: 20px 0 0 0;
-    display: flex;
-    justify-content: space-between;
-    height: 250px;
-
-    @media (min-width: 768px) {
-        margin: 20px auto 20px auto;
-        width: 75%;
-    }
-}
-
-.container iframe {
-    margin: 0 auto;
-    display: block;
-}
-
-div &gt; .gatsby-resp-iframe-wrapper {
-    width: 90%;
-    padding-bottom: 155% !important;
-    margin: 0 auto;
-    border: 1px solid #ccc;
-}
-
-iframe {
-    height: 100% !important;
-}
-
-p {
-    font-size: 0.9rem;
-    line-height: 1.85rem;
-    font-family: &apos;Lato&apos;, sans-serif;
-}
-
-ul &gt; li {
-    font-size: 0.9rem;
-    line-height: 1.45rem;
-    letter-spacing: 0.025rem;
-    font-family: &apos;Lato&apos;, sans-serif;
-}
-
-h3 {
-    margin: 15px 0 0 0;
-}
-
-h4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.4rem;
-    letter-spacing: 0.005rem;
-    color: #000000
-    padding: 0;
-    margin: 10px 0 30px 0;
-}
-
-@media (min-width: 768px) {
-
-    div &gt; .gatsby-resp-iframe-wrapper {
-        width: 55%;
-        padding-bottom: 90% !important;
-        margin: 0 auto;
-    }
-
-    iframe {
-        height: 100% !important;
-    }
-
-    p {
-        font-size: 1.15rem;
-        line-height: 1.7rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    ul &gt; li {
-        font-size: 1.05rem;
-        line-height: 1.55rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    h4 {
-        font-size: 1.8rem;
-    }
-}
-
-@media (min-width: 1024px) {
-
-    div &gt; .gatsby-resp-iframe-wrapper {
-        width: 55%;
-        padding-bottom: 85% !important;
-        margin: 0 auto;
-    }
-
-    iframe {
-        height: 100% !important;
-    }
-
-    p {
-        font-size: 1.15rem;
-        line-height: 1.7rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    ul &gt; li {
-        font-size: 1.05rem;
-        line-height: 1.55rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    h4 {
-        font-size: 2rem;
-    }
-}
-
-&lt;/style&gt;
-&lt;p&gt;In this article i’ve compiled a shortlist of some of my favourite thought and style inspiring tastemakers whose instagram pages i visit every once in a while.
-A running and ever growing collection of amazing photographers, fashion creatives and style maestro’s. &lt;/p&gt;
-&lt;div class=&quot;container&quot;&gt;
-    &lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=themavenist-21&amp;marketplace=amazon&amp;region=GB&amp;placement=B00WXMPFZI&amp;asins=B00WXMPFZI&amp;linkId=c7630d4c45aaf2696e846d289c03d9b4&amp;show_border=true&amp;link_opens_in_new_window=true&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff&quot;&gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h3&gt;1&lt;sup&gt;st&lt;/sup&gt; - Brian Alcazar&lt;/h3&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BvGDMqoD5Hd/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;Brian is a photographer and video content creator who has worked alongside some very well known brands.
-He has some expertly curated photographs that i peruse through when looking to feel inspired.	&lt;/p&gt;
-&lt;h3&gt;Lord_Edwin&lt;/h3&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BbnK0afh9VZ/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;Next up is - lord_edwin. Another talented photographer.
-lots of photos of stars from the worlds of music and fashion.&lt;/p&gt;
-&lt;div class=&quot;container&quot;&gt;
-    &lt;iframe style=&quot;width:120px;height:540px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=themavenist-21&amp;marketplace=amazon&amp;region=GB&amp;placement=B014KPLT9Q&amp;asins=B014KPLT9Q&amp;linkId=0ca9d1ac31e7b4a3adef000b65e931ef&amp;show_border=true&amp;link_opens_in_new_window=true&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff&quot;&gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h3&gt;The Brilliance - Benjamin, Chuck &amp;#x26; Virgil&lt;/h3&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BW3gMeKlC6i/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;The guys from the brilliance inspired me to create &lt;em&gt;The Mavenist&lt;/em&gt;.
+paired with a light grey sweatpant.&lt;/p&gt;&lt;p&gt;I can’t help but think it’s about time i upped my loungwear game &amp;amp; got myself a “grown up” pair of PJs.
+I havent owned a pair in a while. Come to think the last time i owned a set was when i was 11. A Lion King set with a prominent Simba print on the front.
+Fast forward 20 years and here i am full circle, back on the hunt for PJs. Here’s a shortlist of PJ’s on the market that caught my attention.&lt;/p&gt;&lt;h2&gt;Paul Smith&lt;/h2&gt;&lt;p&gt;&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position:relative;display:block;margin-left:auto;margin-right:auto;max-width:320px&quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/bc17c4adafb8505c318f3eba89909e38/c58a3/paul_smith.jpg&quot; style=&quot;display:block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom:140%;position:relative;bottom:0;left:0;background-image:url(&amp;#x27;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAcABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHsTazjeKJljUouMJ//xAAbEAACAgMBAAAAAAAAAAAAAAABAgARECExE//aAAgBAQABBQJjUV2uP08HHq9QaBUGea4//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGRAAAgMBAAAAAAAAAAAAAAAAECEAICJB/9oACAEBAAY/App26Gf/xAAcEAACAQUBAAAAAAAAAAAAAAABEQAQITFxkUH/2gAIAQEAAT8hTg9waBUOzVAmBigZLMIXPEBAmBR3h7T/2gAMAwEAAgADAAAAEFzD8P/EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPxADIM//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBYz//EAB4QAQACAQQDAAAAAAAAAAAAAAEAESEQMUFhUcHR/9oACAEBAAE/EGCi12uKAq64GmI8QqT37ncgQJACqDiYjE9PsMVUDFx8yVgzHfQBQBxP/9k=&amp;#x27;);background-size:cover;display:block&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Paul Smith&quot; title=&quot;Paul Smith&quot; src=&quot;/static/bc17c4adafb8505c318f3eba89909e38/cb69c/paul_smith.jpg&quot; srcSet=&quot;/static/bc17c4adafb8505c318f3eba89909e38/b87ab/paul_smith.jpg 80w,/static/bc17c4adafb8505c318f3eba89909e38/0913d/paul_smith.jpg 160w,/static/bc17c4adafb8505c318f3eba89909e38/cb69c/paul_smith.jpg 320w,/static/bc17c4adafb8505c318f3eba89909e38/7cc5e/paul_smith.jpg 480w,/static/bc17c4adafb8505c318f3eba89909e38/c08c5/paul_smith.jpg 640w,/static/bc17c4adafb8505c318f3eba89909e38/c58a3/paul_smith.jpg 1500w&quot; sizes=&quot;(max-width: 320px) 100vw, 320px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0&quot; loading=&quot;lazy&quot;/&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;a href=&quot;https://www.paulsmith.com/uk/men-s-signature-stripe-cotton-pyjama-set&quot; target=&quot;_blank&quot; class=&quot;shopBtn-module--button--3TMAg&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;&lt;h2&gt;Ralph Lauren&lt;/h2&gt;&lt;p&gt;&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position:relative;display:block;margin-left:auto;margin-right:auto;max-width:320px&quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/62b44bd79285113f28a8415e938560ee/644c5/ralph_lauren.jpg&quot; style=&quot;display:block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom:140%;position:relative;bottom:0;left:0;background-image:url(&amp;#x27;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAcABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB7eViywiVzqCGH//EABoQAQACAwEAAAAAAAAAAAAAAAEAEAIRICH/2gAIAQEAAQUCmwrKEKD3j//EABURAQEAAAAAAAAAAAAAAAAAABEg/9oACAEDAQE/AWP/xAAVEQEBAAAAAAAAAAAAAAAAAAARIP/aAAgBAgEBPwEj/8QAFBABAAAAAAAAAAAAAAAAAAAAMP/aAAgBAQAGPwJP/8QAGRABAQEBAQEAAAAAAAAAAAAAAQAxESBB/9oACAEBAAE/IVDZpsPtwliTpauef//aAAwDAQACAAMAAAAQW8Cw/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQAQEf/aAAgBAwEBPxBUSdz/xAAYEQEAAwEAAAAAAAAAAAAAAAABABARMf/aAAgBAgEBPxACbHsHK//EABwQAQADAAIDAAAAAAAAAAAAAAEAESFhgSAxkf/aAAgBAQABPxAC1UcpfkGgktrpAG3S9vmO+0BBimQp3mBXrPD/2Q==&amp;#x27;);background-size:cover;display:block&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Ralph Lauren&quot; title=&quot;Ralph Lauren&quot; src=&quot;/static/62b44bd79285113f28a8415e938560ee/cb69c/ralph_lauren.jpg&quot; srcSet=&quot;/static/62b44bd79285113f28a8415e938560ee/b87ab/ralph_lauren.jpg 80w,/static/62b44bd79285113f28a8415e938560ee/0913d/ralph_lauren.jpg 160w,/static/62b44bd79285113f28a8415e938560ee/cb69c/ralph_lauren.jpg 320w,/static/62b44bd79285113f28a8415e938560ee/7cc5e/ralph_lauren.jpg 480w,/static/62b44bd79285113f28a8415e938560ee/c08c5/ralph_lauren.jpg 640w,/static/62b44bd79285113f28a8415e938560ee/644c5/ralph_lauren.jpg 1440w&quot; sizes=&quot;(max-width: 320px) 100vw, 320px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0&quot; loading=&quot;lazy&quot;/&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;a href=&quot;https://www.ralphlauren.co.uk/en/gingham-poplin-long-sleep-set-486046.html?dwvar486046_colorname=Light%20Blue%20Mini%20Gingham&amp;amp;cgid=men-accessories-loungewear-sleepwear&amp;amp;webcat=men%2Ffeatures%2FLoungewear#webcat=men%7Cfeatures%7CLoungewear&amp;amp;start=1&amp;amp;cgid=men-accessories-loungewear-sleepwear&quot; target=&quot;_blank&quot; class=&quot;shopBtn-module--button--3TMAg&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;&lt;h2&gt;Derek Rose&lt;/h2&gt;&lt;p&gt;&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position:relative;display:block;margin-left:auto;margin-right:auto;max-width:320px&quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/6050aacb66d7a9546fc60e5f172a1cfc/bc760/derek_rose.jpg&quot; style=&quot;display:block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom:133.75%;position:relative;bottom:0;left:0;background-image:url(&amp;#x27;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgb/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAF6G5JO1FgkpNLl82H/xAAeEAACAgEFAQAAAAAAAAAAAAABAgMEAAUREhMUI//aAAgBAQABBQK5M0SpPJGynkuoH65VO9a2Y/QvTvU4dFsD0hFysoWL/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAIxAAAgECBAcAAAAAAAAAAAAAAAECEBESITFBEyJRYXGRof/aAAgBAQAGPwJKOrLqXsT6iXakPBLFi02M+J8OS9k9yVMj/8QAHhABAAICAgMBAAAAAAAAAAAAAQARIVExcUGhscH/2gAIAQEAAT8hpVPPol8jsyuCDwLnXv3Flt6RwZwHCU2dOodA2w3jrjXyMcnuDw0Lc//aAAwDAQACAAMAAAAQN8VA/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAIBAAAgICAgIDAAAAAAAAAAAAAREAITFRcdGBsUGRwf/aAAgBAQABPxA5JE3DRobuYc+8l3b9zAKR4Icc1T/JLqMr1DGzYH6V+QMZieMUDT5ggpRwOyGM0AAGycfFwqse50iQU+Xcc/ggybPM/9k=&amp;#x27;);background-size:cover;display:block&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Derek Rose&quot; title=&quot;Derek Rose&quot; src=&quot;/static/6050aacb66d7a9546fc60e5f172a1cfc/cb69c/derek_rose.jpg&quot; srcSet=&quot;/static/6050aacb66d7a9546fc60e5f172a1cfc/b87ab/derek_rose.jpg 80w,/static/6050aacb66d7a9546fc60e5f172a1cfc/0913d/derek_rose.jpg 160w,/static/6050aacb66d7a9546fc60e5f172a1cfc/cb69c/derek_rose.jpg 320w,/static/6050aacb66d7a9546fc60e5f172a1cfc/7cc5e/derek_rose.jpg 480w,/static/6050aacb66d7a9546fc60e5f172a1cfc/bc760/derek_rose.jpg 518w&quot; sizes=&quot;(max-width: 320px) 100vw, 320px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0&quot; loading=&quot;lazy&quot;/&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;a href=&quot;https://www.derek-rose.com/men/clothing/mens-nightwear/mens-modern-fit-piped-pyjamas-brindisi-45-pure-silk-satin-navy.html&quot; target=&quot;_blank&quot; class=&quot;shopBtn-module--button--3TMAg&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;&lt;h2&gt;Oliver Spencer&lt;/h2&gt;&lt;p&gt;&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position:relative;display:block;margin-left:auto;margin-right:auto;max-width:320px&quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/715971b58fe498cee182e3db5dceb1e0/7e076/oli_spencer.jpg&quot; style=&quot;display:block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom:100%;position:relative;bottom:0;left:0;background-image:url(&amp;#x27;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAMEBQb/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB0M6WtR0SslgqFGqJf//EABoQAAMBAAMAAAAAAAAAAAAAAAECAwAEERL/2gAIAQEAAQUC5NWTLV0Kn0tz3XcY9xvJRvAySVR//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAHBABAAEEAwAAAAAAAAAAAAAAAQACEBEhQVFh/9oACAEBAAY/AgpmRg9xseTXLbWZ/8QAGxABAAMAAwEAAAAAAAAAAAAAAQARITFBcWH/2gAIAQEAAT8hQfS6sYWb5Hbgg9Lnl8jKx4lC2tFn0YqFpvmf/9oADAMBAAIAAwAAABBb4D7/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAYEQEBAAMAAAAAAAAAAAAAAAABABAhMf/aAAgBAgEBPxANTHMf/8QAIRABAAIBBAEFAAAAAAAAAAAAAQARITFBYYHBkaHR4fD/2gAIAQEAAT8QNqVpWhtXvE7LJtPVp1NIwB2S/bMPX3BAUcp8/MQrVC725iCZc8fEItEp+cT/2Q==&amp;#x27;);background-size:cover;display:block&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Oliver Spencer&quot; title=&quot;Oliver Spencer&quot; src=&quot;/static/715971b58fe498cee182e3db5dceb1e0/cb69c/oli_spencer.jpg&quot; srcSet=&quot;/static/715971b58fe498cee182e3db5dceb1e0/b87ab/oli_spencer.jpg 80w,/static/715971b58fe498cee182e3db5dceb1e0/0913d/oli_spencer.jpg 160w,/static/715971b58fe498cee182e3db5dceb1e0/cb69c/oli_spencer.jpg 320w,/static/715971b58fe498cee182e3db5dceb1e0/7cc5e/oli_spencer.jpg 480w,/static/715971b58fe498cee182e3db5dceb1e0/c08c5/oli_spencer.jpg 640w,/static/715971b58fe498cee182e3db5dceb1e0/7e076/oli_spencer.jpg 799w&quot; sizes=&quot;(max-width: 320px) 100vw, 320px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0&quot; loading=&quot;lazy&quot;/&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;a href=&quot;https://oliverspencer.co.uk/pyjama-shirt-cannington-blue&quot; target=&quot;_blank&quot; class=&quot;shopBtn-module--button--3TMAg&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Tastemakers to follow]]></title><description><![CDATA[In this article i've compiled a shortlist of some of my favourite thought and style inspiring tastemakers whose instagram pages i visit…]]></description><link>https://themavenist.comtastemakers-to-follow</link><guid isPermaLink="false">https://themavenist.comtastemakers-to-follow</guid><pubDate>Thu, 14 May 2020 00:00:00 GMT</pubDate><enclosure url="https://www.themavenist.com/static/ebae5abef0346cd6fe65569aa774fd65/tastemakers.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;In this article i’ve compiled a shortlist of some of my favourite thought and style inspiring tastemakers whose instagram pages i visit every once in a while.
+A running and ever growing collection of amazing photographers, fashion creatives and style maestro’s. &lt;/p&gt;&lt;h2&gt;1&lt;sup&gt;st&lt;/sup&gt; - Brian Alcazar&lt;/h2&gt;&lt;div&gt;&lt;/div&gt;&lt;p&gt;Brian is a photographer and video content creator who has worked alongside some very well known brands.
+He has some expertly curated photographs that i peruse through when looking to feel inspired.	&lt;/p&gt;&lt;h2&gt;Lord_Edwin&lt;/h2&gt;&lt;div&gt;&lt;/div&gt;&lt;p&gt;Next up is - lord_edwin. Another talented photographer.
+lots of photos of stars from the worlds of music and fashion.&lt;/p&gt;&lt;h2&gt;The Brilliance - Benjamin, Chuck &amp;amp; Virgil&lt;/h2&gt;&lt;div&gt;&lt;/div&gt;&lt;p&gt;The guys from the brilliance inspired me to create &lt;em&gt;The Mavenist&lt;/em&gt;.
 Founded and written by Benjamin Edgar, Chuck Anderson and the Virgil Abloh.
-This rough around the edges blog started in the early days of the internet before it was cool &amp;#x26;
-introduced me to many ideas before fashion oritented digital publishing was even a thing.&lt;/p&gt;
-&lt;h3&gt;Bachronym&lt;/h3&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BedxaLSnRDY/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;Next up is a fashion kindred spirit of mine - I dont know too much about Jonathan other than the fact that he has a cool look and a penchant for Acronym
-among others.&lt;/p&gt;
-&lt;div class=&quot;container&quot;&gt;
-&lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=themavenist-21&amp;marketplace=amazon&amp;region=GB&amp;placement=B0040EGNIU&amp;asins=B0040EGNIU&amp;linkId=64b312dc475a89a92574ad42807a5f0c&amp;show_border=true&amp;link_opens_in_new_window=true&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff&quot;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h3&gt;Benjjii&lt;/h3&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/B7kJSSAHce9/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;Last up we have Benjji - this chap has a rediculous collection of sneakers that make you blue with envy.
+This rough around the edges blog started in the early days of the internet before it was cool &amp;amp;
+introduced me to many ideas before fashion oritented digital publishing was even a thing.&lt;/p&gt;&lt;h2&gt;Bachronym&lt;/h2&gt;&lt;div&gt;&lt;/div&gt;&lt;p&gt;Next up is a fashion kindred spirit of mine - I dont know too much about Jonathan other than the fact that he has a cool look and a penchant for Acronym
+among others.&lt;/p&gt;&lt;h2&gt;Benjjii&lt;/h2&gt;&lt;div&gt;&lt;/div&gt;&lt;p&gt;Last up we have Benjji - this chap has a rediculous collection of sneakers that make you blue with envy.
 All photos are expertly put together.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Pug Life - Some thoughts]]></title><description><![CDATA[Firstly if you thought this article was about pugs then im sorry to dissapoint.
-I stumbled upon this bad boy and it just spoke to me on many…]]></description><link>https://themavenist.com/pug-life</link><guid isPermaLink="false">https://themavenist.com/pug-life</guid><pubDate>Wed, 13 May 2020 00:00:00 GMT</pubDate><enclosure url="https://www.themavenist.com/static/9bbd1db73c1bc3c5609b3f4586000f2f/pug.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;style&gt;
-
-@import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
-@import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
-@import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
-
-.container {
-    margin: 20px 0 20px 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-.container iframe {
-    margin: 0 auto;
-    display: block;
-}
-
-p {
-    font-size: 0.9rem;
-    line-height: 1.85rem;
-    font-family: &apos;Lato&apos;, sans-serif;
-}
-
-ul &gt; li {
-    font-size: 0.9rem;
-    line-height: 1.45rem;
-    letter-spacing: 0.025rem;
-    font-family: &apos;Lato&apos;, sans-serif;
-}
-
-h4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.4rem;
-    letter-spacing: 0.005rem;
-    color: #000000
-    padding: 0;
-    margin: 10px 0 30px 0;
-}
-
-@media (min-width: 768px) {
-
-    p {
-        font-size: 1.15rem;
-        line-height: 1.7rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    ul &gt; li {
-        font-size: 1.05rem;
-        line-height: 1.55rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    h4 {
-        font-size: 1.8rem;
-    }
-}
-
-@media (min-width: 1024px) {
-
-    p {
-        font-size: 1.15rem;
-        line-height: 1.7rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    ul &gt; li {
-        font-size: 1.05rem;
-        line-height: 1.55rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    h4 {
-        font-size: 2rem;
-    }
-}
-
-&lt;/style&gt;
-&lt;p&gt;Firstly if you thought this article was about pugs then im sorry to dissapoint.
+I stumbled upon this bad boy and it just spoke to me on many…]]></description><link>https://themavenist.compug-life</link><guid isPermaLink="false">https://themavenist.compug-life</guid><pubDate>Wed, 13 May 2020 00:00:00 GMT</pubDate><enclosure url="https://www.themavenist.com/static/9bbd1db73c1bc3c5609b3f4586000f2f/pug.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;Firstly if you thought this article was about pugs then im sorry to dissapoint.
 I stumbled upon this bad boy and it just spoke to me on many levels.
 Maybe it the was the vacant look in his eyes that reminded me of sitting in design reviews
-or the equally painful monday meetings.&lt;/p&gt;
-&lt;p&gt;What ever it was - it epitomized what it feels like to work in the emotionally draining but
-ultimatly fun world of fashion.&lt;/p&gt;
-&lt;hr&gt;
-&lt;div class=&quot;container&quot;&gt;
-&lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=themavenist-21&amp;marketplace=amazon&amp;region=GB&amp;placement=B00WXMPFZI&amp;asins=B00WXMPFZI&amp;linkId=c7630d4c45aaf2696e846d289c03d9b4&amp;show_border=true&amp;link_opens_in_new_window=true&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff&quot;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;p&gt;There’s a continual debate that’s been going on in fashion circles since the begining of time (almost).&lt;/p&gt;
-&lt;p&gt;Is fashion an art or a business? The short answer - A bit of both&lt;/p&gt;
-&lt;p&gt;I’m arguing that the pace at which we now consume fashion has brought us to the point where creativity has simply become forced.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;It’s like talking to that one friend for the 10th time this week - there comes a point where you simply have nothing
-more to say.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Cue those blood sucking souls in the marketing that almost float in the room like
+or the equally painful monday meetings.&lt;/p&gt;&lt;p&gt;What ever it was - it epitomized what it feels like to work in the emotionally draining but
+ultimatly fun world of fashion.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;There’s a continual debate that’s been going on in fashion circles since the begining of time (almost).&lt;/p&gt;&lt;p&gt;Is fashion an art or a business? The short answer - A bit of both&lt;/p&gt;&lt;p&gt;I’m arguing that the pace at which we now consume fashion has brought us to the point where creativity has simply become forced.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;It’s like talking to that one friend for the 10th time this week - there comes a point where you simply have nothing more to say.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Cue those blood sucking souls in the marketing that almost float in the room like
 Dracula reincarnated tasked with finding a new way to spin the humble flannel pant.
 As much as i love to hate the the marketing process it’s what makes fashion all the more interesting.
-Ultimately it’s what works in creating the aura of desirability &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;But at what cost?… well, creativity.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;For instance when was the last time you saw something truly original from the brands with the biggest marketing budgets?&lt;/p&gt;
-&lt;p&gt;You guessed it - hardly ever. The big brands are big not because of their creativity but simply because of their
-cash cows sold en masses to their cohort of loyal as well as aspiring new clients - just think ponies and polos.&lt;/p&gt;
-&lt;hr&gt;
-&lt;div class=&quot;container&quot;&gt;
-&lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=themavenist-21&amp;marketplace=amazon&amp;region=GB&amp;placement=B014KPLT9Q&amp;asins=B014KPLT9Q&amp;linkId=0ca9d1ac31e7b4a3adef000b65e931ef&amp;show_border=true&amp;link_opens_in_new_window=true&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff&quot;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;p&gt;I’ve worked in a variety of roles in luxury and retail over the past decade.&lt;/p&gt;
-&lt;p&gt;The majority of my career has been spent in Soho &amp;#x26; Mayfair square mile -
-travelling between London, Paris, Milan and everything in between.&lt;/p&gt;
-&lt;p&gt;I’ve gone from retail to wholesale and back again.
-I’ve run the commerial product of arguably the most recognisable brand in the world, and
-developed collections for iconic British heritage brands.
-I’ve even bought jewel encrusted tailoring for a fashion house that would give Liberace a run for his money.&lt;/p&gt;
-&lt;p&gt;If my experiences have taught me anything it’s that business always trumps art. &lt;/p&gt;
-&lt;!-- My experiences have taught me a great deal in terms of fashion but also
-consumer behaviour/psychology and trends in general. --&gt;
-&lt;p&gt;Fashion used to be the main mediums to express yourself through times of cultural and social change. Think mods, rockers, skinheads and punks of the 60s/70s.&lt;/p&gt;
-&lt;p&gt;These days your typical fashion customer tends to buy, not out of a necessity for social expression but rather compulsion, bordom and even addiction.
-I know i certainly fit into this category. &lt;/p&gt;
-&lt;p&gt;What does that say about the state of fashion?  &lt;/p&gt;
-&lt;!-- Think Supreme and the resale culture or H&amp;M with their cookie cutter t-shirts for $10. --&gt;
-&lt;!-- when we look back at the naughties and teens i think we&apos;ll define this age of fashion 
-as a time of excess with some minor flashes or true creativity. --&gt;</content:encoded></item><item><title><![CDATA[Under the rader brands]]></title><description><![CDATA[In this article i’ll explore some of my favourite brands. 
-Those that bring uniqueness in design or function. Firstly - what influenced me…]]></description><link>https://themavenist.com/under-the-radar-brands</link><guid isPermaLink="false">https://themavenist.com/under-the-radar-brands</guid><pubDate>Wed, 13 May 2020 00:00:00 GMT</pubDate><enclosure url="https://www.themavenist.com/static/6fcffc0fc3133be6e63fea3de54ece4b/yakuza.png" length="0" type="image/png"/><content:encoded>&lt;style&gt;
-
-@import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
-@import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
-@import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
-
-.container {
-    margin: 20px 0 0 0;
-    display: flex;
-    justify-content: space-between;
-    height: 280px;
-
-    @media (min-width: 768px) {
-        margin: 20px auto 20px auto;
-        width: 75%;
-    }
-}
-
-.banner {
-    margin: 20px 0 0 0;
-    display: flex;
-    justify-content: space-between;
-    height: 280px;
-
-    @media (min-width: 768px) {
-        margin: 20px auto 20px auto;
-        width: 75%;
-    }
-}
-
-.container iframe {
-    margin: 0 auto;
-    display: block;
-}
-
-div &gt; .gatsby-resp-iframe-wrapper {
-    width: 90%;
-    padding-bottom: 155% !important;
-    margin: 0 auto;
-    border: 1px solid #ccc;
-}
-
-iframe {
-    height: 100% !important;
-}
-
-p {
-    font-size: 0.9rem;
-    line-height: 1.85rem;
-    font-family: &apos;Lato&apos;, sans-serif;
-}
-
-ul &gt; li {
-    font-size: 0.9rem;
-    line-height: 1.45rem;
-    letter-spacing: 0.025rem;
-    font-family: &apos;Lato&apos;, sans-serif;
-}
-
-h3 {
-    margin: 20px 0 20px 0;
-}
-
-h4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.4rem;
-    letter-spacing: 0.005rem;
-    color: #000000
-    padding: 0;
-    margin: 10px 0 30px 0;
-}
-
-@media (min-width: 768px) {
-
-    div &gt; .gatsby-resp-iframe-wrapper {
-        width: 55%;
-        padding-bottom: 90% !important;
-        margin: 0 auto;
-    }
-
-    iframe {
-        height: 100% !important;
-    }
-
-    p {
-        font-size: 1.15rem;
-        line-height: 1.7rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    ul &gt; li {
-        font-size: 1.05rem;
-        line-height: 1.55rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    h3 {
-        margin: 20px 0 20px 0;
-    }
-
-    h4 {
-        font-size: 1.8rem;
-    }
-}
-
-@media (min-width: 1024px) {
-
-    div &gt; .gatsby-resp-iframe-wrapper {
-        width: 55%;
-        padding-bottom: 85% !important;
-        margin: 0 auto;
-    }
-
-    iframe {
-        height: 100% !important;
-    }
-
-    p {
-        font-size: 1.15rem;
-        line-height: 1.7rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    ul &gt; li {
-        font-size: 1.05rem;
-        line-height: 1.55rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    h3 {
-        font-size: 2rem;
-    }
-}
-
-&lt;/style&gt;
-&lt;p&gt;In this article i’ll explore some of my favourite brands.
-Those that bring uniqueness in design or function.&lt;/p&gt;
-&lt;p&gt;Firstly - what influenced me in writing this article in the first place was my fascination for
-japanese style and function. Not all brands listed are japanese but they follow in a similar ilk.&lt;/p&gt;
-&lt;p&gt;This fascination goes back to when i first watched the intro scene to Rockstar’s cult classic &lt;a href=&quot;https://amzn.to/3c6Febe&quot; target=&quot;_blank&quot;&gt;GTA2&lt;/a&gt; back in ‘99.
-I rememeber like it was yesterday playing it on my packard bell PC that took up 90% of my desk space and &lt;a href=&quot;https://amzn.to/3c6Febe&quot; target=&quot;_blank&quot;&gt;GTA2&lt;/a&gt; the time equivalent.&lt;/p&gt;
-&lt;p&gt;It was the Yakuza that caught my eye with their full body koi fish tattoos. The 12 year old me was captivated.
-I never managed to pluck up the courage and get a full body tattoo myself. But where i lacked the body art i made up for with the wardrobe.&lt;/p&gt;
-&lt;p&gt;To kick things off i want to begin with my favourite eyewear brand that i believe epitomizes
-japanese cool - not to mention craftsmanship.&lt;/p&gt;
-&lt;!-- &lt;div class=&quot;container&quot;&gt;
-&lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=themavenist-21&amp;marketplace=amazon&amp;region=GB&amp;placement=B07CLVXHXP&amp;asins=B07CLVXHXP&amp;linkId=54b8b03ce794b395527229cec244bc7d&amp;show_border=true&amp;link_opens_in_new_window=true&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff&quot;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt; --&gt;
-&lt;h3&gt;&lt;u&gt;Native Sons (Japan)&lt;/u&gt;&lt;/h3&gt;
-&lt;p&gt;My first purchase from the guys at NS was the Roy.
+Ultimately it’s what works in creating the aura of desirability.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;But at what cost?.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;… Well, creativity. For instance when was the last time you saw something truly original from the brands with the biggest marketing budgets?&lt;/p&gt;&lt;p&gt;You guessed it - hardly ever. The big brands are big not because of their creativity but simply because of their
+cash cows sold en masses to their cohort of loyal as well as aspiring new clients - just think ponies and polos.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;I’ve worked in a variety of roles in luxury and retail over the past decade.
+The majority of my career has been spent in Soho &amp;amp; Mayfair square mile. Travelling between London, Paris, Milan and everything in between.&lt;/p&gt;&lt;p&gt;I’ve gone from retail to wholesale and back again.
+I’ve run the commerial product of probably the most recognisable label in the world, and
+developed collections for iconic heritage brands.
+I’ve even bought jewel encrusted tailoring for a fashion house that would give Liberace a run for his money.&lt;/p&gt;&lt;p&gt;If my experiences have taught me anything it’s that business always trumps art.
+Fashion used to be the main mediums to express yourself through times of cultural and social change. Think mods, rockers, skinheads and punks of the 60s/70s.&lt;/p&gt;&lt;p&gt;These days your typical fashion customer tends to buy, not out of a necessity for social expression but rather compulsion, bordom and even addiction.
+What does that say about the state of fashion?  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Under the rader brands]]></title><description><![CDATA[In this article i'll explore some of my favourite brands. 
+Those that bring uniqueness in design or function. Firstly - what influenced me…]]></description><link>https://themavenist.comunder-the-radar-brands</link><guid isPermaLink="false">https://themavenist.comunder-the-radar-brands</guid><pubDate>Wed, 13 May 2020 00:00:00 GMT</pubDate><enclosure url="https://www.themavenist.com/static/6fcffc0fc3133be6e63fea3de54ece4b/yakuza.png" length="0" type="image/png"/><content:encoded>&lt;p&gt;In this article i’ll explore some of my favourite brands.
+Those that bring uniqueness in design or function.&lt;/p&gt;&lt;p&gt;Firstly - what influenced me in writing this article in the first place was my fascination for
+japanese style and function. Not all brands listed are japanese but they follow in a similar ilk.&lt;/p&gt;&lt;p&gt;This fascination goes back to when i first watched the intro scene to Rockstar’s cult classic &lt;a href=&quot;https://amzn.to/3c6Febe&quot; target=&quot;_blank&quot;&gt;GTA2&lt;/a&gt; back in ‘99.
+I rememeber like it was yesterday playing it on my packard bell PC that took up 90% of my desk space and &lt;a href=&quot;https://amzn.to/3c6Febe&quot; target=&quot;_blank&quot;&gt;GTA2&lt;/a&gt; the time equivalent.&lt;/p&gt;&lt;p&gt;It was the Yakuza that caught my eye with their full body koi fish tattoos. The 12 year old me was captivated.
+I never managed to pluck up the courage and get a full body tattoo myself. But where i lacked the body art i made up for with the wardrobe.&lt;/p&gt;&lt;p&gt;To kick things off i want to begin with my favourite eyewear brand that i believe epitomizes
+japanese cool - not to mention craftsmanship.&lt;/p&gt;&lt;h2&gt;Native Sons (Japan)&lt;/h2&gt;&lt;p&gt;My first purchase from the guys at NS was the Roy.
 it’s elegntly designed understated and checks all the boxes for me when it comes to proportions.
-It has a smaller shape by design with a narrow bridge making it suitable for those with smaller faces.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/ByWbCOKFnuo/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;u&gt;Wacko Maria (Japan)&lt;/u&gt;&lt;/h3&gt;
-&lt;p&gt;The next brand on my list is wacko maria. first appearing on the scene back in ‘05. What i go to WM
-for is their HAWAIIAN SHIRTs. You simply cannot beat the prints, a masterclass in design.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/B9JER_0p19B/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;u&gt;Cote et Ciel (France)&lt;/u&gt;&lt;/h3&gt;
-&lt;p&gt;When it comes to bags the first thing that any utilitarian shopper should look for is form as well as function,
+It has a smaller shape by design with a narrow bridge making it suitable for those with smaller faces.&lt;/p&gt;&lt;div&gt;&lt;/div&gt;&lt;h2&gt;Wacko Maria (Japan)&lt;/h2&gt;&lt;p&gt;The next brand on my list is wacko maria. first appearing on the scene back in ‘05. What i go to WM
+for is their HAWAIIAN SHIRTs. You simply cannot beat the prints, a masterclass in design.&lt;/p&gt;&lt;div&gt;&lt;/div&gt;&lt;h2&gt;Cote et Ciel (France)&lt;/h2&gt;&lt;p&gt;When it comes to bags the first thing that any utilitarian shopper should look for is form as well as function,
 and &lt;a href=&quot;https://amzn.to/2WZ1JdB&quot; target=&quot;_blank&quot;&gt;Cote et Ciel&lt;/a&gt; have this in… well bags. When it comes to innovative designs that seemlessly bridge the gap between fashion and industral design
-then there’s simply no better candidate.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BdxwLFfBN3h/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;u&gt;Veilance (Canada)&lt;/u&gt;&lt;/h3&gt;
-&lt;p&gt;Another one of my favourites that fly under the radar for most is the &lt;a href=&quot;https://amzn.to/2Aaqomo&quot; target=&quot;_blank&quot;&gt;Veilance&lt;/a&gt; by the canadian
+then there’s simply no better candidate.&lt;/p&gt;&lt;div&gt;&lt;/div&gt;&lt;h2&gt;Veilance (Canada)&lt;/h2&gt;&lt;p&gt;Another one of my favourites that fly under the radar for most is the &lt;a href=&quot;https://amzn.to/2Aaqomo&quot; target=&quot;_blank&quot;&gt;Veilance&lt;/a&gt; by the canadian
 outerwear brand Arcteryx.
 What Veilance does best is creating hybrid pieces that bridge the gap between
 classical mens tailored silhouettes and brings them into the 21st century with modern materials
 and construction. They use innovative materials such as Goretex that are more commonly found on climbers on cliff faces than city dwellers.
-By sealing the seems the garmets become fully water proof - keeping you both dry and looking good when running errands in the urban ecosystem of our cities.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BeraJwLHV7k/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;u&gt;VisVim (Japan)&lt;/u&gt;&lt;/h3&gt;
-&lt;p&gt;Finally we come to &lt;a href=&quot;https://amzn.to/36qsafk&quot; target=&quot;_blank&quot;&gt;VisVim&lt;/a&gt;. Focused on sourcing premium textiles that are expertly crafted by blind nuns on the sidesteps of the Himalayans…
-well, not quite, but you get the idea.&lt;/p&gt;
-&lt;p&gt;The collections has Navaho inspired touches throughout such as the signature finged suede boots and quilt patching that evoke the Americana spirits.
-VisVim for me is what RL tried but ultimately failed to achieve with Double RL. That’s saying something given the war chest that is usually accompanied by a RL sub-brand.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/B_OjUY5Dgeq/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Sneaker basics]]></title><description><![CDATA[My philosophy when it comes to sneakers is that everyone should have a go-to core selection. If you don’t and are buying them on the fly…]]></description><link>https://themavenist.com/sneakers</link><guid isPermaLink="false">https://themavenist.com/sneakers</guid><pubDate>Tue, 12 May 2020 00:00:00 GMT</pubDate><enclosure url="https://www.themavenist.com/static/56b0c8370838c351eb611e42898edaf0/sneakers.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;style&gt;
-
-@import url(&apos;https://fonts.googleapis.com/css2?family=Marck+Script&amp;display=swap&apos;);
-@import url(&apos;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap&apos;);
-@import url(&apos;https://fonts.googleapis.com/css2?family=Changa&amp;display=swap&apos;);
-
-.container {
-    display: flex;
-}
-
-.button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2px;
-    color: white;
-    margin: 0px auto 20px auto;
-    width: 175px;
-    height: 40px;
-    background-color: black;
-    text-transform: uppercase;
-    font-size: 0.9rem;
-}
-
-div &gt; .gatsby-resp-iframe-wrapper {
-    width: 90%;
-    padding-bottom: 155% !important;
-    margin: 0 auto;
-    border: 1px solid #ccc;
-}
-
-iframe {
-    height: 100% !important;
-}
-
-p {
-    font-size: 0.9rem;
-    line-height: 1.85rem;
-    font-family: &apos;Lato&apos;, sans-serif;
-}
-
-ul &gt; li {
-    font-size: 0.9rem;
-    line-height: 1.45rem;
-    letter-spacing: 0.025rem;
-    font-family: &apos;Lato&apos;, sans-serif;
-}
-
-h4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.4rem;
-    letter-spacing: 0.005rem;
-    color: #000000
-    padding: 0;
-    margin: 10px 0 30px 0;
-}
-
-@media (min-width: 768px) {
-
-    div &gt; .gatsby-resp-iframe-wrapper {
-        width: 55%;
-        padding-bottom: 90% !important;
-        margin: 0 auto;
-    }
-
-    iframe {
-        height: 100% !important;
-    }
-
-    p {
-
-        font-size: 1.15rem;
-        line-height: 1.7rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    ul &gt; li {
-        font-size: 1.05rem;
-        line-height: 1.55rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    h4 {
-        font-size: 1.8rem;
-    }
-}
-
-@media (min-width: 1024px) {
-
-    div &gt; .gatsby-resp-iframe-wrapper {
-        width: 55%;
-        padding-bottom: 85% !important;
-        margin: 0 auto;
-    }
-
-    iframe {
-        height: 100% !important;
-    }
-
-    p {
-        font-size: 1.15rem;
-        line-height: 1.7rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    ul &gt; li {
-        font-size: 1.05rem;
-        line-height: 1.55rem;
-        font-family: &apos;Nunito&apos;, sans-serif;sans-serif;
-    }
-
-    h4 {
-        font-size: 2rem;
-    }
-}
-
-&lt;/style&gt;
-&lt;p&gt;My philosophy when it comes to sneakers is that everyone should have a go-to core selection.&lt;/p&gt;
-&lt;p&gt;If you don’t and are buying them on the fly then you’re doing it all wrong.&lt;/p&gt;
-&lt;p&gt;There’s a few considerations that should be taken when it comes to selecting your go to kicks:&lt;/p&gt;
-&lt;div class=&quot;custom&quot;&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;&lt;strong&gt;Relatively&lt;/strong&gt;&lt;/em&gt; easy to acquire year round – Non-seasonal&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;&lt;strong&gt;Versatility&lt;/strong&gt;&lt;/em&gt; - They’ll need to be dressed up or pared down seamlessly. For this to work the colour palette has to be muted. stick to White/Black/Navy.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;&lt;strong&gt;Form&lt;/strong&gt;&lt;/em&gt; - The construction and overall shape is the difference between timeless classic and the liteny of “filler” designs by sneaker brands.   &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;em&gt;Low cost&lt;/em&gt;&lt;/strong&gt; - They will be worn anywhere and everywhere so will periodically need to be refreshed without breaking the bank each time we do.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;em&gt;Function&lt;/em&gt;&lt;/strong&gt; - As mentioned they’ll be worn anywhere &amp;#x26; everywhere so should be comfortable at the very least.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;STAN SMITH&lt;/h4&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BGtylyArieE/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;div class=&quot;container&quot;&gt;&lt;a  class=&quot;button&quot; href=&quot;https://amzn.to/2A4IKpe&quot; target=&quot;_blank&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;Adidas’s Stan Smiths are arguably the most popular Adidas trainer of all time.
+By sealing the seems the garmets become fully water proof - keeping you both dry and looking good when running errands in the urban ecosystem of our cities.&lt;/p&gt;&lt;div&gt;&lt;/div&gt;&lt;h2&gt;VisVim (Japan)&lt;/h2&gt;&lt;p&gt;Finally we come to &lt;a href=&quot;https://amzn.to/36qsafk&quot; target=&quot;_blank&quot;&gt;VisVim&lt;/a&gt;. Focused on sourcing premium textiles that are expertly crafted by blind nuns on the sidesteps of the Himalayans…
+well, not quite, but you get the idea.&lt;/p&gt;&lt;p&gt;The collections has Navaho inspired touches throughout such as the signature finged suede boots and quilt patching that evoke the Americana spirits.
+VisVim for me is what RL tried but ultimately failed to achieve with Double RL. That’s saying something given the war chest that is usually accompanied by a RL sub-brand.&lt;/p&gt;&lt;div&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Sneaker basics]]></title><description><![CDATA[My philosophy when it comes to sneakers is that everyone should have a go-to core selection.
+If you don’t and are buying them on the fly…]]></description><link>https://themavenist.comsneakers</link><guid isPermaLink="false">https://themavenist.comsneakers</guid><pubDate>Tue, 12 May 2020 00:00:00 GMT</pubDate><enclosure url="https://www.themavenist.com/static/56b0c8370838c351eb611e42898edaf0/sneakers.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;My philosophy when it comes to sneakers is that everyone should have a go-to core selection.
+If you don’t and are buying them on the fly then you’re doing it all wrong.
+There’s a few considerations that should be taken when it comes to selecting your go to kicks:&lt;/p&gt;&lt;ul&gt;&lt;li class=&quot;typographyElements__ListItem-sc-1s0lib3-2 gFEiPD&quot;&gt;&lt;b&gt;Easy to acquire&lt;/b&gt; – Non-seasonal&lt;/li&gt;&lt;li class=&quot;typographyElements__ListItem-sc-1s0lib3-2 gFEiPD&quot;&gt;&lt;b&gt;Versatility&lt;/b&gt; - They&amp;#x27;ll need to be dressed up or pared down seamlessly. For this to work the colour palette has to be muted. stick to White/Black/Navy.&lt;/li&gt;&lt;li class=&quot;typographyElements__ListItem-sc-1s0lib3-2 gFEiPD&quot;&gt;&lt;b&gt;Form&lt;/b&gt; - The construction and overall shape is the difference between timeless classic and the liteny of &amp;quot;filler&amp;quot; designs by sneaker brands.&lt;/li&gt;&lt;li class=&quot;typographyElements__ListItem-sc-1s0lib3-2 gFEiPD&quot;&gt;&lt;b&gt;Low cost&lt;/b&gt; - They will be worn anywhere and everywhere so will periodically need to be refreshed without breaking the bank each time we do.&lt;/li&gt;&lt;li class=&quot;typographyElements__ListItem-sc-1s0lib3-2 gFEiPD&quot;&gt;&lt;b&gt;Function&lt;/b&gt; - As mentioned they&amp;#x27;ll be worn anywhere &amp;amp; everywhere so should be comfortable at the very least.&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;STAN SMITH&lt;/h2&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://amzn.to/2A4IKpe&quot; target=&quot;_blank&quot; class=&quot;shopBtn-module--button--3TMAg&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;&lt;p&gt;Adidas’s Stan Smiths are arguably the most popular Adidas trainer of all time.
 Raf Simons has a premium version and Jay-Z name dropped them on his classic album, The Blueprint.
-constructed with a low profile they come in a multitude of coloured tabs and variations.&lt;/p&gt;
-&lt;!-- &lt;div class=&quot;container&quot;&gt;
-&lt;iframe style=&quot;width:120px;height:300px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=GB&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=themavenist-21&amp;marketplace=amazon&amp;region=GB&amp;placement=B00WXMPFZI&amp;asins=B00WXMPFZI&amp;linkId=c7630d4c45aaf2696e846d289c03d9b4&amp;show_border=true&amp;link_opens_in_new_window=true&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff&quot;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt; --&gt;
-&lt;h4&gt;GAZELLE&lt;/h4&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BGEpFFarie2/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;div class=&quot;container&quot;&gt;&lt;a  class=&quot;button&quot; href=&quot;https://amzn.to/2ATO673&quot; target=&quot;_blank&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;The Gazelle has a long history dating back to the late 60s and have been in continuous production for the last 50 years.
+constructed with a low profile they come in a multitude of coloured tabs and variations.&lt;/p&gt;&lt;h2&gt;GAZELLE&lt;/h2&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://amzn.to/2ATO673&quot; target=&quot;_blank&quot; class=&quot;shopBtn-module--button--3TMAg&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;&lt;p&gt;The Gazelle has a long history dating back to the late 60s and have been in continuous production for the last 50 years.
 For me one word to describe Gazelle would be ‘memories’. They conjure images of 90s era Britpop.
 The Gallagher brothers almost exclusively wore the classic 3 stripes trainers in a number of music videos;
 and lets not forget David Baddiel wearing them in the Three Lions video for Euro ‘96.
-Gazelles are a true icon of 90s culture.&lt;/p&gt;
-&lt;h4&gt;CONVERSE ALL STAR&lt;/h4&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/B2ZVoCEhvIw/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;div class=&quot;container&quot;&gt;&lt;a  class=&quot;button&quot; href=&quot;https://amzn.to/2XeVt08&quot; target=&quot;_blank&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;Converse shoes are distinguished by a number of features, including the company’s star insignia, the All Star’s rubber sole, smooth rounded toe, and wrap-around stripe.
+Gazelles are a true icon of 90s culture.&lt;/p&gt;&lt;h2&gt;CONVERSE ALL STAR&lt;/h2&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://amzn.to/2XeVt08&quot; target=&quot;_blank&quot; class=&quot;shopBtn-module--button--3TMAg&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;&lt;p&gt;Converse shoes are distinguished by a number of features, including the company’s star insignia, the All Star’s rubber sole, smooth rounded toe, and wrap-around stripe.
 Initially developed as a basketball shoe in the early 20th century. The Chuck Taylor design has remained largely unchanged since its introduction in the 1920s.
 The shoe is made of a stitched upper portion, a toe cap that’s usually made of white rubber and a rubber sole.
 Although Chuck Taylors are made of various materials such as leather, the original and most widely known version of the shoe is made from cotton canvas.
-This iconic sneaker is not only famous for it’s basketball roots but has also been widely adopted within the skateboarding scene.&lt;/p&gt;
-&lt;h4&gt;NIKE BLAZER MID ‘77&lt;/h4&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/B_cl5Ouq7PI/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;div class=&quot;container&quot;&gt;&lt;a  class=&quot;button&quot; href=&quot;https://amzn.to/2XmXLdN&quot; target=&quot;_blank&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;The Nike Blazer was first released in 1973 as Nike’s basketball sneaker and was named
+This iconic sneaker is not only famous for it’s basketball roots but has also been widely adopted within the skateboarding scene.&lt;/p&gt;&lt;h2&gt;NIKE BLAZER MID ‘77&lt;/h2&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://amzn.to/2XmXLdN&quot; target=&quot;_blank&quot; class=&quot;shopBtn-module--button--3TMAg&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;&lt;p&gt;The Nike Blazer was first released in 1973 as Nike’s basketball sneaker and was named
 after Oregons local basketball team, the Portland Trail Blazers.
 It is the first basketball shoe to carry the Nike Swoosh.
 An icon on and off the court, the Blazer is loved for its simplicity.
-As basketball players left the Blazer behind, skaters took ownership of the sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.&lt;/p&gt;
-&lt;h4&gt;VANS OLD SKOOL&lt;/h4&gt;
-&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 100%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div&gt;&lt;iframe src=&quot;https://instagram.com/p/BmyepFegWhl/embed&quot; frameborder=&quot;0&quot; allowfullscreen scrolling=&quot;no&quot; allowtransparency style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt;&lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;div class=&quot;container&quot;&gt;&lt;a  class=&quot;button&quot; href=&quot;https://amzn.to/3genSMK&quot; target=&quot;_blank&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;Old Skools are most definitely summer’s most democratic shoe.
+As basketball players left the Blazer behind, skaters took ownership of the sneaker and it found a second life that would ultimately save the silhouette from ever going out of style.&lt;/p&gt;&lt;h2&gt;VANS OLD SKOOL&lt;/h2&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://amzn.to/3genSMK&quot; target=&quot;_blank&quot; class=&quot;shopBtn-module--button--3TMAg&quot;&gt;Shop&lt;/a&gt;&lt;/div&gt;&lt;p&gt;Old Skools are most definitely summer’s most democratic shoe.
 Originally purposed as a skating shoe, the Old Skools were first introduced 77’, and was the first design to feature the brand’s iconic side stripe,
-which has become a signature design detail.&lt;/p&gt;
-&lt;p&gt;This style has an enduring appeal thats lasted generations. The trick is in the sneaker’s simple yet instantly recognizable design:
-a low-top shoe with leather padded heels and slick suede panelling, the style has barely changed in its history.&lt;/p&gt;
-&lt;p&gt;The black-and-white colorway prevails as the most popular design, some 40 years later.
+which has become a signature design detail.&lt;/p&gt;&lt;p&gt;This style has an enduring appeal thats lasted generations. The trick is in the sneaker’s simple yet instantly recognizable design:
+a low-top shoe with leather padded heels and slick suede panelling, the style has barely changed in its history.&lt;/p&gt;&lt;p&gt;The black-and-white colorway prevails as the most popular design, some 40 years later.
 Unlike the classic slip-on, which looks a little like an gym shoe, the Old Skool has a distinctly cooler aura about it.&lt;/p&gt;</content:encoded></item></channel></rss>

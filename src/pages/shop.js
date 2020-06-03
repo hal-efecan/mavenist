@@ -1,11 +1,16 @@
 import React from 'react'
-import Layout from '../components/layout'
-import Skus from '../components/skus'
+import Layout from '../components/layout/layout'
+// import Skus from '../components/skus'
+import SEO from 'react-seo-component'
 
 const Shop = () => {
     return (
             <Layout>
-                <Skus />
+            <SEO
+            title={`Shop`}
+            description={`Shop page`}
+            />
+                {/* <Skus /> */}
             </Layout>
     )
 }

@@ -1,7 +1,7 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../components/layout/layout'
 import FashionArticles from '../components/fashion'
-// import SEO from "../components/seo"
+
 import SEO from 'react-seo-component'
 import { useSiteMetadata } from '../hooks/useSiteMetadata'
 
@@ -23,7 +23,6 @@ const Fashion = ({ data }) => {
 
     return (
         <Layout>
-            {/* <SEO title="Fashion" description="All Fashion related content" /> */}
             <SEO
                 title={title}
                 description={description || 'nothin’'}

@@ -2,48 +2,52 @@ import React from 'react'
 import { graphql, useStaticQuery, Link } from 'gatsby'
 import Img from 'gatsby-image'
 
-import thumbStyles from '../styles/post_thumb.module.scss'
+import { SectionTitle, ArticleTitle, ImgContainer,
+  Excerpt, MainChildContainer, DescriptionContainerTop,
+  Divider, MainParentContainer } from '../styled'
 
 const PostList = () => {
     const data = useStaticQuery(query)
-    const postsArr = data.allMarkdownRemark.edges
+    const postsArr = data.allMdx.edges
     
     return (
       <>
-        <div className={thumbStyles.parent_container}>
-
+      <MainParentContainer>
             {
                 postsArr.map(post => {
                     const { frontmatter, id, excerpt, fields } = post.node
-                    const { title, image, section, path, date } = frontmatter
+                    const { title, image, section } = frontmatter
                     const { slug } = fields
                     const fluid = image.childImageSharp.fluid
-                    // console.log(slug)
+
                     return (
-                      <Link key={id} to={`${slug}`} className={thumbStyles.link}> {/*${path}/*/}
+                      <Link key={id} 
+                      to={`${slug}`} 
+                      style={{ boxShadow: `none`, boxSizing: `border-box` }}
+                      >
 
-                        <div className={thumbStyles.child_container}>
+                        <MainChildContainer>
 
-                            <div className={thumbStyles.image_container}>
-                              <Img fluid={fluid} />
-                            </div>
+                          <ImgContainer>
+                            <Img fluid={fluid} />
+                          </ImgContainer>
 
-                            <div className={thumbStyles.wrapper}>
-                              <div>
-                                <span className={thumbStyles.section}>{section}</span><br />
-                                <span className={thumbStyles.title}>{title}</span>
-                              </div>
-                              <p className={thumbStyles.excerpt}>{excerpt}</p>
-                              {/* <p>{date}</p> */}
-                            </div>
-                        </div>
+                          <DescriptionContainerTop>
+                            <>
+                              <SectionTitle>{section}</SectionTitle><br/>
+                              <ArticleTitle>{title}</ArticleTitle>
+                            </>
+                            <Excerpt>{excerpt}</Excerpt>
+                          </DescriptionContainerTop>
+
+                        </MainChildContainer>
                         
                       </Link>
                     )
                 })
             }
-        </div>
-        <hr className={thumbStyles.divider}/>
+        </MainParentContainer>
+        <Divider />
         </>
     )
 }
@@ -57,7 +61,7 @@ const query = graphql`
         title
     }
   }
-  allMarkdownRemark(filter: {frontmatter: {isHero: {eq: true}, date: {}}}, sort: {fields: frontmatter___date, order: DESC}) {
+  allMdx(filter: {frontmatter: {isHero: {eq: true}, date: {}}}, sort: {fields: frontmatter___date, order: DESC}) {
     edges {
       node {
         id
@@ -76,7 +80,7 @@ const query = graphql`
             childImageSharp {
               id
               fluid(
-                maxWidth: 700
+                maxWidth: 400
                 ) {
                   ...GatsbyImageSharpFluid
               }
@@ -89,7 +93,3 @@ const query = graphql`
   }
 }
 `
-
-// duotone: { highlight: "#ffffff", shadow: "#b89a6a" }
-// ...GatsbyImageSharpFluid_tracedSVG
-// duotone: { highlight: "#f00e2e", shadow: "#192550" }

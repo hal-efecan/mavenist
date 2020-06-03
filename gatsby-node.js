@@ -12,7 +12,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const result = await graphql(
     `
       {
-        allMarkdownRemark(
+        allMdx(
           sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000
         ) {
@@ -26,6 +26,11 @@ exports.createPages = async ({ graphql, actions }) => {
                 path
                 type
               }
+              parent {
+                ... on File {
+                  modifiedTime
+                }
+              }
             }
           }
         }
@@ -36,19 +41,16 @@ exports.createPages = async ({ graphql, actions }) => {
   if (result.errors) {
     throw result.errors
   }
-  // console.log('result', result.data.allMarkdownRemark)
+
   // Create blog posts pages.
-  const posts = result.data.allMarkdownRemark.edges
+  const posts = result.data.allMdx.edges
 
   posts.forEach((post, index) => {
     // console.log('post~~~~~~', post)
-    // console.log('post~~~~~~', post.node.frontmatter.path)
-    // console.log('slugggg', post.node.fields.slug)
     const previous = index === posts.length - 1 ? null : posts[index + 1].node
     const next = index === 0 ? null : posts[index - 1].node
 
     if (post.node.frontmatter.type === 'product') {
-
       // createPage({
       //   path: `${post.node.fields.slug}`, // ${/*post.node.frontmatter.path*/}
       //   component: productPost,
@@ -56,13 +58,13 @@ exports.createPages = async ({ graphql, actions }) => {
       //     slug: post.node.fields.slug,
       //   }
       // });
-
     } else {
       createPage({
-        path: `${post.node.fields.slug}`, // ${/*post.node.frontmatter.path*/}
+        path: `${post.node.fields.slug}`,
         component: blogPost,
         context: {
           slug: post.node.fields.slug,
+          lastmod: post.node.parent.modifiedTime
         }
       })
     }
@@ -74,14 +76,26 @@ exports.createPages = async ({ graphql, actions }) => {
 exports.onCreateNode = ({ node, actions }) => {
   const { createNodeField } = actions
 
-  if (node.internal.type === `MarkdownRemark`) {
-    const slug = path.basename(node.fileAbsolutePath, `.md`)
-    console.log('slug~~~~~~~~', slug)
+  if (node.internal.type === `Mdx`) {
+    const slug = path.basename(node.fileAbsolutePath, `.mdx`)
+    // console.log('slug~~~~~~~~', slug)
 
     createNodeField({
       name: `slug`,
       node,
-      value: `/${slug}`
+      value: `${slug}`
     })
   }
+
+  // else if (node.internal.type === `MarkdownRemark`) {
+  //   const slug = path.basename(node.fileAbsolutePath, `.md`)
+  //   console.log('slug~~~~~~~~', slug)
+
+  //   createNodeField({
+  //     name: `slug`,
+  //     node,
+  //     value: `/${slug}`
+  //   })
+  // }
+
 }

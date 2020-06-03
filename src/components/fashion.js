@@ -1,57 +1,63 @@
 import React from 'react'
 import { graphql, useStaticQuery, Link } from 'gatsby'
 import Img from 'gatsby-image';
-import Banner1 from '../components/banner1'
-import Banner2 from '../components/banner2'
 
-import subsection from '../styles/sub_section.module.scss'
-import main from '../styles/main.module.scss'
+import { SectionTitle, ArticleTitle, ImgContainer,
+  Excerpt, SubSectionParentContainer, DescriptionContainer,
+  SubSectionChildContainer } from '../styled'
 
 const FashionArticles = () => {
     const data = useStaticQuery(query)
-    const articles = data.allMarkdownRemark.edges
+    const articles = data.allMdx.edges
 
     return (
-      <div className={main.container}>
-        {/* <Banner2 /> */}
-        <div className={subsection.page_container}>
-            {
-              articles.map(article => {
-                console.log(article)
-                const { id, frontmatter, excerpt, fields } = article.node
-                const { title, section, image, path, date } = frontmatter
-                const { slug } = fields
-                const fluid = image.childImageSharp.fluid
+      <SubSectionParentContainer>
 
-                return (
-                  <Link className={subsection.child_container} key={id} to={`/${slug}`}> {/* ${path}/ */}
-                        <div className={subsection.image_container}>
-                          <Img fluid={fluid} />
-                        </div>
+          {
+            articles.map(article => {
+              console.log(article)
+              const { id, frontmatter, excerpt, fields } = article.node
+              const { title, section, image } = frontmatter
+              const { slug } = fields
+              const fluid = image.childImageSharp.fluid
 
-                        <div className={subsection.wrapper}>
-                          <div>
-                            <span className={subsection.section}>{section}</span><br />
-                            <span className={subsection.title}>{title}</span>
-                          </div>
-                          <p className={subsection.excerpt}>{excerpt}</p>
-                          {/* <p className={subsection.date}>{date}</p> */}
-                        </div>
-                  </Link>
-                )
-              })
-            }
-        </div>
-        {/* <Banner2 /> */}
-        </div>
-    )
+              return (
+                <Link 
+                style={{ boxShadow: `none`, boxSizing: `border-box` }}
+                key={id} 
+                to={`/${slug}`}
+                >
+
+                  <SubSectionChildContainer>
+
+                    <ImgContainer>
+                      <Img fluid={fluid} />
+                    </ImgContainer>
+
+                    <DescriptionContainer>
+                      <div>
+                        <SectionTitle>{section}</SectionTitle><br />
+                        <ArticleTitle>{title}</ArticleTitle>
+                      </div>
+                      <Excerpt>{excerpt}</Excerpt>
+                    </DescriptionContainer>
+                  
+                  </SubSectionChildContainer>
+
+                </Link>
+              )
+            })
+          }
+          
+      </SubSectionParentContainer>
+  )
 }
 
 export default FashionArticles
 
 const query = graphql`
 {
-  allMarkdownRemark(filter: {frontmatter: {section: {eq: "Fashion"}}}, sort: {fields: frontmatter___date, order: DESC}) {
+  allMdx(filter: {frontmatter: {section: {eq: "Fashion"}}}, sort: {fields: frontmatter___date, order: DESC}) {
       edges {
         node {
           id

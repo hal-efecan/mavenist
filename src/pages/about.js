@@ -1,12 +1,16 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../components/layout/layout'
 import AboutUs from '../components/aboutUs'
-import SEO from "../components/seo"
+
+import SEO from 'react-seo-component'
 
 const About = () => {
     return (
         <Layout>
-            <SEO title="About" description="About Us"/>
+            <SEO
+            title={`About us`}
+            description={`About us page`}
+            />
             <AboutUs />
         </Layout>
     )
