@@ -196,7 +196,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        exclude: [`/marshall`, `/parkgate`, `/review/`, `/shop/`, `/success/`, `/cancelled/`],
+        exclude: [`/marshall`, `/parkgate`, `/review/`, `/shop/`, `/success/`, `/cancelled/`, `/fashion/sneakers/`, `/fashion/how-to-lounge-in-a-lockdown/`],
         query: `
         {
           site {
