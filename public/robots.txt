@@ -1,4 +1,6 @@
 User-agent: *
-Allow: /
-Sitemap: https://themavenist.com/sitemap.xml
-Host: https://themavenist.com
+Disallow: /marshall
+Disallow: /parkgate
+Disallow: /shop
+Sitemap: https://www.themavenist.com/sitemap.xml
+Host: https://www.themavenist.com

@@ -192,7 +192,16 @@ module.exports = {
     `gatsby-plugin-preload-link-crossorigin`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    'gatsby-plugin-robots-txt',
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.themavenist.com',
+        sitemap: 'https://www.themavenist.com/sitemap.xml',
+        policy: [
+          { userAgent: '*', disallow: [ `/marshall`, `/parkgate`, `/shop` ]  }
+        ],
+      }
+    },
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
