@@ -25,6 +25,9 @@ query ($slug: String!) {
   mdx(fields: {slug: {eq: $slug}}) {
     id
     excerpt(pruneLength: 160)
+    fields {
+      slug
+    }
     frontmatter {
       title
       date (formatString: " YYYY MMMM Do")
@@ -49,7 +52,7 @@ const BlogPostTemplate = (props) => {
 
   const image =  props.data.mdx.frontmatter.image
   const fluid = image.childImageSharp.fluid 
-
+  const {slug} = props.data.mdx.fields
   // const { author, date } = props.data.markdownRemark.frontmatter
   console.log('props', props)
   // console.log(props.data.markdownRemark.excerpt)
@@ -58,17 +61,17 @@ const BlogPostTemplate = (props) => {
 
   // console.log(props.data.markdownRemark.id, props.data.markdownRemark.title)
 
-  const disqusConfig = {
-    shortname: process.env.GATSBY_DISQUS_NAME,
-    identifier: props.data.mdx.id,
-    title: props.data.mdx.title
-    // config: { identifier: slug, title },
-  }
-
   const { siteLanguage, siteLocale, social: { twitter }, siteUrl } = useSiteMetadata()
   const { frontmatter, excerpt, body } = props.data.mdx
   const { pathname } = props.location
   const { title, date, author } = frontmatter
+  
+  const disqusConfig = {
+    shortname: disqusShortName,
+    identifier: props.data.mdx.id,
+    title: props.data.mdx.title,
+    config: { identifier: slug, title },
+  }
 
   // console.log({
   //   title: title,
@@ -83,7 +86,7 @@ const BlogPostTemplate = (props) => {
   //   publishedDate: date,
   //   modifiedDate: new Date(Date.now()).toISOString()
   // })
-  
+
   return (
     <Layout>
 

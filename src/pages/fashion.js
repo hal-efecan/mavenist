@@ -11,6 +11,7 @@ const Fashion = ({ data }) => {
 
     const {
         description,
+        template,
         title,
         image,
         siteUrl,
@@ -24,14 +25,15 @@ const Fashion = ({ data }) => {
     return (
         <Layout>
             <SEO
-                title={title}
-                description={description || 'nothin’'}
-                image={`${siteUrl}${image}`}
-                pathname={siteUrl}
-                siteLanguage={siteLanguage}
-                siteLocale={siteLocale}
-                twitterUsername={twitter}
-                />
+            title={title}
+            titleTemplate={template}
+            description={`Fashion content featuring the best established and new brands`}
+            image={`${siteUrl}${image}`}
+            pathname={siteUrl}
+            siteLanguage={siteLanguage}
+            siteLocale={siteLocale}
+            twitterUsername={twitter}
+            />
             <div className={main.container}>
                 <FashionArticles />
             </div>

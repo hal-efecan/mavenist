@@ -19,10 +19,10 @@ const PostList = () => {
                     const { title, image, section } = frontmatter
                     const { slug } = fields
                     const fluid = image.childImageSharp.fluid
-
+                    console.log(slug)
                     return (
                       <Link key={id} 
-                      to={`${slug}`} 
+                      to={`/${slug}`} 
                       style={{ boxShadow: `none`, boxSizing: `border-box` }}
                       >
 

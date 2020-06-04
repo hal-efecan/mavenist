@@ -18,6 +18,7 @@ const Index = ({ data }) => {
 
     const {
       description,
+      template,
       title,
       image,
       siteUrl,
@@ -27,7 +28,7 @@ const Index = ({ data }) => {
           twitter
       }
     } =  useSiteMetadata()
-  
+
   return (
             <Layout>
               <Helmet>
@@ -37,7 +38,8 @@ const Index = ({ data }) => {
               </Helmet>
               <SEO
                 title={title}
-                description={description || 'nothin’'}
+                titleTemplate={template}
+                description={description}
                 image={`${siteUrl}${image}`}
                 pathname={siteUrl}
                 siteLanguage={siteLanguage}

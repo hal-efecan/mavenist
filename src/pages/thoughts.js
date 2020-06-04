@@ -10,6 +10,7 @@ import main from '../styles/main.module.scss'
 const Thoughts = ({ data }) => {
     const {
         description,
+        template,
         title,
         image,
         siteUrl,
@@ -24,7 +25,8 @@ const Thoughts = ({ data }) => {
         <Layout>
             <SEO
                 title={title}
-                description={description || 'nothin’'}
+                titleTemplate={template}
+                description={`Style advise from experts`}
                 image={`${siteUrl}${image}`}
                 pathname={siteUrl}
                 siteLanguage={siteLanguage}

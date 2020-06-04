@@ -3,7 +3,8 @@ require("dotenv").config()
 module.exports = {
   siteMetadata: {
     title: `The Mavenist`,
-    description: `Digital fashion & lifestyle destination - Find the latest news on pop culture, sneakers, style.`,
+    template: `Find the latest news on pop culture, sneakers, style.`,
+    description: `Digital fashion & lifestyle destination brought to you by experts. The Mavenist provides entertainment, sport and culture, news, reviews and commentary.`,
     siteUrl: `https://themavenist.com`,
     image: `/themavenist-1200x630.png`,
     siteLanguage: `en-GB`,
@@ -43,8 +44,8 @@ module.exports = {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
                   date: edge.node.frontmatter.date,
-                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  url: site.siteMetadata.siteUrl + `/${edge.node.fields.slug}`,
+                  guid: site.siteMetadata.siteUrl + `/${edge.node.fields.slug}`,
                   enclosure: image && {
                     url: `https://www.themavenist.com` + image.publicURL,
                 },
@@ -89,6 +90,12 @@ module.exports = {
             title: `The Mavenist RSS Feed`,
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: process.env.GATSBY_DISQUS_NAME,
       },
     },
     `gatsby-plugin-sass`,
