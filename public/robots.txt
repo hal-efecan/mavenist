@@ -2,5 +2,8 @@ User-agent: *
 Disallow: /marshall
 Disallow: /parkgate
 Disallow: /shop
+Disallow: /review/
+Disallow: /fashion/sneakers/
+Disallow: /fashion/how-to-lounge-in-a-lockdown/
 Sitemap: https://www.themavenist.com/sitemap.xml
 Host: https://www.themavenist.com

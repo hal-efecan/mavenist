@@ -24,7 +24,7 @@ export const ArticleTitle = styled.span`
         font-size: 1.05rem;
     }
     @media (min-width: 1366px) {
-        font-size: 1.55rem;
+        font-size: 1.1rem;
     }
     `
 export const MainChildContainer = styled.section`

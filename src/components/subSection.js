@@ -66,8 +66,6 @@ const query = graphql`
           frontmatter {
             author
             date
-            path
-            tags
             title
             section
             isHero
@@ -89,3 +87,6 @@ const query = graphql`
   }
 }
 `
+
+// path
+// tags

@@ -53,13 +53,8 @@ const BlogPostTemplate = (props) => {
   const image =  props.data.mdx.frontmatter.image
   const fluid = image.childImageSharp.fluid 
   const {slug} = props.data.mdx.fields
-  // const { author, date } = props.data.markdownRemark.frontmatter
-  console.log('props', props)
-  // console.log(props.data.markdownRemark.excerpt)
 
   const disqusShortName = process.env.GATSBY_DISQUS_NAME
-
-  // console.log(props.data.markdownRemark.id, props.data.markdownRemark.title)
 
   const { siteLanguage, siteLocale, social: { twitter }, siteUrl } = useSiteMetadata()
   const { frontmatter, excerpt, body } = props.data.mdx
@@ -72,20 +67,6 @@ const BlogPostTemplate = (props) => {
     title: props.data.mdx.title,
     config: { identifier: slug, title },
   }
-
-  // console.log({
-  //   title: title,
-  //   description: excerpt,
-  //   image: `${siteUrl}${image.publicURL}`,
-  //   siteLanguage: siteLanguage,
-  //   siteLocale: siteLocale,
-  //   twitterUsername: twitter,
-  //   article: true,
-  //   pathname: `${siteUrl}${pathname}`,
-  //   author: author,
-  //   publishedDate: date,
-  //   modifiedDate: new Date(Date.now()).toISOString()
-  // })
 
   return (
     <Layout>
