@@ -5,5 +5,8 @@ Disallow: /shop
 Disallow: /review/
 Disallow: /fashion/sneakers/
 Disallow: /fashion/how-to-lounge-in-a-lockdown/
+Disallow: /shop/
+Disallow: /product/parkgate/
+Disallow: /product/marshall/
 Sitemap: https://www.themavenist.com/sitemap.xml
 Host: https://www.themavenist.com
