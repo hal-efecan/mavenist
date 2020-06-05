@@ -2,10 +2,6 @@ import React from 'react'
 import { graphql, useStaticQuery, Link } from 'gatsby'
 import Img from 'gatsby-image';
 
-// import { SectionTitle, ArticleTitle, ImgContainer,
-// Excerpt, SubSectionParentContainer, DescriptionContainer,
-// SubSectionChildContainer } from '../styled'
-
 import { SectionTitle, ArticleTitle, Excerpt,
   ImgContainer,
   ParentContainer, DescriptionContainer,
@@ -87,6 +83,3 @@ const query = graphql`
   }
 }
 `
-
-// path
-// tags

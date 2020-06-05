@@ -70,8 +70,8 @@ export const DescriptionContainer = styled.section`
 `
 
 export const SectionTitle = styled.span`
-    font-family: 'Alice', serif;
-    font-size: 1.12rem;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    font-size: 1.05rem;
     color: rgb(219, 51, 52);
 `
 
@@ -87,10 +87,10 @@ export const ArticleTitle = styled.span`
     color: black;
 
     @media (min-width: 768px) {
-        font-size: 0.95rem;
+        font-size: 1.2rem;
     }
     @media (min-width: 1024px) {
-        font-size: 1.05rem;
+        font-size: 1.45rem;
     }
     @media (min-width: 1366px) {
         font-size: 1.55rem;

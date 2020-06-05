@@ -3,8 +3,8 @@ import { graphql, useStaticQuery, Link } from 'gatsby'
 import Img from 'gatsby-image'
 
 import { SectionTitle, ArticleTitle, ImgContainer,
-  Excerpt, MainChildContainer, DescriptionContainerTop,
-  Divider, MainParentContainer } from '../styled'
+  Excerpt, ChildContainer, DescriptionContainer,
+  ParentContainer } from '../styled/homePage'
 
 const PostList = () => {
     const data = useStaticQuery(query)
@@ -12,42 +12,41 @@ const PostList = () => {
     
     return (
       <>
-      <MainParentContainer>
+      <ParentContainer>
             {
                 postsArr.map(post => {
                     const { frontmatter, id, excerpt, fields } = post.node
                     const { title, image, section } = frontmatter
                     const { slug } = fields
                     const fluid = image.childImageSharp.fluid
-                    console.log(slug)
+
                     return (
                       <Link key={id} 
                       to={`/${slug}`} 
                       style={{ boxShadow: `none`, boxSizing: `border-box` }}
                       >
 
-                        <MainChildContainer>
+                        <ChildContainer>
 
                           <ImgContainer>
                             <Img fluid={fluid} />
                           </ImgContainer>
 
-                          <DescriptionContainerTop>
+                          <DescriptionContainer>
                             <>
                               <SectionTitle>{section}</SectionTitle><br/>
                               <ArticleTitle>{title}</ArticleTitle>
                             </>
                             <Excerpt>{excerpt}</Excerpt>
-                          </DescriptionContainerTop>
+                          </DescriptionContainer>
 
-                        </MainChildContainer>
+                        </ChildContainer>
                         
                       </Link>
                     )
                 })
             }
-        </MainParentContainer>
-        <Divider />
+        </ParentContainer>
         </>
     )
 }
@@ -85,7 +84,7 @@ const query = graphql`
             }
           }
         }
-        excerpt(pruneLength: 100)
+        excerpt(pruneLength: 80)
       }
     }
   }

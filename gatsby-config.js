@@ -105,10 +105,8 @@ module.exports = {
       options: {
         fonts: [
           `Lato`,
-          `Viga`,
           `Courgette`,
           `PT Sans`,
-          `Alice`,
           `Roboto Slab`,
           `Oswald\:700`
         ],

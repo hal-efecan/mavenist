@@ -3,15 +3,15 @@ import { graphql, useStaticQuery, Link } from 'gatsby'
 import Img from 'gatsby-image';
 
 import { SectionTitle, ArticleTitle, ImgContainer,
-  Excerpt, SubSectionParentContainer, DescriptionContainer,
-  SubSectionChildContainer } from '../styled'
+  Excerpt, ParentContainer, DescriptionContainer,
+  ChildContainer } from '../styled/listElements'
 
 const FashionArticles = () => {
     const data = useStaticQuery(query)
     const articles = data.allMdx.edges
 
     return (
-      <SubSectionParentContainer>
+      <ParentContainer>
 
           {
             articles.map(article => {
@@ -28,7 +28,7 @@ const FashionArticles = () => {
                 to={`/${slug}`}
                 >
 
-                  <SubSectionChildContainer>
+                  <ChildContainer>
 
                     <ImgContainer>
                       <Img fluid={fluid} />
@@ -42,14 +42,14 @@ const FashionArticles = () => {
                       <Excerpt>{excerpt}</Excerpt>
                     </DescriptionContainer>
                   
-                  </SubSectionChildContainer>
+                  </ChildContainer>
 
                 </Link>
               )
             })
           }
           
-      </SubSectionParentContainer>
+      </ParentContainer>
   )
 }
 

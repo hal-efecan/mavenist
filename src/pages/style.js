@@ -5,11 +5,10 @@ import StyleArticles from '../components/style'
 import SEO from 'react-seo-component'
 import { useSiteMetadata } from '../hooks/useSiteMetadata'
 
-import main from '../styles/main.module.scss'
+import { PageContainer } from '../styled/homePage'
 
 const Style = ({ data }) => {
     const {
-        description,
         template,
         title,
         image,
@@ -33,9 +32,11 @@ const Style = ({ data }) => {
                 siteLocale={siteLocale}
                 twitterUsername={twitter}
                 />
-            <div className={main.container}> 
+
+            <PageContainer>
                 <StyleArticles />  
-            </div>
+            </PageContainer>
+            
         </Layout>
     )
 }

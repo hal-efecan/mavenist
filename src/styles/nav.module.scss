@@ -9,7 +9,6 @@
     list-style-type: none;
     justify-content: space-around;
     align-items: center;
-    // -webkit-overflow-scrolling: touch;
 
     @media (min-width: 1024px) {
         width: 90%;
@@ -27,7 +26,8 @@
     text-transform: capitalize;
     font-size: 0.8rem;
     letter-spacing: 0.05rem;
-    font-family: 'Viga', sans-serif;
+    font-family: sans-serif;
+    font-weight: bold;
 
     @media (min-width: 375px) {
     }
@@ -35,12 +35,13 @@
         font-size: 0.9rem;
     }
     @media (min-width: 1366px) {
-        font-size: 1rem;
+        font-size: 1.075rem;
     }
 }
 
 .active > li {
-    border-bottom: 2px solid  rgb(202, 202, 202);
+    // border-bottom: 2px solid  rgb(202, 202, 202);
+    border-bottom: 2px solid orangered;
 }
 
 .link {

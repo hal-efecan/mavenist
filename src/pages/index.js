@@ -6,7 +6,7 @@ import Helmet from 'react-helmet'
 import Banner1 from '../components/banners/banner1'
 
 import { useSiteMetadata } from '../hooks/useSiteMetadata'
-import main from '../styles/main.module.scss'
+import { PageContainer } from '../styled/homePage'
 import SEO from 'react-seo-component'
 
 const Index = ({ data }) => {
@@ -31,11 +31,13 @@ const Index = ({ data }) => {
 
   return (
             <Layout>
+
               <Helmet>
                 <link href="https://ir-uk.amazon-adsystem.com" rel="dns-prefetch" />
                 <link href="https://ir-uk.amazon-adsystem.com" rel="preload" />
                 <link href="https://ir-uk.amazon-adsystem.com" rel="preconnect" crossorigin/>
               </Helmet>
+
               <SEO
                 title={title}
                 titleTemplate={template}
@@ -47,12 +49,19 @@ const Index = ({ data }) => {
                 twitterUsername={twitter}
                 />
 
-              <div className={main.container}>
+              <PageContainer>
                 <PostList />
                 <Banner1 />
+                <h1 style={{ 
+                  margin: `30px auto -10px auto`, 
+                  padding: `0 0 0 30px`,
+                  textDecoration: `underline`,
+                  textDecorationColor: `orangered`,
+                  fontSize: `3.25rem` 
+                  }}>Latest</h1>
                 <SubSection />
+              </PageContainer>
 
-              </div>
             </Layout>
         )
 }

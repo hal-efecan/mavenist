@@ -5,12 +5,11 @@ import FashionArticles from '../components/fashion'
 import SEO from 'react-seo-component'
 import { useSiteMetadata } from '../hooks/useSiteMetadata'
 
-import main from '../styles/main.module.scss'
+import { PageContainer } from '../styled/homePage'
 
 const Fashion = ({ data }) => {
 
     const {
-        description,
         template,
         title,
         image,
@@ -34,9 +33,9 @@ const Fashion = ({ data }) => {
             siteLocale={siteLocale}
             twitterUsername={twitter}
             />
-            <div className={main.container}>
+            <PageContainer>
                 <FashionArticles />
-            </div>
+            </PageContainer>
         </Layout>
     )
 }

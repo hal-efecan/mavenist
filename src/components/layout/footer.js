@@ -13,13 +13,13 @@ const Footer = () => {
                 </div>
 
                 <div className={footerStyles.wrapper}>
-                    <div className={footerStyles.info}>
+                    {/* <div className={footerStyles.info}>
                         <Link to={"/about"}>
                             <li>
                             About
                             </li>
                         </Link>
-                    </div>
+                    </div> */}
                     <div className={footerStyles.social}>
                         <Social />
                     </div>

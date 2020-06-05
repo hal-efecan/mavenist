@@ -56,7 +56,7 @@ const BlogPostTemplate = (props) => {
 
   const disqusShortName = process.env.GATSBY_DISQUS_NAME
 
-  const { siteLanguage, siteLocale, social: { twitter }, siteUrl } = useSiteMetadata()
+  const { siteLanguage, template, siteLocale, social: { twitter }, siteUrl } = useSiteMetadata()
   const { frontmatter, excerpt, body } = props.data.mdx
   const { pathname } = props.location
   const { title, date, author } = frontmatter
@@ -73,6 +73,7 @@ const BlogPostTemplate = (props) => {
 
       <SEO
         title={title}
+        titleTemplate={template}
         description={excerpt}
         image={`${siteUrl}${image.publicURL}`}
         siteLanguage={siteLanguage}
