@@ -8,5 +8,7 @@ Disallow: /fashion/how-to-lounge-in-a-lockdown/
 Disallow: /shop/
 Disallow: /product/parkgate/
 Disallow: /product/marshall/
+Disallow: /marshall/
+Disallow: /parkgate/
 Sitemap: https://www.themavenist.com/sitemap.xml
 Host: https://www.themavenist.com

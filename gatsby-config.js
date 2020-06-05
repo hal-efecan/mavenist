@@ -198,7 +198,7 @@ module.exports = {
         host: 'https://www.themavenist.com',
         sitemap: 'https://www.themavenist.com/sitemap.xml',
         policy: [
-          { userAgent: '*', disallow: [ `/marshall`, `/parkgate`, `/shop`, `/review/`, `/fashion/sneakers/`, `/fashion/how-to-lounge-in-a-lockdown/`, `/shop/`, `/product/parkgate/`, `/product/marshall/` ]  }
+          { userAgent: '*', disallow: [ `/marshall`, `/parkgate`, `/shop`, `/review/`, `/fashion/sneakers/`, `/fashion/how-to-lounge-in-a-lockdown/`, `/shop/`, `/product/parkgate/`, `/product/marshall/`, `/marshall/`, `/parkgate/` ]  }
         ],
       }
     },
