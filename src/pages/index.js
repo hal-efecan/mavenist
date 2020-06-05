@@ -36,6 +36,7 @@ const Index = ({ data }) => {
                 <link href="https://ir-uk.amazon-adsystem.com" rel="dns-prefetch" />
                 <link href="https://ir-uk.amazon-adsystem.com" rel="preload" />
                 <link href="https://ir-uk.amazon-adsystem.com" rel="preconnect" crossorigin/>
+                <meta name="verification" content="c1493834aa1a60cb8dd2189fbd7ae5fa" />
               </Helmet>
 
               <SEO
