@@ -80,9 +80,6 @@ const BlogPostTemplate = (props) => {
     config: { identifier: slug, title },
   }
 
-  // console.log(lastmod)
-  // console.log(isoDate)
-
   return (
     <Layout>
       <Helmet>

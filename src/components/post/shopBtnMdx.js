@@ -8,6 +8,8 @@ const ShopBtn = ({ url, text }) => {
             href={url}
             target={`_blank`}
             className={shopBtnStyle.button}
+            rel={`noopener`}
+            rel={`noreferrer`}
             >
             {text}
             </a>
