@@ -78,8 +78,9 @@ const BlogPostTemplate = (props) => {
               "@type" : "Article",
               "name" : `${title}`,
               "datePublished" : `${Date.parse(date)}`,
-              "image" : `${image}`,
-              "articleBody": `${body}`
+              "image" : `${siteUrl}${image.publicURL}`,
+              "articleBody": `${body}`,
+              "author": `${author}`
             })
           }
         </script>
