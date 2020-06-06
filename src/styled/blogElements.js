@@ -14,6 +14,24 @@ export const PostWrapper = styled.main`
         letter-spacing: 0.025rem;
     }
 
+    span {
+        margin-left: 25%;
+        border-radius: 0px !important;
+    }
+
+    p > a {
+        color: inherit;
+        text-decoration: underline !important;
+        text-decoration-color: orangered !important;
+        box-shadow: none !important;
+        transition: 125ms !important;
+    }
+
+    p > a:hover { 
+        background-color: #ea520ca6 !important;
+        text-decoration: none !important;
+    }
+
     div > iframe {
         width: 85% !important;
         margin-left: 6.5% !important;
@@ -45,7 +63,8 @@ export const PostWrapper = styled.main`
     }
 
     h2 {
-        text-decoration-line: 'underline';
+        text-decoration-line: underline;
+        text-decoration-color: lime;
         margin: 40px auto 25px auto;
         font-family: Arial, Helvetica, sans-serif;
     }

@@ -150,6 +150,7 @@ module.exports = {
       },
     },
     `gatsby-remark-images`,
+    `gatsby-plugin-pinterest`,
     {
       // resolve: `gatsby-transformer-remark`,
       resolve: `gatsby-plugin-mdx`,

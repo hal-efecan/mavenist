@@ -93,6 +93,7 @@ const BlogPostTemplate = (props) => {
 
         <Post>
           <MDXRenderer>{body}</MDXRenderer>
+          <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
         </Post>
 
         <DiscussionEmbed {...disqusConfig} className={postStyle.disqus} />
