@@ -77,7 +77,7 @@ const BlogPostTemplate = (props) => {
               "@context": "http://schema.org",
               "@type" : "Article",
               "name" : `${title}`,
-              "datePublished" : `${date}`,
+              "datePublished" : `${Date.parse(date)}`,
               "image" : `${image}`,
               "articleBody": `${body}`
             })
