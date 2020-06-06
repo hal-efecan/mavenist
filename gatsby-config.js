@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: `The Mavenist`,
     template: `Find the latest news on pop culture, sneakers, style.`,
-    description: `Digital fashion & lifestyle destination brought to you by experts. The Mavenist provides entertainment, sport and culture, news, reviews and commentary.`,
+    description: `Digital fashion & lifestyle destination. Find the latest news on fashion, entertainment, lifestyle, culture and reviews.`,
     siteUrl: `https://themavenist.com`,
     image: `/themavenist-1200x630.png`,
     siteLanguage: `en-GB`,
