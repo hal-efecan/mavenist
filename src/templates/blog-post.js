@@ -68,7 +68,7 @@ const BlogPostTemplate = (props) => {
 
   const disqusShortName = process.env.GATSBY_DISQUS_NAME
 
-  const { title: publisher, siteLanguage, template, siteLocale, social: { twitter }, siteUrl } = useSiteMetadata()
+  const { title: publisher, siteLanguage, template, image: logo, siteLocale, social: { twitter }, siteUrl } = useSiteMetadata()
   const { firstQ, excerpt, body } = props.data.mdx
   const { pathname } = props.location
   const { title, date, author } = firstQ
@@ -99,6 +99,10 @@ const BlogPostTemplate = (props) => {
               "publisher": {
                 "@type": "Organization",
                 "name": `${publisher}`,
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": `${siteUrl}${logo}`
+                }
               },
               "headline": `${title}`,
               "dateModified": `${lastmod}`
