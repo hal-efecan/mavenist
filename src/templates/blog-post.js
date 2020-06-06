@@ -6,7 +6,7 @@ import { DiscussionEmbed } from "disqus-react"
 
 import { useSiteMetadata } from "../hooks/useSiteMetadata"
 import SEO from 'react-seo-component'
-
+import Helmet from 'react-helmet'
 import Layout from "../components/layout/layout"
 import postStyle from '../styles/blog_post.module.scss'
 
@@ -70,7 +70,20 @@ const BlogPostTemplate = (props) => {
 
   return (
     <Layout>
-
+      <Helmet>
+        <script type="application/ld+json">
+          {
+            JSON.stringify({
+              "@context": "http://schema.org",
+              "@type" : "Article",
+              "name" : `${title}`,
+              "datePublished" : `${date}`,
+              "image" : `${image}`,
+              "articleBody": `${body}`
+            })
+          }
+        </script>
+      </Helmet>
       <SEO
         title={title}
         titleTemplate={template}
