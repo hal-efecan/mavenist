@@ -93,7 +93,7 @@ const BlogPostTemplate = (props) => {
               "@type" : "Article",
               "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": `${siteUrl}${slug}`
+                "@id": `${siteUrl}/${slug}`
               },
               "name" : `${title}`,
               "datePublished" : `${isoDate}`,
@@ -102,7 +102,7 @@ const BlogPostTemplate = (props) => {
               "author": `${author}`,
               "publisher": {
                 "@type": "Organization",
-                "name": `${publisher}`,
+                "name": `The Mavenist`,
                 "logo": {
                   "@type": "ImageObject",
                   "url": `${siteUrl}${logo}`
