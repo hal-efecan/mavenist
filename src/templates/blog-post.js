@@ -5,6 +5,7 @@ import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { DiscussionEmbed } from "disqus-react"
 
 import { useSiteMetadata } from "../hooks/useSiteMetadata"
+
 import SEO from 'react-seo-component'
 import Helmet from 'react-helmet'
 import Layout from "../components/layout/layout"
@@ -28,9 +29,9 @@ query ($slug: String!) {
     fields {
       slug
     }
-    frontmatter {
+    firstQ: frontmatter {
       title
-      date (formatString: " YYYY MMMM Do")
+      date(formatString: " YYYY MMMM Do")
       author
       image {
         publicURL
@@ -39,27 +40,38 @@ query ($slug: String!) {
           fluid ( maxWidth: 700) {
             ...GatsbyImageSharpFluid
           }
-          }
         }
       }
-
-    body
     }
+    secondQ: frontmatter {
+      date
+    }
+    body
   }
+      sitePage(context: {slug: {eq: $slug}}) {
+        context {
+          slug
+          lastmod
+        }
+      }
+}
 `
 
 const BlogPostTemplate = (props) => {
 
-  const image =  props.data.mdx.frontmatter.image
+  const image =  props.data.mdx.firstQ.image
   const fluid = image.childImageSharp.fluid 
-  const {slug} = props.data.mdx.fields
+  const { slug } = props.data.mdx.fields
+
+  const isoDate = props.data.mdx.secondQ.date
+  const lastmod = props.data.sitePage.context.lastmod
 
   const disqusShortName = process.env.GATSBY_DISQUS_NAME
 
-  const { siteLanguage, template, siteLocale, social: { twitter }, siteUrl } = useSiteMetadata()
-  const { frontmatter, excerpt, body } = props.data.mdx
+  const { title: publisher, siteLanguage, template, siteLocale, social: { twitter }, siteUrl } = useSiteMetadata()
+  const { firstQ, excerpt, body } = props.data.mdx
   const { pathname } = props.location
-  const { title, date, author } = frontmatter
+  const { title, date, author } = firstQ
   
   const disqusConfig = {
     shortname: disqusShortName,
@@ -67,6 +79,9 @@ const BlogPostTemplate = (props) => {
     title: props.data.mdx.title,
     config: { identifier: slug, title },
   }
+
+  // console.log(lastmod)
+  // console.log(isoDate)
 
   return (
     <Layout>
@@ -80,7 +95,10 @@ const BlogPostTemplate = (props) => {
               "datePublished" : `${Date.parse(date)}`,
               "image" : `${siteUrl}${image.publicURL}`,
               "articleBody": `${body}`,
-              "author": `${author}`
+              "author": `${author}`,
+              "publisher": `${publisher}`,
+              "headline": `${title}`,
+              "dateModified": `${Date.parse(lastmod)}`
             })
           }
         </script>
@@ -97,11 +115,10 @@ const BlogPostTemplate = (props) => {
         pathname={`${siteUrl}${pathname}`}
         author={author}
         publishedDate={date}
-        modifiedDate={new Date(Date.now()).toISOString()}
       />
       <Page>
 
-        <Title>{props.data.mdx.frontmatter.title}</Title>
+        <Title>{props.data.mdx.firstQ.title}</Title>
         <Img fluid={fluid} style={{ maxWidth: "700px", margin: "0 auto 15px auto" }} />
         <ByLine>{date}</ByLine>
 
