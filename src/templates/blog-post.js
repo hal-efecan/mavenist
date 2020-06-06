@@ -96,7 +96,10 @@ const BlogPostTemplate = (props) => {
               "image" : `${siteUrl}${image.publicURL}`,
               "articleBody": `${body}`,
               "author": `${author}`,
-              "publisher": `${publisher}`,
+              "publisher": {
+                "@type": "Organization",
+                "name": `${publisher}`,
+              },
               "headline": `${title}`,
               "dateModified": `${lastmod}`
             })
