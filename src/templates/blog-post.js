@@ -92,7 +92,7 @@ const BlogPostTemplate = (props) => {
               "@context": "http://schema.org",
               "@type" : "Article",
               "name" : `${title}`,
-              "datePublished" : `${Date.parse(date)}`,
+              "datePublished" : `${isoDate}`,
               "image" : `${siteUrl}${image.publicURL}`,
               "articleBody": `${body}`,
               "author": `${author}`,
