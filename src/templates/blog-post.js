@@ -98,7 +98,7 @@ const BlogPostTemplate = (props) => {
               "author": `${author}`,
               "publisher": `${publisher}`,
               "headline": `${title}`,
-              "dateModified": `${Date.parse(lastmod)}`
+              "dateModified": `${lastmod}`
             })
           }
         </script>
