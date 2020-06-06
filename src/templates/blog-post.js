@@ -91,6 +91,10 @@ const BlogPostTemplate = (props) => {
             JSON.stringify({
               "@context": "http://schema.org",
               "@type" : "Article",
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": `${siteUrl}${slug}`
+              },
               "name" : `${title}`,
               "datePublished" : `${isoDate}`,
               "image" : `${siteUrl}${image.publicURL}`,
