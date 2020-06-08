@@ -15,8 +15,15 @@ export const PostWrapper = styled.main`
     }
 
     span {
-        margin-left: 25%;
+        margin-left: 0%;
         border-radius: 0px !important;
+
+        @media (min-width: 768px) {
+            margin-left: 21%;
+        }
+        @media (min-width: 1024px) {
+            margin-left: 25%;
+        }
     }
 
     p > a {
