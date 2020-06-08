@@ -10,7 +10,7 @@ const Social = () => {
     return (
         <div className={footerStyles.social_wrapper}>
 
-            <a className={footerStyles.link} rel="noopener noreferrer" href="https://www.facebook.com/themavenist-113576677029420/" target="_blank">
+            <a className={footerStyles.link} rel="noopener noreferrer" href="https://www.facebook.com/themavenist" target="_blank">
                 <img className={footerStyles.img} src={fbook} alt="facebook" width="23px"/>
             </a>
 
