@@ -77,10 +77,10 @@ const BlogPostTemplate = (props) => {
     shortname: disqusShortName,
     identifier: props.data.mdx.id,
     title: props.data.mdx.firstQ.title,
-    config: { identifier: slug, title },
+    // config: { identifier: slug, title },
   }
-// console.log(disqusShortName, props.data.mdx.id, props.data.mdx.firstQ.title)
-// console.log(props)
+console.log(disqusShortName, props.data.mdx.id, props.data.mdx.firstQ.title)
+console.log(props)
   return (
     <Layout>
       <Helmet>
