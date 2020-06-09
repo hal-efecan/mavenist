@@ -71,9 +71,20 @@ export const DescriptionContainer = styled.section`
 `
 
 export const SectionTitle = styled.span`
-    font-family: Georgia, 'Times New Roman', Times, serif
-    font-size: 1.05rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.025rem;
+    font-size: 0.75rem;
     color: rgb(219, 51, 52);
+
+    @media (min-width: 768px) {
+        font-size: 0.75rem;
+        line-height: 0rem;
+    }
+    @media (min-width: 1024px) {
+        font-size: 0.8rem;
+    }
 `
 
 export const ArticleTitle = styled.span`
