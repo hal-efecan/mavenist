@@ -72,9 +72,10 @@ const BlogPostTemplate = (props) => {
   const { firstQ, excerpt, body } = props.data.mdx
   const { pathname } = props.location
   const { title, date, author } = firstQ
-  
+  // console.log(siteUrl, pathname)
   const disqusConfig = {
     shortname: disqusShortName,
+    url: `${siteUrl}${pathname}`,
     identifier: props.data.mdx.id,
     title: props.data.mdx.firstQ.title,
     // config: { identifier: slug, title },

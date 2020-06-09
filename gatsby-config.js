@@ -4,6 +4,7 @@ require("dotenv").config()
 
 console.log(`~~~~~~~~~~~~~~~~~`, process.env.NODE_ENV)
 console.log(`@@@@@@@@@@@@@@@@@@@`, process.env.GOOGLE_ANALYTICS)
+console.log(`@@@@@@@@@@@@@@@@@@@`, process.env.GATSBY_DISQUS_NAME)
 
 module.exports = {
   siteMetadata: {
