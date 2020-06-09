@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql, useStaticQuery, Link } from 'gatsby'
 import Img from 'gatsby-image';
+import { formatMonth } from '../utils/utilityFn'
 
 import { SectionTitle, ArticleTitle, ImgContainer,
   Excerpt, ParentContainer, DescriptionContainer,
@@ -17,9 +18,24 @@ const ThoughtsArticles = () => {
               articles.map(article => {
                 console.log(article)
                 const { id, frontmatter, excerpt, fields } = article.node
-                const { title, section, image } = frontmatter
+                const { title, section, image, date } = frontmatter
                 const { slug } = fields
                 const fluid = image.childImageSharp.fluid
+
+                let dates = ``
+                data.allSitePage.edges.map(edge => {
+                  const subSlug = edge.node.context.slug
+                  const lastMod = edge.node.context.lastmod
+  
+                  if(subSlug === slug) {
+                      const day = new Date(lastMod).getDate()
+                      const month = new Date(lastMod).getMonth()
+                      const dayCreated = new Date(date).getDate()
+                      const monthCreated = new Date(date).getMonth()
+                      const finalDate = `${formatMonth(monthCreated)} ${dayCreated}`
+                      dates = finalDate
+                    }
+                })
 
                 return (
                   <Link 
@@ -36,7 +52,15 @@ const ThoughtsArticles = () => {
 
                       <DescriptionContainer>
                         <div>
-                          <SectionTitle>{section}</SectionTitle><br />
+                          <SectionTitle>{section}</SectionTitle>
+                          <span 
+                            style={{ color: `grey`, 
+                            fontSize: `0.65rem`,
+                            fontWeight: `bold`,
+                            fontFamily: `Helvetica, sans-serif`,
+                            letterSpacing:`0.05rem`, 
+                            textTransform: `uppercase` 
+                            }}> - {dates}</span><br/>
                           <ArticleTitle>{title}</ArticleTitle>
                         </div>
                         <Excerpt>{excerpt}</Excerpt>
@@ -57,6 +81,16 @@ export default ThoughtsArticles
 
 const query = graphql`
 {
+  allSitePage(filter: {context: {slug: {regex: "/(.*?)/"}}}) {
+    edges {
+      node {
+        context {
+          lastmod
+          slug
+        }
+      }
+    }
+  }
   allMdx(filter: {frontmatter: {section: {eq: "Thoughts"}}}, sort: {fields: frontmatter___date, order: DESC}) {
       edges {
         node {

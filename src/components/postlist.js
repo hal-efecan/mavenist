@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql, useStaticQuery, Link } from 'gatsby'
 import Img from 'gatsby-image'
+import { formatMonth } from '../utils/utilityFn'
 
 import { SectionTitle, ArticleTitle, ImgContainer,
   Excerpt, ChildContainer, DescriptionContainer,
@@ -9,23 +10,39 @@ import { SectionTitle, ArticleTitle, ImgContainer,
 const PostList = () => {
     const data = useStaticQuery(query)
     const postsArr = data.allMdx.edges
-    
+    console.log(data.allSitePage.edges)
     return (
       <>
       <ParentContainer>
             {
                 postsArr.map(post => {
                     const { frontmatter, id, excerpt, fields } = post.node
-                    const { title, image, section } = frontmatter
+                    const { title, image, section, date } = frontmatter
                     const { slug } = fields
                     const fluid = image.childImageSharp.fluid
+                    console.log(slug)
+                    console.log('dateeeee', date)
+                    let dates = ``
+                    data.allSitePage.edges.map(edge => {
+                      const subSlug = edge.node.context.slug
+                      const lastMod = edge.node.context.lastmod
+
+                      if(subSlug === slug) {
+                          const day = new Date(lastMod).getDate()
+                          const month = new Date(lastMod).getMonth()
+                          const dayCreated = new Date(date).getDate()
+                          const monthCreated = new Date(date).getMonth()
+                          const finalDate = `${formatMonth(monthCreated)} ${dayCreated}`
+                          dates = finalDate
+                        }
+                    })
 
                     return (
                       <Link key={id} 
                       to={`/${slug}`} 
                       style={{ boxShadow: `none`, boxSizing: `border-box` }}
                       >
-
+                      
                         <ChildContainer>
 
                           <ImgContainer>
@@ -34,7 +51,15 @@ const PostList = () => {
 
                           <DescriptionContainer>
                             <>
-                              <SectionTitle>{section}</SectionTitle><br/>
+                              <SectionTitle>{section}</SectionTitle>
+                              <span 
+                              style={{ color: `grey`, 
+                              fontSize: `0.65rem`,
+                              fontWeight: `bold`,
+                              fontFamily: `Helvetica, sans-serif`,
+                              letterSpacing:`0.05rem`, 
+                              textTransform: `uppercase` 
+                              }}> - {dates}</span><br/>
                               <ArticleTitle>{title}</ArticleTitle>
                             </>
                             <Excerpt>{excerpt}</Excerpt>
@@ -85,6 +110,16 @@ const query = graphql`
           }
         }
         excerpt(pruneLength: 80)
+      }
+    }
+  }
+  allSitePage(filter: {context: {slug: {regex: "/(.*?)/"}}}) {
+    edges {
+      node {
+        context {
+          lastmod
+          slug
+        }
       }
     }
   }
