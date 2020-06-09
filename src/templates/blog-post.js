@@ -76,7 +76,7 @@ const BlogPostTemplate = (props) => {
   const disqusConfig = {
     shortname: disqusShortName,
     url: `${siteUrl}${pathname}`,
-    identifier: props.data.mdx.id,
+    identifier: props.data.mdx.firstQ.id,
     title: props.data.mdx.firstQ.title,
     // config: { identifier: slug, title },
   }
