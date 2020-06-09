@@ -78,31 +78,41 @@ export const DescriptionContainer = styled.section`
 
 export const SectionTitle = styled.span`
     font-family: Georgia, 'Times New Roman', Times, serif
-    font-size: 1.05rem;
+    font-size: 0.8rem;
     color: rgb(219, 51, 52);
+
+    @media (min-width: 768px) {
+        font-size: 0.9rem;
+        line-height: 0rem;
+    }
+    @media (min-width: 1024px) {
+        font-size: 1rem;
+    }
 `
 
 export const ArticleTitle = styled.span`
     padding: 0;
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 10px;
+    text-transform: capitalize;
     text-align: center;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 0.025rem;
     color: black;
 
     @media (min-width: 768px) {
-        font-size: 1.14rem;
+        font-size: 1rem;
         line-height: 0rem;
     }
+
     @media (min-width: 1024px) {
-        font-size: 1.14rem;
+        font-size: 1rem;
         line-height: 0rem;
     }
+    
     @media (min-width: 1366px) {
-        font-size: 1.35rem;
+        font-size: 1.07rem;
         line-height: 1.3rem;
     }
     `

@@ -5,14 +5,13 @@ import Img from 'gatsby-image';
 import { SectionTitle, ArticleTitle, Excerpt,
   ImgContainer,
   ParentContainer, DescriptionContainer,
-  ChildContainer } from '../styled/listElements'
+  ChildContainer, HR } from '../styled/listElements'
 
 const SubSection = () => {
     const data = useStaticQuery(query)
     const articles = data.allMdx.edges
 
     return (
-
           <ParentContainer>
             {
               articles.map(article => {
@@ -22,6 +21,8 @@ const SubSection = () => {
                 const fluid = image.childImageSharp.fluid
 
                 return (
+                  <>
+
                   <Link 
                   style={{ boxShadow: `none`, boxSizing: `border-box` }}
                   key={id} 
@@ -43,10 +44,11 @@ const SubSection = () => {
 
                     </ChildContainer>
                   </Link>
+                  <HR/>
+                  </>
                 )
               })
             }
-
             </ParentContainer>
     )
 }

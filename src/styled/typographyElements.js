@@ -8,7 +8,6 @@ export const Title = styled.h1`
     font-weight: 600;
     letter-spacing: 0.025rem;
     text-transform: uppercase;
-    // font-style: italic;
     font-family: 'Oswald', sans-serif;
 
     @media (min-width: 375px) {

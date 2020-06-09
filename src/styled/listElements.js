@@ -6,6 +6,7 @@ export const ParentContainer = styled.section`
     flex-direction: column;
     margin: 35px auto 0 auto;
     width: 285px;
+    // background-color: white;
     // background-color: lightblue;
 
     @media (min-width: 375px) {
@@ -83,6 +84,7 @@ export const ArticleTitle = styled.span`
     text-align: center;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
     letter-spacing: 0.025rem;
     color: black;
 
@@ -114,4 +116,10 @@ export const ArticleTitle = styled.span`
     @media (min-width: 1024px) {
         font-size: 0.9rem;
     }
+`
+
+export const HR = styled.hr`
+    background-color: #e7e7e7;
+    width: 90%;
+    margin: 0 auto 20px auto;
 `
