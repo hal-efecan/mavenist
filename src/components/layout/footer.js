@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby'
 import Social from '../social';
 
 import footerStyles from '../../styles/footer.module.scss';

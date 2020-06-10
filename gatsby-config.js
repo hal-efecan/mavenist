@@ -1,5 +1,3 @@
-// require("dotenv").config()
-
 require("dotenv").config()
 
 console.log(`~~~~~~~~~~~~~~~~~`, process.env.NODE_ENV)
@@ -170,6 +168,17 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 320,
+            },
+          },
+          {
+            resolve: `gatsby-remark-embedder`,
+            options: {
+              customTransformers: [
+                // Your custom transformers
+              ],
+              services: {
+                // The service-specific options by the name of the service
+              },
             },
           },
           {

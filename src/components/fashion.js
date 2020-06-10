@@ -28,8 +28,8 @@ const FashionArticles = () => {
                 const lastMod = edge.node.context.lastmod
 
                 if(subSlug === slug) {
-                    const day = new Date(lastMod).getDate()
-                    const month = new Date(lastMod).getMonth()
+                    // const day = new Date(lastMod).getDate()
+                    // const month = new Date(lastMod).getMonth()
                     const dayCreated = new Date(date).getDate()
                     const monthCreated = new Date(date).getMonth()
                     const finalDate = `${formatMonth(monthCreated)} ${dayCreated}`

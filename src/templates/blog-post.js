@@ -68,20 +68,23 @@ const BlogPostTemplate = (props) => {
 
   const disqusShortName = process.env.GATSBY_DISQUS_NAME
 
-  const { title: publisher, siteLanguage, template, image: logo, siteLocale, social: { twitter }, siteUrl } = useSiteMetadata()
+  const { /*title: publisher,*/ siteLanguage, template, image: logo, siteLocale, social: { twitter }, siteUrl } = useSiteMetadata()
   const { firstQ, excerpt, body } = props.data.mdx
   const { pathname } = props.location
   const { title, date, author } = firstQ
-  // console.log(siteUrl, pathname)
+
   const disqusConfig = {
     shortname: disqusShortName,
-    // url: `${siteUrl}${pathname}`,
-    identifier: props.data.mdx.firstQ.id,
+    url: `${props.data.site.siteMetadata.siteUrl}${props.location.pathname}`,
+    identifier: props.data.mdx.id,
     title: props.data.mdx.firstQ.title,
     config: { identifier: slug, title },
   }
+  
 console.log(disqusShortName, props.data.mdx.id, props.data.mdx.firstQ.title)
 console.log(props)
+console.log(props.data.mdx.id)
+console.log(disqusConfig)
   return (
     <Layout>
       <Helmet>
@@ -112,6 +115,7 @@ console.log(props)
             })
           }
         </script>
+        {/* <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script> */}
       </Helmet>
       <SEO
         title={title}
@@ -133,10 +137,11 @@ console.log(props)
         <ByLine>{date}</ByLine>
 
         <Post>
-          <MDXRenderer>{body}</MDXRenderer>
-          <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+          <MDXRenderer>
+            {body}
+          </MDXRenderer>
         </Post>
-
+        
         <DiscussionEmbed {...disqusConfig} className={postStyle.disqus} />
       </Page>
 

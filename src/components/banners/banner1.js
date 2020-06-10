@@ -11,7 +11,7 @@ const Banner1 = () => {
             scrolling="no" 
             border="0" 
             marginWidth="0"
-            rel="noopener"
+            // rel="noopener"
             rel="noreferrer"
             className={BannerStyles.banner}
             frameBorder="0"></iframe>
@@ -24,7 +24,7 @@ const Banner1 = () => {
             scrolling="no" 
             border="0" 
             marginWidth="0" 
-            rel="noopener"
+            // rel="noopener"
             rel="noreferrer"
             className={BannerStyles.banner_small}
             frameBorder="0"></iframe>
