@@ -1,8 +1,6 @@
 require("dotenv").config()
 
 console.log(`~~~~~~~~~~~~~~~~~`, process.env.NODE_ENV)
-console.log(`@@@@@@@@@@@@@@@@@@@`, process.env.GOOGLE_ANALYTICS)
-console.log(`@@@@@@@@@@@@@@@@@@@`, process.env.GATSBY_DISQUS_NAME)
 
 module.exports = {
   siteMetadata: {
@@ -109,6 +107,7 @@ module.exports = {
       options: {
         fonts: [
           `Lato`,
+          `Open Sans`,
           `Courgette`,
           `PT Sans`,
           `Roboto Slab`,

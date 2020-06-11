@@ -12,7 +12,7 @@ import Layout from "../components/layout/layout"
 import postStyle from '../styles/blog_post.module.scss'
 
 import { Page, Post } from '../components/post'
-import { Title, ByLine } from '../styled'
+import { Title, ByLine, BlogTitle } from '../styled'
 
 export const query = graphql`
 query ($slug: String!) {
@@ -132,7 +132,7 @@ console.log(disqusConfig)
       />
       <Page>
 
-        <Title>{props.data.mdx.firstQ.title}</Title>
+        <BlogTitle>{props.data.mdx.firstQ.title}</BlogTitle>
         <Img fluid={fluid} style={{ maxWidth: "700px", margin: "0 auto 15px auto" }} />
         <ByLine>{date}</ByLine>
 

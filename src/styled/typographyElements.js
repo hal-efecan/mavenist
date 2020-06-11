@@ -8,7 +8,7 @@ export const Title = styled.h1`
     font-weight: 600;
     letter-spacing: 0.025rem;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
     @media (min-width: 375px) {
     }
@@ -20,6 +20,28 @@ export const Title = styled.h1`
     @media (min-width: 1366px) {
     }
 `
+
+export const BlogTitle = styled.h1`
+    padding: 0;
+    margin: 0 15px 20px 15px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.025rem;
+    text-transform: uppercase;
+    font-family: 'Ozwald', sans-serif;
+
+    @media (min-width: 375px) {
+    }
+    @media (min-width: 768px) {
+        font-size: 4rem;
+    }
+    @media (min-width: 1024px) {
+    }
+    @media (min-width: 1366px) {
+    }
+`
+
 export const ByLine = styled.p`
     font-family: 'Work Sans', sans-serif;
     color: rgb(30, 30, 30);
