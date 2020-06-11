@@ -110,6 +110,7 @@ module.exports = {
           `Open Sans`,
           `Courgette`,
           `PT Sans`,
+          `Damion`,
           `Roboto Slab`,
           `Oswald\:700`
         ],

@@ -16,12 +16,12 @@
     @media (min-width: 375px) {
     }
     @media (min-width: 768px) {
-        height: 130px;
+        height: 117px;
     }
     @media (min-width: 1024px) {
     }
     @media (min-width: 1366px) {
-        height: 125px;
+        height: 130px;
     }
 }
 
@@ -52,25 +52,22 @@
 }
 
 .title {
-    font-family: 'Courgette', cursive;
+    // font-family: 'Courgette', cursive;
+    font-family: 'Damion', cursive;
     letter-spacing: 0.1rem;
     text-align: center;
     margin: 0;
-    padding: 20px 0px 15px 0px;
-    font-size: 2rem;
-    // transition: opacity 3000ms;
+    padding: 10px 0px 10px 0px;
+    font-size: 2.5rem;
     text-decoration: underline;
     color: black;
     font-weight: 500;
     -webkit-overflow-scrolling: touch;
 
-    @media (min-width: 375px) {
-        font-size: 2.25rem;
-    }
     @media (min-width: 768px) {
         font-size: 2.9rem;
     }
     @media (min-width: 1366px) {
-        font-size: 3.1rem;
+        font-size: 3.75rem;
     }
 }
