@@ -6,6 +6,7 @@ const ImgList = () => {
 
     const data = useStaticQuery(query)
     console.log(data)
+    
     const fluidAdhd = data.allFile.edges[0].node.childImageSharp.fluid
     const fluidBlk = data.allFile.edges[1].node.childImageSharp.fluid
     const fluidDvd = data.allFile.edges[2].node.childImageSharp.fluid
