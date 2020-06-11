@@ -8,6 +8,7 @@ const ImgList = () => {
     console.log(data)
     const fluidAdhd = data.allFile.edges[0].node.childImageSharp.fluid
     const fluidBlk = data.allFile.edges[1].node.childImageSharp.fluid
+    const fluidDvd = data.allFile.edges[2].node.childImageSharp.fluid
  
     return (
         <div style={{ 
@@ -32,6 +33,14 @@ const ImgList = () => {
                 fontSize: `1rem`,
                 color: `grey`
             }}>PHOTO: @adhdwear</p>
+                        <Img fluid={fluidDvd} style={{
+                width: `400px`,
+            }} />
+            <p style={{
+                margin: `20px 0 20px 0`,
+                fontSize: `1rem`,
+                color: `grey`
+            }}>PHOTO: @david_paeuerl</p>
         </div>
     )
 }
