@@ -96,7 +96,7 @@ export const ArticleTitle = styled.span`
     font-size: 1.2rem;
     margin-top: 10px;
     text-align: center;
-    font-weight: bold;
+    font-weight: 800;
     font-family: 'Open Sans', sans-serif;
     // font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
