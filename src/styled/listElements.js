@@ -94,7 +94,8 @@ export const ArticleTitle = styled.span`
     margin-top: 10px;
     text-align: center;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    // font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
     letter-spacing: 0.025rem;
     color: black;
@@ -106,7 +107,7 @@ export const ArticleTitle = styled.span`
         font-size: 1.45rem;
     }
     @media (min-width: 1366px) {
-        font-size: 1.55rem;
+        font-size: 1.45rem;
     }
     `
     export const Excerpt = styled.p`

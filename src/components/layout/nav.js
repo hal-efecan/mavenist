@@ -13,11 +13,17 @@ const Nav = () => {
             <Link className={navStyles.link} activeClassName={navStyles.active} to={`/fashion`}>
                 <li className={navStyles.nav_item}>Fashion</li>
             </Link>
-            <Link className={navStyles.link} activeClassName={navStyles.active} to={`/style`}>
+            {/* <Link className={navStyles.link} activeClassName={navStyles.active} to={`/style`}>
                 <li className={navStyles.nav_item}>Style</li>
-            </Link>
-            <Link className={navStyles.link} activeClassName={navStyles.active} to={`/thoughts`}>
+            </Link> */}
+            {/* <Link className={navStyles.link} activeClassName={navStyles.active} to={`/thoughts`}>
                 <li className={navStyles.nav_item}>Thoughts</li>
+            </Link> */}
+            <Link className={navStyles.link} activeClassName={navStyles.active} to={`/footwear`}>
+                <li className={navStyles.nav_item}>Footwear</li>
+            </Link>
+            <Link className={navStyles.link} activeClassName={navStyles.active} to={`/accessories`}>
+                <li className={navStyles.nav_item}>Accessories</li>
             </Link>
         </ul>
     )

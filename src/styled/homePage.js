@@ -96,12 +96,14 @@ export const SectionTitle = styled.span`
 export const ArticleTitle = styled.span`
     padding: 0;
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-top: 10px;
     text-transform: capitalize;
     text-align: center;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    // font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    // font-family: Arial, Helvetica, sans-serif;
     color: black;
 
     @media (min-width: 768px) {
@@ -115,7 +117,7 @@ export const ArticleTitle = styled.span`
     }
     
     @media (min-width: 1366px) {
-        font-size: 1.07rem;
+        font-size: 1.05rem;
         line-height: 1.3rem;
     }
     `
