@@ -32,7 +32,7 @@ export const ParentContainer = styled.section`
 
 export const ChildContainer = styled.section`
     box-sizing: border-box;
-    width: 325px;
+    // width: 325px;
     padding: 0;
     margin: 0 auto 10px auto;
     display: flex;
@@ -54,7 +54,7 @@ export const ChildContainer = styled.section`
 `
 
 export const ImgContainer = styled.div`
-    width: 325px;
+    // width: 325px;
 
     @media (min-width: 768px) {
         max-width: 235px;

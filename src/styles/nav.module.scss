@@ -9,7 +9,11 @@
     justify-content: space-around;
     align-items: center;
     z-index: 99 !important;
-
+    width: 90%;
+    // background-color: paleturquoise;
+    
+    @media (min-width: 768px) {
+    }
     @media (min-width: 1024px) {
         width: 90%;
     }

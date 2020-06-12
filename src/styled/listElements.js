@@ -5,12 +5,12 @@ export const ParentContainer = styled.section`
     display: flex;
     flex-direction: column;
     margin: 35px auto 0 auto;
-    width: 285px;
+    // width: 285px;
     // background-color: white;
     // background-color: lightblue;
 
     @media (min-width: 375px) {
-        width: 325px;
+        // width: 325px;
     }
     @media (min-width: 768px) {
         margin-top: 35px;
@@ -40,8 +40,11 @@ export const ChildContainer = styled.section`
 `
 
 export const ImgContainer = styled.div`
-    width: 325px;
+    // width: 300px;
 
+    @media (min-width: 375px) {
+        min-width: 325px;
+    }
     @media (min-width: 768px) {
         min-width: 275px;
     }
