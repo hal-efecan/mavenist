@@ -10,13 +10,16 @@ const Nav = () => {
             <Link className={navStyles.link} activeClassName={navStyles.active} to={`/`}>
                 <li className={navStyles.nav_item}>Home</li>
             </Link>
+            <Link className={navStyles.link} activeClassName={navStyles.active} to={`/shop`}>
+                <li className={navStyles.nav_item}>Shop</li>
+            </Link>
             <Link className={navStyles.link} activeClassName={navStyles.active} to={`/fashion`}>
                 <li className={navStyles.nav_item}>Fashion</li>
             </Link>
             {/* <Link className={navStyles.link} activeClassName={navStyles.active} to={`/style`}>
                 <li className={navStyles.nav_item}>Style</li>
-            </Link> */}
-            {/* <Link className={navStyles.link} activeClassName={navStyles.active} to={`/thoughts`}>
+            </Link>
+            <Link className={navStyles.link} activeClassName={navStyles.active} to={`/thoughts`}>
                 <li className={navStyles.nav_item}>Thoughts</li>
             </Link> */}
             <Link className={navStyles.link} activeClassName={navStyles.active} to={`/footwear`}>

@@ -146,6 +146,20 @@ module.exports = {
           name: `pages`,
         },
       },
+      {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+          path: `${__dirname}/content/affiliate/footwear/`,
+          name: `affiliate`,
+        },
+      },
+      {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+          path: `${__dirname}/content/affiliate/accessories/`,
+          name: `affiliate`,
+        },
+      },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -167,7 +181,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 320,
+              maxWidth: 400,
             },
           },
           {

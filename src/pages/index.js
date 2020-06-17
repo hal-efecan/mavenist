@@ -5,6 +5,8 @@ import Layout from "../components/layout/layout"
 import Helmet from 'react-helmet'
 import Banner1 from '../components/banners/banner1'
 
+import ShopBanner from '../components/banners/shopBanner'
+
 import { useSiteMetadata } from '../hooks/useSiteMetadata'
 import { PageContainer } from '../styled/homePage'
 import SEO from 'react-seo-component'
@@ -52,7 +54,8 @@ const Index = ({ data }) => {
 
               <PageContainer>
                 <PostList />
-                <Banner1 />
+                <ShopBanner />
+                {/* <Banner1 /> */}
                 <h1 style={{ 
                   margin: `30px auto -10px auto`, 
                   padding: `0 0 0 30px`,
