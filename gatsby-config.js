@@ -156,6 +156,13 @@ module.exports = {
       {
         resolve: `gatsby-source-filesystem`,
         options: {
+          path: `${__dirname}/content/affiliate/bottoms/`,
+          name: `affiliate`,
+        },
+      },
+      {
+        resolve: `gatsby-source-filesystem`,
+        options: {
           path: `${__dirname}/content/affiliate/accessories/`,
           name: `affiliate`,
         },
@@ -226,14 +233,14 @@ module.exports = {
         host: 'https://www.themavenist.com',
         sitemap: 'https://www.themavenist.com/sitemap.xml',
         policy: [
-          { userAgent: '*', disallow: [ `/marshall`, `/parkgate`, `/shop`, `/review/`, `/fashion/sneakers/`, `/fashion/how-to-lounge-in-a-lockdown/`, `/shop/`, `/product/parkgate/`, `/product/marshall/`, `/marshall/`, `/parkgate/` ]  }
+          { userAgent: '*', disallow: [ `/marshall`, `/style/`, `/thoughts/`, `/parkgate`, `/review/`, `/fashion/sneakers/`, `/fashion/how-to-lounge-in-a-lockdown/`, `/product/parkgate/`, `/product/marshall/`, `/marshall/`, `/parkgate/` ]  }
         ],
       }
     },
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        exclude: [`/marshall`, `/parkgate`, `/review/`, `/shop/`, `/success/`, `/cancelled/`, `/fashion/sneakers/`, `/fashion/how-to-lounge-in-a-lockdown/`],
+        exclude: [`/marshall`, `/parkgate`, `/style/`, `/thoughts/`, `/review/`, `/success/`, `/cancelled/`, `/fashion/sneakers/`, `/fashion/how-to-lounge-in-a-lockdown/`],
         query: `
         {
           site {

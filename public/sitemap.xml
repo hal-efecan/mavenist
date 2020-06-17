@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://themavenist.com/birkenstock</loc> <lastmod>2020-06-16</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://themavenist.com/chucktaylor</loc> <lastmod>2020-06-16</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://themavenist.com/drmartens</loc> <lastmod>2020-06-16</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://themavenist.com/gazelle</loc> <lastmod>2020-06-16</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://themavenist.com/nike-blazer</loc> <lastmod>2020-06-16</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://themavenist.com/oldskool</loc> <lastmod>2020-06-16</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://themavenist.com/stansmith</loc> <lastmod>2020-06-16</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://themavenist.com/eastpak</loc> <lastmod>2020-06-17</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://themavenist.com/herschel</loc> <lastmod>2020-06-17</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://themavenist.com/comfort-is-king-how-to-pull-off-oversize</loc> <lastmod>2020-06-13</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://themavenist.com/5-of-the-most-coveted-mens-sunglasses</loc> <lastmod>2020-06-17</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://themavenist.com/denim-guide</loc> <lastmod>2020-06-15</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -22,6 +13,5 @@
 <url> <loc>https://themavenist.com/fashion/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://themavenist.com/footwear/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://themavenist.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://themavenist.com/style/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://themavenist.com/thoughts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://themavenist.com/shop/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>

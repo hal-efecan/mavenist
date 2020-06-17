@@ -10,8 +10,8 @@ export const Btn = styled.button`
     padding: 0;
     font-size: 0.85rem;
     margin: 0 0 0 0;
-    min-width: 70px;
-    min-height: 35px;
+    min-width: 65px;
+    // min-height: 35px;
 
     @media (min-width: 768px) {
         min-width: 80px;

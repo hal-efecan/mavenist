@@ -1,11 +1,11 @@
 User-agent: *
 Disallow: /marshall
+Disallow: /style/
+Disallow: /thoughts/
 Disallow: /parkgate
-Disallow: /shop
 Disallow: /review/
 Disallow: /fashion/sneakers/
 Disallow: /fashion/how-to-lounge-in-a-lockdown/
-Disallow: /shop/
 Disallow: /product/parkgate/
 Disallow: /product/marshall/
 Disallow: /marshall/

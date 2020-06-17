@@ -44,7 +44,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   // Create blog posts pages.
   const posts = result.data.allMdx.edges
-
+  // console.log('posts ~~~~~~', posts)
   posts.forEach((post, index) => {
     // console.log('post~~~~~~', post)
     const previous = index === posts.length - 1 ? null : posts[index + 1].node
@@ -58,7 +58,7 @@ exports.createPages = async ({ graphql, actions }) => {
       //     slug: post.node.fields.slug,
       //   }
       // });
-    } else {
+    } else if (post.node.frontmatter.type === 'post') {
       createPage({
         path: `${post.node.fields.slug}`,
         component: blogPost,
