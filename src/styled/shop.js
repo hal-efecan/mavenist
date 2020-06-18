@@ -52,18 +52,18 @@ export const ProductsNav = styled.div`
 `
 
 export const PageWrapper = styled.div`
-    margin: 105px auto 0 auto;
+    margin: 130px auto 0 auto;
 
     @media (min-width: 375px) {
-        margin: 105px auto 0 auto;
+        margin: 145px auto 0 auto;
     }
     @media (min-width: 768px) {
-        margin: 115px auto 0 auto;
+        margin: 160px auto 0 auto;
     }
     @media (min-width: 1024px) {
-        margin: 118px auto 0 auto;
+        margin: 150px auto 0 auto;
     }
     @media (min-width: 1366px) {
-        margin: 130px auto 0px auto;
+        margin: 165px auto 0px auto;
     }
 `

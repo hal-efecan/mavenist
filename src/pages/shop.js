@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react'
 import Layout from '../components/layout/layout'
 // import Skus from '../components/skus'
 import SEO from 'react-seo-component'
@@ -11,8 +11,12 @@ import Jeans from '../components/affiliate/bottoms/jeans'
 
 import { Btn, ProductsNav, PageWrapper } from '../styled/shop'
 
+import { ShopContext } from '../context/shopContext'
+
 const Shop = ({ data }) => {
 
+  const shop_context = useContext(ShopContext)
+  
     const {
       template,
       title,
@@ -24,39 +28,6 @@ const Shop = ({ data }) => {
           twitter
       }
     } =  useSiteMetadata()
-
-    const [ sandals, setSandals ] = useState(false)
-    const [ sneakers, setSneakers ] = useState(true)
-    const [ bags, setBags ] = useState(false)
-    const [ jeans, setJeans ] = useState(false)
-
-    function displaySneakers() {
-      setSneakers(true)
-      setSandals(false)
-      setBags(false)
-      setJeans(false)
-    }
-
-    function displaySandals() {
-      setSneakers(false)
-      setSandals(true)
-      setBags(false)
-      setJeans(false)
-    }
-
-    function displayBags() {
-      setSneakers(false)
-      setSandals(false)
-      setBags(true)
-      setJeans(false)
-    }
-
-    function displayJeans() {
-      setSneakers(false)
-      setSandals(false)
-      setBags(false)
-      setJeans(true)
-    }
 
     return (
             <Layout>
@@ -73,13 +44,6 @@ const Shop = ({ data }) => {
             />
             
             <PageWrapper>
-
-            <ProductsNav>
-              <Btn onClick={() => displaySandals()}>Sandals</Btn>
-              <Btn onClick={() => displaySneakers()}>Sneakers</Btn>
-              <Btn onClick={() => displayBags()}>Bags</Btn>
-              <Btn onClick={() => displayJeans()}>Jeans</Btn>
-            </ProductsNav>
             
             <div style={{ 
               display: `flex`,
@@ -90,10 +54,10 @@ const Shop = ({ data }) => {
               margin: `0px auto 0px auto`,
             }}>
 
-              { sandals ? <Sandals /> : null }
-              { sneakers ? <Sneakers/> : null }
-              { bags ? <Bags /> : null }
-              { jeans ? <Jeans /> : null }
+              { shop_context.sandals ? <Sandals /> : null }
+              { shop_context.sneakers ? <Sneakers/> : null }
+              { shop_context.bags ? <Bags /> : null }
+              { shop_context.jeans ? <Jeans /> : null }
 
             </div>
 

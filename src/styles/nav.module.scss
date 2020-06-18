@@ -12,7 +12,6 @@
     width: 90%;
     overflow-x: auto;
     flex-wrap: nowrap;
-    // background-color: paleturquoise;
     
     @media (min-width: 768px) {
         justify-content: space-around;
@@ -54,4 +53,44 @@
 
 .link {
     box-shadow: none;
+}
+
+.new {
+    box-shadow: none;
+    width: 100%;
+    margin: -15px 0 0 0;
+    display: flex;
+    background-color: #f1f1f1dc;
+    justify-content: center;
+}
+
+.another {
+    text-align: center;
+    margin: -15px auto 0 auto;
+    position: sticky;
+    top: 0px;
+    background-color: #f1f1f1dc;
+    Z-Index: 99;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    box-shadow: 0 0 5px #e5e5e5;
+
+    // @media (min-width: 375px) {
+    //     margin: -15px auto 0 auto;
+    // }
+    @media (min-width: 768px) {
+        // margin: -15px auto 0 auto;
+        justify-content: center;
+    }
+    // @media (min-width: 1024px) {
+    //     margin: -15px auto 0 auto;
+    // }
+    // @media (min-width: 1366px) {
+    //     margin: -15px auto 0 auto;
+    // }
+}
+
+.hidden {
+    display: none;
 }
