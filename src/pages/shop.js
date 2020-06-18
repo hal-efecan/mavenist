@@ -8,6 +8,7 @@ import Sandals from '../components/affiliate/footwear/sandals'
 import Sneakers from '../components/affiliate/footwear/sneakers'
 import Bags from '../components/affiliate/accessories/bags'
 import Jeans from '../components/affiliate/bottoms/jeans'
+import Sunglasses from '../components/affiliate/accessories/sunglasses'
 
 import { Btn, ProductsNav, PageWrapper } from '../styled/shop'
 
@@ -58,7 +59,7 @@ const Shop = ({ data }) => {
               { shop_context.sneakers ? <Sneakers/> : null }
               { shop_context.bags ? <Bags /> : null }
               { shop_context.jeans ? <Jeans /> : null }
-
+              { shop_context.sunglasses ? <Sunglasses /> : null }
             </div>
 
             </PageWrapper>

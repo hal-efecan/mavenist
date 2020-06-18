@@ -7,7 +7,6 @@ const Jeans = () => {
     
     const data = useStaticQuery(query)
     const jeansArray = data.allMdx.edges
-    console.log('jeans array', jeansArray)
 
     return (
         <>
@@ -15,8 +14,9 @@ const Jeans = () => {
               jeansArray.map(jean => {
                 const { id } = jean.node
                 const { name, image, description, price, url } = jean.node.frontmatter
-                console.log(name)
+
                 return (
+                  <a href={url} target={"__blank"} style={{boxShadow: `none`}}>
                     <div 
                     key={id}
                     style={{
@@ -42,6 +42,7 @@ const Jeans = () => {
                         - {description} (£{price})
                         </a>
                   </div>
+                  </a>
                 )
               })
             }

@@ -7,7 +7,6 @@ const Bags = () => {
     
     const data = useStaticQuery(secondQuery)
     const bagsArray = data.allMdx.edges
-    console.log('bags array', bagsArray)
 
     return (
         <>
@@ -15,8 +14,11 @@ const Bags = () => {
               bagsArray.map(bag => {
                 const { id } = bag.node
                 const { name, image, description, price, url } = bag.node.frontmatter
-                console.log(name)
+
                 return (
+
+                  <a href={url} target={"__blank"} style={{boxShadow: `none`}}>
+                  
                     <div 
                     key={id}
                     style={{
@@ -42,6 +44,8 @@ const Bags = () => {
                         - {description} (£{price})
                         </a>
                   </div>
+                  
+                  </a>
                 )
               })
             }

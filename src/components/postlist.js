@@ -10,7 +10,7 @@ import { SectionTitle, ArticleTitle, ImgContainer,
 const PostList = () => {
     const data = useStaticQuery(query)
     const postsArr = data.allMdx.edges
-    console.log(data.allSitePage.edges)
+
     return (
       <>
       <ParentContainer>
@@ -20,8 +20,7 @@ const PostList = () => {
                     const { title, image, section, date } = frontmatter
                     const { slug } = fields
                     const fluid = image.childImageSharp.fluid
-                    console.log(slug)
-                    console.log('dateeeee', date)
+
                     let dates = ``
                     data.allSitePage.edges.map(edge => {
                       const subSlug = edge.node.context.slug

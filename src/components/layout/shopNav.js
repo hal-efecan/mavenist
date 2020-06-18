@@ -12,6 +12,7 @@ const ShopNav = ({ isVisible }) => {
             <Btn onClick={() => shop_context.displaySandals()}>Sandals</Btn>
             <Btn onClick={() => shop_context.displaySneakers()}>Sneakers</Btn>
             <Btn onClick={() => shop_context.displayBags()}>Bags</Btn>
+            <Btn onClick={() => shop_context.displaySunglasses()}>Sunglasses</Btn>
             <Btn onClick={() => shop_context.displayJeans()}>Jeans</Btn>
         </ul>
     )

@@ -7,7 +7,6 @@ const Sandals = () => {
     
     const data = useStaticQuery(query)
     const sandalsArray = data.allMdx.edges
-    console.log('sandals array', sandalsArray)
 
     return (
         <>
@@ -15,8 +14,9 @@ const Sandals = () => {
               sandalsArray.map(sandal => {
                 const { id } = sandal.node
                 const { name, image, description, price, url } = sandal.node.frontmatter
-                console.log(name)
+
                 return (
+                  <a href={url} target={"__blank"} style={{boxShadow: `none`}}>
                     <div 
                     key={id}
                     style={{
@@ -42,6 +42,7 @@ const Sandals = () => {
                         - {description} (£{price})
                         </a>
                   </div>
+                  </a>
                 )
               })
             }

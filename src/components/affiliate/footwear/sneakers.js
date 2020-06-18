@@ -9,7 +9,6 @@ const Sneakers = () => {
     
     const data = useStaticQuery(secondQuery)
     const sneakersArray = data.allMdx.edges
-    console.log('sneakers array', sneakersArray)
 
     return (
         <>
@@ -20,6 +19,7 @@ const Sneakers = () => {
                 const { name, image, description, price, url } = sneaker.node.frontmatter
 
                 return (
+                  <a href={url} target={"__blank"} style={{boxShadow: `none`}}>
                   <div key={id}
                   style={{
                     width: `250px`,
@@ -43,6 +43,7 @@ const Sneakers = () => {
                         - {description} (£{price})
                         </a>
                   </div>
+                  </a>
                 )
               })
             }

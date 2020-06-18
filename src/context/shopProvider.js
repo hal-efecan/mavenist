@@ -3,16 +3,18 @@ import { ShopContext } from './shopContext'
 
 const ShopProvider = (props) => {
 
+  const [ sneakers, setSneakers ] = useState(true)
     const [ sandals, setSandals ] = useState(false)
-    const [ sneakers, setSneakers ] = useState(true)
     const [ bags, setBags ] = useState(false)
     const [ jeans, setJeans ] = useState(false)
+    const [ sunglasses, setSunglasses ] = useState(false)
 
     function displaySneakers() {
         setSneakers(true)
         setSandals(false)
         setBags(false)
         setJeans(false)
+        setSunglasses(false)
       }
   
       function displaySandals() {
@@ -20,6 +22,7 @@ const ShopProvider = (props) => {
         setSandals(true)
         setBags(false)
         setJeans(false)
+        setSunglasses(false)
       }
   
       function displayBags() {
@@ -27,6 +30,7 @@ const ShopProvider = (props) => {
         setSandals(false)
         setBags(true)
         setJeans(false)
+        setSunglasses(false)
       }
   
       function displayJeans() {
@@ -34,6 +38,15 @@ const ShopProvider = (props) => {
         setSandals(false)
         setBags(false)
         setJeans(true)
+        setSunglasses(false)
+      }
+
+      function displaySunglasses() {
+        setSneakers(false)
+        setSandals(false)
+        setBags(false)
+        setJeans(false)
+        setSunglasses(true)
       }
 
     return (
@@ -42,11 +55,14 @@ const ShopProvider = (props) => {
             sandals, 
             sneakers, 
             bags, 
-            jeans, 
+            jeans,
+            sunglasses,
             displaySandals, 
             displaySneakers, 
             displayBags, 
-            displayJeans }}>
+            displayJeans,
+            displaySunglasses 
+            }}>
             {props.children}
         </ShopContext.Provider>
     )
