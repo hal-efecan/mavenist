@@ -5,6 +5,7 @@ import navStyles from '../../styles/nav.module.scss'
 import { ShopContext } from '../../context/shopContext'
 
 const ShopNav = ({ isVisible }) => {
+    
     const shop_context = useContext(ShopContext)
 
     return (

@@ -85,6 +85,7 @@ console.log(disqusShortName, props.data.mdx.id, props.data.mdx.firstQ.title)
 console.log(props)
 console.log(props.data.mdx.id)
 console.log(disqusConfig)
+
   return (
     <Layout>
       <Helmet>

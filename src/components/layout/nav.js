@@ -9,13 +9,13 @@ const Nav = () => {
     const [ isVisible, setIsVisible ] = useState(false)
 
     useEffect(() => {
-        if(window.location.pathname === `/shop`) {
+        if(window.location.pathname === `/shop/`) {
             setIsVisible(true)
         } else {
             setIsVisible(false)
         }
     })
-
+    
     return (
         <>
             <ul className={navStyles.container}>
@@ -26,7 +26,7 @@ const Nav = () => {
                 <Link 
                 className={navStyles.link}
                 activeClassName={navStyles.active}
-                to={`/shop`}>
+                to={`/shop/`}>
                     <li className={navStyles.nav_item}>Shop</li>
                 </Link>
 
