@@ -1,23 +1,19 @@
 import React from 'react'
-import { Link, graphql, useStaticQuery } from'gatsby'
+import { Link } from'gatsby'
 
 import { Base, Blurb } from '../../styled/banner/shopBanner'
 
 const ShopBanner = () => {
     return (
-                <div style={{ width: `max-content`, margin: `0 auto` }}>
+            <Link 
+            style={{ boxShadow: `none` }} 
+            to={`/shop/`}>
 
-                    <Link 
-                    style={{ boxShadow: `none`, width: `100%` }} 
-                    to={`/shop`}>
-
-                    <Base>
-                        <Blurb>Shop the edit</Blurb>
-                    </Base>
-                    
-                    </Link>
-
-                </div>
+            <Base>
+                <Blurb>Shop the edit</Blurb>
+            </Base>
+            
+            </Link>
     )
 }
 

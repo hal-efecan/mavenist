@@ -3,7 +3,6 @@ import PostList from '../components/postlist'
 import SubSection from '../components/subSection'
 import Layout from "../components/layout/layout"
 import Helmet from 'react-helmet'
-import Banner1 from '../components/banners/banner1'
 
 import ShopBanner from '../components/banners/shopBanner'
 
