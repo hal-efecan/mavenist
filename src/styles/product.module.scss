@@ -1,70 +1,70 @@
 
-.card {
-    height: 300px;
-    width: 350px;
-    margin: 10px 0 10px 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+// .card {
+//     height: 300px;
+//     width: 350px;
+//     margin: 10px 0 10px 0;
+//     padding: 0;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+// }
 
-.detail_container {
-    display: flex;
-    width: 75%;
-    justify-content: space-evenly;
-}
+// .detail_container {
+//     display: flex;
+//     width: 75%;
+//     justify-content: space-evenly;
+// }
 
-.btn_container {
-    display: flex;
-    width: 75%;
-    justify-content: space-around;
-    margin: 20px 0 0 0;
-    padding: 0;
-}
+// .btn_container {
+//     display: flex;
+//     width: 75%;
+//     justify-content: space-around;
+//     margin: 20px 0 0 0;
+//     padding: 0;
+// }
 
-.button {
-    background-color:rgb(49, 49, 51);
-    box-sizing: border-box;
-    color:#fff;
-    text-transform: uppercase;
-    padding:10px;
-    border:0;
-    font-size:0.7rem;
-    letter-spacing: 0.05rem;
-    width: 115px;
-    height: 37px;
-    text-align: center;
-    font-family: 'Viga', sans-serif;
+// .button {
+//     background-color:rgb(49, 49, 51);
+//     box-sizing: border-box;
+//     color:#fff;
+//     text-transform: uppercase;
+//     padding:10px;
+//     border:0;
+//     font-size:0.7rem;
+//     letter-spacing: 0.05rem;
+//     width: 115px;
+//     height: 37px;
+//     text-align: center;
+//     font-family: 'Viga', sans-serif;
 
-    &:hover {
-        cursor: pointer;
-    }
-}
+//     &:hover {
+//         cursor: pointer;
+//     }
+// }
 
-.name {
-    font-size: 1.05rem;
-    font-family: 'Roboto Slab', serif;
-    text-transform: capitalize;
-    letter-spacing: 0.05rem;
-    padding: 0;
-    margin: 0;
-}
+// .name {
+//     font-size: 1.05rem;
+//     font-family: 'Roboto Slab', serif;
+//     text-transform: capitalize;
+//     letter-spacing: 0.05rem;
+//     padding: 0;
+//     margin: 0;
+// }
 
-.category {
-    font-size: 0.9rem;
-    text-transform: capitalize;
-    font-weight: bold;
-    padding: 0;
-    margin: 0;
-}
+// .category {
+//     font-size: 0.9rem;
+//     text-transform: capitalize;
+//     font-weight: bold;
+//     padding: 0;
+//     margin: 0;
+// }
 
-.price {
-    font-size: 0.9rem;
-    font-family: 'Roboto Slab', serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 0;
-    margin: 0;
-}
+// .price {
+//     font-size: 0.9rem;
+//     font-family: 'Roboto Slab', serif;
+//     text-transform: uppercase;
+//     font-weight: bold;
+//     padding: 0;
+//     margin: 0;
+// }
