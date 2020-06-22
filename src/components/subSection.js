@@ -100,7 +100,7 @@ const query = graphql`
             image {
               childImageSharp {
                 id
-                fluid(maxWidth: 400, quality: 80) {
+                fluid(maxWidth: 400, quality: 75) {
                   ...GatsbyImageSharpFluid_withWebp
               }
             }
