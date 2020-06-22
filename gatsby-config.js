@@ -108,10 +108,9 @@ module.exports = {
         fonts: [
           `Lato`,
           `Open Sans`,
-          `Courgette`,
           `PT Sans`,
           `Damion`,
-          `Roboto Slab`,
+          // `Roboto Slab`,
           `Oswald\:700`
         ],
         display: 'swap',

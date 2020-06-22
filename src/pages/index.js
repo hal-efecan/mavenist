@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 import PostList from '../components/postlist'
 import SubSection from '../components/subSection'
 import Layout from "../components/layout/layout"
-import Helmet from 'react-helmet'
+// import Helmet from 'react-helmet'
 
 import ShopBanner from '../components/banners/shopBanner'
 
@@ -33,12 +33,12 @@ const Index = ({ data }) => {
   return (
             <Layout>
 
-              <Helmet>
+              {/* <Helmet>
                 <link href="https://ir-uk.amazon-adsystem.com" rel="dns-prefetch" />
                 <link href="https://ir-uk.amazon-adsystem.com" rel="preload" />
                 <link href="https://ir-uk.amazon-adsystem.com" rel="preconnect" crossorigin/>
                 <meta name="verification" content="c1493834aa1a60cb8dd2189fbd7ae5fa" />
-              </Helmet>
+              </Helmet> */}
 
               <SEO
                 title={title}
@@ -54,7 +54,7 @@ const Index = ({ data }) => {
               <PageContainer>
                 <PostList />
                 <ShopBanner />
-                {/* <Banner1 /> */}
+
                 <h1 style={{ 
                   margin: `30px auto -10px auto`, 
                   padding: `0 0 0 30px`,

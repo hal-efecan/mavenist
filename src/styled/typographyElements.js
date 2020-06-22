@@ -39,11 +39,12 @@ export const BlogTitle = styled.h1`
     @media (min-width: 1024px) {
     }
     @media (min-width: 1366px) {
+        margin: 0 125px 20px 125px;
     }
 `
 
 export const ByLine = styled.p`
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: rgb(30, 30, 30);
     margin: 15px auto 5px auto;
     font-size: 1rem;
@@ -51,7 +52,7 @@ export const ByLine = styled.p`
     font-weight: 700;
 
     a {
-        font-family: 'Work Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         color: black;
         margin: 15px auto 5px auto;
         font-size: 1rem;
