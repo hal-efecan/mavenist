@@ -9,15 +9,10 @@ const Airmax90 = () => {
 
     return (
         <div style={{ 
-            display: `flex`, 
-            margin: `40px 0 0 0`,
-            flexDirection: `column`,
-            alignItems: `center`
+            margin: `40px auto 0 auto`,
+            width: `600px`
             }}>
-            <Img fluid={fluid} style={{
-                width: `400px`,
-                height: `300px`
-            }} />
+            <Img fluid={fluid} />            
         </div>
     )
 }
@@ -27,7 +22,7 @@ export default Airmax90
 const query = graphql`
 {
     imageSharp(fluid: {originalName: {eq: 
-    "air_max90.jpg"
+    "nike-air-max90.jpg"
      }}) {
         id
         fluid {
