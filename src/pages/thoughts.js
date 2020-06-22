@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout/layout'
-import ThoughtsArticles from '../components/thoughts'
+// import ThoughtsArticles from '../components/thoughts'
 
 import SEO from 'react-seo-component'
 import { useSiteMetadata } from '../hooks/useSiteMetadata'
@@ -34,7 +34,7 @@ const Thoughts = ({ data }) => {
                 />
 
             <PageContainer>
-                <ThoughtsArticles />
+                {/* <ThoughtsArticles /> */}
             </PageContainer>
 
         </Layout>

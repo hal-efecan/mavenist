@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout/layout'
-import StyleArticles from '../components/style'
+// import StyleArticles from '../components/style'
 
 import SEO from 'react-seo-component'
 import { useSiteMetadata } from '../hooks/useSiteMetadata'
@@ -34,7 +34,7 @@ const Style = ({ data }) => {
                 />
 
             <PageContainer>
-                <StyleArticles />  
+                {/* <StyleArticles />   */}
             </PageContainer>
             
         </Layout>

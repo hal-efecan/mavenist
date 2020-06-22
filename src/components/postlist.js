@@ -103,7 +103,7 @@ const query = graphql`
               fluid(
                 maxWidth: 400, quality: 80
                 ) {
-                  ...GatsbyImageSharpFluid
+                  ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
@@ -124,3 +124,5 @@ const query = graphql`
   }
 }
 `
+
+// ...GatsbyImageSharpFluid
