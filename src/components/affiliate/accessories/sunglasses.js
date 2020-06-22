@@ -15,10 +15,7 @@ const Sunglasses = () => {
                 const { id } = sunglass.node
                 const { name, image, description, price, url } = sunglass.node.frontmatter
 
-                return (
-
-                    <a href={url} target={"__blank"} style={{boxShadow: `none`}}>
-                        
+                return (                        
                         <div 
                         key={id}
                         style={{
@@ -46,7 +43,6 @@ const Sunglasses = () => {
                             </a>
 
                     </div>
-                  </a>
                 )
               })
             }

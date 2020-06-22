@@ -37,7 +37,7 @@ query ($slug: String!) {
         publicURL
         childImageSharp {
           id
-          fluid ( maxWidth: 700) {
+          fluid ( maxWidth: 700, quality: 100) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -68,7 +68,7 @@ const BlogPostTemplate = (props) => {
 
   const disqusShortName = process.env.GATSBY_DISQUS_NAME
 
-  const { /*title: publisher,*/ siteLanguage, template, image: logo, siteLocale, social: { twitter }, siteUrl } = useSiteMetadata()
+  const { siteLanguage, template, image: logo, siteLocale, social: { twitter }, siteUrl } = useSiteMetadata()
   const { firstQ, excerpt, body } = props.data.mdx
   const { pathname } = props.location
   const { title, date, author } = firstQ
@@ -81,11 +81,6 @@ const BlogPostTemplate = (props) => {
     config: { identifier: slug, title },
   }
   
-console.log(disqusShortName, props.data.mdx.id, props.data.mdx.firstQ.title)
-console.log(props)
-console.log(props.data.mdx.id)
-console.log(disqusConfig)
-
   return (
     <Layout>
       <Helmet>
@@ -116,7 +111,7 @@ console.log(disqusConfig)
             })
           }
         </script>
-        {/* <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script> */}
+
       </Helmet>
       <SEO
         title={title}
@@ -139,10 +134,10 @@ console.log(disqusConfig)
 
         <Post>
           <MDXRenderer>
-            {body}
+            { body }
           </MDXRenderer>
         </Post>
-        
+
         <DiscussionEmbed {...disqusConfig} className={postStyle.disqus} />
       </Page>
 

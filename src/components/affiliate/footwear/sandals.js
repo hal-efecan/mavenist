@@ -16,7 +16,6 @@ const Sandals = () => {
                 const { name, image, description, price, url } = sandal.node.frontmatter
 
                 return (
-                  <a href={url} target={"__blank"} style={{boxShadow: `none`}}>
                     <div 
                     key={id}
                     style={{
@@ -42,7 +41,6 @@ const Sandals = () => {
                         - {description} (£{price})
                         </a>
                   </div>
-                  </a>
                 )
               })
             }

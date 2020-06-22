@@ -37,8 +37,6 @@ const SubSection = () => {
                 })
 
                 return (
-                  <>
-
                   <Link 
                   style={{ boxShadow: `none`, boxSizing: `border-box` }}
                   key={id} 
@@ -68,8 +66,6 @@ const SubSection = () => {
 
                     </ChildContainer>
                   </Link>
-                  <HR/>
-                  </>
                 )
               })
             }
@@ -104,7 +100,7 @@ const query = graphql`
             image {
               childImageSharp {
                 id
-                fluid(maxWidth: 400) {
+                fluid(maxWidth: 400, quality: 100) {
                 ...GatsbyImageSharpFluid
               }
             }

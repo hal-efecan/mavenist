@@ -16,7 +16,6 @@ const FootwearArticles = () => {
 
           {
             articles.map(article => {
-              console.log(article)
               const { id, frontmatter, excerpt, fields } = article.node
               const { title, section, image, date } = frontmatter
               const { slug } = fields
@@ -72,7 +71,7 @@ const FootwearArticles = () => {
               )
             })
           }
-          
+
       </ParentContainer>
   )
 }

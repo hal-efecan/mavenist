@@ -15,10 +15,7 @@ const Bags = () => {
                 const { id } = bag.node
                 const { name, image, description, price, url } = bag.node.frontmatter
 
-                return (
-
-                  <a href={url} target={"__blank"} style={{boxShadow: `none`}}>
-                  
+                return (                  
                     <div 
                     key={id}
                     style={{
@@ -44,8 +41,6 @@ const Bags = () => {
                         - {description} (£{price})
                         </a>
                   </div>
-                  
-                  </a>
                 )
               })
             }

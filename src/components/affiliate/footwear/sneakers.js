@@ -19,8 +19,8 @@ const Sneakers = () => {
                 const { name, image, description, price, url } = sneaker.node.frontmatter
 
                 return (
-                  <a href={url} target={"__blank"} style={{boxShadow: `none`}}>
-                  <div key={id}
+                  <div 
+                  key={id}
                   style={{
                     width: `250px`,
                     textAlign: `center`
@@ -43,7 +43,6 @@ const Sneakers = () => {
                         - {description} (£{price})
                         </a>
                   </div>
-                  </a>
                 )
               })
             }

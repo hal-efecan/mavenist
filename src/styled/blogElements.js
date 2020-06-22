@@ -58,13 +58,6 @@ export const PostWrapper = styled.main`
         }
     }
 
-    div {
-        display: flex;
-        justify-content: center;
-        height: max-content;
-        background-color: white;
-    }
-
     blockquote {
         display: none;
     }

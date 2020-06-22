@@ -101,7 +101,7 @@ const query = graphql`
             childImageSharp {
               id
               fluid(
-                maxWidth: 400
+                maxWidth: 400, quality: 100
                 ) {
                   ...GatsbyImageSharpFluid
               }
