@@ -15,7 +15,7 @@ const Rains = () => {
         } else {
             setWidth(false)
         }
-    })
+    },[])
 
     return (
         <div>

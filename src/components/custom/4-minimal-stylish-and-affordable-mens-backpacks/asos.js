@@ -15,7 +15,7 @@ const Asos = () => {
         } else {
             setWidth(false)
         }
-    })
+    }, [])
 
     return (
         <div>

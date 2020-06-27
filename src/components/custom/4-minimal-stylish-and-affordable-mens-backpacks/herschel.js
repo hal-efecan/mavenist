@@ -15,7 +15,7 @@ const Herschel = () => {
         } else {
             setWidth(false)
         }
-    })
+    },[])
 
     return (
         <div>

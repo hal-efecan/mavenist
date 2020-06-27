@@ -14,7 +14,7 @@ const Eastpak = () => {
         } else {
             setWidth(false)
         }
-    })
+    }, [])
 
     return (
         <div>
