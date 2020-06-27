@@ -21,7 +21,7 @@ const Airmax90 = () => {
         <div>
             {
                 width ? 
-                    <div     
+                    <div
                     style={{ 
                         margin: `0 auto` 
                         }}>
@@ -30,7 +30,7 @@ const Airmax90 = () => {
                     </div>
                 :
 
-                <div     
+                <div
                 style={{ 
                     width: `600px`, 
                     margin: `0 auto` 
