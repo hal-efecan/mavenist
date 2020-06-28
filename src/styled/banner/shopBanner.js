@@ -17,7 +17,7 @@ export const Base = styled.div`
 `
 
 export const Blurb = styled.h1`
-    font-size: 3rem;
+    font-size: 2.3rem;
     color: green;
     margin: 0;
     font-family: 'Damion', cursive;
