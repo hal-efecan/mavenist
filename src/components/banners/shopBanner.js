@@ -10,7 +10,7 @@ const ShopBanner = () => {
             to={`/shop/`}>
 
             <Base>
-                <Blurb>Shop the edit</Blurb>
+                <Blurb>Shop our favourites</Blurb>
             </Base>
             
             </Link>

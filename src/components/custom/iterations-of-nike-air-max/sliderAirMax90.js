@@ -25,8 +25,8 @@ const SliderAirMax90 = () => {
           node {
             id
             childImageSharp {
-              fluid (maxWidth: 600, quality: 100){
-                  ...GatsbyImageSharpFluid
+              fluid (maxWidth: 600, quality: 80){
+                ...GatsbyImageSharpFluid_withWebp
               }
             }
           }

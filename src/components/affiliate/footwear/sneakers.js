@@ -1,7 +1,5 @@
-
 import React from 'react'
 import Img from 'gatsby-image';
-// import ShopBtn from '../post/shopBtnMdx'
 
 import { graphql, useStaticQuery } from 'gatsby'
 
